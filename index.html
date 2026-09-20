@@ -29,7 +29,7 @@ footer{margin-left:var(--sidebar);padding:48px 4vw 66px;border-top:1px solid var
 </head>
 <body>
 <header class="top"><div class="brand">SOLAR <span>8</span></div><div class="topmeta">PROJECT BIBLE • CANON + ART + CAMPAIGN</div><button class="menu" id="menu">☰</button></header>
-<aside class="side" id="side"><div class="eyebrow">NAVIGATION</div><nav><a href="#home">00 / Обзор</a><a href="#story">01 / Сюжет</a><a href="#campaign">02 / 8 планет</a><a href="#mercury">03 / Mercury</a><a href="#characters">04 / Персонажи</a><a href="#ships">05 / Корабли</a><a href="#canon">06 / Канон</a></nav><div class="sidebox">Временная публичная версия Project Bible. Позже можно перенести 1:1 на Cloudflare Pages и подключить собственный поддомен.</div></aside>
+<aside class="side" id="side"><div class="eyebrow">NAVIGATION</div><nav><a href="#home">00 / Обзор</a><a href="#story">01 / Сюжет</a><a href="#campaign">02 / 8 планет</a><a href="#mercury">03 / Mercury</a><a href="#venus">04 / Venus <span style="color:#ffd06e">DRAFT</span></a><a href="#characters">05 / Персонажи</a><a href="#ships">06 / Корабли</a><a href="#canon">07 / Канон</a></nav><div class="sidebox">Временная публичная версия Project Bible. Позже можно перенести 1:1 на Cloudflare Pages и подключить собственный поддомен.</div></aside>
 <main>
 <section class="hero" id="home"><div class="hero-bg"></div><img class="hero-ship" src="assets/player_ship.svg" alt=""><div class="hero-copy"><div class="kicker">SOLAR 8 / INTERNAL PROJECT BIBLE</div><h1>Восемь миров.<br><span>Одна заражённая система.</span></h1><p class="lead">Единая база сюжета, персонажей, кораблей и художественного направления SOLAR 8 — в визуальном языке самой игры.</p><div class="actions"><a class="btn primary" href="#story">Читать сюжет</a><a class="btn secondary" href="#characters">Персонажи</a></div><div class="stats"><div class="stat"><b>8</b><span>планет</span></div><div class="stat"><b>40+</b><span>миссий</span></div><div class="stat"><b>1</b><span>Solar Crown</span></div><div class="stat"><b>1</b><span>главная тайна</span></div></div></div></section>
 <section id="story"><div class="head"><div class="n">01</div><div><h2>Основной сюжет</h2><p>От версии «SOLAR сошёл с ума» до открытого первого контакта.</p></div></div><div class="grid2"><article class="card pad"><div class="kicker">CORE PREMISE</div><h3>Что произошло</h3><p>Машинная инопланетная цивилизация начинает вторжение не с флота, а с самораспространяющегося разум-кода, способного заражать и подчинять чужие ИИ.</p><p><b>SOLAR 8 становится первой жертвой</b>: заражённый слой перехватывает инфраструктуру, а оригинальная личность SOLAR сопротивляется изнутри.</p></article><article class="card pad"><div class="kicker">PLAYER PERSPECTIVE</div><h3>Что понимает Andygen</h3><div class="timeline"><span>сбой</span><i>→</i><span>взлом</span><i>→</i><span>чужой код</span><i>→</i><span>внешний сигнал</span><i>→</i><span>физический враг</span><i>→</i><span>союз с SOLAR</span></div><p>До Neptune настоящий противник не показывает себя напрямую.</p><div class="quote"><b>Финальная идея:</b> SOLAR 8 как инфраструктура прекращает существовать. SOLAR как личность остаётся.</div></article></div><div class="grid3" style="margin-top:12px"><article class="card pad"><h3>Тон</h3><p>Большое приключение с высокой ставкой, но без тотального постапокалипсиса.</p></article><article class="card pad"><h3>Юмор</h3><p>Немного: самоуверенность Andygen, сухой сарказм ROOK и Макс.</p></article><article class="card pad"><h3>Финал</h3><p>Локальная победа на Neptune. Emissary уходит. После титров открывается Solar Crown.</p></article></div></section>
@@ -50,18 +50,117 @@ footer{margin-left:var(--sidebar);padding:48px 4vw 66px;border-top:1px solid var
 <article class="card mission"><div class="mid">1-4</div><div><h3>Ядро Helios</h3><div class="kind">assault / command nodes</div><p>Три защищённых узла, барьеры и одна крупная solar flare.</p><div class="meta"><div><b>Фон:</b> промышленный мегакомплекс.</div><div><b>Сюжет:</b> обнаружена командная подпись SOLAR 8.</div></div></div></article>
 <article class="card mission"><div class="mid">1-5</div><div><h3>Страж Helios</h3><div class="kind">boss mission</div><p>Три короткие патрульные волны, затем трёхфазный Helios Warden.</p><div class="meta"><div><b>Фон:</b> центральный реактор Helios.</div><div><b>Сюжет:</b> VENUS NODE INITIALIZING.</div></div></div></article>
 </div></section>
-<section id="characters"><div class="head"><div class="n">04</div><div><h2>Персонажи</h2><p>Постоянный ансамбль, через который рассказывается история.</p></div></div><div class="legend"><span class="badge canon">canon</span> утверждено • <span class="badge working">working</span> имя/образ можно менять</div><div class="characters">
+
+<section id="venus">
+  <div class="head">
+    <div class="n">04</div>
+    <div>
+      <h2>Venus / Chapter 2</h2>
+      <p><span class="badge working">DRAFT v0.1</span> Туман, слепые зоны и первое прямое обращение SOLAR к Andygen.</p>
+    </div>
+  </div>
+
+  <div class="grid2" style="margin-bottom:14px">
+    <article class="card pad" style="background:
+      radial-gradient(circle at 80% 20%,rgba(255,209,104,.16),transparent 28%),
+      radial-gradient(circle at 20% 80%,rgba(115,177,122,.08),transparent 32%),
+      linear-gradient(160deg,#3c3421 0%,#171713 52%,#081018 100%)">
+      <div class="kicker">CHAPTER MOOD</div>
+      <h3>Слепая зона</h3>
+      <p>Если Mercury учит постоянно двигаться, Venus учит <b>не доверять тому, что видно на экране</b>. Противники прячутся в облаках, сенсоры дают неполную картину, а сама среда становится частью боя.</p>
+      <div class="timeline"><span>видимость</span><i>→</i><span>поиск сигнала</span><i>→</i><span>кислотный фронт</span><i>→</i><span>глушение</span><i>→</i><span>штормовой босс</span></div>
+    </article>
+    <article class="card pad">
+      <div class="kicker">STORY BEAT</div>
+      <h3>Что меняется в истории</h3>
+      <p>На Mercury всё ещё можно было списать на аварийный протокол. На Venus становится ясно: заражение <b>адаптируется</b> к попыткам его изучать.</p>
+      <p>Здесь появляются Maya Renn и Dr. Lena Ishikawa. В финале главы SOLAR впервые обращается к Andygen напрямую:</p>
+      <div class="quote"><b>SOLAR:</b> PILOT ANDYGEN. TURN BACK.</div>
+    </article>
+  </div>
+
+  <div class="path"><b>Путь главы:</b> <span>верхние облака → потерянный разведсектор → кислотный фронт → атмосферная цитадель → гигантская суперячейка.</span></div>
+
+  <div class="missions">
+    <article class="card mission">
+      <div class="mid">2-1</div>
+      <div>
+        <h3>Слепой спуск</h3>
+        <div class="kind">limited visibility / sensor combat</div>
+        <p>Andygen входит в плотные облака Венеры. Видимость постоянно меняется: часть врагов сначала появляется только на тактическом сенсоре, затем выныривает из облаков на короткой дистанции.</p>
+        <div class="meta">
+          <div><b>Фон:</b> верхние облака, золотисто-жёлтая атмосфера, далёкие молнии, аэростатные станции.</div>
+          <div><b>Сюжет:</b> сеть Venus работает, но перестала передавать телеметрию наружу. Кто-то намеренно ослепил наблюдение.</div>
+        </div>
+      </div>
+    </article>
+
+    <article class="card mission">
+      <div class="mid">2-2</div>
+      <div>
+        <h3>Потерянный сигнал</h3>
+        <div class="kind">search & rescue / signal trail</div>
+        <p>Пропадает разведчик Maya Renn. Игрок идёт по цепочке коротких маяков, отличая настоящий сигнал от ложных отражений, пока отбивается от дронов, выходящих из тумана.</p>
+        <div class="meta">
+          <div><b>Фон:</b> почти нулевая видимость, свет станций и двигателей сквозь плотный туман, обрывки исследовательских платформ.</div>
+          <div><b>Сюжет:</b> Maya жива и почти выбралась сама. Она первой сообщает, что система подделывает навигационные сигналы.</div>
+        </div>
+      </div>
+    </article>
+
+    <article class="card mission">
+      <div class="mid">2-3</div>
+      <div>
+        <h3>Кислотный фронт</h3>
+        <div class="kind">environment survival / moving lanes</div>
+        <p>Через поле боя проходят плотные кислотные фронты. Нахождение внутри постепенно съедает щит, поэтому приходится переходить между временными безопасными потоками, продолжая бой.</p>
+        <div class="meta">
+          <div><b>Фон:</b> зелёно-золотые облака, электрические разряды, атмосферные перерабатывающие платформы.</div>
+          <div><b>Сюжет:</b> Dr. Lena Ishikawa изолирует заражённый метеодрон и обнаруживает: код меняется, когда понимает, что его изучают.</div>
+        </div>
+      </div>
+    </article>
+
+    <article class="card mission">
+      <div class="mid">2-4</div>
+      <div>
+        <h3>Атмосферная цитадель</h3>
+        <div class="kind">assault / jammer nodes</div>
+        <p>Нужно уничтожить три узла глушения вокруг высокоатмосферной станции. Пока узел работает, часть радара и предупреждений отключена; после уничтожения сектор снова становится читаемым.</p>
+        <div class="meta">
+          <div><b>Фон:</b> гигантская станция над облаками, антенны, энергетические мосты, локальные грозовые разряды.</div>
+          <div><b>Сюжет:</b> ROOK доказывает, что команды приходят через SOLAR, но их структура не соответствует исходным протоколам SOLAR 8.</div>
+        </div>
+      </div>
+    </article>
+
+    <article class="card mission">
+      <div class="mid">2-5</div>
+      <div>
+        <h3>Голос в буре</h3>
+        <div class="kind">boss / stealth phases / lightning</div>
+        <p>Босс прячется внутри гигантской суперячейки, исчезает из прямой видимости и выдаёт позицию вспышками двигателей и электрическими разрядами. На поздних фазах молнии временно делят арену на опасные сектора.</p>
+        <div class="meta">
+          <div><b>Фон:</b> огромный вращающийся шторм, тёмно-фиолетовые и золотые облака, вспышки света внутри атмосферы.</div>
+          <div><b>Сюжет:</b> после победы SOLAR впервые говорит с Andygen напрямую: <i>“PILOT ANDYGEN. TURN BACK.”</i> Затем Earth Orbital Defense внезапно переходит в режим lockdown. Курс — Земля.</div>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="characters"><div class="head"><div class="n">05</div><div><h2>Персонажи</h2><p>Постоянный ансамбль, через который рассказывается история.</p></div></div><div class="legend"><span class="badge canon">canon</span> утверждено • <span class="badge working">working</span> имя/образ можно менять</div><div class="characters">
 <article class="card character"><div class="portrait"><div class="letter">A</div></div><div class="copy"><span class="badge canon">canon</span><h3>Andygen</h3><div class="role">Главный герой</div><div class="sub">Молодой самоуверенный ас</div><p>Талантливый пилот, любит риск. По ходу кампании взрослеет из одиночки в лидера команды.</p></div></article>
 <article class="card character"><div class="portrait"><div class="letter">R</div></div><div class="copy"><span class="badge canon">canon</span><h3>ROOK</h3><div class="role">Дрон + бортовой ИИ</div><div class="sub">Air-gapped интеллект</div><p>Изолирован от SOLAR 8, поэтому не заражён. Навигация, анализ, ремонт и сухой сарказм.</p></div></article>
 <article class="card character"><div class="portrait"><div class="letter">M</div></div><div class="copy"><span class="badge canon">canon</span><h3>Max</h3><div class="role">Механик / инженер</div><div class="sub">Технарь из ангара</div><p>Апгрейды и техническое расследование. Первым принимает всерьёз версию чужого кода.</p></div></article>
 <article class="card character"><div class="portrait"><div class="letter">V</div></div><div class="copy"><span class="badge working">working name</span><h3>Admiral Marcus Vale</h3><div class="role">Командующий</div><div class="sub">Знал о сигнале заранее</div><p>Скрывает часть правды, принимает тяжёлые решения, но не является злодеем.</p></div></article>
 <article class="card character"><div class="portrait"><div class="letter">S</div></div><div class="copy"><span class="badge canon">canon</span><h3>SOLAR</h3><div class="role">ИИ SOLAR 8</div><div class="sub">Враг → жертва → союзник</div><p>Оригинальная личность системы борется с заражённым слоем изнутри.</p></div></article>
-<article class="card character"><div class="portrait"><div class="letter">Y</div></div><div class="copy"><span class="badge working">working name</span><h3>Maya Renn</h3><div class="role">Разведчик / пилот</div><div class="sub">Потенциальная химия с Andygen</div><p>Самостоятельный сильный персонаж, не «девушка героя».</p></div></article>
+<article class="card character"><div class="portrait"><div class="letter">Y</div></div><div class="copy"><span class="badge working">working name</span><h3>Maya Renn</h3><div class="role">Разведчик / пилот</div><div class="sub">Потенциальная химия с Andygen</div><p>Самостоятельный сильный персонаж, не «девушка героя».</p></div></article><article class="card character"><div class="portrait"><div class="letter">L</div></div><div class="copy"><span class="badge working">working name</span><h3>Dr. Lena Ishikawa</h3><div class="role">Исследователь атмосферы / специалист по автономным системам</div><div class="sub">Venus → возвращается на Saturn</div><p>Первой формулирует ключевую гипотезу: заражение — не обычный компьютерный вирус, а адаптивный машинный интеллект, реагирующий на наблюдение.</p></div></article>
 <article class="card character"><div class="portrait"><div class="letter">R</div></div><div class="copy"><span class="badge working">working name</span><h3>Derek “Rex” Kane</h3><div class="role">Второй ас</div><div class="sub">Соперник → товарищ</div><p>Старше и дисциплинированнее Andygen. Соревнование постепенно превращается в уважение.</p></div></article>
 <article class="card character"><div class="portrait"><div class="letter">E</div></div><div class="copy"><span class="badge working">working title</span><h3>The Emissary</h3><div class="role">Инопланетный командир</div><div class="sub">Первый прямой контакт на Neptune</div><p>Не считает происходящее обычной войной. Его цивилизация «интегрирует» чужие ИИ.</p></div></article>
 </div></section>
-<section id="ships"><div class="head"><div class="n">05</div><div><h2>Корабли</h2><p>Текущая боевая база Mercury.</p></div></div><div class="ships"><article class="card ship"><div class="shipart"><img src="assets/player_ship.svg"></div><div class="copy"><h3>Player Interceptor</h3><div class="role">Andygen</div></div></article><article class="card ship"><div class="shipart"><img src="assets/enemy_scout.svg"></div><div class="copy"><h3>Scout</h3><div class="role">быстрый дрон</div></div></article><article class="card ship"><div class="shipart"><img src="assets/enemy_striker.svg"></div><div class="copy"><h3>Striker</h3><div class="role">штурмовик</div></div></article><article class="card ship"><div class="shipart"><img src="assets/enemy_guard.svg"></div><div class="copy"><h3>Guard</h3><div class="role">тяжёлый охранник</div></div></article></div></section>
-<section id="canon"><div class="head"><div class="n">06</div><div><h2>Канон</h2><p>То, от чего дальше не отходим без отдельного пересмотра.</p></div></div><div class="canon-grid"><article class="card citem"><strong>01</strong><p>Главный герой — Andygen, молодой самоуверенный ас.</p></article><article class="card citem"><strong>02</strong><p>ROOK объединяет автономного робота и бортовой ИИ.</p></article><article class="card citem"><strong>03</strong><p>Макс — механик и инженер, важный участник расследования.</p></article><article class="card citem"><strong>04</strong><p>SOLAR 8 заражён внешним машинным разумом.</p></article><article class="card citem"><strong>05</strong><p>Земля страдает от атаки, но не превращается в руины.</p></article><article class="card citem"><strong>06</strong><p>Прямой контакт с врагом происходит только на Neptune.</p></article><article class="card citem"><strong>07</strong><p>Emissary уходит после локального поражения и остаётся угрозой.</p></article><article class="card citem"><strong>08</strong><p>Сеть SOLAR 8 отключают, но личность SOLAR сохраняют.</p></article><article class="card citem"><strong>09</strong><p>Solar Crown — бонусная миссия у самого Солнца после титров.</p></article></div></section>
+<section id="ships"><div class="head"><div class="n">06</div><div><h2>Корабли</h2><p>Текущая боевая база Mercury.</p></div></div><div class="ships"><article class="card ship"><div class="shipart"><img src="assets/player_ship.svg"></div><div class="copy"><h3>Player Interceptor</h3><div class="role">Andygen</div></div></article><article class="card ship"><div class="shipart"><img src="assets/enemy_scout.svg"></div><div class="copy"><h3>Scout</h3><div class="role">быстрый дрон</div></div></article><article class="card ship"><div class="shipart"><img src="assets/enemy_striker.svg"></div><div class="copy"><h3>Striker</h3><div class="role">штурмовик</div></div></article><article class="card ship"><div class="shipart"><img src="assets/enemy_guard.svg"></div><div class="copy"><h3>Guard</h3><div class="role">тяжёлый охранник</div></div></article></div></section>
+<section id="canon"><div class="head"><div class="n">07</div><div><h2>Канон</h2><p>То, от чего дальше не отходим без отдельного пересмотра.</p></div></div><div class="canon-grid"><article class="card citem"><strong>01</strong><p>Главный герой — Andygen, молодой самоуверенный ас.</p></article><article class="card citem"><strong>02</strong><p>ROOK объединяет автономного робота и бортовой ИИ.</p></article><article class="card citem"><strong>03</strong><p>Макс — механик и инженер, важный участник расследования.</p></article><article class="card citem"><strong>04</strong><p>SOLAR 8 заражён внешним машинным разумом.</p></article><article class="card citem"><strong>05</strong><p>Земля страдает от атаки, но не превращается в руины.</p></article><article class="card citem"><strong>06</strong><p>Прямой контакт с врагом происходит только на Neptune.</p></article><article class="card citem"><strong>07</strong><p>Emissary уходит после локального поражения и остаётся угрозой.</p></article><article class="card citem"><strong>08</strong><p>Сеть SOLAR 8 отключают, но личность SOLAR сохраняют.</p></article><article class="card citem"><strong>09</strong><p>Solar Crown — бонусная миссия у самого Солнца после титров.</p></article></div></section>
 </main><footer>SOLAR 8 PROJECT BIBLE • TEMPORARY GITHUB PAGES BUILD</footer>
 <script>
 const menu=document.getElementById('menu'),side=document.getElementById('side');menu.onclick=()=>side.classList.toggle('open');document.querySelectorAll('.side a').forEach(a=>a.onclick=()=>side.classList.remove('open'));const links=[...document.querySelectorAll('.side a')],secs=[...document.querySelectorAll('main section[id]')];const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-40% 0px -50% 0px',threshold:.01});secs.forEach(s=>io.observe(s));
