@@ -60,3 +60,7 @@ dialog{color:var(--text);background:#111419;border:1px solid #ffffff28;border-ra
 .bible #characters .roster-card .portrait-note{font-size:5px}
 @media(min-width:1600px){.bible #characters .characters{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:700px){.bible #characters .characters{grid-template-columns:1fr}.bible #characters .roster-card{min-height:174px;grid-template-columns:92px minmax(0,1fr)}.bible #characters .roster-card .portrait{width:76px;height:102px}.bible #characters .roster-card h3{font-size:18px}}
+
+/* The reading edition is reachable from every desktop and mobile menu. */
+.side .scenario-entry{display:block;margin:0 0 24px;padding:12px 10px;border:1px solid #eab47b44;color:#dfc5a6;font-size:12px;text-decoration:none}.topnav a[aria-current="page"]{color:var(--orange)}.read-scenario{display:block;margin:0 0 28px;padding:20px 24px;border:1px solid #eab47b44;background:#171614;color:#dfc5a6;text-decoration:none;font-size:14px}
+@media(min-width:621px) and (max-width:1200px){.topnav{gap:16px}.top{gap:18px}}
