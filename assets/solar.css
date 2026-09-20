@@ -40,3 +40,6 @@ dialog{color:var(--text);background:#111419;border:1px solid #ffffff28;border-ra
 /* Portrait cards share a fixed image area independent of neighbouring copy. */
 .bible .featured-character{grid-template-rows:auto 1fr;align-content:start}.bible .featured-character .portrait{position:relative;width:100%;height:auto;min-height:0;aspect-ratio:4/3}.bible .featured-character .portrait img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;object-position:center 12%}.bible .featured-character .copy{padding:24px}.bible .featured-character .copy h3 a{text-decoration:none}.bible .featured-character .copy h3 a:hover{color:var(--orange)}
 @media(max-width:620px){.bible .featured-character .portrait{aspect-ratio:1/1}.bible .featured-character .copy{padding:20px}}
+
+.bible .character.featured-character.character-wide{grid-column:1/-1;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:1fr;align-items:center}.bible .character-wide .copy{padding:clamp(24px,4vw,54px)}
+@media(max-width:620px){.bible .character.featured-character.character-wide{grid-template-columns:1fr;grid-template-rows:auto 1fr}.bible .character-wide .copy{padding:20px}}
