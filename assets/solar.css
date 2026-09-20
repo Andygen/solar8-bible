@@ -43,3 +43,20 @@ dialog{color:var(--text);background:#111419;border:1px solid #ffffff28;border-ra
 
 .bible .character.featured-character.character-wide{grid-column:1/-1;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:1fr;align-items:center}.bible .character-wide .copy{padding:clamp(24px,4vw,54px)}
 @media(max-width:620px){.bible .character.featured-character.character-wide{grid-template-columns:1fr;grid-template-rows:auto 1fr}.bible .character-wide .copy{padding:20px}}
+.bible #characters .characters{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:stretch}
+.bible #characters .roster-card{display:grid;grid-column:auto;grid-template-columns:104px minmax(0,1fr);grid-template-rows:1fr;min-height:196px;align-items:start;text-decoration:none;color:inherit}
+.bible #characters .roster-card .portrait{position:relative;display:flex;width:88px;height:116px;min-height:0;aspect-ratio:auto;margin:16px 0 16px 16px;border-radius:3px;overflow:hidden}
+.bible #characters .roster-card .portrait>a{display:block;width:100%;height:100%}
+.bible #characters .roster-card .portrait img{position:static;display:block;width:100%;height:100%;object-fit:cover;object-position:center 18%}
+.bible #characters .roster-card .copy{padding:16px;min-width:0}
+.bible #characters .roster-card h3{font-size:19px;line-height:1.2;margin:8px 0 4px;letter-spacing:-.02em}
+.bible #characters .roster-card h3 a{text-decoration:none}
+.bible #characters .roster-card .role{font-size:10px;line-height:1.5}
+.bible #characters .roster-card p{font-size:12px;line-height:1.55;margin:10px 0 0}
+.bible #characters .roster-card .badge{font-size:7px;line-height:1.3;padding:4px 6px}
+.bible #characters .roster-card .dossier-link{font-size:10px;line-height:1.5;margin-top:12px}
+.bible #characters .roster-card .unconfirmed-portrait{gap:12px}
+.bible #characters .roster-card .portrait .letter{font-size:27px}
+.bible #characters .roster-card .portrait-note{font-size:5px}
+@media(min-width:1600px){.bible #characters .characters{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:700px){.bible #characters .characters{grid-template-columns:1fr}.bible #characters .roster-card{min-height:174px;grid-template-columns:92px minmax(0,1fr)}.bible #characters .roster-card .portrait{width:76px;height:102px}.bible #characters .roster-card h3{font-size:18px}}
