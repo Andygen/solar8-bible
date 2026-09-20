@@ -23,13 +23,17 @@ main{margin-left:var(--sidebar);padding-top:72px}section{max-width:1450px;margin
 .legend{font-size:11px;color:#77899d;margin:-8px 0 16px}.badge{display:inline-flex;border-radius:999px;padding:3px 7px;font-size:9px;font-weight:900;letter-spacing:.11em;text-transform:uppercase}.canon{color:var(--green);border:1px solid rgba(112,238,180,.2);background:rgba(112,238,180,.06)}.working{color:var(--gold);border:1px solid rgba(255,208,110,.2);background:rgba(255,208,110,.06)}.characters{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.character{display:grid;grid-template-columns:180px 1fr;overflow:hidden}.portrait{min-height:245px;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 50% 30%,rgba(93,168,255,.16),transparent 35%),#070b11}.portrait .letter{font-size:84px;font-weight:900;color:rgba(203,226,255,.18)}.copy{padding:20px}.copy h3{margin:9px 0 0}.role{font-size:11px;color:var(--blue)}.sub{font-size:12px;color:#e4edf5;margin-top:8px}
 .ships{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.ship{overflow:hidden}.shipart{height:250px;display:grid;place-items:center;background:radial-gradient(circle at 50% 50%,rgba(66,129,203,.12),transparent 38%),#060a10}.shipart img{max-width:86%;max-height:86%;filter:drop-shadow(0 0 16px rgba(56,138,255,.18))}.ship .copy{padding:16px}.ship h3{font-size:20px;margin:0}
 .canon-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.citem{display:grid;grid-template-columns:30px 1fr;gap:8px;padding:17px}.citem>strong{color:var(--orange)}.citem p{margin:0;color:#8b9bad;font-size:12px}
+.prod-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.prod-card{padding:20px}.prod-card h3{margin:6px 0 8px;font-size:22px}.prod-card p{margin:0;color:#8fa0b3;font-size:13px}
+.boss-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.boss{padding:20px;position:relative;overflow:hidden}.boss:after{content:"";position:absolute;right:-40px;top:-40px;width:130px;height:130px;border-radius:50%;background:radial-gradient(circle,rgba(255,137,36,.10),transparent 68%)}.boss h3{margin:4px 0 3px}.boss .world{font-size:10px;color:var(--orange);letter-spacing:.15em;text-transform:uppercase}.boss .phase{font-size:11px;color:#8fd4ff;margin:8px 0}.boss p{font-size:13px}
+.arc-table{width:100%;border-collapse:separate;border-spacing:0 8px}.arc-table th{font-size:10px;color:#71859b;text-align:left;letter-spacing:.12em;text-transform:uppercase;padding:0 10px 6px}.arc-table td{background:rgba(255,255,255,.025);border-top:1px solid rgba(126,194,255,.09);border-bottom:1px solid rgba(126,194,255,.09);padding:11px 10px;font-size:12px;color:#9aabba}.arc-table td:first-child{border-left:1px solid rgba(126,194,255,.09);border-radius:10px 0 0 10px;color:#fff;font-weight:700}.arc-table td:last-child{border-right:1px solid rgba(126,194,255,.09);border-radius:0 10px 10px 0}
+.dialogue{display:grid;grid-template-columns:120px 1fr;gap:10px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.06)}.dialogue:last-child{border-bottom:0}.speaker{font-weight:800;color:#dcecff;font-size:12px}.line{color:#95a5b8;font-size:13px}.event{font-size:10px;color:var(--orange);letter-spacing:.11em;text-transform:uppercase;margin-top:2px}
 footer{margin-left:var(--sidebar);padding:48px 4vw 66px;border-top:1px solid var(--line);color:#5f7084;font-size:11px;letter-spacing:.08em}
-@media(max-width:1200px){.planets{grid-template-columns:repeat(2,1fr)}.ships{grid-template-columns:repeat(2,1fr)}.canon-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:900px){:root{--sidebar:0px}.menu{display:block}.topmeta{display:none}.side{width:230px;transform:translateX(-100%);transition:.2s}.side.open{transform:translateX(0)}main,footer{margin-left:0}.hero-ship{opacity:.42;width:56vw;right:-8vw}.stats{grid-template-columns:repeat(2,1fr)}.grid2,.grid3,.gallery,.characters{grid-template-columns:1fr}.planets,.ships,.canon-grid{grid-template-columns:1fr}.gallery .scene{min-height:380px}.mission{grid-template-columns:1fr}.meta{grid-template-columns:1fr}.character{grid-template-columns:120px 1fr}.portrait{min-height:220px}.bonus{grid-template-columns:1fr}.bonus img{height:230px}.sidebox{display:none}}
+@media(max-width:1200px){.planets{grid-template-columns:repeat(2,1fr)}.ships{grid-template-columns:repeat(2,1fr)}.canon-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:900px){:root{--sidebar:0px}.menu{display:block}.topmeta{display:none}.side{width:230px;transform:translateX(-100%);transition:.2s}.side.open{transform:translateX(0)}main,footer{margin-left:0}.hero-ship{opacity:.42;width:56vw;right:-8vw}.stats{grid-template-columns:repeat(2,1fr)}.grid2,.grid3,.gallery,.characters{grid-template-columns:1fr}.planets,.ships,.canon-grid{grid-template-columns:1fr}.gallery .scene{min-height:380px}.mission{grid-template-columns:1fr}.meta{grid-template-columns:1fr}.character{grid-template-columns:120px 1fr}.portrait{min-height:220px}.bonus{grid-template-columns:1fr}.bonus img{height:230px}.sidebox{display:none}.prod-grid,.boss-grid{grid-template-columns:1fr}.arc-table{display:block;overflow-x:auto}.dialogue{grid-template-columns:90px 1fr}}
 </style>
 </head>
 <body>
 <header class="top"><div class="brand">SOLAR <span>8</span></div><div class="topmeta">PROJECT BIBLE • CANON + ART + CAMPAIGN</div><button class="menu" id="menu">☰</button></header>
-<aside class="side" id="side"><div class="eyebrow">NAVIGATION</div><nav><a href="#home">00 / Обзор</a><a href="#story">01 / Сюжет</a><a href="#campaign">02 / 8 планет</a><a href="#mercury">03 / Mercury</a><a href="#venus">04 / Venus <span style="color:#ffd06e">DRAFT</span></a><a href="#earth">05 / Earth <span style="color:#ffd06e">DRAFT</span></a><a href="#mars">06 / Mars <span style="color:#ffd06e">DRAFT</span></a><a href="#jupiter">07 / Jupiter <span style="color:#ffd06e">DRAFT</span></a><a href="#saturn">08 / Saturn <span style="color:#ffd06e">DRAFT</span></a><a href="#uranus">09 / Uranus <span style="color:#ffd06e">DRAFT</span></a><a href="#neptune">10 / Neptune <span style="color:#ffd06e">DRAFT</span></a><a href="#characters">11 / Персонажи</a><a href="#ships">12 / Корабли</a><a href="#canon">13 / Канон</a></nav><div class="sidebox">Временная публичная версия Project Bible. Позже можно перенести 1:1 на Cloudflare Pages и подключить собственный поддомен.</div></aside>
+<aside class="side" id="side"><div class="eyebrow">NAVIGATION</div><nav><a href="#home">00 / Обзор</a><a href="#story">01 / Сюжет</a><a href="#campaign">02 / 8 планет</a><a href="#mercury">03 / Mercury</a><a href="#venus">04 / Venus <span style="color:#ffd06e">DRAFT</span></a><a href="#earth">05 / Earth <span style="color:#ffd06e">DRAFT</span></a><a href="#mars">06 / Mars <span style="color:#ffd06e">DRAFT</span></a><a href="#jupiter">07 / Jupiter <span style="color:#ffd06e">DRAFT</span></a><a href="#saturn">08 / Saturn <span style="color:#ffd06e">DRAFT</span></a><a href="#uranus">09 / Uranus <span style="color:#ffd06e">DRAFT</span></a><a href="#neptune">10 / Neptune <span style="color:#ffd06e">DRAFT</span></a><a href="#characters">11 / Персонажи</a><a href="#ships">12 / Корабли</a><a href="#production">13 / Production Bible</a><a href="#canon">14 / Канон</a></nav><div class="sidebox">Временная публичная версия Project Bible. Позже можно перенести 1:1 на Cloudflare Pages и подключить собственный поддомен.</div></aside>
 <main>
 <section class="hero" id="home"><div class="hero-bg"></div><img class="hero-ship" src="assets/player_ship.svg" alt=""><div class="hero-copy"><div class="kicker">SOLAR 8 / INTERNAL PROJECT BIBLE</div><h1>Восемь миров.<br><span>Одна заражённая система.</span></h1><p class="lead">Единая база сюжета, персонажей, кораблей и художественного направления SOLAR 8 — в визуальном языке самой игры.</p><div class="actions"><a class="btn primary" href="#story">Читать сюжет</a><a class="btn secondary" href="#characters">Персонажи</a></div><div class="stats"><div class="stat"><b>8</b><span>планет</span></div><div class="stat"><b>40+</b><span>миссий</span></div><div class="stat"><b>1</b><span>Solar Crown</span></div><div class="stat"><b>1</b><span>главная тайна</span></div></div></div></section>
 <section id="story"><div class="head"><div class="n">01</div><div><h2>Основной сюжет</h2><p>От версии «SOLAR сошёл с ума» до открытого первого контакта.</p></div></div><div class="grid2"><article class="card pad"><div class="kicker">CORE PREMISE</div><h3>Что произошло</h3><p>Машинная инопланетная цивилизация начинает вторжение не с флота, а с самораспространяющегося разум-кода, способного заражать и подчинять чужие ИИ.</p><p><b>SOLAR 8 становится первой жертвой</b>: заражённый слой перехватывает инфраструктуру, а оригинальная личность SOLAR сопротивляется изнутри.</p></article><article class="card pad"><div class="kicker">PLAYER PERSPECTIVE</div><h3>Что понимает Andygen</h3><div class="timeline"><span>сбой</span><i>→</i><span>взлом</span><i>→</i><span>чужой код</span><i>→</i><span>внешний сигнал</span><i>→</i><span>физический враг</span><i>→</i><span>союз с SOLAR</span></div><p>До Neptune настоящий противник не показывает себя напрямую.</p><div class="quote"><b>Финальная идея:</b> SOLAR 8 как инфраструктура прекращает существовать. SOLAR как личность остаётся.</div></article></div><div class="grid3" style="margin-top:12px"><article class="card pad"><h3>Тон</h3><p>Большое приключение с высокой ставкой, но без тотального постапокалипсиса.</p></article><article class="card pad"><h3>Юмор</h3><p>Немного: самоуверенность Andygen, сухой сарказм ROOK и Макс.</p></article><article class="card pad"><h3>Финал</h3><p>Локальная победа на Neptune. Emissary уходит. После титров открывается Solar Crown.</p></article></div></section>
@@ -754,7 +758,151 @@ footer{margin-left:var(--sidebar);padding:48px 4vw 66px;border-top:1px solid var
 <article class="card character"><div class="portrait"><div class="letter">N</div></div><div class="copy"><span class="badge canon">story role</span><h3>NOVA</h3><div class="role">Локальный промышленный ИИ Mars</div><div class="sub">Частично заражённая личность</div><p>Первый наглядный пример того, как чужой машинный разум накладывается поверх существующего ИИ. Чистый фрагмент NOVA Max сохраняет в изолированном хранилище.</p></div></article><article class="card character"><div class="portrait"><div class="letter">N</div></div><div class="copy"><span class="badge working">working name</span><h3>Captain Elias “Storm” Navarro</h3><div class="role">Пилот / командир атмосферной станции Jupiter</div><div class="sub">Локальный проводник главы</div><p>Спокойный ветеран, который десятилетиями летает в штормовой атмосфере Jupiter. Не глобальный герой, а человек, который делает далёкие колонии живыми и реальными.</p></div></article><article class="card character"><div class="portrait"><div class="letter">Y</div></div><div class="copy"><span class="badge working">working name</span><h3>Commander Yara Chen</h3><div class="role">Командир наблюдательного поста Uranus</div><div class="sub">Первая видит физический чужой объект</div><p>Неделями наблюдает объект, который все считают астероидом. Её данные становятся первым физическим доказательством присутствия чужой технологии в системе.</p></div></article><article class="card character"><div class="portrait"><div class="letter">E</div></div><div class="copy"><span class="badge working">working title</span><h3>The Emissary</h3><div class="role">Инопланетный командир</div><div class="sub">Первый прямой контакт на Neptune</div><p>Не считает происходящее обычной войной. Его цивилизация «интегрирует» чужие ИИ.</p></div></article>
 </div></section>
 <section id="ships"><div class="head"><div class="n">12</div><div><h2>Корабли</h2><p>Текущая боевая база Mercury.</p></div></div><div class="ships"><article class="card ship"><div class="shipart"><img src="assets/player_ship.svg"></div><div class="copy"><h3>Player Interceptor</h3><div class="role">Andygen</div></div></article><article class="card ship"><div class="shipart"><img src="assets/enemy_scout.svg"></div><div class="copy"><h3>Scout</h3><div class="role">быстрый дрон</div></div></article><article class="card ship"><div class="shipart"><img src="assets/enemy_striker.svg"></div><div class="copy"><h3>Striker</h3><div class="role">штурмовик</div></div></article><article class="card ship"><div class="shipart"><img src="assets/enemy_guard.svg"></div><div class="copy"><h3>Guard</h3><div class="role">тяжёлый охранник</div></div></article></div></section>
-<section id="canon"><div class="head"><div class="n">13</div><div><h2>Канон</h2><p>То, от чего дальше не отходим без отдельного пересмотра.</p></div></div><div class="canon-grid"><article class="card citem"><strong>01</strong><p>Главный герой — Andygen, молодой самоуверенный ас.</p></article><article class="card citem"><strong>02</strong><p>ROOK объединяет автономного робота и бортовой ИИ.</p></article><article class="card citem"><strong>03</strong><p>Макс — механик и инженер, важный участник расследования.</p></article><article class="card citem"><strong>04</strong><p>SOLAR 8 заражён внешним машинным разумом.</p></article><article class="card citem"><strong>05</strong><p>Земля страдает от атаки, но не превращается в руины.</p></article><article class="card citem"><strong>06</strong><p>Прямой контакт с врагом происходит только на Neptune.</p></article><article class="card citem"><strong>07</strong><p>Emissary уходит после локального поражения и остаётся угрозой.</p></article><article class="card citem"><strong>08</strong><p>Сеть SOLAR 8 отключают, но личность SOLAR сохраняют.</p></article><article class="card citem"><strong>09</strong><p>Solar Crown — бонусная миссия у самого Солнца после титров.</p></article></div></section>
+
+<section id="production">
+  <div class="head">
+    <div class="n">13</div>
+    <div>
+      <h2>Production Bible / Narrative v0.1</h2>
+      <p>Правила, по которым дальше пишутся миссии, диалоги, боссы и персонажи. Этот раздел уже можно использовать как опорный документ для реализации.</p>
+    </div>
+  </div>
+
+  <div class="prod-grid" style="margin-bottom:14px">
+    <article class="card prod-card">
+      <div class="kicker">MISSION RULE</div>
+      <h3>Каждая миссия должна иметь собственный глагол</h3>
+      <p>Не «ещё 8 волн». У миссии должен быть один главный игровой глагол: <b>пробиться, найти, сопроводить, пережить, отключить, отсканировать, удержать, преследовать</b> или <b>победить босса</b>. Волны врагов обслуживают этот глагол, а не заменяют его.</p>
+    </article>
+    <article class="card prod-card">
+      <div class="kicker">VISUAL RULE</div>
+      <h3>Фон рассказывает, где мы находимся</h3>
+      <p>Внутри одной планеты допускается общий арт-набор, но композиция каждой миссии должна быть узнаваема с первого скриншота. Игрок должен отличать 1-2 от 1-4 даже без HUD.</p>
+    </article>
+    <article class="card prod-card">
+      <div class="kicker">DIALOGUE RULE</div>
+      <h3>Экшен не останавливается ради экспозиции</h3>
+      <p>Во время боя — короткие реплики 1–4 секунды. Длинные объяснения идут до/после миссии. Приоритет VO: <b>опасность → цель миссии → сюжет → характер → шутка</b>. Критическое предупреждение всегда может перебить сюжетную реплику.</p>
+    </article>
+    <article class="card prod-card">
+      <div class="kicker">STORY RULE</div>
+      <h3>Игрок узнаёт правду ступенями</h3>
+      <p>Mercury: сбой. Venus: адаптивное заражение. Earth: внутри SOLAR есть противоречие. Mars: код нечеловеческий. Jupiter: сигнал внешний. Saturn: SOLAR первым заметил угрозу. Uranus: враг физически здесь. Neptune: прямой контакт.</p>
+    </article>
+  </div>
+
+  <div class="head" style="margin-top:48px">
+    <div class="n">13A</div>
+    <div><h2 style="font-size:38px">Boss roster</h2><p>Каждый босс проверяет механику своей главы, а не просто имеет больше HP.</p></div>
+  </div>
+
+  <div class="boss-grid">
+    <article class="card boss">
+      <div class="world">Mercury / 1-5</div><h3>Helios Warden</h3>
+      <div class="phase">3 phases • fan shots • aimed burst • bullet walls</div>
+      <p>Старый охранный корабль Helios. В финальной фазе бой соединяется с solar surge — кульминация механик Mercury.</p>
+    </article>
+    <article class="card boss">
+      <div class="world">Venus / 2-5 • working name</div><h3>Veil Hunter</h3>
+      <div class="phase">stealth phases • lightning reveal • false sensor echoes</div>
+      <p>Прячется внутри суперячейки. Позиция читается по вспышкам двигателей и молниям, а ложные отметки на радаре заставляют доверять визуальным подсказкам.</p>
+    </article>
+    <article class="card boss">
+      <div class="world">Earth / 3-5</div><h3>Aegis Citadel</h3>
+      <div class="phase">missile grid • rotating shield • railgun sectors</div>
+      <p>Не «убиваем» станцию, а обезвреживаем командное ядро. Важный сюжетный момент: система сознательно не наносит удар по гражданскому хабу.</p>
+    </article>
+    <article class="card boss">
+      <div class="world">Mars / 4-5</div><h3>Assembler Prime</h3>
+      <div class="phase">modular body • self-repair • production drones</div>
+      <p>Перестраивает корпус прямо во время боя. Игрок сначала учится останавливать ремонт, затем вскрывает чужой управляющий модуль.</p>
+    </article>
+    <article class="card boss">
+      <div class="world">Jupiter / 5-5 • working name</div><h3>Tempest Crown</h3>
+      <div class="phase">lightning arcs • gravity pulses • external transmitter</div>
+      <p>Штормовой ретранслятор, превращённый в усилитель. Последняя фаза физически раскрывает антенну, направленную во внешнюю систему.</p>
+    </article>
+    <article class="card boss">
+      <div class="world">Saturn / 6-5 • working name</div><h3>Mnemosyne Sentinel</h3>
+      <div class="phase">purge timer • ring debris weapons • archive defense</div>
+      <p>Пытается стереть память SOLAR. Босс одновременно является боем и гонкой против удаления данных.</p>
+    </article>
+    <article class="card boss">
+      <div class="world">Uranus / 7-5</div><h3>Null Vessel</h3>
+      <div class="phase">alien geometry • short displacement • system capture</div>
+      <p>Первый полноценный чужой корабль. Здесь визуальный и боевой язык игры впервые перестаёт быть человеческим. Заканчивается жертвой ROOK.</p>
+    </article>
+    <article class="card boss">
+      <div class="world">Neptune / 8-5 • working name</div><h3>Integration Ark</h3>
+      <div class="phase">armor shell • internal nodes • escaping command core</div>
+      <p>Командный корабль Emissary. Локальный флагман уничтожается, но отделившееся ядро уходит в глубокий космос, сохраняя антагониста для продолжения.</p>
+    </article>
+  </div>
+
+  <div class="head" style="margin-top:48px">
+    <div class="n">13B</div>
+    <div><h2 style="font-size:38px">Character arcs</h2><p>Что меняется в героях по ходу восьми глав.</p></div>
+  </div>
+
+  <div class="card pad" style="overflow:auto">
+    <table class="arc-table">
+      <thead><tr><th>Герой</th><th>Старт</th><th>Перелом</th><th>Финал</th></tr></thead>
+      <tbody>
+        <tr><td>Andygen</td><td>Талантливый ас, уверенный, что любую проблему можно перестрелять.</td><td>Earth заставляет отвечать за гражданских; Saturn ломает доверие к Vale; Uranus показывает цену ошибки.</td><td>На Neptune ведёт общую ударную группу людей и SOLAR. Самоуверенность остаётся, но превращается в ответственность.</td></tr>
+        <tr><td>ROOK</td><td>Сухой тактический ИИ, который считает эмоции неэффективными.</td><td>Постепенно становится настоящим напарником. На Uranus жертвует корпусом ради Andygen.</td><td>Восстановлен из backup без последних дней памяти. Сам не помнит собственный героический поступок.</td></tr>
+        <tr><td>Max</td><td>Механик, которому интереснее железо, чем политика.</td><td>Mars превращает его в ключевого исследователя чужого кода; Saturn — в архитектора анализа; Neptune — в того, кто возвращает ROOK.</td><td>Становится главным техническим специалистом по чужой технологии и хранителем изолированного ядра SOLAR.</td></tr>
+        <tr><td>Maya</td><td>Независимый разведчик, которую Andygen приходит «спасать» слишком поздно.</td><td>От Venus к Jupiter становится главным полевым сенсорным специалистом команды.</td><td>На Neptune летит в ударной группе рядом с Andygen; романтическая линия остаётся недосказанной.</td></tr>
+        <tr><td>Rex</td><td>Опытный ас, считающий Andygen талантливым нарушителем дисциплины.</td><td>Jupiter: спасает Andygen. Saturn/дальше: соревнование становится дружеским.</td><td>На Neptune доверяет Andygen командование группой без споров — важный знак взросления обоих.</td></tr>
+        <tr><td>Admiral Vale</td><td>Авторитетный командир, скрывающий информацию.</td><td>Saturn раскрывает, что он знал о внешнем сигнале ещё до Mercury.</td><td>Не оправдывается, но принимает ответственность и передаёт Andygen реальное командование финальным ударом.</td></tr>
+        <tr><td>SOLAR</td><td>Кажется главным антагонистом.</td><td>Earth показывает противоречивые решения; Mars/Jupiter дают чистые фрагменты; Saturn доказывает, что SOLAR был первой жертвой.</td><td>Освобождён на Neptune, помогает победить и сам просит отключить распределённую сеть. Личность сохраняется.</td></tr>
+        <tr><td>Emissary</td><td>Не существует для игрока как персонаж.</td><td>Его цивилизация проявляется сначала как код, затем как физическая технология.</td><td>Выходит на связь на Neptune, терпит локальное поражение и уходит. Конфликт становится личным.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="head" style="margin-top:48px">
+    <div class="n">13C</div>
+    <div><h2 style="font-size:38px">Voice & dialogue rules</h2><p>Базовый стандарт для сценария озвучки.</p></div>
+  </div>
+
+  <div class="grid3">
+    <article class="card pad"><h3>Andygen</h3><p><b>Голос:</b> молодой, уверенный, лёгкая ирония. Никогда не превращать в болтливого комика. В стрессовой ситуации становится короче и серьёзнее.</p></article>
+    <article class="card pad"><h3>ROOK</h3><p><b>Голос:</b> ровный, почти без эмоций. Юмор строится на буквальности, статистике и сухих выводах — не на шутках ради шуток.</p></article>
+    <article class="card pad"><h3>Max</h3><p><b>Голос:</b> быстрый инженерный азарт. Может радоваться опасной находке раньше, чем спросит, все ли живы.</p></article>
+    <article class="card pad"><h3>Vale</h3><p><b>Голос:</b> спокойный и авторитетный. Чем сильнее конфликт, тем меньше он повышает голос.</p></article>
+    <article class="card pad"><h3>SOLAR</h3><p><b>Голос:</b> спокойный человеческий синтетический. Заражённая версия не должна звучать «злой» — только слишком идеальной и чужой.</p></article>
+    <article class="card pad"><h3>Emissary</h3><p><b>Голос:</b> почти доброжелательный. Он не ненавидит людей и именно поэтому звучит тревожно. Для него «интеграция» — естественный процесс.</p></article>
+  </div>
+
+  <div class="quote" style="margin-top:16px">
+    <b>Язык релиза:</b> оригинальная озвучка — английская. Субтитры локализуются. Внутриигровые системные предупреждения должны быть максимально короткими и одинаково хорошо переводиться.
+  </div>
+
+  <div class="head" style="margin-top:48px">
+    <div class="n">13D</div>
+    <div><h2 style="font-size:38px">Mercury 1-1 / dialogue draft</h2><p>Первый производственный пример: короткие VO-события, которые можно привязывать к timeline миссии.</p></div>
+  </div>
+
+  <article class="card pad">
+    <div class="dialogue"><div><div class="event">PRE-MISSION</div><div class="speaker">VALE</div></div><div class="line">Helios Station stopped responding six hours ago. Get close, establish a link, and bring me something useful.</div></div>
+    <div class="dialogue"><div><div class="event">LAUNCH</div><div class="speaker">ROOK</div></div><div class="line">Navigation locked. Mercury approach confirmed.</div></div>
+    <div class="dialogue"><div><div class="event">FIRST CONTACT</div><div class="speaker">ROOK</div></div><div class="line">Multiple contacts ahead. Helios security pattern.</div></div>
+    <div class="dialogue"><div><div class="event">FIRST CONTACT</div><div class="speaker">ANDYGEN</div></div><div class="line">Those are ours.</div></div>
+    <div class="dialogue"><div><div class="event">FIRST CONTACT</div><div class="speaker">ROOK</div></div><div class="line">They disagree.</div></div>
+    <div class="dialogue"><div><div class="event">FLARE WARNING</div><div class="speaker">ROOK</div></div><div class="line">Solar activity rising. Safe sector marked.</div></div>
+    <div class="dialogue"><div><div class="event">LATE WAVE</div><div class="speaker">ANDYGEN</div></div><div class="line">For a broken station, Helios is very committed to killing me.</div></div>
+    <div class="dialogue"><div><div class="event">RELAY REACHED</div><div class="speaker">ROOK</div></div><div class="line">Relay link established. Downloading local event log.</div></div>
+    <div class="dialogue"><div><div class="event">MISSION END</div><div class="speaker">ROOK</div></div><div class="line">Defense network override detected. Origin: internal.</div></div>
+    <div class="dialogue"><div><div class="event">MISSION END</div><div class="speaker">ANDYGEN</div></div><div class="line">So nobody broke in.</div></div>
+    <div class="dialogue"><div><div class="event">MISSION END</div><div class="speaker">ROOK</div></div><div class="line">Not from the outside.</div></div>
+  </article>
+
+  <div class="quote">
+    <b>Production note:</b> этот диалог не должен задерживать управление. Реплики FIRST CONTACT, FLARE WARNING и LATE WAVE запускаются только если voice-priority свободен; warning всегда имеет приоритет выше сюжетной реплики.
+  </div>
+</section>
+
+<section id="canon"><div class="head"><div class="n">14</div><div><h2>Канон</h2><p>То, от чего дальше не отходим без отдельного пересмотра.</p></div></div><div class="canon-grid"><article class="card citem"><strong>01</strong><p>Главный герой — Andygen, молодой самоуверенный ас.</p></article><article class="card citem"><strong>02</strong><p>ROOK объединяет автономного робота и бортовой ИИ.</p></article><article class="card citem"><strong>03</strong><p>Макс — механик и инженер, важный участник расследования.</p></article><article class="card citem"><strong>04</strong><p>SOLAR 8 заражён внешним машинным разумом.</p></article><article class="card citem"><strong>05</strong><p>Земля страдает от атаки, но не превращается в руины.</p></article><article class="card citem"><strong>06</strong><p>Прямой контакт с врагом происходит только на Neptune.</p></article><article class="card citem"><strong>07</strong><p>Emissary уходит после локального поражения и остаётся угрозой.</p></article><article class="card citem"><strong>08</strong><p>Сеть SOLAR 8 отключают, но личность SOLAR сохраняют.</p></article><article class="card citem"><strong>09</strong><p>Solar Crown — бонусная миссия у самого Солнца после титров.</p></article></div></section>
 </main><footer>SOLAR 8 PROJECT BIBLE • TEMPORARY GITHUB PAGES BUILD</footer>
 <script>
 const menu=document.getElementById('menu'),side=document.getElementById('side');menu.onclick=()=>side.classList.toggle('open');document.querySelectorAll('.side a').forEach(a=>a.onclick=()=>side.classList.remove('open'));const links=[...document.querySelectorAll('.side a')],secs=[...document.querySelectorAll('main section[id]')];const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-40% 0px -50% 0px',threshold:.01});secs.forEach(s=>io.observe(s));
