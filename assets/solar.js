@@ -3,6 +3,17 @@
   'use strict';
   const $ = (s, root = document) => root.querySelector(s);
   const $$ = (s, root = document) => [...root.querySelectorAll(s)];
+  // Preserve old direct links after moving ship cards into the fleet catalogue.
+  function revealHashTarget() {
+    let id;
+    try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
+    const target = document.getElementById(id);
+    if (target?.dataset.fleetTarget) { location.replace(target.dataset.fleetTarget); return; }
+    const disclosure = target?.closest('.fleet-archive details');
+    if (disclosure && !disclosure.open) { disclosure.open = true; target.scrollIntoView(); }
+  }
+  revealHashTarget();
+  addEventListener('hashchange', revealHashTarget);
   const side = $('#side'), menu = $('#menu');
   function closeNav(returnFocus = false) {
     side?.classList.remove('open'); document.body.classList.remove('nav-open');
@@ -83,7 +94,7 @@
     dialog.addEventListener('click', e => { const r=dialog.getBoundingClientRect(); if(e.target===dialog && (e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)) dialog.close(); });
   });
   const imageDialog = $('#image-dialog');
-  $$('.character-page .gallery img, .character-page .zoom img, .character-page .fullconcept img, .character-page .shot img, .character-page .canonical-hero img').forEach(img => {
+  $$('.character-page .gallery img, .character-page .zoom img, .character-page .fullconcept img, .character-page .shot img, .character-page .canonical-hero img, .fleet-art img').forEach(img => {
     const anchor = img.closest('a');
     if(!anchor) { img.tabIndex = 0; img.setAttribute('role','button'); img.setAttribute('aria-label', 'Увеличить: '+img.alt); }
     function openImage(e) { e.preventDefault(); $('img',imageDialog).src=img.currentSrc || img.src; $('img',imageDialog).alt=img.alt; $('p',imageDialog).textContent=img.alt; imageDialog.showModal(); }

@@ -1,0 +1,380 @@
+{
+  "planets": [
+    {
+      "id": "mercury",
+      "name": "Mercury",
+      "ru": "Меркурий",
+      "tagline": "Солнечная оборона Helios"
+    },
+    {
+      "id": "venus",
+      "name": "Venus",
+      "ru": "Венера",
+      "tagline": "Облака, маскировка и помехи"
+    },
+    {
+      "id": "earth",
+      "name": "Earth",
+      "ru": "Земля",
+      "tagline": "Орбитальная оборона"
+    },
+    {
+      "id": "mars",
+      "name": "Mars",
+      "ru": "Марс",
+      "tagline": "Промышленная сеть и сборочные машины"
+    }
+  ],
+  "ships": [
+    {
+      "id": "player-interceptor",
+      "name": "Player Interceptor",
+      "planet": "Player",
+      "kind": "player",
+      "image": "assets/ships/player-interceptor.png",
+      "width": 1254,
+      "height": 1254,
+      "description": "Корабль Andygen: точное управление и главный силуэт игрока.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [
+        "entry-94"
+      ]
+    },
+    {
+      "id": "mercury-scout",
+      "name": "Mercury Scout",
+      "planet": "Mercury",
+      "kind": "scout",
+      "image": "assets/ships/mercury-01.png",
+      "width": 1254,
+      "height": 1254,
+      "description": "Лёгкий разведчик Mercury.",
+      "technicalCode": "MRC-01",
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [
+        "entry-95"
+      ]
+    },
+    {
+      "id": "mercury-striker",
+      "name": "Mercury Striker",
+      "planet": "Mercury",
+      "kind": "striker",
+      "image": "assets/ships/mercury-02.png",
+      "width": 1254,
+      "height": 1254,
+      "description": "Ударный корабль Mercury.",
+      "technicalCode": "MRC-02",
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [
+        "entry-96"
+      ]
+    },
+    {
+      "id": "mercury-guard",
+      "name": "Mercury Guard",
+      "planet": "Mercury",
+      "kind": "guard",
+      "image": "assets/ships/mercury-03.png",
+      "width": 1254,
+      "height": 1254,
+      "description": "Тяжёлый защитный корабль Mercury.",
+      "technicalCode": "MRC-03",
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [
+        "ship-mercury-03"
+      ]
+    },
+    {
+      "id": "helios-warden",
+      "name": "Helios Warden",
+      "planet": "Mercury",
+      "kind": "boss",
+      "image": "assets/ships/mercury-04.png?v=7e73333fc5a5",
+      "width": 1448,
+      "height": 1086,
+      "description": "Оборонительная платформа Helios. Три фазы боя: броня, открытое ядро и солнечная перегрузка.",
+      "technicalCode": "MRC-04",
+      "mission": "1-5",
+      "phase": null,
+      "archived": false,
+      "legacyIds": [
+        "ship-mercury-04"
+      ]
+    },
+    {
+      "id": "venus-scout",
+      "name": "Venus Scout",
+      "planet": "Venus",
+      "kind": "scout",
+      "image": "assets/ships/venus-scout.png",
+      "width": 1254,
+      "height": 1254,
+      "description": "Выходит из облаков и выполняет короткий атакующий заход.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [
+        "ship-venus-scout"
+      ]
+    },
+    {
+      "id": "venus-striker",
+      "name": "Venus Striker",
+      "planet": "Venus",
+      "kind": "striker",
+      "image": "assets/ships/venus-striker.png",
+      "width": 1254,
+      "height": 1254,
+      "description": "Ударный корабль. Кислотный след — специальная способность, которую ещё предстоит реализовать в игре.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [
+        "ship-venus-striker"
+      ]
+    },
+    {
+      "id": "venus-guard",
+      "name": "Venus Guard",
+      "planet": "Venus",
+      "kind": "guard",
+      "image": "assets/ships/venus-guard.png",
+      "width": 1254,
+      "height": 1254,
+      "description": "Защита, глушение и ложные контакты. Echo Jammer — функция этого класса; перенос помех с корпуса Striker требуется в игре.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [
+        "ship-venus-guard"
+      ]
+    },
+    {
+      "id": "veil-hunter",
+      "name": "Veil Hunter",
+      "planet": "Venus",
+      "kind": "boss",
+      "image": "assets/ships/venus-veil-hunter.png",
+      "width": 1254,
+      "height": 1254,
+      "description": "Атмосферный перехватчик: облачная маскировка, ложные контакты и молнии. Настоящую цель выдают вспышки двигателей; после перегрузки открывается ядро.",
+      "technicalCode": null,
+      "mission": "2-5",
+      "phase": null,
+      "archived": false,
+      "legacyIds": [
+        "ship-veil-hunter"
+      ]
+    },
+    {
+      "id": "earth-scout",
+      "name": "Earth Scout",
+      "planet": "Earth",
+      "kind": "scout",
+      "image": "assets/ships/earth-scout.png",
+      "width": 1254,
+      "height": 1254,
+      "description": "Лёгкий разведывательный корабль Земли.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [
+        "ship-earth-scout"
+      ]
+    },
+    {
+      "id": "earth-striker",
+      "name": "Earth Striker",
+      "planet": "Earth",
+      "kind": "striker",
+      "image": "assets/ships/earth-striker.png",
+      "width": 1254,
+      "height": 1254,
+      "description": "Ударный корабль Земли.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [
+        "ship-earth-striker"
+      ]
+    },
+    {
+      "id": "earth-guard",
+      "name": "Earth Guard",
+      "planet": "Earth",
+      "kind": "guard",
+      "image": "assets/ships/earth-guard.png",
+      "width": 1254,
+      "height": 1254,
+      "description": "Тяжёлый защитный корабль Земли.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [
+        "ship-earth-guard"
+      ]
+    },
+    {
+      "id": "aegis-citadel",
+      "name": "Aegis Citadel",
+      "planet": "Earth",
+      "kind": "boss",
+      "image": "assets/ships/earth-boss-aegis-citadel.png",
+      "width": 1254,
+      "height": 1254,
+      "description": "Орбитальная крепость. Задача — обезвредить внешнюю защиту и сохранить командное ядро.",
+      "technicalCode": null,
+      "mission": "3-5",
+      "phase": null,
+      "archived": false,
+      "legacyIds": [
+        "ship-earth-boss-aegis-citadel"
+      ]
+    },
+    {
+      "id": "mars-scout",
+      "name": "Mars Scout",
+      "planet": "Mars",
+      "kind": "scout",
+      "image": "assets/ships/mars-scout.png",
+      "width": 1254,
+      "height": 1254,
+      "description": "Лёгкий промышленный разведчик.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [
+        "ship-mars-scout"
+      ]
+    },
+    {
+      "id": "mars-striker",
+      "name": "Mars Striker",
+      "planet": "Mars",
+      "kind": "striker",
+      "image": "assets/ships/mars-striker.png",
+      "width": 1254,
+      "height": 1254,
+      "description": "Ударный промышленный дрон.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [
+        "ship-mars-striker"
+      ]
+    },
+    {
+      "id": "mars-guard",
+      "name": "Mars Guard",
+      "planet": "Mars",
+      "kind": "guard",
+      "image": "assets/ships/mars-guard.png",
+      "width": 1254,
+      "height": 1254,
+      "description": "Тяжёлый бронированный аппарат.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [
+        "ship-mars-guard"
+      ]
+    },
+    {
+      "id": "mars-repair-unit",
+      "name": "Mars Repair Unit",
+      "planet": "Mars",
+      "kind": "support",
+      "image": "assets/ships/mars-repair-unit.png",
+      "width": 1254,
+      "height": 1254,
+      "description": "Ремонтный аппарат: восстанавливает недавно уничтоженного тяжёлого противника.",
+      "technicalCode": null,
+      "mission": "4-2",
+      "phase": null,
+      "archived": false,
+      "legacyIds": [
+        "ship-mars-repair-unit"
+      ]
+    },
+    {
+      "id": "assembler-prime",
+      "name": "Assembler Prime",
+      "planet": "Mars",
+      "kind": "boss",
+      "image": "assets/ships/mars-boss-assembler-prime-phase1.png",
+      "width": 1254,
+      "height": 1254,
+      "description": "Начальное состояние фабрики-босса: четыре манипулятора, центральный пресс и сборочные ячейки. Чужой управляющий модуль пока скрыт.",
+      "technicalCode": null,
+      "mission": "4-5",
+      "phase": "Фаза 1 / производство",
+      "archived": false,
+      "legacyIds": [
+        "ship-mars-boss-assembler-prime-phase1"
+      ]
+    },
+    {
+      "id": "venus-boss",
+      "name": "Venus Boss / Cythera Citadel",
+      "planet": "Venus",
+      "kind": "guard",
+      "image": "assets/ships/venus-boss.png",
+      "width": 1254,
+      "height": 1254,
+      "description": "Выведен из действующего состава. Единственный босс Венеры — Veil Hunter.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": true,
+      "legacyIds": [
+        "ship-venus-boss"
+      ]
+    },
+    {
+      "id": "guard-concept",
+      "name": "Guard / ранний SVG-концепт",
+      "planet": "Player",
+      "kind": "player",
+      "image": "assets/enemy_guard.svg",
+      "width": 1254,
+      "height": 1254,
+      "description": "Ранний концепт класса Guard.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": true,
+      "legacyIds": [
+        "entry-97"
+      ]
+    }
+  ],
+  "notes": [
+    "Корабль Andygen — Player Interceptor. Mercury: Mercury Scout, Mercury Striker, Mercury Guard; босс — Helios Warden. Venus: Venus Scout, Venus Striker, Venus Guard; босс — Veil Hunter. Номера MRC — только технические обозначения.",
+    "Выход из облаков — поведение Venus Scout. Кислотный след — специальная способность Venus Striker; в игре пока не реализована.",
+    "Echo Jammer («постановщик помех») — функция Venus Guard, а не отдельный класс корабля. Guard отвечает за защиту, глушение и ложные контакты.",
+    "Требуется в игре: перенести функцию постановщика помех с корпуса Striker на Guard, привести глушение Guard и названия в HUD, целях и репликах к этому составу. Код игры находится вне этого репозитория; здесь обновлены Bible и сценарные источники.",
+    "Earth: Earth Scout, Earth Striker, Earth Guard; босс — Aegis Citadel. Mars: Mars Scout, Mars Striker, Mars Guard, ремонтный аппарат Mars Repair Unit; босс — Assembler Prime. Опубликованный PNG Assembler Prime показывает только фазу 1."
+  ],
+  "archiveNotes": [
+    "Storm Lancer: архивная идея электрического линейного выстрела с предупреждающей световой дорожкой. Не отдельный класс действующего состава; способность не закреплена за текущими кораблями."
+  ]
+}

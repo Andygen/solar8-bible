@@ -64,3 +64,5 @@ dialog{color:var(--text);background:#111419;border:1px solid #ffffff28;border-ra
 /* The reading edition is reachable from every desktop and mobile menu. */
 .side .scenario-entry{display:block;margin:0 0 24px;padding:12px 10px;border:1px solid #eab47b44;color:#dfc5a6;font-size:12px;text-decoration:none}.topnav a[aria-current="page"]{color:var(--orange)}.read-scenario{display:block;margin:0 0 28px;padding:20px 24px;border:1px solid #eab47b44;background:#171614;color:#dfc5a6;text-decoration:none;font-size:14px}
 @media(min-width:621px) and (max-width:1200px){.topnav{gap:16px}.top{gap:18px}}
+@media(max-width:800px){.topnav{display:none}}
+.side .fleet-entry{display:block;margin-bottom:18px;color:var(--orange);text-decoration:none}
