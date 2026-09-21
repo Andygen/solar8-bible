@@ -7,8 +7,8 @@ from copy import deepcopy
 from html import escape
 import json,re
 r=Path(__file__).resolve().parents[1]
-home=BeautifulSoup((r/'index.html').read_text(),'html.parser')
-s=BeautifulSoup((r/'scripts-mercury-venus.html').read_text(),'html.parser')
+home=BeautifulSoup((r/'index.html').read_text(encoding='utf-8'),'html.parser')
+s=BeautifulSoup((r/'scripts-mercury-venus.html').read_text(encoding='utf-8'),'html.parser')
 s.title.string='SOLAR 8 // Сценарий — полная история'
 s.body['class']=['script-page','scenario-page']
 s.html['class']=['scenario-document']
@@ -21,7 +21,7 @@ planets=['Mercury','Venus','Earth','Mars','Jupiter','Saturn','Uranus','Neptune']
 files=['scripts-mercury-venus.html','scripts-earth-mars.html','scripts-jupiter-saturn.html','scripts-uranus-neptune.html']
 vo={};epilogue=None
 for filename in files:
- doc=BeautifulSoup((r/filename).read_text(),'html.parser')
+ doc=BeautifulSoup((r/filename).read_text(encoding='utf-8'),'html.parser')
  for m in doc.select('.mission'):
   mid=m.select_one('.mid')
   if mid and re.fullmatch(r'[1-8]-[1-5]',mid.get_text(strip=True)):vo[mid.get_text(strip=True)]=(filename,m)
@@ -105,11 +105,11 @@ for n,mid in enumerate(ids):
  nav.append(BeautifulSoup(f'<a href="{prev}">← '+('Общий сюжет' if n==0 else ids[n-1]+' · '+escape(mission_titles[ids[n-1]]))+f'</a><a href="{nxt}">'+('Solar Crown' if n==39 else ids[n+1]+' · '+escape(mission_titles[ids[n+1]]))+' →</a>','html.parser'))
 aside=s.select_one('.side');aside.clear();aside['class']=['side','document-side','reader-side']
 aside.append(BeautifulSoup('<a class="back-link" href="index.html">← К проекту</a><div class="eyebrow">СЦЕНАРИЙ / ОГЛАВЛЕНИЕ</div><div class="tree-controls"><button type="button" data-tree="open">Раскрыть всё</button><button type="button" data-tree="close">Свернуть</button></div><nav aria-label="Дерево сценария" class="scenario-tree">'+tree+'</nav>','html.parser'))
-(r/'scenario.html').write_text(str(s))
-p=r/'assets/search-index.json';idx=json.loads(p.read_text());idx=[e for e in idx if not e['url'].startswith('scenario.html')];idx+=search;p.write_text(json.dumps(idx,ensure_ascii=False,separators=(',',':')))
+(r/'scenario.html').write_text(str(s),encoding='utf-8')
+p=r/'assets/search-index.json';idx=json.loads(p.read_text(encoding='utf-8'));idx=[e for e in idx if not e['url'].startswith('scenario.html')];idx+=search;p.write_text(json.dumps(idx,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
 # One shared entry on every page, including mobile side menus.
 for p in r.glob('*.html'):
- d=BeautifulSoup(p.read_text(),'html.parser');top=d.select_one('.topnav')
+ d=BeautifulSoup(p.read_text(encoding='utf-8'),'html.parser');top=d.select_one('.topnav')
  if top and not top.select_one('a[href="scenario.html"]'):
   a=d.new_tag('a',href='scenario.html');a.string='Сценарий';top.insert(1,a)
  if p.name=='scenario.html':
@@ -123,5 +123,5 @@ for p in r.glob('*.html'):
   prod=d.find(id='production')
   if not prod.select_one('.read-scenario'):
    a=d.new_tag('a',href='scenario.html',attrs={'class':'read-scenario'});a.string='Читать сценарий целиком: сюжет, 40 миссий и Solar Crown →';prod.select_one('.head').insert_after(a)
- p.write_text(str(d))
+ p.write_text(str(d),encoding='utf-8')
 print('Built scenario: 40 missions,',len(main.select('.scene')),'scenes,',len(main.select('.line')),'dialogue lines;',len(interludes),'interludes')

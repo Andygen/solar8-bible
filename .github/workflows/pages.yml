@@ -24,10 +24,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Rebuild generated ship assets
-        run: |
-          cat assets/ships/mercury-04.b64.a* | tr -d '\n\r' | base64 --decode > assets/ships/mercury-04.png
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
