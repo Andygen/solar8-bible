@@ -13,6 +13,15 @@ Canonical active roster:
 | venus-striker.png | Venus Striker |
 | venus-guard.png | Venus Guard |
 | venus-veil-hunter.png | Veil Hunter |
+| earth-scout.png | Earth Scout |
+| earth-striker.png | Earth Striker |
+| earth-guard.png | Earth Guard |
+| earth-boss-aegis-citadel.png | Aegis Citadel |
+| mars-scout.png | Mars Scout |
+| mars-striker.png | Mars Striker |
+| mars-guard.png | Mars Guard |
+| mars-repair-unit.png | Mars Repair Unit |
+| mars-boss-assembler-prime-phase1.png | Assembler Prime (phase 1 artwork) |
 
 MRC numbers remain optional technical identifiers. Existing anchors and asset paths are retained for compatibility.
 
@@ -23,3 +32,5 @@ The old Venus Boss / Cythera Citadel PNG and generic Guard SVG are preserved in 
 Veil Hunter PNG was copied unchanged from the game export `bible-ships-2026-09-21/new/venus-veil-hunter.png` supplied by the user. Its publication records the current game asset, without asserting a separate prior art approval.
 
 Naming rules and the Guard decoy cue are included in the Mercury/Venus VO source. Existing spoken lines contained no deprecated ship names and are unchanged. The reading edition is rebuilt from sources. These changes update the Bible repository; they do not change game code.
+
+Earth and Mars assets were subsequently imported unchanged from the user's `solar8-earth-ships.zip` and `solar8-mars-ships.zip`. All nine PNGs are 1254 × 1254. The Mars repair unit represents the existing repair mechanic in mission 4-2. The supplied Assembler Prime artwork depicts phase 1 only; phases 2–3 are not included in this asset set. Publishing these visual class cards does not rename the separate tactical variants already described in the campaign production notes.
