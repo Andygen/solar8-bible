@@ -1,55 +1,66 @@
-"""Build the v9 Player Interceptor proposal page from the supplied Markdown.
-Requires BeautifulSoup 4 and Python-Markdown. Does not modify campaign VO.
-"""
-from pathlib import Path
-from html import escape as esc
-import json,re
-import markdown
+"""Build progression and draft transitions. Run before build-scenario.py and build-fleet.py."""
 from bs4 import BeautifulSoup as Soup
-ROOT=Path(__file__).resolve().parents[1]
-source='docs/art-imports/solar8-player-upgrades-v9/UPGRADES-RU.md'
-text=(ROOT/source).read_text(encoding='utf-8')
-media=json.loads((ROOT/'assets/media-imports.json').read_text(encoding='utf-8'))
-assets=[m for m in media if m['archive']=='solar8-player-upgrades-v9']
-stages=[('mercury','Mercury','base'),('venus','Venus','venus-upgrade-concept'),('earth','Earth','earth-upgrade-concept'),('mars','Mars','mars-upgrade-concept'),('jupiter','Jupiter','jupiter-upgrade-concept'),('saturn','Saturn','saturn-upgrade-concept'),('uranus','Uranus','uranus-upgrade-concept'),('neptune','Neptune','neptune-upgrade-concept'),('solar-crown','Solar Crown','solar-crown-upgrade-concept')]
-table=re.search(r'## Этапы\n(.*?)(?=\n## )',text,re.S)[1]
-rows=[[cell.strip() for cell in line.strip().strip('|').split('|')] for line in table.splitlines() if line.startswith('|')][2:]
-assert len(rows)==len(stages)==9
-page=Soup((ROOT/'fleet.html').read_text(encoding='utf-8'),'html.parser')
-page.title.string='SOLAR 8 // Развитие Player Interceptor — концепт v9'
-page.find('meta',attrs={'name':'description'})['content']='Девять концептов развития корабля Andygen: модули, износ и предлагаемые сцены Max. Проект механик и реплик, не готовая реализация.'
-page.body['class']=['fleet-page','upgrades-page']
-page.head.append(Soup('<link rel="stylesheet" href="assets/upgrades.css"/>','html.parser'))
-for a in page.select('.topnav a'):a.attrs.pop('aria-current',None)
-side=page.select_one('.side');side.select_one('.back-link')['href']='fleet.html#player';side.select_one('.back-link').string='← К флоту'
-side.select_one('.eyebrow').string='PLAYER INTERCEPTOR / V9'
-nav=side.nav;nav.clear();nav.append(Soup('<a href="#overview">Развитие корабля</a>','html.parser'))
-content='<section class="fleet-intro" id="overview"><div class="kicker">PLAYER INTERCEPTOR / VERSION 9</div><h1>Один корабль.<br/>Вся кампания.</h1><p>Девять последовательных концептов: новые модули, ремонт и накопленный износ от Mercury до Solar Crown.</p><div class="upgrade-status"><strong>Предложение к сценарию и реализации</strong><p>Механики, численные бонусы и новые реплики ниже — проект. Изображения не означают, что эти возможности уже работают в игре. Текущая карточка Player Interceptor сохранена отдельно.</p></div><p><a href="fleet.html#ship-player-interceptor">Корабль в действующем каталоге ↗</a> · <a href="'+source+'" download>Скачать исходный план v9 ↓</a></p><nav class="fleet-world-links" aria-label="Этапы развития">'+''.join(f'<a href="#stage-{id}">{name} ↘</a>' for id,name,_ in stages)+'</nav></section>'
-for number,((id,name,suffix),row) in enumerate(zip(stages,rows),1):
-    when,chapter,change,benefit,light=row
-    m=next(m for m in assets if m['file']=='player-interceptor-'+suffix+'.png')
-    content+=f'''<section class="upgrade-stage" id="stage-{id}"><div class="fleet-heading"><div><div class="kicker">{number:02d} / КОНЦЕПТ ЭТАПА</div><h2>{name}</h2><p>{esc(when)}</p></div></div><article class="fleet-card fleet-feature"><a class="fleet-art" href="{m['original']}" aria-label="Увеличить: Player Interceptor / {name}"><img src="{m['preview']}" data-full-src="{m['original']}" width="{m['width']}" height="{m['height']}" alt="Player Interceptor — концепт {name}, версия 9" loading="lazy" decoding="async"/><span class="fleet-zoom" aria-hidden="true">↗</span></a><div class="fleet-copy"><h3>{esc(change)}</h3><p><b>Предлагаемая польза:</b> {esc(benefit)}</p><p><b>Освещение:</b> {esc(light)}</p><div class="fleet-actions"><a href="{m['original']}" download>Скачать оригинальный PNG ↓</a></div></div></article></section>'''
-    nav.append(Soup(f'<a href="#stage-{id}">{number:02d} / {name}</a>','html.parser'))
+from html import escape as esc
+import json
+from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from progression import ROOT, DATA, STAGES, paragraphs, scene
 
-titles={'Основной принцип':'principle','Как Max представляет обновление':'hangar-scenes','Цвет и читаемость':'readability','Презентация Neptune — после 7-5, перед 8-1':'neptune-presentation','Презентация Solar Crown — после титров, при открытии эпилога':'crown-presentation','Ревизия 9 — выхлоп и накопленный износ':'revision-nine'}
-for section in re.split(r'(?=^## )',text,flags=re.M):
-    lines=section.splitlines();title=lines[0].removeprefix('## ') if lines else ''
-    if title not in titles:continue
-    body='\n'.join(lines[1:]).strip()
-    body=body.replace('Код игры и сайт не менялись.','').replace('Старые архивы и исходные изображения не перезаписаны. Для передачи использовать 9 PNG из этого архива.','')
-    rendered=Soup(markdown.markdown(body,extensions=['tables','sane_lists','nl2br']),'html.parser')
-    for table_node in rendered.select('table'):
-        wrapper=rendered.new_tag('div',attrs={'class':'table-scroll','role':'region','aria-label':'Таблица износа корабля','tabindex':'0'});table_node.wrap(wrapper)
-    id=titles[title]
-    content+=f'<section class="upgrade-notes" id="{id}"><h2>{esc(title)}</h2>'
-    if id in ['hangar-scenes','neptune-presentation','crown-presentation']:content+='<p class="upgrade-label">Предлагаемые сцены и VO-черновик. В основной сценарий не включены.</p>'
-    content+=str(rendered)+'</section>'
-    nav.append(Soup(f'<a href="#{id}">{esc(title)}</a>','html.parser'))
-footer=page.select_one('main .footer').extract();page.main.clear();page.main.append(Soup(content,'html.parser'));page.main.append(footer)
-footer.select_one('span').string='PLAYER INTERCEPTOR / CONCEPT V9'
-(ROOT/'player-upgrades.html').write_text(str(page),encoding='utf-8')
-idx_path=ROOT/'assets/search-index.json';idx=json.loads(idx_path.read_text(encoding='utf-8'));idx=[e for e in idx if not e['url'].startswith('player-upgrades.html')]
+def parse(text): return Soup(text, 'html.parser')
+def save(path, page): (ROOT/path).write_text(str(page), encoding='utf-8')
+
+page = parse((ROOT/'fleet.html').read_text(encoding='utf-8'))
+page.title.string = 'SOLAR 8 // Player Interceptor — развитие корабля'
+page.select_one('meta[name="description"]')['content'] = 'Один корабль на всю кампанию: девять ангарных стадий, накопленный износ, отражения окружения и предлагаемые сцены Max.'
+page.body['class'] = ['fleet-page','upgrades-page']
+page.head.append(parse('<link rel="stylesheet" href="assets/upgrades.css"/>'))
+for a in page.select('.topnav a'): a.attrs.pop('aria-current',None)
+side=page.select_one('.side');side.select_one('.back-link')['href']='fleet.html#player';side.select_one('.back-link').string='← К флоту'
+side.select_one('.eyebrow').string='PLAYER INTERCEPTOR / РАЗВИТИЕ'
+nav=side.nav;nav.clear()
+content='''<section class="fleet-intro" id="overview"><div class="kicker">PLAYER INTERCEPTOR / РАЗВИТИЕ КОРАБЛЯ</div><h1>Один корабль.<br/>Вся кампания.</h1><div class="upgrade-status"><strong>Задано владельцем проекта</strong><p>Один узнаваемый корабль, накопленные улучшения и износ, презентация нового оборудования Максом.</p><strong>Предложено к реализации</strong><p>Игровые эффекты, параметры сцен и английские реплики — проект. Числовые бонусы пока не определены. Наличие изображений не подтверждает реализацию механик.</p></div><p><a href="fleet.html#ship-player-interceptor">Карточка Player Interceptor ↗</a> · <a href="#hangar-scenes">Межглавные сцены Max ↓</a></p></section>'''
+content+='<section class="upgrade-notes" id="principle"><h2>Один корабль на всю кампанию</h2>'+paragraphs(DATA['principle'])+'</section>'
+content+='''<section class="upgrade-notes" id="stages"><h2>Девять стадий развития</h2><p>Название стадии обозначает планету, к которой корабль подготовлен. Например, версия Jupiter появляется после прохождения Mars.</p><p>Улучшения помогают справляться с условиями следующей главы. Ветер, холод, плазменные стены и солнечные вспышки сохраняют свою роль. Баланс урона, прочности, ёмкости и перезарядки определяется при реализации.</p><p>Ангарные виды — существующие изображения из проекта игры, с локальным свечением сопел без длинного полётного выхлопа. Полётные концепты v9 доступны отдельно в каждой карточке.</p><nav class="fleet-world-links" aria-label="Стадии развития">'''+''.join(f'<a href="#stage-{s["id"]}">{s["name"]} ↘</a>' for s in STAGES)+'</nav></section>'
+for n,s in enumerate(STAGES,1):
+    slug=s['id'];assert (ROOT/s['image']).is_file()
+    suffix='base' if slug=='mercury' else slug+'-upgrade-concept'
+    flight='assets/ships/upgrades/originals/player-interceptor-'+suffix+'.png'
+    transition='' if n==1 else f'<p><a href="scenario.html#upgrade-{slug}">Презентация Max в сценарии ↗</a></p>'
+    content+=f'''<section class="upgrade-stage" id="stage-{slug}"><div class="fleet-heading"><div><div class="kicker">{n:02d} / АНГАРНЫЙ ВИД</div><h2>{s['name']}</h2><p>{esc(s['when'])}</p></div></div><article class="fleet-card fleet-feature"><a class="fleet-art" href="{s['image']}" aria-label="Увеличить ангарный вид: {s['name']}"><img src="{s['image']}" width="{s['width']}" height="{s['height']}" alt="Player Interceptor — {s['name']}, ангарное состояние" loading="lazy" decoding="async"/><span class="fleet-zoom" aria-hidden="true">↗</span></a><div class="fleet-copy"><h3>{esc(s['change'])}</h3><p><b>Предлагаемая роль в игре:</b> {esc(s['benefit'])}</p><p><b>Накопленный износ:</b> {esc(s['wear'])}</p>{transition}<div class="fleet-actions"><a href="{s['image']}" download>Ангарный PNG ↓</a><a href="{flight}" download>Полётный концепт v9 ↓</a></div></div></article></section>'''
+
+def table(headers, rows):
+    return '<div class="table-scroll" role="region" aria-label="'+esc(headers[-1])+'" tabindex="0"><table><thead><tr>'+''.join('<th scope="col">'+esc(h)+'</th>' for h in headers)+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+esc(c)+'</td>' for c in row)+'</tr>' for row in rows)+'</tbody></table></div>'
+
+content+='<section class="upgrade-notes" id="revision-nine"><h2>Накопленный износ</h2>'+paragraphs(DATA['wearIntro'])+table(['Стадия','Состояние старого корпуса'],[(s['name'],s['wear']) for s in STAGES])+paragraphs(DATA['wearNotes'])+'</section>'
+content+='<section class="upgrade-notes" id="readability"><h2>Отражения окружения</h2>'+paragraphs(DATA['lightIntro'])+table(['Локация','Отражённый свет'],[(s['name'],s['light']) for s in STAGES])+paragraphs(DATA['lightNotes'])+'</section>'
+content+='<section class="upgrade-notes" id="engines"><h2>Двигатели и ангарное состояние</h2>'+paragraphs(DATA['engines'])+'</section>'
+content+='<section class="upgrade-notes" id="hangar-scenes"><h2>Как Max представляет улучшение</h2>'+paragraphs(DATA['presentation'])+'<p>Английские реплики — VO-черновик; русский смысл доступен под каждой сценой. Получение улучшения не зависит от просмотра сцены; повторный просмотр не выдаёт награду заново.</p>'+''.join(scene(s,'upgrades') for s in STAGES[1:])+'</section>'
+content+='<section class="upgrade-notes" id="story-links"><h2>Сюжетные связи</h2>'+paragraphs(DATA['story'])+'</section>'
+content+='<span id="neptune-presentation"><a href="#upgrade-neptune">Презентация Neptune ↑</a></span><span id="crown-presentation"><a href="#upgrade-solar-crown">Презентация Solar Crown ↑</a></span>'
+footer=page.select_one('main .footer').extract();page.main.clear();page.main.append(parse(content));page.main.append(footer)
+footer.select_one('span').string='PLAYER INTERCEPTOR / РАЗВИТИЕ КОРАБЛЯ'
 for section in page.select('main > section[id]'):
-    h=section.find(['h1','h2']);idx.append(dict(title=h.get_text(' ',strip=True),page='Player Interceptor / развитие v9 · предложение',url='player-upgrades.html#'+section['id'],text=section.get_text(' ',strip=True)))
-idx_path.write_text(json.dumps(idx,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
-print('Built nine upgrade concepts and proposed hangar scenes; campaign VO unchanged.')
+    h=section.find(['h1','h2']);nav.append(parse(f'<a href="#{section["id"]}">{esc(h.get_text(" ",strip=True))}</a>'))
+save('player-upgrades.html',page)
+
+# Separately labelled proposals preserve every original scene and line.
+for filename in sorted({s['script'] for s in STAGES[1:]}):
+    doc=parse((ROOT/filename).read_text(encoding='utf-8'))
+    for old in doc.select('.upgrade-interlude'):old.decompose()
+    if not doc.select_one('link[href="assets/upgrades.css"]'):doc.head.append(parse('<link rel="stylesheet" href="assets/upgrades.css"/>'))
+    for s in STAGES[1:]:
+        if s['script']!=filename:continue
+        if s['id']=='solar-crown':doc.select('.mission')[-1].insert(0,parse(scene(s,'source')))
+        else:
+            m=next(m for m in doc.select('.mission') if m.select_one('.mid') and m.select_one('.mid').get_text(strip=True)==s['after'])
+            m.append(parse(scene(s,'source')))
+    save(filename,doc)
+
+p=ROOT/'assets/search-index.json';idx=json.loads(p.read_text(encoding='utf-8'))
+idx=[e for e in idx if not e['url'].startswith('player-upgrades.html') and not (e['url'].startswith('scripts-') and '#upgrade-' in e['url'])]
+for section in page.select('main > section[id],.upgrade-interlude'):
+    h=section.find(['h1','h2','h3']);idx.append(dict(title=h.get_text(' ',strip=True),page='Player Interceptor / развитие',url='player-upgrades.html#'+section['id'],text=section.get_text(' ',strip=True)))
+for s in STAGES[1:]:idx.append(dict(title=s['title']+' / VO-черновик',page='Межглавная сцена Max',url=s['script']+'#upgrade-'+s['id'],text=parse(scene(s)).get_text(' ',strip=True)))
+p.write_text(json.dumps(idx,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+print('Built nine hangar stages and eight proposed transitions; original dialogue preserved.')

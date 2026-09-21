@@ -1,0 +1,438 @@
+{
+  "principle": [
+    "Player Interceptor проходит вместе с Andygen путь от Mercury до Neptune и бонусной миссии Solar Crown. После каждой завершённой планеты Max готовит его к следующей: устанавливает новый пакет оборудования, ремонтирует повреждения и коротко объясняет, что изменилось.",
+    "Корабль сохраняет узнаваемую основу: вытянутый нос, стреловидный силуэт, оранжевую ромбовидную кабину, светлую обшивку, синие панели и голубое свечение двигателей. Его история становится видна в конструкции и поверхности — новых модулях, царапинах, сколах и следах ремонта.",
+    "Каждый переход приносит один основной пакет улучшений. Уже установленное оборудование сохраняется. Там, где это оправдано, новый узел заменяет прежний на том же месте: перед Neptune блоки щита становятся четырёхсекционными. На старте у корабля два двигателя; с Jupiter — четыре."
+  ],
+  "wearIntro": [
+    "Каждая следующая стадия выглядит более обжитой. На старом корпусе сохраняются предыдущие повреждения и появляются новые. Max возвращает кораблю работоспособность, при этом мелкие царапины, затёртая краска и аккуратные следы ремонта остаются частью его внешности."
+  ],
+  "wearNotes": [
+    "Новые модули при установке выглядят свежее соседних панелей. Затем они тоже постепенно изнашиваются. Повреждения распределяются неравномерно: больше на кромках, вокруг креплений, сервисных люков и двигателей. Светлая обшивка и синие опознавательные панели остаются читаемыми.",
+    "Этот износ отражает пройденный путь. Текущий запас здоровья в бою отображается отдельно: полностью отремонтированный корабль поздней стадии всё равно сохраняет свои старые царапины."
+  ],
+  "lightIntro": [
+    "Светлые поверхности мягко принимают оттенок текущей планеты. Оранжевая кабина, синие панели и голубое свечение систем сохраняют свои основные цвета."
+  ],
+  "lightNotes": [
+    "При повторном посещении планеты корабль сохраняет накопленные улучшения и износ, а отражения соответствуют текущему окружению. В ангаре внешний вид определяется освещением ангара."
+  ],
+  "engines": [
+    "В полёте выхлоп имеет яркое бело-голубое ядро и узкий неоднородный полупрозрачный шлейф. Его характер остаётся одинаковым на всех стадиях. Установка дополнительных турбин увеличивает число струй; основные двигатели не получают всё более огромные и мультяшные огненные конусы.",
+    "В ангаре используются уже подготовленные отдельные изображения корабля без полётного выхлопа. Допустимы локальные огни сопел и бортовых систем. Масштаб и положение корабля между стадиями должны позволять сравнивать установленные детали."
+  ],
+  "presentation": [
+    "После завершения главы Max показывает обновлённый корабль в ангаре. Короткий акцент на новом оборудовании, две-три реплики и одна понятная строка пользы связывают визуальное изменение с игрой.",
+    "Предлагаемая длительность сцены — 12–18 секунд, с возможностью пропуска. Улучшение выдаётся за прохождение главы независимо от просмотра сцены и сохраняется при следующих посещениях ангара. Повторный просмотр не выдаёт награду заново.",
+    "Перед Neptune сцена сдержанная, без шуток и фанфар: отсутствие ROOK ещё чувствуется. Презентация Solar Crown появляется только после основного финала и открытия бонусной миссии."
+  ],
+  "story": [
+    "Дополнительные турбины перед Jupiter не отменяют спасение Andygen Рексом в 5-3.",
+    "Лазеры корабля перед Uranus не заменяют сканирование ROOK и не предотвращают события 7-5.",
+    "Перед началом Neptune улучшение щита не возвращает голос, анализ и подсказки ROOK. Реплика Max о найденной резервной копии остаётся после 8-1.",
+    "Solar Crown — бонусный эпилог после титров. Основная история завершается на Neptune. Термозащита сохраняет необходимость управлять нагревом и искать безопасные зоны."
+  ],
+  "stages": [
+    {
+      "id": "mercury",
+      "name": "Mercury",
+      "when": "Начало кампании",
+      "change": "Базовый корабль с двумя двигателями",
+      "benefit": "Исходные возможности корабля",
+      "wear": "Лёгкие эксплуатационные потёртости; корабль обслужен и готов к вылету",
+      "light": "Медный и янтарный",
+      "image": "assets/ships/upgrades/hangar/mercury.png",
+      "width": 1254,
+      "height": 1254,
+      "source": "C:\\Users\\mail\\OneDrive\\Work\\solar8\\solar8\\assets\\art\\hangar\\ship.png",
+      "sha256": "33f70e0e5dedc9225938c3ac8ad9e24d218fa27d9572c50fcb1d1f7099ea583a"
+    },
+    {
+      "id": "venus",
+      "name": "Venus",
+      "when": "После Mercury, 1-5",
+      "change": "Защитные керамические накладки, герметизация стыков и разрядники",
+      "benefit": "Устойчивость к кислотной среде и кратким помехам",
+      "wear": "Дополнительные мелкие царапины на носу и крыльях, небольшие сколы кромок",
+      "light": "Мягкое золото и шампанское, слабый оливковый оттенок",
+      "image": "assets/ships/upgrades/hangar/venus.png",
+      "width": 1254,
+      "height": 1254,
+      "source": "C:\\Users\\mail\\OneDrive\\Work\\solar8\\solar8\\assets\\art\\hangar\\ships\\venus.png",
+      "sha256": "95cfd8414c4a1bb0f0cdddbf1ebe6da3798400f135d634965b69d733a1b679b0",
+      "title": "После Mercury → Venus",
+      "after": "1-5",
+      "dialogue": [
+        {
+          "speaker": "MAX",
+          "text": "Sealed the hull. Added discharge fins. Venus will dissolve you a little more slowly now."
+        },
+        {
+          "speaker": "ANDYGEN",
+          "text": "You really know how to reassure a pilot."
+        },
+        {
+          "speaker": "MAX",
+          "text": "That was a specification."
+        }
+      ],
+      "translation": [
+        {
+          "speaker": "MAX",
+          "text": "Обшивку уплотнил, разрядники поставил. Теперь Венера будет растворять тебя чуть медленнее"
+        },
+        {
+          "speaker": "ANDYGEN",
+          "text": "Ты умеешь успокоить"
+        },
+        {
+          "speaker": "MAX",
+          "text": "Это была техническая характеристика"
+        }
+      ],
+      "notes": [
+        "Карточка: «Атмосферная защита» — устойчивее к кислотной среде и кратким помехам."
+      ],
+      "script": "scripts-mercury-venus.html"
+    },
+    {
+      "id": "earth",
+      "name": "Earth",
+      "when": "После Venus, 2-5",
+      "change": "Два блока щита по три секции у корней крыльев",
+      "benefit": "Более быстрое восстановление щита после перерыва в попаданиях",
+      "wear": "Матовые участки покрытия, потёртости синих панелей, первые заметные диагональные царапины",
+      "light": "Холодный голубой, белый и лёгкий сине-зелёный",
+      "image": "assets/ships/upgrades/hangar/earth.png",
+      "width": 1254,
+      "height": 1254,
+      "source": "C:\\Users\\mail\\OneDrive\\Work\\solar8\\solar8\\assets\\art\\hangar\\ships\\earth.png",
+      "sha256": "1f2f642df16a83e25e352bd00d48e00dd4f09797c576832a093882b08a5f6e3f",
+      "title": "После Venus → Earth",
+      "after": "2-5",
+      "dialogue": [
+        {
+          "speaker": "MAX",
+          "text": "Added shield cells. They'll recharge faster between hits."
+        },
+        {
+          "speaker": "ANDYGEN",
+          "text": "And if the hits don't stop?"
+        },
+        {
+          "speaker": "MAX",
+          "text": "Make them stop."
+        }
+      ],
+      "translation": [
+        {
+          "speaker": "MAX",
+          "text": "Добавил секции щита. Между попаданиями он восстановится быстрее"
+        },
+        {
+          "speaker": "ANDYGEN",
+          "text": "А если попадания без перерыва?"
+        },
+        {
+          "speaker": "MAX",
+          "text": "Тогда добавь перерыв"
+        }
+      ],
+      "notes": [
+        "Карточка: «Резерв щита» — быстрее восстановление вне обстрела."
+      ],
+      "script": "scripts-mercury-venus.html"
+    },
+    {
+      "id": "mars",
+      "name": "Mars",
+      "when": "После Earth, 3-5",
+      "change": "Сегментированная броня моторных отсеков и усиленные крепления",
+      "benefit": "Дополнительный запас прочности",
+      "wear": "Выраженные сколы по кромкам, истёртые сервисные панели, небольшие следы ударов",
+      "light": "Терракотовый и красно-медный",
+      "image": "assets/ships/upgrades/hangar/mars.png",
+      "width": 1254,
+      "height": 1254,
+      "source": "C:\\Users\\mail\\OneDrive\\Work\\solar8\\solar8\\assets\\art\\hangar\\ships\\mars.png",
+      "sha256": "2ab4da3112b26eacb276cea222a079b68716f2d049464d2579af5dc563488bd7",
+      "title": "После Earth → Mars",
+      "after": "3-5",
+      "dialogue": [
+        {
+          "speaker": "MAX",
+          "text": "Reinforced the engine bays. On Mars, even the scenery tries to crush you."
+        },
+        {
+          "speaker": "ANDYGEN",
+          "text": "I like an interactive environment."
+        },
+        {
+          "speaker": "MAX",
+          "text": "It likes you too. In pieces."
+        }
+      ],
+      "translation": [
+        {
+          "speaker": "MAX",
+          "text": "Укрепил моторные отсеки. На Марсе даже декорации пытаются тебя раздавить"
+        },
+        {
+          "speaker": "ANDYGEN",
+          "text": "Люблю интерактивную среду"
+        },
+        {
+          "speaker": "MAX",
+          "text": "Она тоже тебя любит. В разобранном виде"
+        }
+      ],
+      "notes": [
+        "Карточка: «Усиленный корпус» — небольшой дополнительный запас прочности."
+      ],
+      "script": "scripts-earth-mars.html"
+    },
+    {
+      "id": "jupiter",
+      "name": "Jupiter",
+      "when": "После Mars, 4-5",
+      "change": "Две дополнительные турбины на векторных креплениях; всего четыре двигателя",
+      "benefit": "Более точная коррекция курса при смене ветра",
+      "wear": "Более глубокие потёртости, повреждения краски на крыльях, следы нагрева старых моторных отсеков",
+      "light": "Кремовый, охристый, медный; холодные блики молний",
+      "image": "assets/ships/upgrades/hangar/jupiter.png",
+      "width": 1254,
+      "height": 1254,
+      "source": "C:\\Users\\mail\\OneDrive\\Work\\solar8\\solar8\\assets\\art\\hangar\\ships\\jupiter.png",
+      "sha256": "260e3af1465a95ab86b8959401a55a2481170dc9c3341abcc42a23bdaedd0347",
+      "title": "После Mars → Jupiter",
+      "after": "4-5",
+      "dialogue": [
+        {
+          "speaker": "MAX",
+          "text": "Added two vector turbines. Catch the wind shift and course corrections get easier."
+        },
+        {
+          "speaker": "ANDYGEN",
+          "text": "What if I fly against it?"
+        },
+        {
+          "speaker": "MAX",
+          "text": "Then you'll find out how much Jupiter weighs."
+        }
+      ],
+      "translation": [
+        {
+          "speaker": "MAX",
+          "text": "Поставил две дополнительные турбины. Поймаешь смену ветра — легче поправишь курс"
+        },
+        {
+          "speaker": "ANDYGEN",
+          "text": "А если полечу против него?"
+        },
+        {
+          "speaker": "MAX",
+          "text": "Тогда проверишь, сколько весит Юпитер"
+        }
+      ],
+      "notes": [
+        "Карточка: «Векторная стабилизация» — точнее коррекция курса в шторме.",
+        "Не исключает спасение Andygen Рексом в 5-3."
+      ],
+      "script": "scripts-earth-mars.html"
+    },
+    {
+      "id": "saturn",
+      "name": "Saturn",
+      "when": "После Jupiter, 5-5",
+      "change": "Две компактные курсовые пушки",
+      "benefit": "Парный огонь вперёд",
+      "wear": "Накопленные сколы и следы воздействия среды; появляются аккуратные ремонтные швы",
+      "light": "Жемчужно-бежевый, бледное золото и ледяные блики",
+      "image": "assets/ships/upgrades/hangar/saturn.png",
+      "width": 1254,
+      "height": 1254,
+      "source": "C:\\Users\\mail\\OneDrive\\Work\\solar8\\solar8\\assets\\art\\hangar\\ships\\saturn.png",
+      "sha256": "716ae0ae72ae15e08ff726d0049c11b541cfe07d194cb7845e4cd84062d3bc1f",
+      "title": "После Jupiter → Saturn",
+      "after": "5-5",
+      "dialogue": [
+        {
+          "speaker": "MAX",
+          "text": "Added two forward cannons. They fire where you're flying."
+        },
+        {
+          "speaker": "ANDYGEN",
+          "text": "What if I'm flying the wrong way?"
+        },
+        {
+          "speaker": "MAX",
+          "text": "Still working on that."
+        }
+      ],
+      "translation": [
+        {
+          "speaker": "MAX",
+          "text": "Добавил две курсовые пушки. Стреляют туда же, куда ты летишь"
+        },
+        {
+          "speaker": "ANDYGEN",
+          "text": "А если я лечу не туда?"
+        },
+        {
+          "speaker": "MAX",
+          "text": "С этим я пока ничего не придумал"
+        }
+      ],
+      "notes": [
+        "Карточка: «Курсовые пушки» — парный огонь вперёд. Баланс урона и скорострельности определить в игре. Не позволяют уничтожать все крупные объекты колец и не обходят механику архива."
+      ],
+      "script": "scripts-jupiter-saturn.html"
+    },
+    {
+      "id": "uranus",
+      "name": "Uranus",
+      "when": "После Saturn, 6-5",
+      "change": "Два лазерных излучателя вдоль внешних кромок крыльев",
+      "benefit": "Короткий направленный импульс с перезарядкой",
+      "wear": "Длинные царапины на крыльях, затёртые крепления и небольшие ремонтные накладки",
+      "light": "Приглушённый бирюзовый и ледяной голубой",
+      "image": "assets/ships/upgrades/hangar/uranus.png",
+      "width": 1254,
+      "height": 1254,
+      "source": "C:\\Users\\mail\\OneDrive\\Work\\solar8\\solar8\\assets\\art\\hangar\\ships\\uranus.png",
+      "sha256": "19994c56b82000b3e1dc6227185517cc6545a61406a8c9b9c7c6c37faf9a0101",
+      "title": "После Saturn → Uranus",
+      "after": "6-5",
+      "dialogue": [
+        {
+          "speaker": "MAX",
+          "text": "Laser emitters are ready. Short pulse, then let them cool."
+        },
+        {
+          "speaker": "ANDYGEN",
+          "text": "And if I don't?"
+        },
+        {
+          "speaker": "MAX",
+          "text": "Then you're soldering the next pair yourself."
+        }
+      ],
+      "translation": [
+        {
+          "speaker": "MAX",
+          "text": "Лазерные излучатели готовы. Короткий импульс, потом дай им остыть"
+        },
+        {
+          "speaker": "ANDYGEN",
+          "text": "А если не дам?"
+        },
+        {
+          "speaker": "MAX",
+          "text": "Тогда следующую пару будешь паять сам"
+        }
+      ],
+      "notes": [
+        "Карточка: «Импульсные лазеры» — краткий направленный выстрел с перезарядкой. Тон спокойный после событий Saturn. Не заменяет сканер ROOK, не раскрывает чужие цели автоматически, не даёт иммунитет к холоду или захвату. Роль лазера как оружия игрока отделена от неутверждённого защитного лазера ROOK."
+      ],
+      "script": "scripts-jupiter-saturn.html"
+    },
+    {
+      "id": "neptune",
+      "name": "Neptune",
+      "when": "После Uranus, 7-5",
+      "change": "Замена прежних блоков щита на четырёхсекционные, усиленные рамы и вспомогательные накопители",
+      "benefit": "Увеличенный аварийный резерв щита",
+      "wear": "Более широкие участки стёртого покрытия, заметный ремонт старой обшивки",
+      "light": "Глубокий синий с умеренным индиго",
+      "image": "assets/ships/upgrades/hangar/neptune.png",
+      "width": 1254,
+      "height": 1254,
+      "source": "C:\\Users\\mail\\OneDrive\\Work\\solar8\\solar8\\assets\\art\\hangar\\ships\\neptune.png",
+      "sha256": "93385ca06c2bd95242bfd548c694178c7ca056069d9ab1f9a3aaaab0bfa43986",
+      "title": "После Uranus → Neptune",
+      "after": "7-5",
+      "dialogue": [
+        {
+          "speaker": "MAX",
+          "text": "Patched the hull. Increased the shield reserve."
+        },
+        {
+          "speaker": "ANDYGEN",
+          "text": "And the docking mount?"
+        },
+        {
+          "speaker": "MAX",
+          "text": "Left it."
+        }
+      ],
+      "translation": [
+        {
+          "speaker": "MAX",
+          "text": "Корпус залатал. Резерв щита увеличил"
+        },
+        {
+          "speaker": "ANDYGEN",
+          "text": "А стыковочный узел?"
+        },
+        {
+          "speaker": "MAX",
+          "text": "Оставил"
+        }
+      ],
+      "notes": [
+        "Карточка: «Аварийный резерв» — дополнительная ёмкость щита.",
+        "Без шуток и фанфар. ROOK отсутствует; его пустой стыковочный узел виден. Max пока не сообщает о backup: открытие резервной копии остаётся после 8-1, как в сценарии. Новый модуль не возвращает анализ, голос, сканер и подсказки ROOK."
+      ],
+      "script": "scripts-uranus-neptune.html"
+    },
+    {
+      "id": "solar-crown",
+      "name": "Solar Crown",
+      "when": "После финала Neptune и титров, при открытии эпилога",
+      "change": "Жаростойкие кромки и два раскрываемых радиатора у кормы",
+      "benefit": "Дополнительный тепловой запас в солнечной короне",
+      "wear": "Наиболее изношенный старый корпус: следы всей кампании рядом со свежей термозащитой",
+      "light": "Бело-золотой и горячий оранжевый по освещённым кромкам",
+      "image": "assets/ships/upgrades/hangar/solar-crown.png",
+      "width": 1254,
+      "height": 1254,
+      "source": "C:\\Users\\mail\\OneDrive\\Work\\solar8\\solar8\\assets\\art\\hangar\\ships\\solar_crown.png",
+      "sha256": "678bd3fa05efbd470c64ac5957e946d65f770472cb4aa32ce0f5bc3a82bd4219",
+      "title": "После Neptune → Solar Crown",
+      "after": "8-5",
+      "dialogue": [
+        {
+          "speaker": "MAX",
+          "text": "Radiators extended. Heat shielding reinforced. Any closer to the Sun, you're walking."
+        },
+        {
+          "speaker": "ANDYGEN",
+          "text": "Is that a recommendation?"
+        },
+        {
+          "speaker": "MAX",
+          "text": "No. A final warning."
+        }
+      ],
+      "translation": [
+        {
+          "speaker": "MAX",
+          "text": "Радиаторы раскрыл, защиту усилил. К Солнцу ближе — только пешком"
+        },
+        {
+          "speaker": "ANDYGEN",
+          "text": "Это рекомендация?"
+        },
+        {
+          "speaker": "MAX",
+          "text": "Нет. Последнее предупреждение"
+        }
+      ],
+      "notes": [
+        "Показывать только после финала и открытия маршрута эпилога.",
+        "Карточка: «Корональная защита» — больше тепловой запас для Solar Crown."
+      ],
+      "script": "scripts-uranus-neptune.html"
+    }
+  ]
+}

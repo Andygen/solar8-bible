@@ -6,6 +6,9 @@ from bs4 import BeautifulSoup
 from copy import deepcopy
 from html import escape
 import json,re
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from progression import STAGES, scene as upgrade_scene
 r=Path(__file__).resolve().parents[1]
 home=BeautifulSoup((r/'index.html').read_text(encoding='utf-8'),'html.parser')
 s=BeautifulSoup((r/'scripts-mercury-venus.html').read_text(encoding='utf-8'),'html.parser')
@@ -16,6 +19,7 @@ meta=s.select_one('meta[name="description"]')
 if not meta:meta=s.new_tag('meta',attrs={'name':'description'});s.head.append(meta)
 meta['content']='Полный сценарий SOLAR 8: общий сюжет, восемь планет, 40 миссий, диалоги и эпилог Solar Crown. Читайте по порядку или выбирайте главу в дереве.'
 s.head.append(s.new_tag('link',rel='stylesheet',href='assets/scenario.css'));s.head.append(s.new_tag('script',src='assets/scenario.js',defer=True))
+if not s.select_one('link[href="assets/upgrades.css"]'):s.head.append(s.new_tag('link',rel='stylesheet',href='assets/upgrades.css'))
 main=s.main;main.clear();main['class']=['wrap','reader']
 planets=['Mercury','Venus','Earth','Mars','Jupiter','Saturn','Uranus','Neptune']
 files=['scripts-mercury-venus.html','scripts-earth-mars.html','scripts-jupiter-saturn.html','scripts-uranus-neptune.html']
@@ -86,6 +90,10 @@ for no,planet in enumerate(planets,1):
   chunk+=''.join(str(clean(p)) for p in body)+'</details>'
   chunk+=f'<div class="dialogue-heading" id="dialogue-{mid}"><h4>Диалоги и сцены</h4><a href="{filename}#{v.h3.get("id")}">Исходный VO ↗</a></div>'+scenes(v)
   for c in interludes.get(mid,[]):chunk+='<aside class="interlude"><div class="kicker">ПОСЛЕ МИССИИ / АНГАР</div>'+prose([c])+'</aside>'
+  for stage in STAGES[1:-1]:
+   if stage['after']==mid:
+    chunk+=upgrade_scene(stage)
+    tree+=f'<a href="#upgrade-{stage["id"]}">Ангар Max → {stage["name"]} · черновик</a>'
   chunk+=f'<nav class="mission-pagination" aria-label="Переходы после миссии {mid}" data-mission="{mid}"></nav></article>'
   search.append({'title':mid+' · '+title,'page':'Сценарий / '+planet,'url':'scenario.html#mission-'+mid,'text':m.get_text(' ',strip=True)+' '+v.get_text(' ',strip=True)})
  chunk+='</section>';html+=chunk;tree+='</div></details>'
@@ -94,7 +102,9 @@ crown_cards=[]
 for title in ['Почти внутри короны']:
  h=home.find('h3',string=title)
  if h:crown_cards.append(h.find_parent('article'))
-crown='<section class="reader-section" id="solar-crown"><div class="kicker">ЭПИЛОГ / ПОСЛЕ ТИТРОВ</div><h2>Solar Crown</h2><p class="reader-lead">Бонусная миссия у самого Солнца. Основная история завершена на Neptune; здесь появляется следующая загадка.</p>'+prose(crown_cards)+'<h3>Координаты происхождения</h3>'+scenes(epilogue)+'<p>Крючок для продолжения. Основной финал остаётся завершённым и без прохождения бонуса.</p><nav class="mission-pagination"><a href="#mission-8-5">← Финал Neptune</a><a href="#overview">К началу ↑</a></nav></section>'
+crown='<section class="reader-section" id="solar-crown"><div class="kicker">ЭПИЛОГ / ПОСЛЕ ТИТРОВ</div><h2>Solar Crown</h2><p class="reader-lead">Бонусная миссия у самого Солнца. Основная история завершена на Neptune; здесь появляется следующая загадка.</p>'+prose(crown_cards)+upgrade_scene(STAGES[-1])+'<h3>Координаты происхождения</h3>'+scenes(epilogue)+'<p>Крючок для продолжения. Основной финал остаётся завершённым и без прохождения бонуса.</p><nav class="mission-pagination"><a href="#mission-8-5">← Финал Neptune</a><a href="#overview">К началу ↑</a></nav></section>'
+for stage in STAGES[1:]:
+ search.append({'title':stage['title']+' / VO-черновик','page':'Сценарий / ангар Max','url':'scenario.html#upgrade-'+stage['id'],'text':BeautifulSoup(upgrade_scene(stage),'html.parser').get_text(' ',strip=True)})
 html+=crown;tree+='<a href="#solar-crown">Solar Crown <small>Эпилог</small></a>'
 search.append({'title':'Solar Crown','page':'Сценарий / эпилог','url':'scenario.html#solar-crown','text':BeautifulSoup(crown,'html.parser').get_text(' ',strip=True)})
 html+='<footer class="footer"><a href="index.html"><img src="assets/solar-logo.svg" alt="SOLAR 8" width="130" height="24"></a><span>СЦЕНАРИЙ / ЧИТАТЕЛЬСКАЯ ВЕРСИЯ</span><a href="#overview">К началу ↑</a></footer>'
