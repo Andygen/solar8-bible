@@ -1,0 +1,51 @@
+[
+  {
+    "file": "solar-front.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "opaque": true
+  },
+  {
+    "file": "solar-three-quarter.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "opaque": true
+  },
+  {
+    "file": "solar-profile-left.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "opaque": true
+  },
+  {
+    "file": "solar-profile-right.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "opaque": true
+  },
+  {
+    "file": "solar-back.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "opaque": true
+  },
+  {
+    "file": "solar-corrupted.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "opaque": true
+  },
+  {
+    "file": "solar-liberated.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB",
+    "opaque": true
+  }
+]

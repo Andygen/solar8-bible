@@ -1,0 +1,450 @@
+[
+  {
+    "archive": "solar8-solar-crown",
+    "file": "solar-crown-alien-seed-clean.png",
+    "original": "assets/ships/solar-crown-alien-seed-clean.png",
+    "preview": "assets/ships/solar-crown-alien-seed-clean.png",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "archive": "solar8-solar-crown",
+    "file": "solar-crown-remnant-stage1.png",
+    "original": "assets/ships/solar-crown-remnant-stage1.png",
+    "preview": "assets/ships/solar-crown-remnant-stage1.png",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "archive": "solar8-solar-crown",
+    "file": "solar-crown-remnant-stage2.png",
+    "original": "assets/ships/solar-crown-remnant-stage2.png",
+    "preview": "assets/ships/solar-crown-remnant-stage2.png",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "archive": "solar8-solar-crown",
+    "file": "solar-crown-remnant-stage3.png",
+    "original": "assets/ships/solar-crown-remnant-stage3.png",
+    "preview": "assets/ships/solar-crown-remnant-stage3.png",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "archive": "solar8-rex-bible",
+    "file": "rex-back.png",
+    "original": "assets/characters/rex/originals/rex-back.png",
+    "preview": "assets/characters/rex/rex-back.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-rex-bible",
+    "file": "rex-front.png",
+    "original": "assets/characters/rex/originals/rex-front.png",
+    "preview": "assets/characters/rex/rex-front.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-rex-bible",
+    "file": "rex-full-body.png",
+    "original": "assets/characters/rex/originals/rex-full-body.png",
+    "preview": "assets/characters/rex/rex-full-body.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-rex-bible",
+    "file": "rex-profile-left.png",
+    "original": "assets/characters/rex/originals/rex-profile-left.png",
+    "preview": "assets/characters/rex/rex-profile-left.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-rex-bible",
+    "file": "rex-profile-right.png",
+    "original": "assets/characters/rex/originals/rex-profile-right.png",
+    "preview": "assets/characters/rex/rex-profile-right.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-rex-bible",
+    "file": "rex-waist-calm.png",
+    "original": "assets/characters/rex/originals/rex-waist-calm.png",
+    "preview": "assets/characters/rex/rex-waist-calm.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-rex-bible",
+    "file": "rex-waist-focused.png",
+    "original": "assets/characters/rex/originals/rex-waist-focused.png",
+    "preview": "assets/characters/rex/rex-waist-focused.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-navarro-bible",
+    "file": "navarro-back.png",
+    "original": "assets/characters/navarro/originals/navarro-back.png",
+    "preview": "assets/characters/navarro/navarro-back.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-navarro-bible",
+    "file": "navarro-front.png",
+    "original": "assets/characters/navarro/originals/navarro-front.png",
+    "preview": "assets/characters/navarro/navarro-front.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-navarro-bible",
+    "file": "navarro-full-body.png",
+    "original": "assets/characters/navarro/originals/navarro-full-body.png",
+    "preview": "assets/characters/navarro/navarro-full-body.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-navarro-bible",
+    "file": "navarro-profile-left.png",
+    "original": "assets/characters/navarro/originals/navarro-profile-left.png",
+    "preview": "assets/characters/navarro/navarro-profile-left.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-navarro-bible",
+    "file": "navarro-profile-right.png",
+    "original": "assets/characters/navarro/originals/navarro-profile-right.png",
+    "preview": "assets/characters/navarro/navarro-profile-right.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-navarro-bible",
+    "file": "navarro-waist-calm.png",
+    "original": "assets/characters/navarro/originals/navarro-waist-calm.png",
+    "preview": "assets/characters/navarro/navarro-waist-calm.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-navarro-bible",
+    "file": "navarro-waist-focused.png",
+    "original": "assets/characters/navarro/originals/navarro-waist-focused.png",
+    "preview": "assets/characters/navarro/navarro-waist-focused.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-yara-bible",
+    "file": "yara-back.png",
+    "original": "assets/characters/yara/originals/yara-back.png",
+    "preview": "assets/characters/yara/yara-back.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-yara-bible",
+    "file": "yara-front.png",
+    "original": "assets/characters/yara/originals/yara-front.png",
+    "preview": "assets/characters/yara/yara-front.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-yara-bible",
+    "file": "yara-full-body.png",
+    "original": "assets/characters/yara/originals/yara-full-body.png",
+    "preview": "assets/characters/yara/yara-full-body.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-yara-bible",
+    "file": "yara-profile-left.png",
+    "original": "assets/characters/yara/originals/yara-profile-left.png",
+    "preview": "assets/characters/yara/yara-profile-left.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-yara-bible",
+    "file": "yara-profile-right.png",
+    "original": "assets/characters/yara/originals/yara-profile-right.png",
+    "preview": "assets/characters/yara/yara-profile-right.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-yara-bible",
+    "file": "yara-waist-calm.png",
+    "original": "assets/characters/yara/originals/yara-waist-calm.png",
+    "preview": "assets/characters/yara/yara-waist-calm.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-yara-bible",
+    "file": "yara-waist-focused.png",
+    "original": "assets/characters/yara/originals/yara-waist-focused.png",
+    "preview": "assets/characters/yara/yara-waist-focused.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-solar-bible",
+    "file": "solar-back.png",
+    "original": "assets/characters/solar/originals/solar-back.png",
+    "preview": "assets/characters/solar/solar-back.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-solar-bible",
+    "file": "solar-corrupted.png",
+    "original": "assets/characters/solar/originals/solar-corrupted.png",
+    "preview": "assets/characters/solar/solar-corrupted.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-solar-bible",
+    "file": "solar-front.png",
+    "original": "assets/characters/solar/originals/solar-front.png",
+    "preview": "assets/characters/solar/solar-front.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-solar-bible",
+    "file": "solar-liberated.png",
+    "original": "assets/characters/solar/originals/solar-liberated.png",
+    "preview": "assets/characters/solar/solar-liberated.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-solar-bible",
+    "file": "solar-profile-left.png",
+    "original": "assets/characters/solar/originals/solar-profile-left.png",
+    "preview": "assets/characters/solar/solar-profile-left.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-solar-bible",
+    "file": "solar-profile-right.png",
+    "original": "assets/characters/solar/originals/solar-profile-right.png",
+    "preview": "assets/characters/solar/solar-profile-right.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-solar-bible",
+    "file": "solar-three-quarter.png",
+    "original": "assets/characters/solar/originals/solar-three-quarter.png",
+    "preview": "assets/characters/solar/solar-three-quarter.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-nova-bible",
+    "file": "nova-corrupted.png",
+    "original": "assets/characters/nova/originals/nova-corrupted.png",
+    "preview": "assets/characters/nova/nova-corrupted.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-nova-bible",
+    "file": "nova-front.png",
+    "original": "assets/characters/nova/originals/nova-front.png",
+    "preview": "assets/characters/nova/nova-front.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-nova-bible",
+    "file": "nova-optic-detail.png",
+    "original": "assets/characters/nova/originals/nova-optic-detail.png",
+    "preview": "assets/characters/nova/nova-optic-detail.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-nova-bible",
+    "file": "nova-three-quarter-left.png",
+    "original": "assets/characters/nova/originals/nova-three-quarter-left.png",
+    "preview": "assets/characters/nova/nova-three-quarter-left.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-nova-bible",
+    "file": "nova-three-quarter-right.png",
+    "original": "assets/characters/nova/originals/nova-three-quarter-right.png",
+    "preview": "assets/characters/nova/nova-three-quarter-right.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-emissary-robed-v2",
+    "file": "emissary-robe-full-back.png",
+    "original": "assets/characters/emissary/originals/emissary-robe-full-back.png",
+    "preview": "assets/characters/emissary/emissary-robe-full-back.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-emissary-robed-v2",
+    "file": "emissary-robe-full-front.png",
+    "original": "assets/characters/emissary/originals/emissary-robe-full-front.png",
+    "preview": "assets/characters/emissary/emissary-robe-full-front.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-emissary-robed-v2",
+    "file": "emissary-robe-waist-front.png",
+    "original": "assets/characters/emissary/originals/emissary-robe-waist-front.png",
+    "preview": "assets/characters/emissary/emissary-robe-waist-front.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-emissary-robed-v2",
+    "file": "emissary-robe-waist-hood.png",
+    "original": "assets/characters/emissary/originals/emissary-robe-waist-hood.png",
+    "preview": "assets/characters/emissary/emissary-robe-waist-hood.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-emissary-robed-v2",
+    "file": "emissary-robe-waist-three-quarter.png",
+    "original": "assets/characters/emissary/originals/emissary-robe-waist-three-quarter.png",
+    "preview": "assets/characters/emissary/emissary-robe-waist-three-quarter.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-rook-mk2-bible",
+    "file": "rook-mk2-back.png",
+    "original": "assets/characters/rook-mk2/originals/rook-mk2-back.png",
+    "preview": "assets/characters/rook-mk2/rook-mk2-back.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-rook-mk2-bible",
+    "file": "rook-mk2-front.png",
+    "original": "assets/characters/rook-mk2/originals/rook-mk2-front.png",
+    "preview": "assets/characters/rook-mk2/rook-mk2-front.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-rook-mk2-bible",
+    "file": "rook-mk2-hero.png",
+    "original": "assets/characters/rook-mk2/originals/rook-mk2-hero.png",
+    "preview": "assets/characters/rook-mk2/rook-mk2-hero.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-rook-mk2-bible",
+    "file": "rook-mk2-repair-detail.png",
+    "original": "assets/characters/rook-mk2/originals/rook-mk2-repair-detail.png",
+    "preview": "assets/characters/rook-mk2/rook-mk2-repair-detail.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-rook-mk2-bible",
+    "file": "rook-mk2-side.png",
+    "original": "assets/characters/rook-mk2/originals/rook-mk2-side.png",
+    "preview": "assets/characters/rook-mk2/rook-mk2-side.webp",
+    "width": 1024,
+    "height": 1536
+  },
+  {
+    "archive": "solar8-player-upgrades-v9",
+    "file": "player-interceptor-base.png",
+    "original": "assets/ships/upgrades/originals/player-interceptor-base.png",
+    "preview": "assets/ships/upgrades/player-interceptor-base.webp",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "archive": "solar8-player-upgrades-v9",
+    "file": "player-interceptor-earth-upgrade-concept.png",
+    "original": "assets/ships/upgrades/originals/player-interceptor-earth-upgrade-concept.png",
+    "preview": "assets/ships/upgrades/player-interceptor-earth-upgrade-concept.webp",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "archive": "solar8-player-upgrades-v9",
+    "file": "player-interceptor-jupiter-upgrade-concept.png",
+    "original": "assets/ships/upgrades/originals/player-interceptor-jupiter-upgrade-concept.png",
+    "preview": "assets/ships/upgrades/player-interceptor-jupiter-upgrade-concept.webp",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "archive": "solar8-player-upgrades-v9",
+    "file": "player-interceptor-mars-upgrade-concept.png",
+    "original": "assets/ships/upgrades/originals/player-interceptor-mars-upgrade-concept.png",
+    "preview": "assets/ships/upgrades/player-interceptor-mars-upgrade-concept.webp",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "archive": "solar8-player-upgrades-v9",
+    "file": "player-interceptor-neptune-upgrade-concept.png",
+    "original": "assets/ships/upgrades/originals/player-interceptor-neptune-upgrade-concept.png",
+    "preview": "assets/ships/upgrades/player-interceptor-neptune-upgrade-concept.webp",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "archive": "solar8-player-upgrades-v9",
+    "file": "player-interceptor-saturn-upgrade-concept.png",
+    "original": "assets/ships/upgrades/originals/player-interceptor-saturn-upgrade-concept.png",
+    "preview": "assets/ships/upgrades/player-interceptor-saturn-upgrade-concept.webp",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "archive": "solar8-player-upgrades-v9",
+    "file": "player-interceptor-solar-crown-upgrade-concept.png",
+    "original": "assets/ships/upgrades/originals/player-interceptor-solar-crown-upgrade-concept.png",
+    "preview": "assets/ships/upgrades/player-interceptor-solar-crown-upgrade-concept.webp",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "archive": "solar8-player-upgrades-v9",
+    "file": "player-interceptor-uranus-upgrade-concept.png",
+    "original": "assets/ships/upgrades/originals/player-interceptor-uranus-upgrade-concept.png",
+    "preview": "assets/ships/upgrades/player-interceptor-uranus-upgrade-concept.webp",
+    "width": 1254,
+    "height": 1254
+  },
+  {
+    "archive": "solar8-player-upgrades-v9",
+    "file": "player-interceptor-venus-upgrade-concept.png",
+    "original": "assets/ships/upgrades/originals/player-interceptor-venus-upgrade-concept.png",
+    "preview": "assets/ships/upgrades/player-interceptor-venus-upgrade-concept.webp",
+    "width": 1254,
+    "height": 1254
+  }
+]

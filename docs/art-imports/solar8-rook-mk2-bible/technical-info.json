@@ -1,0 +1,47 @@
+[
+  {
+    "file": "rook-mk2-hero.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "opaque": true
+  },
+  {
+    "file": "rook-mk2-front.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "opaque": true
+  },
+  {
+    "file": "rook-mk2-back.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "opaque": true
+  },
+  {
+    "file": "rook-mk2-side.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "opaque": true
+  },
+  {
+    "file": "rook-mk2-repair-detail.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "opaque": true
+  }
+]

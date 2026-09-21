@@ -1,0 +1,47 @@
+[
+  {
+    "file": "nova-three-quarter-left.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "opaque": true
+  },
+  {
+    "file": "nova-front.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "opaque": true
+  },
+  {
+    "file": "nova-three-quarter-right.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "opaque": true
+  },
+  {
+    "file": "nova-optic-detail.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "opaque": true
+  },
+  {
+    "file": "nova-corrupted.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "opaque": true
+  }
+]

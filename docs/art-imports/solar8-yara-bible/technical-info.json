@@ -1,0 +1,44 @@
+[
+  {
+    "file": "yara-waist-calm.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  },
+  {
+    "file": "yara-front.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  },
+  {
+    "file": "yara-profile-left.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  },
+  {
+    "file": "yara-profile-right.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  },
+  {
+    "file": "yara-full-body.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  },
+  {
+    "file": "yara-back.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  },
+  {
+    "file": "yara-waist-focused.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  }
+]

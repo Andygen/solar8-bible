@@ -61,7 +61,11 @@
       "archived": false,
       "legacyIds": [
         "entry-94"
-      ]
+      ],
+      "detailLink": {
+        "url": "player-upgrades.html",
+        "label": "Развитие корабля / концепт v9"
+      }
     },
     {
       "id": "mercury-scout",
@@ -611,6 +615,44 @@
           "height": 1254
         }
       ]
+    },
+    {
+      "id": "crown-remnant",
+      "name": "Crown Remnant",
+      "planet": "Solar Crown",
+      "kind": "boss",
+      "description": "Рабочее имя бонусного босса: повреждённый человеческий solar-узел с чужим control-seed внутри. Обгоревший коллектор сохраняет большую часть кольца. Основной финал игры завершён независимо от этой миссии.",
+      "technicalCode": null,
+      "mission": "8-X / эпилог",
+      "phase": "Стадия 1 концепта",
+      "archived": false,
+      "legacyIds": [],
+      "variants": [
+        {
+          "name": "Стадия 2 / разрушенное кольцо",
+          "description": "Значительная часть внешнего кольца утрачена; видны каркас и плазменные каналы.",
+          "image": "assets/ships/solar-crown-remnant-stage2.png",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "name": "Стадия 3 / обнажённое ядро",
+          "description": "Почти один alien-seed, остаток человеческого крепления и локальная плазма.",
+          "image": "assets/ships/solar-crown-remnant-stage3.png",
+          "width": 1254,
+          "height": 1254
+        },
+        {
+          "name": "Чистое ядро / вспомогательный ресурс",
+          "description": "Изолированное ядро без плазмы и обломков. Не новая сюжетная фаза; ресурс для эффектов и композиции.",
+          "image": "assets/ships/solar-crown-alien-seed-clean.png",
+          "width": 1254,
+          "height": 1254
+        }
+      ],
+      "image": "assets/ships/solar-crown-remnant-stage1.png",
+      "width": 1254,
+      "height": 1254
     }
   ],
   "notes": [
@@ -622,5 +664,16 @@
   ],
   "archiveNotes": [
     "Storm Lancer: архивная идея электрического линейного выстрела с предупреждающей световой дорожкой. Не отдельный класс действующего состава; способность не закреплена за текущими кораблями."
+  ],
+  "extras": [
+    {
+      "id": "solar-crown",
+      "name": "Solar Crown",
+      "ru": "Солнечная корона",
+      "tagline": "Бонусная миссия после титров",
+      "homeAnchor": "entry-209",
+      "chapterUrl": "scenario.html#solar-crown",
+      "note": "Три стадии — художественная организация набора, а не утверждённое число игровых фаз. Чистое ядро служит вспомогательным ресурсом. Идентичность этого control-seed и сбежавшего ядра Emissary не установлена."
+    }
   ]
 }

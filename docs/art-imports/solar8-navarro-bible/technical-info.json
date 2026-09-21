@@ -1,0 +1,44 @@
+[
+  {
+    "file": "navarro-back.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  },
+  {
+    "file": "navarro-front.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  },
+  {
+    "file": "navarro-full-body.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  },
+  {
+    "file": "navarro-profile-left.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  },
+  {
+    "file": "navarro-profile-right.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  },
+  {
+    "file": "navarro-waist-calm.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  },
+  {
+    "file": "navarro-waist-focused.png",
+    "width": 1024,
+    "height": 1536,
+    "mode": "RGB"
+  }
+]

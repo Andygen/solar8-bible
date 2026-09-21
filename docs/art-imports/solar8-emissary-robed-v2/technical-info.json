@@ -1,0 +1,47 @@
+[
+  {
+    "file": "emissary-robe-full-front.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "opaque": true
+  },
+  {
+    "file": "emissary-robe-waist-front.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "opaque": true
+  },
+  {
+    "file": "emissary-robe-waist-three-quarter.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "opaque": true
+  },
+  {
+    "file": "emissary-robe-full-back.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "opaque": true
+  },
+  {
+    "file": "emissary-robe-waist-hood.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "opaque": true
+  }
+]
