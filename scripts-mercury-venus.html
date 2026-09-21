@@ -52,7 +52,7 @@ a{color:inherit}.top{position:sticky;top:0;z-index:20;height:70px;display:flex;a
 <div class="line"><div class="speaker">ANDYGEN</div><div class="text">For a broken station, Helios is very committed to killing me.</div></div>
 <div class="line"><div class="speaker">ROOK</div><div class="text">Your ability to inspire commitment remains impressive.</div></div>
 </div>
-<div class="scene"><div class="scene-title">Relay reached / ending</div>
+<div class="scene"><div class="scene-title">Local recorder / tutorial</div><p class="gameplay-note">После десяти волн ROOK физически подлетает к регистратору. Видны сканирующий луч и прогресс; существующий финальный диалог начинается только после завершения чтения.</p><div class="line"><div class="speaker">ROOK <span class="priority p2">P2</span></div><div class="text">Outer relay reached. Moving to the local recorder.</div></div></div><div class="scene"><div class="scene-title">Relay reached / ending</div>
 <div class="line"><div class="speaker">ROOK <span class="priority p2">P2</span></div><div class="text">Relay link established. Downloading local event log.</div></div>
 <div class="line"><div class="speaker">ROOK</div><div class="text">Defense network override detected. Origin: internal.</div></div>
 <div class="line"><div class="speaker">ANDYGEN</div><div class="text">So nobody broke in.</div></div>
@@ -120,7 +120,7 @@ a{color:inherit}.top{position:sticky;top:0;z-index:20;height:70px;display:flex;a
 <div class="line"><div class="speaker">VALE</div><div class="text">We need the command signature intact. Do not flatten the complex.</div></div>
 <div class="line"><div class="speaker">ANDYGEN</div><div class="text">You really know how to take the fun out of a briefing.</div></div>
 </div>
-<div class="scene"><div class="scene-title">Node A</div>
+<div class="scene"><div class="scene-title">Isolated recorder / technical cue</div><p class="gameplay-note">Триггер после отключения защитной части каждого узла A/B/C. ROOK считывает сохранённый изолированный регистратор под угрозой оставшегося патруля. Следующий сектор доступен после считывания и открытия переборки; всё входит в существующий таймер миссии.</p><div class="line"><div class="speaker">ROOK <span class="priority p2">P2</span></div><div class="text">Defense offline. Recovering the isolated node recorder. Cover the readout.</div></div></div><div class="scene"><div class="scene-title">Node A</div>
 <div class="line"><div class="speaker">ROOK <span class="priority p2">P2</span></div><div class="text">Command Node Alpha. Turret control. Destroying it opens the first sector.</div></div>
 </div>
 <div class="scene"><div class="scene-title">Node B</div>
@@ -128,7 +128,7 @@ a{color:inherit}.top{position:sticky;top:0;z-index:20;height:70px;display:flex;a
 <div class="line"><div class="speaker">ROOK</div><div class="text">Your pattern recognition is improving.</div></div>
 <div class="line"><div class="speaker">ANDYGEN</div><div class="text">That's almost praise.</div></div>
 </div>
-<div class="scene"><div class="scene-title">Node C / signature</div>
+<div class="scene"><div class="scene-title">Node C / signature</div><p class="gameplay-note"><b>Игровая ремарка:</b> Реплика о командной подписи звучит только после третьего считывания. Обычное чтение регистратора не подключает ROOK к сети SOLAR.</p>
 <div class="line"><div class="speaker">ROOK</div><div class="text">Command authority recovered. Signature matches SOLAR 8 central network.</div></div>
 <div class="line"><div class="speaker">MAX</div><div class="text">No spoofing?</div></div>
 <div class="line"><div class="speaker">ROOK</div><div class="text">None detected.</div></div>
@@ -183,7 +183,7 @@ a{color:inherit}.top{position:sticky;top:0;z-index:20;height:70px;display:flex;a
 <div class="line"><div class="speaker">ANDYGEN</div><div class="text">I see nothing.</div></div>
 <div class="line"><div class="speaker">ROOK</div><div class="text">That is the current problem.</div></div>
 </div>
-<div class="scene"><div class="scene-title">Decoy reveal</div>
+<div class="scene"><div class="scene-title">Decoy reveal</div><p class="gameplay-note"><b>Игровая ремарка:</b> ROOK анализирует один источник за раз. Три отражения помечаются как ложные только после завершённого анализа, не при появлении врага; уничтожение источника убирает отражения. До результата виден общий сенсорный импульс вокруг ROOK, а не луч к настоящему источнику.</p>
 <div class="line"><div class="speaker">ROOK</div><div class="text">Correction. Three contacts are false.</div></div>
 <div class="line"><div class="speaker">ANDYGEN</div><div class="text">The radar is lying?</div></div>
 <div class="line"><div class="speaker">ROOK</div><div class="text">Someone is lying through the radar.</div></div>
@@ -200,12 +200,12 @@ a{color:inherit}.top{position:sticky;top:0;z-index:20;height:70px;display:flex;a
 <div class="line"><div class="speaker">ANDYGEN</div><div class="text">Any chance she just hates paperwork?</div></div>
 <div class="line"><div class="speaker">VALE</div><div class="text">You'd know.</div></div>
 </div>
-<div class="scene"><div class="scene-title">False beacons</div>
+<div class="scene"><div class="scene-title">Beacon authentication / tutorial</div><p class="gameplay-note">Игрок выбирает маяк и удерживает корабль в его кольце. ROOK подлетает и проверяет выбранный сигнал; уход из кольца отменяет незавершённую проверку. Повторная попытка начинается заново, проверенные маяки повторно не засчитываются.</p><div class="line"><div class="speaker">ROOK <span class="priority p2">P2</span></div><div class="text">Maya's beacon signature: two short pulses, one long. Match ..- and hold inside the ring while I authenticate it.</div></div></div><div class="scene"><div class="scene-title">False beacons</div><p class="gameplay-note"><b>Игровая ремарка:</b> Отказ относится только к маяку, выбранному игроком и проверенному ROOK. Ошибочный маяк учитывается в оценке; ROOK не выбирает правильный автоматически.</p>
 <div class="line"><div class="speaker">ROOK</div><div class="text">Beacon rejected. Signal signature is synthetic.</div></div>
 <div class="line"><div class="speaker">ANDYGEN</div><div class="text">That's the third fake.</div></div>
 <div class="line"><div class="speaker">ROOK</div><div class="text">Fourth. You trusted the first one.</div></div>
 </div>
-<div class="scene"><div class="scene-title">Maya found</div>
+<div class="scene"><div class="scene-title">Maya found</div><p class="gameplay-note"><b>Игровая ремарка:</b> Maya остаётся самостоятельной: к прибытию Andygen она уже почти выбралась сама. Существующий обмен репликами сохранён.</p>
 <div class="line"><div class="speaker">MAYA</div><div class="text">You took your time.</div></div>
 <div class="line"><div class="speaker">ANDYGEN</div><div class="text">I came to rescue you.</div></div>
 <div class="line"><div class="speaker">MAYA</div><div class="text">Then you're about fourteen minutes late.</div></div>
