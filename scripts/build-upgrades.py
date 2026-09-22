@@ -64,3 +64,9 @@ for section in page.select('main > section[id],.upgrade-interlude'):
 for s in STAGES[1:]:idx.append(dict(title=s['title']+' / VO-черновик',page='Межглавная сцена Max',url=s['script']+'#upgrade-'+s['id'],text=parse(scene(s)).get_text(' ',strip=True)))
 p.write_text(json.dumps(idx,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
 print('Built nine hangar stages and eight proposed transitions; original dialogue preserved.')
+
+# Normalize the shared navigation after generating page content.
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from navigation import update_navigation
+update_navigation()

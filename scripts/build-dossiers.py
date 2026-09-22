@@ -98,3 +98,9 @@ for e in search:
 save('index.html',home)
 search_path.write_text(json.dumps(search,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
 print('Built six dossiers, updated roster portraits and ROOK Mk II gallery.')
+
+# Normalize the shared navigation after generating page content.
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from navigation import update_navigation
+update_navigation()

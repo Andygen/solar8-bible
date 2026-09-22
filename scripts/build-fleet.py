@@ -151,3 +151,9 @@ for id in ['overview', 'fleet-rules', 'archive'] + [p['id'] for p in categories]
     index.append({'title': 'Флот' if id == 'overview' else 'Архив концептов' if id == 'archive' else block.find(['h1', 'h2']).get_text(), 'page': 'Флот SOLAR 8', 'url': 'fleet.html#' + id, 'text': block.get_text(' ', strip=True)})
 index_path.write_text(json.dumps(index, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
 print(f'Built fleet: {len(active)} active ships, {len(archive)} archived concepts, {len(data["planets"])} chapter previews.')
+
+# Normalize the shared navigation after generating page content.
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from navigation import update_navigation
+update_navigation()

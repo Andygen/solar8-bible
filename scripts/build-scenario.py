@@ -135,3 +135,9 @@ for p in r.glob('*.html'):
    a=d.new_tag('a',href='scenario.html',attrs={'class':'read-scenario'});a.string='Читать сценарий целиком: сюжет, 40 миссий и Solar Crown →';prod.select_one('.head').insert_after(a)
  p.write_text(str(d),encoding='utf-8')
 print('Built scenario: 40 missions,',len(main.select('.scene')),'scenes,',len(main.select('.line')),'dialogue lines;',len(interludes),'interludes')
+
+# Normalize the shared navigation after generating page content.
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from navigation import update_navigation
+update_navigation()

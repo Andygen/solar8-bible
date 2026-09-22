@@ -15,20 +15,62 @@
   revealHashTarget();
   addEventListener('hashchange', revealHashTarget);
   const side = $('#side'), menu = $('#menu');
+  const mobileNav = matchMedia('(max-width: 960px)');
+  const contentsGroups = $$('.side .contents-group, .side .chapter-tree');
+  contentsGroups.forEach((group, n) => {
+    const key = 'solar8-contents:' + location.pathname + ':' + (group.dataset.navGroup || group.dataset.chapter || n);
+    try { const saved = sessionStorage.getItem(key); if(saved !== null) group.open = saved === 'open'; } catch {}
+    group.addEventListener('toggle', () => { try { sessionStorage.setItem(key, group.open ? 'open' : 'closed'); } catch {} });
+  });
+  function revealContents() {
+    let id; try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
+    const target = document.getElementById(id);
+    if (!target) return;
+    const links = $$('.side nav a[href^="#"]');
+    const link = links.find(a => a.hash.slice(1) === id) || links.find(a => {
+      const dest = document.getElementById(a.hash.slice(1));
+      const section = dest?.tagName === 'SECTION' ? dest : /^H[1-6]$/.test(dest?.tagName || '') ? dest.closest('section') : null;
+      return section?.contains(target);
+    });
+    let node = link?.parentElement;
+    while(node && node !== side) { if(node.tagName === 'DETAILS') node.open = true; node = node.parentElement; }
+  }
+  revealContents(); addEventListener('hashchange', revealContents);
+  const outsideNav = $$('main, body > footer, body > .top');
+  function setNavInert(value) { outsideNav.forEach(el => { el.inert = value; }); }
   function closeNav(returnFocus = false) {
     side?.classList.remove('open'); document.body.classList.remove('nav-open');
-    menu?.setAttribute('aria-expanded', 'false'); menu?.setAttribute('aria-label', 'Открыть оглавление');
+    side?.removeAttribute('role'); side?.removeAttribute('aria-modal');
+    setNavInert(false);
+    menu?.setAttribute('aria-expanded', 'false'); menu?.setAttribute('aria-label', 'Открыть меню');
     if (returnFocus) menu?.focus();
   }
   menu?.addEventListener('click', () => {
     const open = side?.classList.toggle('open'); document.body.classList.toggle('nav-open', !!open);
-    menu.setAttribute('aria-expanded', String(!!open)); menu.setAttribute('aria-label', open ? 'Закрыть оглавление' : 'Открыть оглавление');
-    if (open) side.querySelector('a')?.focus();
+    menu.setAttribute('aria-expanded', String(!!open)); menu.setAttribute('aria-label', open ? 'Закрыть меню' : 'Открыть меню');
+    setNavInert(!!open && mobileNav.matches);
+    if (open) {
+      side.setAttribute('role','dialog'); side.setAttribute('aria-modal','true');
+      setTimeout(() => { if(side.classList.contains('open')) side.querySelector('.contents-close')?.focus(); }, 220);
+    }
   });
+  $('.contents-close')?.addEventListener('click', () => closeNav(true));
   $('.nav-backdrop')?.addEventListener('click', () => closeNav(true));
-  $$('.side a').forEach(a => a.addEventListener('click', () => closeNav()));
+  $$('.side a').forEach(a => a.addEventListener('click', () => {
+    const wasOpen = side?.classList.contains('open'); closeNav();
+    if (wasOpen && a.getAttribute('href').startsWith('#')) {
+      const target = document.getElementById(a.hash.slice(1));
+      if(target) { target.setAttribute('tabindex','-1'); target.focus({preventScroll:true}); }
+    }
+  }));
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape' && side?.classList.contains('open')) closeNav(true);
+    if(e.key === 'Tab' && side?.classList.contains('open')) {
+      const focusable = $$('a,button,summary,[tabindex="0"]', side).filter(el => el.getClientRects().length);
+      const first=focusable[0], last=focusable[focusable.length-1];
+      if(e.shiftKey && document.activeElement===first) {e.preventDefault();last?.focus();}
+      else if(!e.shiftKey && document.activeElement===last) {e.preventDefault();first?.focus();}
+    }
   });
   matchMedia('(min-width: 961px)').addEventListener('change', e => { if(e.matches) closeNav(); });
   // Observe the actual destinations on both the Bible and all dossier pages.
@@ -37,13 +79,22 @@
     entries.forEach(entry => {
       if (!entry.isIntersecting) return;
       navLinks.forEach(a => { const active = a.hash === '#' + entry.target.id; a.classList.toggle('active', active); if(active) a.setAttribute('aria-current','location'); else a.removeAttribute('aria-current'); });
+      contentsGroups.forEach(group => group.classList.toggle('has-current', !!group.querySelector('a[aria-current="location"]')));
     });
   }, { rootMargin: '-10% 0px -65% 0px', threshold: 0 });
   navLinks.forEach(a => { const target = document.getElementById(a.hash.slice(1)); if (target) observer.observe(target); });
   let ticking = false;
+  const homeSections = $$('.bible main > section[id]');
+  const siteLinks = $$('[data-site-section]');
   const updateProgress = () => {
     const height = document.documentElement.scrollHeight - innerHeight;
     $('.reading-progress').style.width = (height > 0 ? Math.min(100, scrollY / height * 100) : 0) + '%'; ticking = false;
+    if(homeSections.length) {
+      let section=homeSections[0];
+      for(const item of homeSections) { if(item.getBoundingClientRect().top <= 140) section=item; else break; }
+      const current=section.id==='characters'?'characters':section.id==='ships'?'fleet':['production','canon','rook-gameplay'].includes(section.id)?'materials':'worlds';
+      siteLinks.forEach(a => { if(a.dataset.siteSection===current) a.setAttribute('aria-current','location'); else a.removeAttribute('aria-current'); });
+    }
   };
   addEventListener('scroll', () => { if (!ticking) { requestAnimationFrame(updateProgress); ticking = true; } }, { passive: true });
   updateProgress();
