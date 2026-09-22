@@ -43,6 +43,13 @@ dialog{color:var(--text);background:#111419;border:1px solid #ffffff28;border-ra
 
 .bible .character.featured-character.character-wide{grid-column:1/-1;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:1fr;align-items:center}.bible .character-wide .copy{padding:clamp(24px,4vw,54px)}
 @media(max-width:620px){.bible .character.featured-character.character-wide{grid-template-columns:1fr;grid-template-rows:auto 1fr}.bible .character-wide .copy{padding:20px}}
+.bible .cast-banner{margin:0 0 32px;border:1px solid #ffffff18;background:#0b0d11;overflow:hidden;border-radius:4px}
+.bible .cast-banner>a{display:block;cursor:zoom-in}
+.bible .cast-banner>a:focus-visible{outline:2px solid var(--orange);outline-offset:-3px}
+.bible .cast-banner img{display:block;width:100%;height:auto}
+.bible .cast-banner figcaption{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px 20px;padding:14px 18px;color:#b6b9bf;font-size:11px;line-height:1.5}
+.bible .cast-banner figcaption span:first-child{color:#e8e9eb;font-weight:600}
+@media(max-width:620px){.bible .cast-banner{margin-bottom:24px}.bible .cast-banner figcaption{padding:12px;font-size:10px}}
 .bible #characters .characters{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;align-items:stretch}
 .bible #characters .roster-card{display:grid;grid-column:auto;grid-template-columns:104px minmax(0,1fr);grid-template-rows:1fr;min-height:196px;align-items:start;text-decoration:none;color:inherit}
 .bible #characters .roster-card .portrait{position:relative;display:flex;width:88px;height:116px;min-height:0;aspect-ratio:auto;margin:16px 0 16px 16px;border-radius:3px;overflow:hidden}

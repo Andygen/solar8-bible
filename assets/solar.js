@@ -145,7 +145,7 @@
     dialog.addEventListener('click', e => { const r=dialog.getBoundingClientRect(); if(e.target===dialog && (e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)) dialog.close(); });
   });
   const imageDialog = $('#image-dialog');
-  $$('.character-page .gallery img, .character-page .zoom img, .character-page .fullconcept img, .character-page .shot img, .character-page .canonical-hero img, .fleet-art img').forEach(img => {
+  $$('.character-page .gallery img, .character-page .zoom img, .character-page .fullconcept img, .character-page .shot img, .character-page .canonical-hero img, .fleet-art img, .cast-banner img').forEach(img => {
     const anchor = img.closest('a');
     if(!anchor) { img.tabIndex = 0; img.setAttribute('role','button'); img.setAttribute('aria-label', 'Увеличить: '+img.alt); }
     function openImage(e) { e.preventDefault(); $('img',imageDialog).src=img.dataset.fullSrc || img.currentSrc || img.src; $('img',imageDialog).alt=img.alt; $('p',imageDialog).textContent=img.alt; imageDialog.showModal(); }
