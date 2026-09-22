@@ -107,7 +107,7 @@ for stage in STAGES[1:]:
  search.append({'title':stage['title']+' / VO-черновик','page':'Сценарий / ангар Max','url':'scenario.html#upgrade-'+stage['id'],'text':BeautifulSoup(upgrade_scene(stage),'html.parser').get_text(' ',strip=True)})
 html+=crown;tree+='<a href="#solar-crown">Solar Crown <small>Эпилог</small></a>'
 search.append({'title':'Solar Crown','page':'Сценарий / эпилог','url':'scenario.html#solar-crown','text':BeautifulSoup(crown,'html.parser').get_text(' ',strip=True)})
-html+='<footer class="footer"><a href="index.html"><img src="assets/solar-logo.svg" alt="SOLAR 8" width="130" height="24"></a><span>СЦЕНАРИЙ / ЧИТАТЕЛЬСКАЯ ВЕРСИЯ</span><a href="#overview">К началу ↑</a></footer>'
+html+='<footer class="footer"><a href="index.html"><img src="assets/solar-logo-polished.png" alt="SOLAR 8" width="2048" height="768"></a><span>СЦЕНАРИЙ / ЧИТАТЕЛЬСКАЯ ВЕРСИЯ</span><a href="#overview">К началу ↑</a></footer>'
 main.append(BeautifulSoup(html,'html.parser'))
 ids=list(mission_titles)
 for n,mid in enumerate(ids):
