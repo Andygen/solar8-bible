@@ -1,5 +1,13 @@
 # Hero spacecraft correction
 
+## Lighting refinement
+
+Current website asset: `assets/helios-orbit-interceptor-lit.png`. Built-in image_gen edit using the corrected ship scene as target and original `helios-orbit.webp` as lighting reference. Earlier versions retained. Reduced hull brightness, blue saturation and cockpit glow; deepened shadows and matched warm sunlight.
+
+Final refinement prompt:
+
+> Local lighting and material correction only. Image 1 is the edit target: current website hero with canonical Player Interceptor. Image 2 is reference ONLY for the original subtle dark cinematic ship lighting, exposure, saturation and photographic realism, NOT ship geometry. Keep image1 spacecraft shape, position, orientation, scale, two engines, orange diamond cockpit, white-and-blue panel layout EXACTLY. The ship currently looks too bright, flat and cartoon-like. Make it physically grounded in this dark backlit scene: lower hull exposure about 1.5 stops, deep charcoal shadows on camera-facing and underside surfaces, off-white armor reads muted warm gray in shadow, greatly reduce blue paint saturation to subdued steel blue, small restrained dim amber cockpit reflection not a glowing orange toy jewel. Warm thin sunlit rim from upper right only, subtle metallic roughness and fine panel texture matching station, gentle highlight rolloff, no flat white fill, no black comic outlines, no cel shading. Engines retain small bright cyan cores but more restrained narrow translucent blue exhaust matching image2. Preserve readability of canonical ship silhouette. Entire surrounding environment must stay unchanged: station, Mercury, sun, stars, camera, dark empty left side, original framing. Do not darken the whole picture, adjust spacecraft and its exhaust only. Photoreal cinematic composite, opaque landscape same aspect ratio as image1. No text.
+
 Edited with built-in image_gen. Target: `assets/helios-orbit.webp`. Exact ship reference: `assets/ships/player-interceptor.png`. Selected output: `assets/helios-orbit-interceptor.png`. Original background retained. Shared CSS uses the corrected scene on desktop, mobile and Mercury document covers.
 
 Final prompt:
