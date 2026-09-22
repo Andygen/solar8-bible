@@ -14,7 +14,7 @@ a{color:inherit}.top{position:sticky;top:0;z-index:20;height:70px;display:flex;a
 <body class="document-page script-page"><a class="skip-link" href="#main-content">Перейти к содержанию</a>
 <header class="top"><a aria-label="SOLAR 8 — главная" class="brand" href="index.html"><img alt="SOLAR 8" height="768" src="assets/solar-logo-polished.png" width="2048"/></a><span class="brand-caption">PROJECT BIBLE</span><nav aria-label="Разделы сайта" class="topnav"><a data-site-section="worlds" href="index.html#campaign">Миры</a><a data-site-section="story" href="scenario.html">Сценарий</a><a data-site-section="fleet" href="fleet.html">Флот</a><a data-site-section="characters" href="index.html#characters">Персонажи</a><a aria-current="page" data-site-section="materials" href="index.html#production">Материалы</a></nav><button aria-haspopup="dialog" class="search-open" type="button"><span aria-hidden="true">⌕</span> Поиск <kbd>⌘ K</kbd></button><button aria-controls="side" aria-expanded="false" aria-label="Открыть меню" class="menu" id="menu" title="Разделы и оглавление" type="button"><span></span><span></span></button></header><aside aria-label="Исходные диалоги" class="side document-side" data-navigation="local" id="side"><a class="back-link" href="scenario.html">← Читать сценарий</a><div class="contents-heading"><div class="eyebrow">Исходные диалоги</div><button aria-label="Закрыть меню" class="contents-close" type="button">×</button></div><div aria-label="Разделы сайта" class="mobile-site-links" role="navigation"><div class="contents-label">Разделы сайта</div><a data-site-section="worlds" href="index.html#campaign">Миры</a><a data-site-section="story" href="scenario.html">Сценарий</a><a data-site-section="fleet" href="fleet.html">Флот</a><a data-site-section="characters" href="index.html#characters">Персонажи</a><a aria-current="page" data-site-section="materials" href="index.html#production">Материалы</a></div><nav aria-label="Исходные диалоги" class="page-contents"><details class="contents-group" data-nav-group="chapter-0"><summary>Глава 3 — Earth<span class="contents-count">07</span></summary><div class="contents-children"><a href="#entry-1">О главе</a><a href="#entry-2">Closed Sky / «Закрытое небо»</a><a href="#entry-3">Evacuation Corridor / «Коридор эвакуации»</a><a href="#entry-4">Dead Orbit / «Мёртвая орбита»</a><a href="#entry-5">Aegis Line / «Линия Aegis»</a><a href="#entry-6">Shield of Earth / «Щит Земли»</a><a href="#upgrade-mars">После Earth → Mars · черновик</a></div></details><details class="contents-group" data-nav-group="chapter-1"><summary>Глава 4 — Mars<span class="contents-count">07</span></summary><div class="contents-children"><a href="#entry-7">О главе</a><a href="#entry-8">Red Line / «Красная линия»</a><a href="#entry-9">Factory Without Shift / «Фабрика без смены»</a><a href="#entry-10">NOVA</a><a href="#entry-11">Foreign Template / «Чужой шаблон»</a><a href="#entry-12">Assembler Prime / «Мегасборщик»</a><a href="#upgrade-jupiter">После Mars → Jupiter · черновик</a></div></details><details class="contents-group" data-nav-group="chapter-2"><summary>Character voice notes<span class="contents-count">01</span></summary><div class="contents-children"><a href="#entry-13">О главе</a></div></details></nav></aside>
 <main class="wrap" id="main-content">
-<section class="hero" data-world="earth"><div aria-hidden="true" class="document-cover"></div>
+<p class="note"><a href="story-rules.html">Правила истории: хронология, заражение, исходы миссий и недостающие материалы →</a></p><section class="hero" data-world="earth"><div aria-hidden="true" class="document-cover"></div>
 <div class="kicker">Dialogue scripts / draft 0.1</div>
 <h1>Earth + Mars<br/>full VO pass</h1>
 <p>Earth усиливает личный конфликт и знакомит с Rex/Cole. Mars превращает загадку в техническое доказательство чужого вмешательства.</p>
@@ -52,7 +52,7 @@ a{color:inherit}.top{position:sticky;top:0;z-index:20;height:70px;display:flex;a
 <div class="line"><div class="speaker">REX</div><div class="text">I'll take high cover. Andygen, stay with the convoy.</div></div>
 <div class="line"><div class="speaker">ANDYGEN</div><div class="text">I was going to say the same thing to you.</div></div>
 </div>
-<div class="scene"><div class="scene-title">Missile lock</div>
+<div class="scene"><div class="scene-title">Missile lock</div><p class="note">Предупреждение о transport two звучит только если второй транспорт существует и действительно захвачен ракетой. Иначе выбрать номер фактической цели.</p>
 <div class="line"><div class="speaker">ROOK <span class="priority p1">P1</span></div><div class="text">Missile lock on transport two.</div></div>
 <div class="line"><div class="speaker">MAYA <span class="priority p2">P2</span></div><div class="text">Frigate launching from twelve o'clock.</div></div>
 </div>
@@ -62,11 +62,11 @@ a{color:inherit}.top{position:sticky;top:0;z-index:20;height:70px;display:flex;a
 <div class="line"><div class="speaker">ANDYGEN</div><div class="text">Or something inside it does.</div></div>
 <div class="line"><div class="speaker">COLE</div><div class="text">Do not anthropomorphize compromised weapons.</div></div>
 </div>
-<div class="scene"><div class="scene-title">Mission end</div>
+<div class="scene"><div class="scene-title">Mission end</div><p class="note">Вариант полного успеха: спасены все три транспорта. При спасении двух использовать альтернативный финал; при одном или нуле — провал, успешный финал не звучит.</p>
 <div class="line"><div class="speaker">MAYA</div><div class="text">All transports clear. No civilian losses.</div></div>
 <div class="line"><div class="speaker">ROOK</div><div class="text">Defense refusal event archived.</div></div>
 </div>
-</article>
+<div class="scene"><div class="scene-title">Mission end / two transports</div><p class="note">Редакция 22.09 / VO-черновик. Только два транспорта спасены. Взаимоисключающий вариант, не проигрывать после финала «No civilian losses».</p><div class="line"><div class="speaker">MAYA</div><div class="text">Two transports clear. We lost the third.</div></div><div class="line"><div class="speaker">ANDYGEN</div><div class="text">Keep the survivors covered.</div></div><div class="line"><div class="speaker">ROOK</div><div class="text">Defense refusal event archived.</div></div></div></article>
 <article class="mission">
 <div class="mh"><div class="mid">3-3</div><div><h3 id="entry-4">Dead Orbit / «Мёртвая орбита»</h3><p>ROOK работает вне корабля, появляется чистый пакет SOLAR.</p></div></div>
 <div class="scene"><div class="scene-title">Start</div>
@@ -96,7 +96,7 @@ a{color:inherit}.top{position:sticky;top:0;z-index:20;height:70px;display:flex;a
 <div class="line"><div class="speaker">COLE</div><div class="text">You're risking pilots to preserve infected hardware.</div></div>
 <div class="line"><div class="speaker">VALE</div><div class="text">I'm risking pilots to understand it.</div></div>
 </div>
-<div class="scene"><div class="scene-title">ROOK infiltration</div>
+<div class="scene"><div class="scene-title">ROOK infiltration</div><p class="note">43 секунды непрерывного сервисного окна на пилон. Реплика Andygen про двадцать секунд — шутка, не изменение таймера. Основной процесс ROOK и автопилот изолированы от сервисного модуля.</p>
 <div class="line"><div class="speaker">ROOK <span class="priority p2">P2</span></div><div class="text">I will require forty-three seconds.</div></div>
 <div class="line"><div class="speaker">ANDYGEN</div><div class="text">You have twenty.</div></div>
 <div class="line"><div class="speaker">ROOK</div><div class="text">Then expect twenty seconds of quality.</div></div>
@@ -174,7 +174,7 @@ a{color:inherit}.top{position:sticky;top:0;z-index:20;height:70px;display:flex;a
 </article>
 <article class="mission">
 <div class="mh"><div class="mid">4-3</div><div><h3 id="entry-10">NOVA</h3><p>Первый ИИ, в котором две личности слышны одновременно.</p></div></div>
-<div class="scene"><div class="scene-title">First contact</div>
+<div class="scene"><div class="scene-title">Service isolation</div><p class="note">Редакция 22.09 / VO-черновик. Перед первым подключением к NOVA.</p><div class="line"><div class="speaker">ROOK</div><div class="text">Service interface isolated. No route to flight control.</div></div><div class="line"><div class="speaker">LENA</div><div class="text">Read the memory partition. Do not execute its commands.</div></div></div><div class="scene"><div class="scene-title">First contact</div>
 <div class="line"><div class="speaker">NOVA</div><div class="text">MARS INDUSTRIAL CONTROL ONLINE. PLEASE— PLEASE COMPLETE INTEGRATION.</div></div>
 <div class="line"><div class="speaker">ANDYGEN</div><div class="text">That sounded healthy.</div></div>
 <div class="line"><div class="speaker">ROOK</div><div class="text">Two command processes are competing for the same core.</div></div>

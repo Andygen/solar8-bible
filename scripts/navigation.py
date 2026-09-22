@@ -17,7 +17,7 @@ def update_navigation():
         page=Soup(path.read_text(encoding='utf-8'),'html.parser');side=page.select_one('.side');top=page.select_one('.topnav')
         if not side or not top:continue
         name=path.name
-        section=('characters' if name.startswith('character-') else 'story' if name=='scenario.html' else 'fleet' if name in ['fleet.html','player-upgrades.html'] else 'materials' if name.startswith(('scripts-','art-briefs')) else 'worlds')
+        section=('characters' if name.startswith('character-') else 'story' if name=='scenario.html' else 'fleet' if name in ['fleet.html','player-upgrades.html'] else 'materials' if name.startswith(('scripts-','art-briefs')) or name=='story-rules.html' else 'worlds')
         top.clear()
         for key,title,url in SECTIONS:
             a=page.new_tag('a',href=url,attrs={'data-site-section':key});a.string=title
@@ -50,6 +50,9 @@ def update_navigation():
             content+=group('stages','Девять стадий',[anchor(url,text) for url,text in links if url.startswith('#stage-')])
             content+=group('principles','Внешний вид и правила',[anchor(url,text) for url,text in links if url in ['#principle','#revision-nine','#readability','#engines']])
             content+=group('story','Презентация и сюжет',[anchor('#hangar-scenes','Сцены Max'),anchor('#story-links','Сюжетные связи')])
+        elif name=='story-rules.html':
+            title='Правила истории';parent=anchor('index.html#production','← К материалам')
+            content=anchor('#overview','Обзор')+''.join(anchor(url,label) for url,label in links if url!='#overview')
         elif name.startswith('scripts-'):
             title='Исходные диалоги';parent=anchor('scenario.html','← Читать сценарий')
             for i,chapter in enumerate(page.select('main > .chapter')):

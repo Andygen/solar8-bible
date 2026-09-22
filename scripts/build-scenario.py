@@ -62,12 +62,14 @@ intro+=prose(home.select('#story .card'))+'</section>'
 html=intro;tree='<a href="#overview">Общий сюжет</a>'
 search=[{'title':'Сценарий','page':'История SOLAR 8','url':'scenario.html#overview','text':BeautifulSoup(intro,'html.parser').get_text(' ',strip=True)}]
 mission_titles={}
-interludes={}
+interludes={};before_interludes={}
 for c in home.select('#production article'):
  k=c.select_one('.kicker')
  if k:
-  match=re.fullmatch(r'AFTER ([1-8]-[1-5])',k.get_text(strip=True))
-  if match:interludes.setdefault(match.group(1),[]).append(c)
+  match=re.fullmatch(r'(AFTER|BEFORE) ([1-8]-[1-5])',k.get_text(strip=True))
+  if match:
+   target=interludes if match.group(1)=='AFTER' else before_interludes
+   target.setdefault(match.group(2),[]).append(c)
 for no,planet in enumerate(planets,1):
  slug=planet.lower();chapter=home.find(id=slug);missions=chapter.select('.missions > .mission');assert len(missions)==5,(slug,len(missions))
  tree+=f'<details class="chapter-tree" data-chapter="{slug}"><summary><span>{planet}</span><small>05</small></summary><div class="tree-children"><a href="#{slug}">О главе</a>'
@@ -83,6 +85,7 @@ for no,planet in enumerate(planets,1):
   mid=m.select_one('.mid').get_text(strip=True);title=m.h3.get_text(' ',strip=True);mission_titles[mid]=title
   tree+=f'<a href="#mission-{mid}"><span>{mid}</span> {escape(title)}</a>'
   filename,v=vo[mid];chunk+=f'<article class="reader-mission" id="mission-{mid}" data-chapter="{slug}"><header><div class="kicker">МИССИЯ {mid}</div><h3>{escape(title)}</h3></header>'
+  for c in before_interludes.get(mid,[]):chunk+='<aside class="interlude"><div class="kicker">ПЕРЕД МИССИЕЙ / БРИФИНГ</div>'+prose([c])+'</aside>'
   for item in m.select('.meta > div'):chunk+='<p class="mission-context">'+item.decode_contents()+'</p>'
   body=m.find_all('p');kind=m.select_one('.kind')
   chunk+='<details class="mission-gameplay"><summary>Действие и механика миссии</summary>'
@@ -95,7 +98,8 @@ for no,planet in enumerate(planets,1):
     chunk+=upgrade_scene(stage)
     tree+=f'<a href="#upgrade-{stage["id"]}">Ангар Max → {stage["name"]} · черновик</a>'
   chunk+=f'<nav class="mission-pagination" aria-label="Переходы после миссии {mid}" data-mission="{mid}"></nav></article>'
-  search.append({'title':mid+' · '+title,'page':'Сценарий / '+planet,'url':'scenario.html#mission-'+mid,'text':m.get_text(' ',strip=True)+' '+v.get_text(' ',strip=True)})
+  surrounding=before_interludes.get(mid,[])+interludes.get(mid,[])
+  search.append({'title':mid+' · '+title,'page':'Сценарий / '+planet,'url':'scenario.html#mission-'+mid,'text':m.get_text(' ',strip=True)+' '+v.get_text(' ',strip=True)+' '+' '.join(c.get_text(' ',strip=True) for c in surrounding)})
  chunk+='</section>';html+=chunk;tree+='</div></details>'
  search.append({'title':planet,'page':'Сценарий / глава '+str(no),'url':'scenario.html#'+slug,'text':chapter_intro+' '+', '.join(mission_titles[f'{no}-{i}'] for i in range(1,6))})
 crown_cards=[]
