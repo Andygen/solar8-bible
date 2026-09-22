@@ -17,11 +17,17 @@
   dialog.setAttribute('aria-labelledby', 'project-update-title');
   dialog.innerHTML = `
     <button class="update-close" aria-label="Закрыть сообщение" type="button">×</button>
-    <h2 id="project-update-title">Ответ по обновлению сайта</h2>
-    <p><strong>Освещение корабля на главной исправлено и опубликовано.</strong> Приглушены яркость корпуса и синий цвет, углублены тени, добавлен тёплый свет по краям. Форма Player Interceptor сохранена.</p>
-    <p><a href="assets/helios-orbit-interceptor-lit.png" target="_blank" rel="noopener">Открыть обновлённую картинку ↗</a></p>
-    <p>Этот временный попап добавлен, чтобы ответ был виден, пока сообщения чата не отображаются. Новый чат для этой правки не нужен — работа уже сохранена на сайте.</p>
-    <p><small>Это вручную размещённое сообщение, не трансляция чата. Его можно снова открыть кнопкой «Ответ по сайту» внизу страницы.</small></p>
+    <h2 id="project-update-title">Как продолжить работу</h2>
+    <p>Сообщения доходят до меня, изменения сайта выполняются. По скриншоту похоже на сбой отображения панели Codex; точная причина пока неизвестна.</p>
+    <ol>
+      <li><strong>Сначала перезагрузи окно:</strong> сохрани открытые файлы, нажми Ctrl+Shift+P, введи <code>Developer: Reload Window</code> и нажми Enter. Затем снова открой этот разговор.</li>
+      <li><strong>Если чат всё ещё пустой:</strong> полностью закрой VS Code и запусти снова.</li>
+      <li><strong>Если не помогло — создай новый чат.</strong> Открой папку сайта через File → Open Folder: <code style="overflow-wrap:anywhere">C:\\Users\\mail\\OneDrive\\Work\\s8bible\\solar8-bible</code>. Это папка Bible, а не игры.</li>
+    </ol>
+    <p>В новом чате отправь:</p>
+    <blockquote style="margin:12px 0;padding:14px;border-left:2px solid #eab47b">Продолжаем SOLAR 8 Bible. Прочитай docs/continue-work.md и проверь git status. Прошлый чат перестал отображать ответы. Кратко сообщи, что понял о текущем состоянии проекта, пока ничего не меняй.</blockquote>
+    <p>Все изменения сайта сохранены в Git и опубликованы. Для нового чата подготовлена памятка; полная история разговора автоматически ему не передаётся. Старый чат удалять не нужно.</p>
+    <p><small>Начать новый короткий чат при зависшем разговоре также рекомендует <a href="https://learn.chatgpt.com/docs/reference/troubleshooting" target="_blank" rel="noopener">официальная документация OpenAI</a>. Порядок с перезагрузкой окна выше — мой первый практический шаг для этого случая.</small></p>
     <button class="update-done" type="button" autofocus>Понятно, посмотреть сайт</button>
   `;
   const opener = document.createElement('button');
@@ -31,7 +37,7 @@
   opener.setAttribute('aria-haspopup', 'dialog');
   opener.setAttribute('aria-controls', dialog.id);
   document.body.append(dialog, opener);
-  const key = 'solar8-update-lighting-seen';
+  const key = 'solar8-update-chat-recovery-seen';
   const close = () => dialog.close();
   dialog.querySelector('.update-close').addEventListener('click', close);
   dialog.querySelector('.update-done').addEventListener('click', close);
