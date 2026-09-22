@@ -1,0 +1,41 @@
+--- a/scripts/missions/helios_assault.gd
++++ b/scripts/missions/helios_assault.gd
+@@ -58,7 +58,7 @@
+             spawn.y = -78.0
+         game._queue_wave(event, i + 1)
+     game.hud.clear_transmissions()
+-    game.hud.show_transmission("ROOK", ["Command Node Alpha. Destroy it to silence the turret and open the sector.", "Shield generator ahead. Destroy Node Beta to strip the patrol shields.", "Node Gamma is calling reinforcements. Break the communication lock."][stage], 2)
++    game.hud.show_transmission("ROOK", ["Command Node Alpha. Disable its defenses, then cover the recorder readout before advancing.", "Shield generator ahead. Destroy Node Beta to strip the patrol shields.", "Node Gamma is calling reinforcements. Break the communication lock."][stage], 2)
+     if stage == 1:
+         game.hud.show_transmission("ANDYGEN", "I'm starting to see a pattern.")
+         game.hud.show_transmission("ROOK", "Your pattern recognition is improving.")
+--- a/scripts/missions/mercury_dialogue.gd
++++ b/scripts/missions/mercury_dialogue.gd
+@@ -72,6 +72,7 @@
+         "SOLAR PROTOCOL\nPHASE ONE COMPLETE\n\nMERCURY NODE - COMPLETE\nVENUS NODE - INITIALIZING",
+         "ANDYGEN\n\nComplete what?",
+         "MAX\n\nI don't know. But Venus just stopped talking.",
++        "ROOK\n\nThis phase marker predates the fight. Destroying Warden only exposed the log.",
+         "VALE\n\nNew heading. Venus.",
+         "CHAPTER 2\n\nVENUS",
+     ],
+--- a/tools/comms_victory_smoke.gd
++++ b/tools/comms_victory_smoke.gd
+@@ -55,9 +55,16 @@
+             game.assault.cleared = true
+         if is_instance_valid(game.relay_readout):
+             game.relay_readout.start()
+-            for frame in range(300):
++            # Approach, local download, return and docking all precede victory.
++            for frame in range(1500):
++                game.relay_readout._process(1.0/60)
+                 game.rook_companion._process(1.0/60)
++                if game.relay_readout.complete:
++                    break
+             check(game.relay_readout.complete, "Relay download did not complete")
++            if not game.relay_readout.complete:
++                quit(1)
++                return
+         var burst := preload("res://scripts/vfx/explosion.gd").new()
+         burst.position = Vector2(360, 400)
+         game.add_child(burst)
