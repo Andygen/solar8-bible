@@ -1,0 +1,7 @@
+# Hero spacecraft correction
+
+Edited with built-in image_gen. Target: `assets/helios-orbit.webp`. Exact ship reference: `assets/ships/player-interceptor.png`. Selected output: `assets/helios-orbit-interceptor.png`. Original background retained. Shared CSS uses the corrected scene on desktop, mobile and Mercury document covers.
+
+Final prompt:
+
+> Precise local image edit. Image 1 is the edit target, existing website hero space scene. Image 2 is the EXACT canonical Player Interceptor design reference. Replace ONLY the small spacecraft in the lower-right quadrant of image 1 with this exact white-and-blue Player Interceptor, realistically seen from above and behind in the SAME position, scale, flight direction and perspective as the old craft. Recognizable elongated pointed central nose, swept arrowhead wings, white armor, saturated blue identification panels, bright orange elongated diamond cockpit visible on dorsal hull, exactly TWO main engines with restrained thin cyan-blue exhaust trails. No new ship design, no four engines or added weapons. Match image1 golden rim lighting and dark cinematic shading but preserve readable blue panels and orange cockpit. Preserve the entire original giant orbital station, Mercury cratered horizon, sun, stars, camera composition and especially empty dark left half for website text. Spacecraft approximately same small size as original, do not make it a large foreground product shot. No text, no logo, no borders. Landscape 16:9 opaque scene, high detail. Keep all environment intact.
