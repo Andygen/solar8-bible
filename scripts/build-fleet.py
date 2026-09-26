@@ -46,6 +46,12 @@ def card(s):
         label += ' · ' + s['phase']
     code = f'<small class="fleet-code">Техническое обозначение: {esc(s["technicalCode"])}</small>' if s['technicalCode'] else ''
     detail_link = f'<a href="{esc(s["detailLink"]["url"])}">{esc(s["detailLink"]["label"])} →</a>' if s.get('detailLink') else ''
+    for mission in s.get('appearances', []):
+        detail_link += f'<a href="scenario.html#mission-{esc(mission)}">Миссия {esc(mission)} →</a>'
+    if s.get('mission') and not s.get('appearances'):
+        import re
+        mid = re.search(r'\b([1-8]-[1-5])\b', s['mission'])
+        if mid: detail_link += f'<a href="scenario.html#mission-{mid[1]}">Сценарий миссии {mid[1]} →</a>'
     variants = ''
     if s.get('variants'):
         variants = '<div class="fleet-variants">'

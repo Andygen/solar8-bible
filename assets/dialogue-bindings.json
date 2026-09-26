@@ -1,0 +1,1558 @@
+{
+  "revision": "2026-09-26-initial",
+  "bindings": [
+    {
+      "page": "index.html",
+      "id": "dlg.mercury_dialogue.rook.001"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.mercury_dialogue.andygen.004"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.mercury_dialogue.rook.005"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.mercury_dialogue.andygen.006"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.mercury_dialogue.rook.028"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.mercury_dialogue.rook.029"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.mercury_dialogue.andygen.030"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.mercury_dialogue.rook.031"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.mercury_dialogue.rook.009"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.mercury_dialogue.andygen.048"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.mercury_dialogue.rook.011"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.mercury_dialogue.andygen.012"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.mercury_dialogue.rook.019"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.mercury_dialogue.andygen.020"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.briefing_dialogues.vale.037"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.helios_assault.rook.003"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.mercury_dialogue.rook.038"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.mercury_dialogue.andygen.041"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.game.rook.005"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.mercury_dialogue.rook.043"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.mercury_dialogue.andygen.044"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.venus_dialogue.rook.001"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.venus_dialogue.andygen.002"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.venus_dialogue.rook.007"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.briefing_dialogues.vale.049"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.lost_signal.maya.006"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.lost_signal.andygen.007"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.lost_signal.maya.008"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.lost_signal.rook.009"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.lost_signal.maya.011"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.acid_front.lena.001"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.acid_front.lena.005"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.acid_front.lena.009"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.acid_front.rook.010"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.acid_front.lena.011"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.atmospheric_citadel.maya.001"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.atmospheric_citadel.andygen.007"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.atmospheric_citadel.maya.008"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.atmospheric_citadel.rook.010"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.atmospheric_citadel.lena.011"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.voice_in_storm.rook.001"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.voice_in_storm.maya.002"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.voice_in_storm.andygen.006"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.voice_in_storm.solar.007"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.voice_in_storm.andygen.008"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.voice_in_storm.rook.009"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.closed_sky.rook.001"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.closed_sky.rex.004"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.closed_sky.andygen.005"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.closed_sky.cole.007"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.closed_sky.vale.008"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.evacuation_corridor.maya.001"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.evacuation_corridor.rook.005"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.evacuation_corridor.rook.007"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.evacuation_corridor.rex.008"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.evacuation_corridor.andygen.009"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.dead_orbit.rook.001"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.dead_orbit.andygen.007"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.dead_orbit.rook.008"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.dead_orbit.rook.004"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.dead_orbit.andygen.005"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.aegis_line.cole.001"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.aegis_line.vale.002"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.aegis_line.rook.005"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.aegis_line.andygen.006"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.aegis_line.rook.007"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.aegis_line.rook.010"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.shield_of_earth.rex.001"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.shield_of_earth.rook.003"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.shield_of_earth.rook.009"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.shield_of_earth.rook.010"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.shield_of_earth.cole.005"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.shield_of_earth.vale.006"
+    },
+    {
+      "page": "index.html",
+      "id": "dlg.shield_of_earth.max.012"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.briefing_dialogues.andygen.026"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.briefing_dialogues.vale.027"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.briefing_dialogues.rook.028"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.rook.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.andygen.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.andygen.004"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.rook.005"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.andygen.006"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.rook.007"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.rook.028"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.rook.029"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.andygen.030"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.rook.031"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.vale.032"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.rook.009"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.andygen.048"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.rook.010"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.rook.011"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.andygen.012"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.rook.013"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.andygen.049"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.rook.014"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.max.033"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.andygen.034"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.max.035"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.andygen.017"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.rook.019"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.andygen.020"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.max.022"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.max.023"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.andygen.024"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.vale.036"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.briefing_dialogues.vale.037"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.briefing_dialogues.andygen.038"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.helios_assault.rook.004"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.helios_assault.rook.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.rook.038"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.max.039"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.rook.040"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.andygen.041"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.rook.025"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.andygen.026"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.rook.027"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.game.andygen.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.game.rook.005"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.game.max.006"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.rook.043"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.andygen.044"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.max.045"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mercury_dialogue.vale.047"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.venus_dialogue.rook.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.venus_dialogue.andygen.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.venus_dialogue.rook.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.venus_enemy.andygen.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.venus_enemy.rook.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.venus_dialogue.rook.007"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.briefing_dialogues.vale.049"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.briefing_dialogues.andygen.050"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.briefing_dialogues.vale.051"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.lost_signal.rook.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.lost_signal.maya.006"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.lost_signal.andygen.007"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.lost_signal.maya.008"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.lost_signal.rook.009"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.lost_signal.maya.010"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.lost_signal.maya.011"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.lost_signal.rook.012"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.acid_front.lena.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.acid_front.lena.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.acid_front.lena.005"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.acid_front.max.006"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.acid_front.lena.007"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.acid_front.max.013"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.acid_front.lena.009"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.acid_front.rook.010"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.acid_front.lena.011"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.acid_front.max.012"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.atmospheric_citadel.maya.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.atmospheric_citadel.andygen.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.atmospheric_citadel.maya.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.atmospheric_citadel.andygen.007"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.atmospheric_citadel.maya.008"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.atmospheric_citadel.rook.010"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.atmospheric_citadel.lena.011"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.atmospheric_citadel.vale.012"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.atmospheric_citadel.lena.013"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.voice_in_storm.rook.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.voice_in_storm.maya.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.voice_in_storm.andygen.015"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.voice_in_storm.maya.005"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.voice_in_storm.andygen.006"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.voice_in_storm.solar.007"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.voice_in_storm.andygen.008"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.voice_in_storm.rook.009"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.voice_in_storm.maya.010"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.voice_in_storm.rook.011"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.voice_in_storm.vale.012"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.voice_in_storm.andygen.013"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.voice_in_storm.vale.014"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.closed_sky.rook.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.closed_sky.andygen.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.closed_sky.rook.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.closed_sky.rex.004"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.closed_sky.andygen.005"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.closed_sky.rex.006"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.closed_sky.cole.007"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.closed_sky.vale.008"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.closed_sky.cole.009"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.closed_sky.rex.010"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.closed_sky.andygen.011"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.evacuation_corridor.maya.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.evacuation_corridor.rex.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.evacuation_corridor.andygen.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.evacuation_corridor.rook.005"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.evacuation_corridor.maya.006"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.evacuation_corridor.rook.007"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.evacuation_corridor.rex.008"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.evacuation_corridor.andygen.009"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.evacuation_corridor.cole.010"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.evacuation_corridor.maya.011"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.evacuation_corridor.rook.012"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.evacuation_corridor.rook.014"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.dead_orbit.rook.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.dead_orbit.andygen.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.dead_orbit.rook.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.dead_orbit.andygen.007"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.dead_orbit.rook.008"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.dead_orbit.rook.004"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.dead_orbit.andygen.005"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.dead_orbit.lena.006"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.dead_orbit.cole.011"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.dead_orbit.vale.012"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.aegis_line.cole.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.aegis_line.vale.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.aegis_line.cole.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.aegis_line.vale.004"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.aegis_line.rook.005"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.aegis_line.andygen.006"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.aegis_line.rook.007"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.aegis_line.rex.008"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.aegis_line.rook.010"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.aegis_line.max.011"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.shield_of_earth.rex.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.shield_of_earth.andygen.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.shield_of_earth.rook.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.shield_of_earth.rex.004"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.shield_of_earth.rook.009"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.shield_of_earth.rook.010"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.shield_of_earth.cole.014"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.shield_of_earth.lena.011"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.shield_of_earth.cole.005"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.shield_of_earth.vale.006"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.shield_of_earth.andygen.007"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.shield_of_earth.max.012"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.shield_of_earth.andygen.013"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.red_line.max.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.red_line.andygen.008"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.red_line.max.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.red_line.rook.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.red_line.max.005"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.red_line.andygen.006"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.red_line.max.007"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.closed_sky.rook.001"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.closed_sky.andygen.002"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.closed_sky.rook.003"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.closed_sky.rex.004"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.closed_sky.andygen.005"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.closed_sky.rex.006"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.closed_sky.cole.007"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.closed_sky.vale.008"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.closed_sky.cole.009"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.closed_sky.rex.010"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.closed_sky.andygen.011"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.evacuation_corridor.maya.001"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.evacuation_corridor.rex.002"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.evacuation_corridor.andygen.003"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.evacuation_corridor.rook.007"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.evacuation_corridor.rex.008"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.evacuation_corridor.andygen.009"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.evacuation_corridor.cole.010"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.evacuation_corridor.maya.011"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.evacuation_corridor.rook.012"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.evacuation_corridor.rook.014"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.dead_orbit.rook.001"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.dead_orbit.andygen.002"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.dead_orbit.rook.003"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.dead_orbit.andygen.007"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.dead_orbit.rook.008"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.dead_orbit.rook.004"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.dead_orbit.andygen.005"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.dead_orbit.lena.006"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.dead_orbit.cole.011"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.dead_orbit.vale.012"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.aegis_line.cole.001"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.aegis_line.vale.002"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.aegis_line.cole.003"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.aegis_line.vale.004"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.aegis_line.andygen.006"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.aegis_line.rook.007"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.aegis_line.rex.008"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.aegis_line.rook.010"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.aegis_line.max.011"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.shield_of_earth.rex.001"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.shield_of_earth.andygen.002"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.shield_of_earth.rex.004"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.shield_of_earth.rook.009"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.shield_of_earth.rook.010"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.shield_of_earth.cole.014"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.shield_of_earth.lena.011"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.shield_of_earth.cole.005"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.shield_of_earth.vale.006"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.shield_of_earth.andygen.007"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.shield_of_earth.max.012"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.shield_of_earth.andygen.013"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.red_line.max.001"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.red_line.andygen.008"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.red_line.max.002"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.red_line.max.005"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.red_line.andygen.006"
+    },
+    {
+      "page": "scripts-earth-mars.html",
+      "id": "dlg.red_line.max.007"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.briefing_dialogues.andygen.026"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.briefing_dialogues.vale.027"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.briefing_dialogues.rook.028"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.rook.001"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.andygen.002"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.andygen.004"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.rook.005"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.andygen.006"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.rook.007"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.rook.029"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.andygen.030"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.rook.031"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.vale.032"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.rook.009"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.andygen.048"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.rook.010"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.andygen.012"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.rook.013"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.andygen.049"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.rook.014"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.max.033"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.andygen.034"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.max.035"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.andygen.017"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.rook.019"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.andygen.020"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.max.022"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.max.023"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.andygen.024"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.vale.036"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.briefing_dialogues.vale.037"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.briefing_dialogues.andygen.038"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.helios_assault.rook.003"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.rook.038"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.max.039"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.rook.040"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.andygen.041"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.rook.025"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.andygen.026"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.rook.027"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.game.andygen.003"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.game.max.006"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.rook.043"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.andygen.044"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.max.045"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.mercury_dialogue.vale.047"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.venus_dialogue.rook.001"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.venus_dialogue.andygen.002"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.venus_dialogue.rook.003"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.venus_enemy.andygen.002"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.venus_enemy.rook.003"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.venus_dialogue.rook.007"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.briefing_dialogues.vale.049"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.briefing_dialogues.andygen.050"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.briefing_dialogues.vale.051"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.lost_signal.maya.006"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.lost_signal.andygen.007"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.lost_signal.maya.008"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.lost_signal.rook.009"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.lost_signal.maya.010"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.lost_signal.maya.011"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.lost_signal.rook.012"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.acid_front.lena.001"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.acid_front.lena.003"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.acid_front.lena.005"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.acid_front.max.006"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.acid_front.lena.007"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.acid_front.max.013"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.acid_front.lena.009"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.acid_front.rook.010"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.acid_front.lena.011"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.acid_front.max.012"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.atmospheric_citadel.maya.001"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.atmospheric_citadel.andygen.002"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.atmospheric_citadel.maya.003"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.atmospheric_citadel.andygen.007"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.atmospheric_citadel.maya.008"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.atmospheric_citadel.rook.010"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.atmospheric_citadel.lena.011"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.atmospheric_citadel.vale.012"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.atmospheric_citadel.lena.013"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.voice_in_storm.rook.001"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.voice_in_storm.maya.002"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.voice_in_storm.andygen.015"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.voice_in_storm.maya.005"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.voice_in_storm.andygen.006"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.voice_in_storm.solar.007"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.voice_in_storm.andygen.008"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.voice_in_storm.rook.009"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.voice_in_storm.maya.010"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.voice_in_storm.rook.011"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.voice_in_storm.vale.012"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.voice_in_storm.andygen.013"
+    },
+    {
+      "page": "scripts-mercury-venus.html",
+      "id": "dlg.voice_in_storm.vale.014"
+    }
+  ],
+  "ambiguous": []
+}

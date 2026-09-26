@@ -1,0 +1,14 @@
+(() => {
+  const q=document.querySelector('#dialogue-query'),mission=document.querySelector('#dialogue-mission'),speaker=document.querySelector('#dialogue-speaker'),relationship=document.querySelector('#dialogue-relationship'),rows=document.querySelector('#dialogue-rows'),status=document.querySelector('#dialogue-status'),retry=document.querySelector('#dialogue-retry');
+  let data;
+  const element=(tag,text)=>{const el=document.createElement(tag);el.textContent=text;return el;};
+  function render(){
+    if(!data)return;rows.replaceChildren();const words=q.value.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
+    const found=data.entries.filter(e=>(!mission.value||(e.mission||e.context)===mission.value)&&(!speaker.value||e.speaker===speaker.value)&&(!relationship.value||e.relationship===relationship.value)&&words.every(w=>[e.id,e.mission,e.context,e.speaker,e.en,e.ru].join(' ').toLocaleLowerCase().includes(w)));
+    status.textContent=`${found.length} из ${data.entries.length} реплик · версия ${data.revision}`;
+    for(const e of found){const a=element('article','');a.className='dialogue-row';a.id=e.id;const title=element('h3',`${e.mission||e.context} · ${e.speaker}`),link=element('a',e.id);link.href='#'+e.id;const code=element('code','');code.append(link);const meta=element('small',`${e.relationship==='verbatim_en'?'EN совпадает со сценарием':'Игровая адаптация'} · ${e.context} / ${e.trigger} · запись ${e.order}`),pair=element('div','');pair.className='dialogue-pair';for(const lang of ['ru','en']){const block=element('div','');const p=element('p',e[lang]);p.lang=lang;block.append(element('strong',lang.toUpperCase()),p);pair.append(block);}a.append(title,code,meta,pair);rows.append(a);}
+  }
+  function reveal(){if(!data)return;let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}if(!data.entries.some(e=>e.id===id))return;q.value='';mission.value='';speaker.value='';relationship.value='';render();document.getElementById(id)?.scrollIntoView();}
+  async function load(){retry.hidden=true;status.textContent='Загрузка общего JSON…';try{const r=await fetch('assets/dialogues.json',{cache:'no-cache'});if(!r.ok)throw Error(r.status);data=await r.json();for(const [select,values] of [[mission,[...new Set(data.entries.map(e=>e.mission||e.context))].sort()],[speaker,data.speakers]]){while(select.options.length>1)select.remove(1);for(const value of values){const o=element('option',value);o.value=value;select.append(o);}}render();reveal();}catch{status.textContent='Не удалось загрузить JSON. Повторите попытку или скачайте файл.';retry.hidden=false;}}
+  q.addEventListener('input',render);for(const select of [mission,speaker,relationship])select.addEventListener('change',render);addEventListener('hashchange',reveal);retry.addEventListener('click',load);load();
+})();

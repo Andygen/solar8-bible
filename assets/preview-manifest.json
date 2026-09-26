@@ -1,0 +1,2711 @@
+{
+  "assets/bosses/jupiter-boss-tempest-crown-phase2.png": {
+    "sha256": "35abe020ee28",
+    "original_bytes": 1091515,
+    "variants": [
+      {
+        "file": "assets/previews/jupiter-boss-tempest-crown-phase2-35abe020ee28-m4-320.webp",
+        "width": 320,
+        "bytes": 20084
+      },
+      {
+        "file": "assets/previews/jupiter-boss-tempest-crown-phase2-35abe020ee28-m4-640.webp",
+        "width": 640,
+        "bytes": 62062
+      },
+      {
+        "file": "assets/previews/jupiter-boss-tempest-crown-phase2-35abe020ee28-m4-960.webp",
+        "width": 960,
+        "bytes": 125470
+      }
+    ]
+  },
+  "assets/bosses/jupiter-boss-tempest-crown-phase3.png": {
+    "sha256": "16ddd29a020c",
+    "original_bytes": 1285736,
+    "variants": [
+      {
+        "file": "assets/previews/jupiter-boss-tempest-crown-phase3-16ddd29a020c-m4-320.webp",
+        "width": 320,
+        "bytes": 26476
+      },
+      {
+        "file": "assets/previews/jupiter-boss-tempest-crown-phase3-16ddd29a020c-m4-640.webp",
+        "width": 640,
+        "bytes": 82936
+      },
+      {
+        "file": "assets/previews/jupiter-boss-tempest-crown-phase3-16ddd29a020c-m4-960.webp",
+        "width": 960,
+        "bytes": 166968
+      }
+    ]
+  },
+  "assets/bosses/mars-boss-assembler-prime-phase2.png": {
+    "sha256": "48d46caff41c",
+    "original_bytes": 2657050,
+    "variants": [
+      {
+        "file": "assets/previews/mars-boss-assembler-prime-phase2-48d46caff41c-m4-320.webp",
+        "width": 320,
+        "bytes": 48346
+      },
+      {
+        "file": "assets/previews/mars-boss-assembler-prime-phase2-48d46caff41c-m4-640.webp",
+        "width": 640,
+        "bytes": 153078
+      },
+      {
+        "file": "assets/previews/mars-boss-assembler-prime-phase2-48d46caff41c-m4-960.webp",
+        "width": 960,
+        "bytes": 308894
+      }
+    ]
+  },
+  "assets/bosses/mars-boss-assembler-prime-phase3.png": {
+    "sha256": "1d2451b5c504",
+    "original_bytes": 2688334,
+    "variants": [
+      {
+        "file": "assets/previews/mars-boss-assembler-prime-phase3-1d2451b5c504-m4-320.webp",
+        "width": 320,
+        "bytes": 49418
+      },
+      {
+        "file": "assets/previews/mars-boss-assembler-prime-phase3-1d2451b5c504-m4-640.webp",
+        "width": 640,
+        "bytes": 154966
+      },
+      {
+        "file": "assets/previews/mars-boss-assembler-prime-phase3-1d2451b5c504-m4-960.webp",
+        "width": 960,
+        "bytes": 310020
+      }
+    ]
+  },
+  "assets/bosses/saturn-boss-mnemosyne-sentinel-phase2.png": {
+    "sha256": "1f64fb4abee0",
+    "original_bytes": 2207407,
+    "variants": [
+      {
+        "file": "assets/previews/saturn-boss-mnemosyne-sentinel-phase2-1f64fb4abee0-m4-320.webp",
+        "width": 320,
+        "bytes": 43630
+      },
+      {
+        "file": "assets/previews/saturn-boss-mnemosyne-sentinel-phase2-1f64fb4abee0-m4-640.webp",
+        "width": 640,
+        "bytes": 134192
+      },
+      {
+        "file": "assets/previews/saturn-boss-mnemosyne-sentinel-phase2-1f64fb4abee0-m4-960.webp",
+        "width": 960,
+        "bytes": 274920
+      }
+    ]
+  },
+  "assets/bosses/saturn-boss-mnemosyne-sentinel-phase3.png": {
+    "sha256": "4174b51c1afb",
+    "original_bytes": 2037570,
+    "variants": [
+      {
+        "file": "assets/previews/saturn-boss-mnemosyne-sentinel-phase3-4174b51c1afb-m4-320.webp",
+        "width": 320,
+        "bytes": 35126
+      },
+      {
+        "file": "assets/previews/saturn-boss-mnemosyne-sentinel-phase3-4174b51c1afb-m4-640.webp",
+        "width": 640,
+        "bytes": 117152
+      },
+      {
+        "file": "assets/previews/saturn-boss-mnemosyne-sentinel-phase3-4174b51c1afb-m4-960.webp",
+        "width": 960,
+        "bytes": 243606
+      }
+    ]
+  },
+  "assets/bosses/uranus-boss-null-vessel-phase2.png": {
+    "sha256": "9e5e0e6f519f",
+    "original_bytes": 621167,
+    "variants": [
+      {
+        "file": "assets/previews/uranus-boss-null-vessel-phase2-9e5e0e6f519f-m4-320.webp",
+        "width": 320,
+        "bytes": 16362
+      },
+      {
+        "file": "assets/previews/uranus-boss-null-vessel-phase2-9e5e0e6f519f-m4-640.webp",
+        "width": 640,
+        "bytes": 41816
+      },
+      {
+        "file": "assets/previews/uranus-boss-null-vessel-phase2-9e5e0e6f519f-m4-960.webp",
+        "width": 960,
+        "bytes": 77672
+      }
+    ]
+  },
+  "assets/bosses/uranus-boss-null-vessel-phase3.png": {
+    "sha256": "68d17424334d",
+    "original_bytes": 648916,
+    "variants": [
+      {
+        "file": "assets/previews/uranus-boss-null-vessel-phase3-68d17424334d-m4-320.webp",
+        "width": 320,
+        "bytes": 17762
+      },
+      {
+        "file": "assets/previews/uranus-boss-null-vessel-phase3-68d17424334d-m4-640.webp",
+        "width": 640,
+        "bytes": 45110
+      },
+      {
+        "file": "assets/previews/uranus-boss-null-vessel-phase3-68d17424334d-m4-960.webp",
+        "width": 960,
+        "bytes": 82990
+      }
+    ]
+  },
+  "assets/characters/emissary/originals/emissary-robe-full-back.png": {
+    "sha256": "f292526714b4",
+    "original_bytes": 1774064,
+    "variants": [
+      {
+        "file": "assets/previews/emissary-robe-full-back-f292526714b4-m4-320.webp",
+        "width": 213,
+        "bytes": 3946
+      },
+      {
+        "file": "assets/previews/emissary-robe-full-back-f292526714b4-m4-640.webp",
+        "width": 427,
+        "bytes": 11558
+      },
+      {
+        "file": "assets/previews/emissary-robe-full-back-f292526714b4-m4-960.webp",
+        "width": 640,
+        "bytes": 23626
+      }
+    ]
+  },
+  "assets/characters/emissary/originals/emissary-robe-full-front.png": {
+    "sha256": "991abd687d17",
+    "original_bytes": 1884927,
+    "variants": [
+      {
+        "file": "assets/previews/emissary-robe-full-front-991abd687d17-m4-320.webp",
+        "width": 213,
+        "bytes": 4182
+      },
+      {
+        "file": "assets/previews/emissary-robe-full-front-991abd687d17-m4-640.webp",
+        "width": 427,
+        "bytes": 12708
+      },
+      {
+        "file": "assets/previews/emissary-robe-full-front-991abd687d17-m4-960.webp",
+        "width": 640,
+        "bytes": 24972
+      }
+    ]
+  },
+  "assets/characters/emissary/originals/emissary-robe-waist-front.png": {
+    "sha256": "846fe573671a",
+    "original_bytes": 2040191,
+    "variants": [
+      {
+        "file": "assets/previews/emissary-robe-waist-front-846fe573671a-m4-320.webp",
+        "width": 213,
+        "bytes": 5828
+      },
+      {
+        "file": "assets/previews/emissary-robe-waist-front-846fe573671a-m4-640.webp",
+        "width": 427,
+        "bytes": 16174
+      },
+      {
+        "file": "assets/previews/emissary-robe-waist-front-846fe573671a-m4-960.webp",
+        "width": 640,
+        "bytes": 33134
+      }
+    ]
+  },
+  "assets/characters/emissary/originals/emissary-robe-waist-hood.png": {
+    "sha256": "38e77c33b30d",
+    "original_bytes": 1933640,
+    "variants": [
+      {
+        "file": "assets/previews/emissary-robe-waist-hood-38e77c33b30d-m4-320.webp",
+        "width": 213,
+        "bytes": 5406
+      },
+      {
+        "file": "assets/previews/emissary-robe-waist-hood-38e77c33b30d-m4-640.webp",
+        "width": 427,
+        "bytes": 15270
+      },
+      {
+        "file": "assets/previews/emissary-robe-waist-hood-38e77c33b30d-m4-960.webp",
+        "width": 640,
+        "bytes": 27680
+      }
+    ]
+  },
+  "assets/characters/emissary/originals/emissary-robe-waist-three-quarter.png": {
+    "sha256": "34f18e7898cb",
+    "original_bytes": 1917467,
+    "variants": [
+      {
+        "file": "assets/previews/emissary-robe-waist-three-quarter-34f18e7898cb-m4-320.webp",
+        "width": 213,
+        "bytes": 5562
+      },
+      {
+        "file": "assets/previews/emissary-robe-waist-three-quarter-34f18e7898cb-m4-640.webp",
+        "width": 427,
+        "bytes": 15796
+      },
+      {
+        "file": "assets/previews/emissary-robe-waist-three-quarter-34f18e7898cb-m4-960.webp",
+        "width": 640,
+        "bytes": 30386
+      }
+    ]
+  },
+  "assets/characters/navarro/originals/navarro-back.png": {
+    "sha256": "f562a6442281",
+    "original_bytes": 1973746,
+    "variants": [
+      {
+        "file": "assets/previews/navarro-back-f562a6442281-m4-320.webp",
+        "width": 213,
+        "bytes": 5492
+      },
+      {
+        "file": "assets/previews/navarro-back-f562a6442281-m4-640.webp",
+        "width": 427,
+        "bytes": 18796
+      },
+      {
+        "file": "assets/previews/navarro-back-f562a6442281-m4-960.webp",
+        "width": 640,
+        "bytes": 39050
+      }
+    ]
+  },
+  "assets/characters/navarro/originals/navarro-front.png": {
+    "sha256": "5798b5b58c40",
+    "original_bytes": 2640062,
+    "variants": [
+      {
+        "file": "assets/previews/navarro-front-5798b5b58c40-m4-320.webp",
+        "width": 213,
+        "bytes": 12904
+      },
+      {
+        "file": "assets/previews/navarro-front-5798b5b58c40-m4-640.webp",
+        "width": 427,
+        "bytes": 49688
+      },
+      {
+        "file": "assets/previews/navarro-front-5798b5b58c40-m4-960.webp",
+        "width": 640,
+        "bytes": 105766
+      }
+    ]
+  },
+  "assets/characters/navarro/originals/navarro-full-body.png": {
+    "sha256": "79c3d5306a0c",
+    "original_bytes": 2030131,
+    "variants": [
+      {
+        "file": "assets/previews/navarro-full-body-79c3d5306a0c-m4-320.webp",
+        "width": 213,
+        "bytes": 6388
+      },
+      {
+        "file": "assets/previews/navarro-full-body-79c3d5306a0c-m4-640.webp",
+        "width": 427,
+        "bytes": 21746
+      },
+      {
+        "file": "assets/previews/navarro-full-body-79c3d5306a0c-m4-960.webp",
+        "width": 640,
+        "bytes": 45430
+      }
+    ]
+  },
+  "assets/characters/navarro/originals/navarro-profile-left.png": {
+    "sha256": "6579deaf9851",
+    "original_bytes": 2457375,
+    "variants": [
+      {
+        "file": "assets/previews/navarro-profile-left-6579deaf9851-m4-320.webp",
+        "width": 213,
+        "bytes": 12094
+      },
+      {
+        "file": "assets/previews/navarro-profile-left-6579deaf9851-m4-640.webp",
+        "width": 427,
+        "bytes": 44272
+      },
+      {
+        "file": "assets/previews/navarro-profile-left-6579deaf9851-m4-960.webp",
+        "width": 640,
+        "bytes": 90852
+      }
+    ]
+  },
+  "assets/characters/navarro/originals/navarro-profile-right.png": {
+    "sha256": "ee9868591bb4",
+    "original_bytes": 2580507,
+    "variants": [
+      {
+        "file": "assets/previews/navarro-profile-right-ee9868591bb4-m4-320.webp",
+        "width": 213,
+        "bytes": 13636
+      },
+      {
+        "file": "assets/previews/navarro-profile-right-ee9868591bb4-m4-640.webp",
+        "width": 427,
+        "bytes": 50432
+      },
+      {
+        "file": "assets/previews/navarro-profile-right-ee9868591bb4-m4-960.webp",
+        "width": 640,
+        "bytes": 105594
+      }
+    ]
+  },
+  "assets/characters/navarro/originals/navarro-waist-calm.png": {
+    "sha256": "a6ace50b8eb1",
+    "original_bytes": 2444442,
+    "variants": [
+      {
+        "file": "assets/previews/navarro-waist-calm-a6ace50b8eb1-m4-320.webp",
+        "width": 213,
+        "bytes": 10554
+      },
+      {
+        "file": "assets/previews/navarro-waist-calm-a6ace50b8eb1-m4-640.webp",
+        "width": 427,
+        "bytes": 36924
+      },
+      {
+        "file": "assets/previews/navarro-waist-calm-a6ace50b8eb1-m4-960.webp",
+        "width": 640,
+        "bytes": 78530
+      }
+    ]
+  },
+  "assets/characters/navarro/originals/navarro-waist-focused.png": {
+    "sha256": "5bdadfdec8ae",
+    "original_bytes": 2296914,
+    "variants": [
+      {
+        "file": "assets/previews/navarro-waist-focused-5bdadfdec8ae-m4-320.webp",
+        "width": 213,
+        "bytes": 10808
+      },
+      {
+        "file": "assets/previews/navarro-waist-focused-5bdadfdec8ae-m4-640.webp",
+        "width": 427,
+        "bytes": 35436
+      },
+      {
+        "file": "assets/previews/navarro-waist-focused-5bdadfdec8ae-m4-960.webp",
+        "width": 640,
+        "bytes": 73270
+      }
+    ]
+  },
+  "assets/characters/nova/originals/nova-corrupted.png": {
+    "sha256": "dadafd603e99",
+    "original_bytes": 2587496,
+    "variants": [
+      {
+        "file": "assets/previews/nova-corrupted-dadafd603e99-m4-320.webp",
+        "width": 213,
+        "bytes": 17838
+      },
+      {
+        "file": "assets/previews/nova-corrupted-dadafd603e99-m4-640.webp",
+        "width": 427,
+        "bytes": 62324
+      },
+      {
+        "file": "assets/previews/nova-corrupted-dadafd603e99-m4-960.webp",
+        "width": 640,
+        "bytes": 126014
+      }
+    ]
+  },
+  "assets/characters/nova/originals/nova-front.png": {
+    "sha256": "d295324610e4",
+    "original_bytes": 2888062,
+    "variants": [
+      {
+        "file": "assets/previews/nova-front-d295324610e4-m4-320.webp",
+        "width": 213,
+        "bytes": 17452
+      },
+      {
+        "file": "assets/previews/nova-front-d295324610e4-m4-640.webp",
+        "width": 427,
+        "bytes": 66256
+      },
+      {
+        "file": "assets/previews/nova-front-d295324610e4-m4-960.webp",
+        "width": 640,
+        "bytes": 143556
+      }
+    ]
+  },
+  "assets/characters/nova/originals/nova-optic-detail.png": {
+    "sha256": "3af5ff9e29e9",
+    "original_bytes": 2753519,
+    "variants": [
+      {
+        "file": "assets/previews/nova-optic-detail-3af5ff9e29e9-m4-320.webp",
+        "width": 213,
+        "bytes": 23044
+      },
+      {
+        "file": "assets/previews/nova-optic-detail-3af5ff9e29e9-m4-640.webp",
+        "width": 427,
+        "bytes": 78108
+      },
+      {
+        "file": "assets/previews/nova-optic-detail-3af5ff9e29e9-m4-960.webp",
+        "width": 640,
+        "bytes": 153144
+      }
+    ]
+  },
+  "assets/characters/nova/originals/nova-three-quarter-left.png": {
+    "sha256": "0a1ed0dc07da",
+    "original_bytes": 2742000,
+    "variants": [
+      {
+        "file": "assets/previews/nova-three-quarter-left-0a1ed0dc07da-m4-320.webp",
+        "width": 213,
+        "bytes": 16500
+      },
+      {
+        "file": "assets/previews/nova-three-quarter-left-0a1ed0dc07da-m4-640.webp",
+        "width": 427,
+        "bytes": 56784
+      },
+      {
+        "file": "assets/previews/nova-three-quarter-left-0a1ed0dc07da-m4-960.webp",
+        "width": 640,
+        "bytes": 115138
+      }
+    ]
+  },
+  "assets/characters/nova/originals/nova-three-quarter-right.png": {
+    "sha256": "361b2fcdea96",
+    "original_bytes": 2709137,
+    "variants": [
+      {
+        "file": "assets/previews/nova-three-quarter-right-361b2fcdea96-m4-320.webp",
+        "width": 213,
+        "bytes": 17820
+      },
+      {
+        "file": "assets/previews/nova-three-quarter-right-361b2fcdea96-m4-640.webp",
+        "width": 427,
+        "bytes": 64378
+      },
+      {
+        "file": "assets/previews/nova-three-quarter-right-361b2fcdea96-m4-960.webp",
+        "width": 640,
+        "bytes": 132546
+      }
+    ]
+  },
+  "assets/characters/rex/originals/rex-back.png": {
+    "sha256": "2b9e062b14ce",
+    "original_bytes": 1862742,
+    "variants": [
+      {
+        "file": "assets/previews/rex-back-2b9e062b14ce-m4-320.webp",
+        "width": 213,
+        "bytes": 5538
+      },
+      {
+        "file": "assets/previews/rex-back-2b9e062b14ce-m4-640.webp",
+        "width": 427,
+        "bytes": 17094
+      },
+      {
+        "file": "assets/previews/rex-back-2b9e062b14ce-m4-960.webp",
+        "width": 640,
+        "bytes": 34920
+      }
+    ]
+  },
+  "assets/characters/rex/originals/rex-front.png": {
+    "sha256": "a2f3b6828c0a",
+    "original_bytes": 2818463,
+    "variants": [
+      {
+        "file": "assets/previews/rex-front-a2f3b6828c0a-m4-320.webp",
+        "width": 213,
+        "bytes": 12034
+      },
+      {
+        "file": "assets/previews/rex-front-a2f3b6828c0a-m4-640.webp",
+        "width": 427,
+        "bytes": 47130
+      },
+      {
+        "file": "assets/previews/rex-front-a2f3b6828c0a-m4-960.webp",
+        "width": 640,
+        "bytes": 105768
+      }
+    ]
+  },
+  "assets/characters/rex/originals/rex-full-body.png": {
+    "sha256": "65f0f1432660",
+    "original_bytes": 1987330,
+    "variants": [
+      {
+        "file": "assets/previews/rex-full-body-65f0f1432660-m4-320.webp",
+        "width": 213,
+        "bytes": 6392
+      },
+      {
+        "file": "assets/previews/rex-full-body-65f0f1432660-m4-640.webp",
+        "width": 427,
+        "bytes": 20530
+      },
+      {
+        "file": "assets/previews/rex-full-body-65f0f1432660-m4-960.webp",
+        "width": 640,
+        "bytes": 41832
+      }
+    ]
+  },
+  "assets/characters/rex/originals/rex-profile-left.png": {
+    "sha256": "d14de7810d61",
+    "original_bytes": 2611018,
+    "variants": [
+      {
+        "file": "assets/previews/rex-profile-left-d14de7810d61-m4-320.webp",
+        "width": 213,
+        "bytes": 12466
+      },
+      {
+        "file": "assets/previews/rex-profile-left-d14de7810d61-m4-640.webp",
+        "width": 427,
+        "bytes": 44234
+      },
+      {
+        "file": "assets/previews/rex-profile-left-d14de7810d61-m4-960.webp",
+        "width": 640,
+        "bytes": 93804
+      }
+    ]
+  },
+  "assets/characters/rex/originals/rex-profile-right.png": {
+    "sha256": "e3cc9d81e0d0",
+    "original_bytes": 2568251,
+    "variants": [
+      {
+        "file": "assets/previews/rex-profile-right-e3cc9d81e0d0-m4-320.webp",
+        "width": 213,
+        "bytes": 11348
+      },
+      {
+        "file": "assets/previews/rex-profile-right-e3cc9d81e0d0-m4-640.webp",
+        "width": 427,
+        "bytes": 42058
+      },
+      {
+        "file": "assets/previews/rex-profile-right-e3cc9d81e0d0-m4-960.webp",
+        "width": 640,
+        "bytes": 91048
+      }
+    ]
+  },
+  "assets/characters/rex/originals/rex-waist-calm.png": {
+    "sha256": "77d05786b022",
+    "original_bytes": 2717396,
+    "variants": [
+      {
+        "file": "assets/previews/rex-waist-calm-77d05786b022-m4-320.webp",
+        "width": 213,
+        "bytes": 11562
+      },
+      {
+        "file": "assets/previews/rex-waist-calm-77d05786b022-m4-640.webp",
+        "width": 427,
+        "bytes": 39412
+      },
+      {
+        "file": "assets/previews/rex-waist-calm-77d05786b022-m4-960.webp",
+        "width": 640,
+        "bytes": 88844
+      }
+    ]
+  },
+  "assets/characters/rex/originals/rex-waist-focused.png": {
+    "sha256": "c92d7f2afbf2",
+    "original_bytes": 2482344,
+    "variants": [
+      {
+        "file": "assets/previews/rex-waist-focused-c92d7f2afbf2-m4-320.webp",
+        "width": 213,
+        "bytes": 11568
+      },
+      {
+        "file": "assets/previews/rex-waist-focused-c92d7f2afbf2-m4-640.webp",
+        "width": 427,
+        "bytes": 36840
+      },
+      {
+        "file": "assets/previews/rex-waist-focused-c92d7f2afbf2-m4-960.webp",
+        "width": 640,
+        "bytes": 78384
+      }
+    ]
+  },
+  "assets/characters/rook-mk2/originals/rook-mk2-back.png": {
+    "sha256": "03794986411c",
+    "original_bytes": 1919436,
+    "variants": [
+      {
+        "file": "assets/previews/rook-mk2-back-03794986411c-m4-320.webp",
+        "width": 213,
+        "bytes": 8236
+      },
+      {
+        "file": "assets/previews/rook-mk2-back-03794986411c-m4-640.webp",
+        "width": 427,
+        "bytes": 25186
+      },
+      {
+        "file": "assets/previews/rook-mk2-back-03794986411c-m4-960.webp",
+        "width": 640,
+        "bytes": 48356
+      }
+    ]
+  },
+  "assets/characters/rook-mk2/originals/rook-mk2-front.png": {
+    "sha256": "73993d9372c6",
+    "original_bytes": 1952194,
+    "variants": [
+      {
+        "file": "assets/previews/rook-mk2-front-73993d9372c6-m4-320.webp",
+        "width": 213,
+        "bytes": 8786
+      },
+      {
+        "file": "assets/previews/rook-mk2-front-73993d9372c6-m4-640.webp",
+        "width": 427,
+        "bytes": 26424
+      },
+      {
+        "file": "assets/previews/rook-mk2-front-73993d9372c6-m4-960.webp",
+        "width": 640,
+        "bytes": 50532
+      }
+    ]
+  },
+  "assets/characters/rook-mk2/originals/rook-mk2-hero.png": {
+    "sha256": "07b064a588a0",
+    "original_bytes": 1897398,
+    "variants": [
+      {
+        "file": "assets/previews/rook-mk2-hero-07b064a588a0-m4-320.webp",
+        "width": 213,
+        "bytes": 8500
+      },
+      {
+        "file": "assets/previews/rook-mk2-hero-07b064a588a0-m4-640.webp",
+        "width": 427,
+        "bytes": 25278
+      },
+      {
+        "file": "assets/previews/rook-mk2-hero-07b064a588a0-m4-960.webp",
+        "width": 640,
+        "bytes": 47728
+      }
+    ]
+  },
+  "assets/characters/rook-mk2/originals/rook-mk2-repair-detail.png": {
+    "sha256": "8402bd5d9f15",
+    "original_bytes": 2334049,
+    "variants": [
+      {
+        "file": "assets/previews/rook-mk2-repair-detail-8402bd5d9f15-m4-320.webp",
+        "width": 213,
+        "bytes": 16630
+      },
+      {
+        "file": "assets/previews/rook-mk2-repair-detail-8402bd5d9f15-m4-640.webp",
+        "width": 427,
+        "bytes": 48170
+      },
+      {
+        "file": "assets/previews/rook-mk2-repair-detail-8402bd5d9f15-m4-960.webp",
+        "width": 640,
+        "bytes": 88398
+      }
+    ]
+  },
+  "assets/characters/rook-mk2/originals/rook-mk2-side.png": {
+    "sha256": "07aa65cbee0d",
+    "original_bytes": 1851134,
+    "variants": [
+      {
+        "file": "assets/previews/rook-mk2-side-07aa65cbee0d-m4-320.webp",
+        "width": 213,
+        "bytes": 7234
+      },
+      {
+        "file": "assets/previews/rook-mk2-side-07aa65cbee0d-m4-640.webp",
+        "width": 427,
+        "bytes": 21924
+      },
+      {
+        "file": "assets/previews/rook-mk2-side-07aa65cbee0d-m4-960.webp",
+        "width": 640,
+        "bytes": 42094
+      }
+    ]
+  },
+  "assets/characters/solar/originals/solar-back.png": {
+    "sha256": "8b756bb5f3d4",
+    "original_bytes": 1792425,
+    "variants": [
+      {
+        "file": "assets/previews/solar-back-8b756bb5f3d4-m4-320.webp",
+        "width": 213,
+        "bytes": 4586
+      },
+      {
+        "file": "assets/previews/solar-back-8b756bb5f3d4-m4-640.webp",
+        "width": 427,
+        "bytes": 13200
+      },
+      {
+        "file": "assets/previews/solar-back-8b756bb5f3d4-m4-960.webp",
+        "width": 640,
+        "bytes": 25856
+      }
+    ]
+  },
+  "assets/characters/solar/originals/solar-corrupted.png": {
+    "sha256": "b4acf9c1fa0c",
+    "original_bytes": 1784712,
+    "variants": [
+      {
+        "file": "assets/previews/solar-corrupted-b4acf9c1fa0c-m4-320.webp",
+        "width": 213,
+        "bytes": 5400
+      },
+      {
+        "file": "assets/previews/solar-corrupted-b4acf9c1fa0c-m4-640.webp",
+        "width": 427,
+        "bytes": 14902
+      },
+      {
+        "file": "assets/previews/solar-corrupted-b4acf9c1fa0c-m4-960.webp",
+        "width": 640,
+        "bytes": 27694
+      }
+    ]
+  },
+  "assets/characters/solar/originals/solar-front.png": {
+    "sha256": "349f3a2143fa",
+    "original_bytes": 1833468,
+    "variants": [
+      {
+        "file": "assets/previews/solar-front-349f3a2143fa-m4-320.webp",
+        "width": 213,
+        "bytes": 4986
+      },
+      {
+        "file": "assets/previews/solar-front-349f3a2143fa-m4-640.webp",
+        "width": 427,
+        "bytes": 13936
+      },
+      {
+        "file": "assets/previews/solar-front-349f3a2143fa-m4-960.webp",
+        "width": 640,
+        "bytes": 25608
+      }
+    ]
+  },
+  "assets/characters/solar/originals/solar-liberated.png": {
+    "sha256": "7e465d4785a5",
+    "original_bytes": 1772056,
+    "variants": [
+      {
+        "file": "assets/previews/solar-liberated-7e465d4785a5-m4-320.webp",
+        "width": 213,
+        "bytes": 5114
+      },
+      {
+        "file": "assets/previews/solar-liberated-7e465d4785a5-m4-640.webp",
+        "width": 427,
+        "bytes": 13576
+      },
+      {
+        "file": "assets/previews/solar-liberated-7e465d4785a5-m4-960.webp",
+        "width": 640,
+        "bytes": 25146
+      }
+    ]
+  },
+  "assets/characters/solar/originals/solar-profile-left.png": {
+    "sha256": "8bdbc3ac578d",
+    "original_bytes": 1821684,
+    "variants": [
+      {
+        "file": "assets/previews/solar-profile-left-8bdbc3ac578d-m4-320.webp",
+        "width": 213,
+        "bytes": 5082
+      },
+      {
+        "file": "assets/previews/solar-profile-left-8bdbc3ac578d-m4-640.webp",
+        "width": 427,
+        "bytes": 14364
+      },
+      {
+        "file": "assets/previews/solar-profile-left-8bdbc3ac578d-m4-960.webp",
+        "width": 640,
+        "bytes": 27448
+      }
+    ]
+  },
+  "assets/characters/solar/originals/solar-profile-right.png": {
+    "sha256": "30c1816ebe9b",
+    "original_bytes": 1751707,
+    "variants": [
+      {
+        "file": "assets/previews/solar-profile-right-30c1816ebe9b-m4-320.webp",
+        "width": 213,
+        "bytes": 4754
+      },
+      {
+        "file": "assets/previews/solar-profile-right-30c1816ebe9b-m4-640.webp",
+        "width": 427,
+        "bytes": 12774
+      },
+      {
+        "file": "assets/previews/solar-profile-right-30c1816ebe9b-m4-960.webp",
+        "width": 640,
+        "bytes": 24152
+      }
+    ]
+  },
+  "assets/characters/solar/originals/solar-three-quarter.png": {
+    "sha256": "94ded8d579ef",
+    "original_bytes": 1778842,
+    "variants": [
+      {
+        "file": "assets/previews/solar-three-quarter-94ded8d579ef-m4-320.webp",
+        "width": 213,
+        "bytes": 5260
+      },
+      {
+        "file": "assets/previews/solar-three-quarter-94ded8d579ef-m4-640.webp",
+        "width": 427,
+        "bytes": 14222
+      },
+      {
+        "file": "assets/previews/solar-three-quarter-94ded8d579ef-m4-960.webp",
+        "width": 640,
+        "bytes": 26300
+      }
+    ]
+  },
+  "assets/characters/solar8-team-hangar-v2.png": {
+    "sha256": "1466550d4edc",
+    "original_bytes": 2472782,
+    "variants": [
+      {
+        "file": "assets/previews/solar8-team-hangar-v2-1466550d4edc-m4-320.webp",
+        "width": 320,
+        "bytes": 21670
+      },
+      {
+        "file": "assets/previews/solar8-team-hangar-v2-1466550d4edc-m4-640.webp",
+        "width": 640,
+        "bytes": 69978
+      },
+      {
+        "file": "assets/previews/solar8-team-hangar-v2-1466550d4edc-m4-960.webp",
+        "width": 960,
+        "bytes": 131376
+      }
+    ]
+  },
+  "assets/characters/yara/originals/yara-back.png": {
+    "sha256": "d6ba7b765fc2",
+    "original_bytes": 1981810,
+    "variants": [
+      {
+        "file": "assets/previews/yara-back-d6ba7b765fc2-m4-320.webp",
+        "width": 213,
+        "bytes": 5574
+      },
+      {
+        "file": "assets/previews/yara-back-d6ba7b765fc2-m4-640.webp",
+        "width": 427,
+        "bytes": 20482
+      },
+      {
+        "file": "assets/previews/yara-back-d6ba7b765fc2-m4-960.webp",
+        "width": 640,
+        "bytes": 42868
+      }
+    ]
+  },
+  "assets/characters/yara/originals/yara-front.png": {
+    "sha256": "28f249ea8710",
+    "original_bytes": 2457926,
+    "variants": [
+      {
+        "file": "assets/previews/yara-front-28f249ea8710-m4-320.webp",
+        "width": 213,
+        "bytes": 11022
+      },
+      {
+        "file": "assets/previews/yara-front-28f249ea8710-m4-640.webp",
+        "width": 427,
+        "bytes": 39604
+      },
+      {
+        "file": "assets/previews/yara-front-28f249ea8710-m4-960.webp",
+        "width": 640,
+        "bytes": 83478
+      }
+    ]
+  },
+  "assets/characters/yara/originals/yara-full-body.png": {
+    "sha256": "7149d03eed17",
+    "original_bytes": 2024081,
+    "variants": [
+      {
+        "file": "assets/previews/yara-full-body-7149d03eed17-m4-320.webp",
+        "width": 213,
+        "bytes": 6002
+      },
+      {
+        "file": "assets/previews/yara-full-body-7149d03eed17-m4-640.webp",
+        "width": 427,
+        "bytes": 21374
+      },
+      {
+        "file": "assets/previews/yara-full-body-7149d03eed17-m4-960.webp",
+        "width": 640,
+        "bytes": 44864
+      }
+    ]
+  },
+  "assets/characters/yara/originals/yara-profile-left.png": {
+    "sha256": "6f434686c99c",
+    "original_bytes": 2561843,
+    "variants": [
+      {
+        "file": "assets/previews/yara-profile-left-6f434686c99c-m4-320.webp",
+        "width": 213,
+        "bytes": 11324
+      },
+      {
+        "file": "assets/previews/yara-profile-left-6f434686c99c-m4-640.webp",
+        "width": 427,
+        "bytes": 41644
+      },
+      {
+        "file": "assets/previews/yara-profile-left-6f434686c99c-m4-960.webp",
+        "width": 640,
+        "bytes": 85630
+      }
+    ]
+  },
+  "assets/characters/yara/originals/yara-profile-right.png": {
+    "sha256": "e7a6d0c4cc0f",
+    "original_bytes": 2539222,
+    "variants": [
+      {
+        "file": "assets/previews/yara-profile-right-e7a6d0c4cc0f-m4-320.webp",
+        "width": 213,
+        "bytes": 11546
+      },
+      {
+        "file": "assets/previews/yara-profile-right-e7a6d0c4cc0f-m4-640.webp",
+        "width": 427,
+        "bytes": 43840
+      },
+      {
+        "file": "assets/previews/yara-profile-right-e7a6d0c4cc0f-m4-960.webp",
+        "width": 640,
+        "bytes": 93152
+      }
+    ]
+  },
+  "assets/characters/yara/originals/yara-waist-calm.png": {
+    "sha256": "f9467c2e34e6",
+    "original_bytes": 2481766,
+    "variants": [
+      {
+        "file": "assets/previews/yara-waist-calm-f9467c2e34e6-m4-320.webp",
+        "width": 213,
+        "bytes": 10670
+      },
+      {
+        "file": "assets/previews/yara-waist-calm-f9467c2e34e6-m4-640.webp",
+        "width": 427,
+        "bytes": 37042
+      },
+      {
+        "file": "assets/previews/yara-waist-calm-f9467c2e34e6-m4-960.webp",
+        "width": 640,
+        "bytes": 79488
+      }
+    ]
+  },
+  "assets/characters/yara/originals/yara-waist-focused.png": {
+    "sha256": "d7bb990936e5",
+    "original_bytes": 2288664,
+    "variants": [
+      {
+        "file": "assets/previews/yara-waist-focused-d7bb990936e5-m4-320.webp",
+        "width": 213,
+        "bytes": 9858
+      },
+      {
+        "file": "assets/previews/yara-waist-focused-d7bb990936e5-m4-640.webp",
+        "width": 427,
+        "bytes": 32966
+      },
+      {
+        "file": "assets/previews/yara-waist-focused-d7bb990936e5-m4-960.webp",
+        "width": 640,
+        "bytes": 68356
+      }
+    ]
+  },
+  "assets/concepts/assembler/assembler-lower-left-saw.png": {
+    "sha256": "2d834c89623f",
+    "original_bytes": 1420409,
+    "variants": [
+      {
+        "file": "assets/previews/assembler-lower-left-saw-2d834c89623f-m4-320.webp",
+        "width": 320,
+        "bytes": 25950
+      },
+      {
+        "file": "assets/previews/assembler-lower-left-saw-2d834c89623f-m4-640.webp",
+        "width": 640,
+        "bytes": 80822
+      },
+      {
+        "file": "assets/previews/assembler-lower-left-saw-2d834c89623f-m4-960.webp",
+        "width": 960,
+        "bytes": 166804
+      }
+    ]
+  },
+  "assets/concepts/assembler/assembler-lower-right-gripper.png": {
+    "sha256": "eeed88c8ad20",
+    "original_bytes": 1444350,
+    "variants": [
+      {
+        "file": "assets/previews/assembler-lower-right-gripper-eeed88c8ad20-m4-320.webp",
+        "width": 320,
+        "bytes": 28172
+      },
+      {
+        "file": "assets/previews/assembler-lower-right-gripper-eeed88c8ad20-m4-640.webp",
+        "width": 640,
+        "bytes": 91754
+      },
+      {
+        "file": "assets/previews/assembler-lower-right-gripper-eeed88c8ad20-m4-960.webp",
+        "width": 960,
+        "bytes": 182270
+      }
+    ]
+  },
+  "assets/concepts/assembler/assembler-upper-left-gripper.png": {
+    "sha256": "7a9bba780b2c",
+    "original_bytes": 1731969,
+    "variants": [
+      {
+        "file": "assets/previews/assembler-upper-left-gripper-7a9bba780b2c-m4-320.webp",
+        "width": 320,
+        "bytes": 31294
+      },
+      {
+        "file": "assets/previews/assembler-upper-left-gripper-7a9bba780b2c-m4-640.webp",
+        "width": 640,
+        "bytes": 99242
+      },
+      {
+        "file": "assets/previews/assembler-upper-left-gripper-7a9bba780b2c-m4-960.webp",
+        "width": 960,
+        "bytes": 203376
+      }
+    ]
+  },
+  "assets/concepts/assembler/assembler-upper-right-drill.png": {
+    "sha256": "506a8eb551a3",
+    "original_bytes": 1598070,
+    "variants": [
+      {
+        "file": "assets/previews/assembler-upper-right-drill-506a8eb551a3-m4-320.webp",
+        "width": 320,
+        "bytes": 31240
+      },
+      {
+        "file": "assets/previews/assembler-upper-right-drill-506a8eb551a3-m4-640.webp",
+        "width": 640,
+        "bytes": 100678
+      },
+      {
+        "file": "assets/previews/assembler-upper-right-drill-506a8eb551a3-m4-960.webp",
+        "width": 960,
+        "bytes": 199258
+      }
+    ]
+  },
+  "assets/parts/assembler/assembler-base-open.png": {
+    "sha256": "9f308f07b168",
+    "original_bytes": 2077887,
+    "variants": [
+      {
+        "file": "assets/previews/assembler-base-open-9f308f07b168-m4-320.webp",
+        "width": 320,
+        "bytes": 34112
+      },
+      {
+        "file": "assets/previews/assembler-base-open-9f308f07b168-m4-640.webp",
+        "width": 640,
+        "bytes": 109566
+      },
+      {
+        "file": "assets/previews/assembler-base-open-9f308f07b168-m4-960.webp",
+        "width": 960,
+        "bytes": 211172
+      }
+    ]
+  },
+  "assets/parts/assembler/assembler-foreign-module.png": {
+    "sha256": "979b9aab61bf",
+    "original_bytes": 105409,
+    "variants": [
+      {
+        "file": "assets/previews/assembler-foreign-module-979b9aab61bf-m4-320.webp",
+        "width": 320,
+        "bytes": 2286
+      },
+      {
+        "file": "assets/previews/assembler-foreign-module-979b9aab61bf-m4-640.webp",
+        "width": 640,
+        "bytes": 5436
+      },
+      {
+        "file": "assets/previews/assembler-foreign-module-979b9aab61bf-m4-960.webp",
+        "width": 960,
+        "bytes": 9808
+      }
+    ]
+  },
+  "assets/parts/assembler/assembler-press-ram.png": {
+    "sha256": "76fcdac35fbf",
+    "original_bytes": 258914,
+    "variants": [
+      {
+        "file": "assets/previews/assembler-press-ram-76fcdac35fbf-m4-320.webp",
+        "width": 320,
+        "bytes": 5522
+      },
+      {
+        "file": "assets/previews/assembler-press-ram-76fcdac35fbf-m4-640.webp",
+        "width": 640,
+        "bytes": 15472
+      },
+      {
+        "file": "assets/previews/assembler-press-ram-76fcdac35fbf-m4-960.webp",
+        "width": 960,
+        "bytes": 31156
+      }
+    ]
+  },
+  "assets/parts/null-vessel/null-vessel-plate-bottom.png": {
+    "sha256": "83a2a2d0ad50",
+    "original_bytes": 582131,
+    "variants": [
+      {
+        "file": "assets/previews/null-vessel-plate-bottom-83a2a2d0ad50-m4-320.webp",
+        "width": 320,
+        "bytes": 9162
+      },
+      {
+        "file": "assets/previews/null-vessel-plate-bottom-83a2a2d0ad50-m4-640.webp",
+        "width": 640,
+        "bytes": 23028
+      },
+      {
+        "file": "assets/previews/null-vessel-plate-bottom-83a2a2d0ad50-m4-960.webp",
+        "width": 960,
+        "bytes": 43728
+      }
+    ]
+  },
+  "assets/parts/null-vessel/null-vessel-plate-lower-left.png": {
+    "sha256": "bdd28a8b34b7",
+    "original_bytes": 461885,
+    "variants": [
+      {
+        "file": "assets/previews/null-vessel-plate-lower-left-bdd28a8b34b7-m4-320.webp",
+        "width": 320,
+        "bytes": 8078
+      },
+      {
+        "file": "assets/previews/null-vessel-plate-lower-left-bdd28a8b34b7-m4-640.webp",
+        "width": 640,
+        "bytes": 20404
+      },
+      {
+        "file": "assets/previews/null-vessel-plate-lower-left-bdd28a8b34b7-m4-960.webp",
+        "width": 960,
+        "bytes": 37704
+      }
+    ]
+  },
+  "assets/parts/null-vessel/null-vessel-plate-lower-right.png": {
+    "sha256": "8c7900d20f45",
+    "original_bytes": 466570,
+    "variants": [
+      {
+        "file": "assets/previews/null-vessel-plate-lower-right-8c7900d20f45-m4-320.webp",
+        "width": 320,
+        "bytes": 7908
+      },
+      {
+        "file": "assets/previews/null-vessel-plate-lower-right-8c7900d20f45-m4-640.webp",
+        "width": 640,
+        "bytes": 20866
+      },
+      {
+        "file": "assets/previews/null-vessel-plate-lower-right-8c7900d20f45-m4-960.webp",
+        "width": 960,
+        "bytes": 37248
+      }
+    ]
+  },
+  "assets/parts/null-vessel/null-vessel-plate-top.png": {
+    "sha256": "a83393d79d34",
+    "original_bytes": 816524,
+    "variants": [
+      {
+        "file": "assets/previews/null-vessel-plate-top-a83393d79d34-m4-320.webp",
+        "width": 320,
+        "bytes": 12518
+      },
+      {
+        "file": "assets/previews/null-vessel-plate-top-a83393d79d34-m4-640.webp",
+        "width": 640,
+        "bytes": 31294
+      },
+      {
+        "file": "assets/previews/null-vessel-plate-top-a83393d79d34-m4-960.webp",
+        "width": 960,
+        "bytes": 56750
+      }
+    ]
+  },
+  "assets/parts/null-vessel/null-vessel-plate-upper-left.png": {
+    "sha256": "f1c909f27908",
+    "original_bytes": 521314,
+    "variants": [
+      {
+        "file": "assets/previews/null-vessel-plate-upper-left-f1c909f27908-m4-320.webp",
+        "width": 320,
+        "bytes": 8320
+      },
+      {
+        "file": "assets/previews/null-vessel-plate-upper-left-f1c909f27908-m4-640.webp",
+        "width": 640,
+        "bytes": 21138
+      },
+      {
+        "file": "assets/previews/null-vessel-plate-upper-left-f1c909f27908-m4-960.webp",
+        "width": 960,
+        "bytes": 39104
+      }
+    ]
+  },
+  "assets/parts/null-vessel/null-vessel-plate-upper-right.png": {
+    "sha256": "0604b3095741",
+    "original_bytes": 507347,
+    "variants": [
+      {
+        "file": "assets/previews/null-vessel-plate-upper-right-0604b3095741-m4-320.webp",
+        "width": 320,
+        "bytes": 8426
+      },
+      {
+        "file": "assets/previews/null-vessel-plate-upper-right-0604b3095741-m4-640.webp",
+        "width": 640,
+        "bytes": 21440
+      },
+      {
+        "file": "assets/previews/null-vessel-plate-upper-right-0604b3095741-m4-960.webp",
+        "width": 960,
+        "bytes": 38428
+      }
+    ]
+  },
+  "assets/portraits/andygen-cover-pose-neutral.png": {
+    "sha256": "a7164627f6bc",
+    "original_bytes": 2341254,
+    "variants": [
+      {
+        "file": "assets/previews/andygen-cover-pose-neutral-a7164627f6bc-m4-320.webp",
+        "width": 320,
+        "bytes": 23856
+      },
+      {
+        "file": "assets/previews/andygen-cover-pose-neutral-a7164627f6bc-m4-640.webp",
+        "width": 640,
+        "bytes": 71878
+      },
+      {
+        "file": "assets/previews/andygen-cover-pose-neutral-a7164627f6bc-m4-960.webp",
+        "width": 960,
+        "bytes": 128328
+      }
+    ]
+  },
+  "assets/rig/assembler-gripper/assembler-gripper-base.png": {
+    "sha256": "85d7c71a91d3",
+    "original_bytes": 2535341,
+    "variants": [
+      {
+        "file": "assets/previews/assembler-gripper-base-85d7c71a91d3-m4-320.webp",
+        "width": 320,
+        "bytes": 37562
+      },
+      {
+        "file": "assets/previews/assembler-gripper-base-85d7c71a91d3-m4-640.webp",
+        "width": 640,
+        "bytes": 136332
+      },
+      {
+        "file": "assets/previews/assembler-gripper-base-85d7c71a91d3-m4-960.webp",
+        "width": 960,
+        "bytes": 289580
+      }
+    ]
+  },
+  "assets/rig/assembler-gripper/assembler-gripper-forearm.png": {
+    "sha256": "9351c3b36ac0",
+    "original_bytes": 894777,
+    "variants": [
+      {
+        "file": "assets/previews/assembler-gripper-forearm-9351c3b36ac0-m4-320.webp",
+        "width": 320,
+        "bytes": 16926
+      },
+      {
+        "file": "assets/previews/assembler-gripper-forearm-9351c3b36ac0-m4-640.webp",
+        "width": 640,
+        "bytes": 53550
+      },
+      {
+        "file": "assets/previews/assembler-gripper-forearm-9351c3b36ac0-m4-960.webp",
+        "width": 960,
+        "bytes": 109156
+      }
+    ]
+  },
+  "assets/rig/assembler-gripper/assembler-gripper-gripper.png": {
+    "sha256": "7e94d8fe2246",
+    "original_bytes": 1700951,
+    "variants": [
+      {
+        "file": "assets/previews/assembler-gripper-gripper-7e94d8fe2246-m4-320.webp",
+        "width": 320,
+        "bytes": 26736
+      },
+      {
+        "file": "assets/previews/assembler-gripper-gripper-7e94d8fe2246-m4-640.webp",
+        "width": 640,
+        "bytes": 89584
+      },
+      {
+        "file": "assets/previews/assembler-gripper-gripper-7e94d8fe2246-m4-960.webp",
+        "width": 960,
+        "bytes": 192064
+      }
+    ]
+  },
+  "assets/rig/assembler-gripper/assembler-gripper-upper.png": {
+    "sha256": "f141535ade97",
+    "original_bytes": 987614,
+    "variants": [
+      {
+        "file": "assets/previews/assembler-gripper-upper-f141535ade97-m4-320.webp",
+        "width": 320,
+        "bytes": 17312
+      },
+      {
+        "file": "assets/previews/assembler-gripper-upper-f141535ade97-m4-640.webp",
+        "width": 640,
+        "bytes": 56862
+      },
+      {
+        "file": "assets/previews/assembler-gripper-upper-f141535ade97-m4-960.webp",
+        "width": 960,
+        "bytes": 119302
+      }
+    ]
+  },
+  "assets/ships/earth-boss-aegis-citadel.png": {
+    "sha256": "fd768d10a97e",
+    "original_bytes": 1795840,
+    "variants": [
+      {
+        "file": "assets/previews/earth-boss-aegis-citadel-fd768d10a97e-m4-320.webp",
+        "width": 320,
+        "bytes": 28102
+      },
+      {
+        "file": "assets/previews/earth-boss-aegis-citadel-fd768d10a97e-m4-640.webp",
+        "width": 640,
+        "bytes": 83122
+      },
+      {
+        "file": "assets/previews/earth-boss-aegis-citadel-fd768d10a97e-m4-960.webp",
+        "width": 960,
+        "bytes": 173196
+      }
+    ]
+  },
+  "assets/ships/earth-guard.png": {
+    "sha256": "db8e5aa86ff0",
+    "original_bytes": 1743767,
+    "variants": [
+      {
+        "file": "assets/previews/earth-guard-db8e5aa86ff0-m4-320.webp",
+        "width": 320,
+        "bytes": 18086
+      },
+      {
+        "file": "assets/previews/earth-guard-db8e5aa86ff0-m4-640.webp",
+        "width": 640,
+        "bytes": 55492
+      },
+      {
+        "file": "assets/previews/earth-guard-db8e5aa86ff0-m4-960.webp",
+        "width": 960,
+        "bytes": 115518
+      }
+    ]
+  },
+  "assets/ships/earth-missile-frigate.png": {
+    "sha256": "1ceb745443be",
+    "original_bytes": 1464405,
+    "variants": [
+      {
+        "file": "assets/previews/earth-missile-frigate-1ceb745443be-m4-320.webp",
+        "width": 320,
+        "bytes": 17716
+      },
+      {
+        "file": "assets/previews/earth-missile-frigate-1ceb745443be-m4-640.webp",
+        "width": 640,
+        "bytes": 56788
+      },
+      {
+        "file": "assets/previews/earth-missile-frigate-1ceb745443be-m4-960.webp",
+        "width": 960,
+        "bytes": 117778
+      }
+    ]
+  },
+  "assets/ships/earth-rail-platform.png": {
+    "sha256": "4cb084e3b1b8",
+    "original_bytes": 1560613,
+    "variants": [
+      {
+        "file": "assets/previews/earth-rail-platform-4cb084e3b1b8-m4-320.webp",
+        "width": 320,
+        "bytes": 22778
+      },
+      {
+        "file": "assets/previews/earth-rail-platform-4cb084e3b1b8-m4-640.webp",
+        "width": 640,
+        "bytes": 68920
+      },
+      {
+        "file": "assets/previews/earth-rail-platform-4cb084e3b1b8-m4-960.webp",
+        "width": 960,
+        "bytes": 143490
+      }
+    ]
+  },
+  "assets/ships/earth-scout.png": {
+    "sha256": "5022150ee103",
+    "original_bytes": 1249142,
+    "variants": [
+      {
+        "file": "assets/previews/earth-scout-5022150ee103-m4-320.webp",
+        "width": 320,
+        "bytes": 12782
+      },
+      {
+        "file": "assets/previews/earth-scout-5022150ee103-m4-640.webp",
+        "width": 640,
+        "bytes": 40066
+      },
+      {
+        "file": "assets/previews/earth-scout-5022150ee103-m4-960.webp",
+        "width": 960,
+        "bytes": 86918
+      }
+    ]
+  },
+  "assets/ships/earth-striker.png": {
+    "sha256": "8ed8e87a2432",
+    "original_bytes": 1259015,
+    "variants": [
+      {
+        "file": "assets/previews/earth-striker-8ed8e87a2432-m4-320.webp",
+        "width": 320,
+        "bytes": 12808
+      },
+      {
+        "file": "assets/previews/earth-striker-8ed8e87a2432-m4-640.webp",
+        "width": 640,
+        "bytes": 37972
+      },
+      {
+        "file": "assets/previews/earth-striker-8ed8e87a2432-m4-960.webp",
+        "width": 960,
+        "bytes": 80320
+      }
+    ]
+  },
+  "assets/ships/jupiter-boss-tempest-crown-phase1.png": {
+    "sha256": "b5930c09fda0",
+    "original_bytes": 1038130,
+    "variants": [
+      {
+        "file": "assets/previews/jupiter-boss-tempest-crown-phase1-b5930c09fda0-m4-320.webp",
+        "width": 320,
+        "bytes": 19886
+      },
+      {
+        "file": "assets/previews/jupiter-boss-tempest-crown-phase1-b5930c09fda0-m4-640.webp",
+        "width": 640,
+        "bytes": 60654
+      },
+      {
+        "file": "assets/previews/jupiter-boss-tempest-crown-phase1-b5930c09fda0-m4-960.webp",
+        "width": 960,
+        "bytes": 125008
+      }
+    ]
+  },
+  "assets/ships/jupiter-guard.png": {
+    "sha256": "15d6b8041607",
+    "original_bytes": 2171912,
+    "variants": [
+      {
+        "file": "assets/previews/jupiter-guard-15d6b8041607-m4-320.webp",
+        "width": 320,
+        "bytes": 30768
+      },
+      {
+        "file": "assets/previews/jupiter-guard-15d6b8041607-m4-640.webp",
+        "width": 640,
+        "bytes": 93240
+      },
+      {
+        "file": "assets/previews/jupiter-guard-15d6b8041607-m4-960.webp",
+        "width": 960,
+        "bytes": 194966
+      }
+    ]
+  },
+  "assets/ships/jupiter-scout.png": {
+    "sha256": "402d7deeb4b8",
+    "original_bytes": 1531411,
+    "variants": [
+      {
+        "file": "assets/previews/jupiter-scout-402d7deeb4b8-m4-320.webp",
+        "width": 320,
+        "bytes": 26304
+      },
+      {
+        "file": "assets/previews/jupiter-scout-402d7deeb4b8-m4-640.webp",
+        "width": 640,
+        "bytes": 75896
+      },
+      {
+        "file": "assets/previews/jupiter-scout-402d7deeb4b8-m4-960.webp",
+        "width": 960,
+        "bytes": 157304
+      }
+    ]
+  },
+  "assets/ships/jupiter-striker.png": {
+    "sha256": "28d6d5704543",
+    "original_bytes": 1328891,
+    "variants": [
+      {
+        "file": "assets/previews/jupiter-striker-28d6d5704543-m4-320.webp",
+        "width": 320,
+        "bytes": 17452
+      },
+      {
+        "file": "assets/previews/jupiter-striker-28d6d5704543-m4-640.webp",
+        "width": 640,
+        "bytes": 53310
+      },
+      {
+        "file": "assets/previews/jupiter-striker-28d6d5704543-m4-960.webp",
+        "width": 960,
+        "bytes": 111952
+      }
+    ]
+  },
+  "assets/ships/mars-boss-assembler-prime-phase1.png": {
+    "sha256": "1e2842cf3252",
+    "original_bytes": 2481907,
+    "variants": [
+      {
+        "file": "assets/previews/mars-boss-assembler-prime-phase1-1e2842cf3252-m4-320.webp",
+        "width": 320,
+        "bytes": 47044
+      },
+      {
+        "file": "assets/previews/mars-boss-assembler-prime-phase1-1e2842cf3252-m4-640.webp",
+        "width": 640,
+        "bytes": 153242
+      },
+      {
+        "file": "assets/previews/mars-boss-assembler-prime-phase1-1e2842cf3252-m4-960.webp",
+        "width": 960,
+        "bytes": 318372
+      }
+    ]
+  },
+  "assets/ships/mars-guard.png": {
+    "sha256": "2b1bb6b552d7",
+    "original_bytes": 2346789,
+    "variants": [
+      {
+        "file": "assets/previews/mars-guard-2b1bb6b552d7-m4-320.webp",
+        "width": 320,
+        "bytes": 34482
+      },
+      {
+        "file": "assets/previews/mars-guard-2b1bb6b552d7-m4-640.webp",
+        "width": 640,
+        "bytes": 119982
+      },
+      {
+        "file": "assets/previews/mars-guard-2b1bb6b552d7-m4-960.webp",
+        "width": 960,
+        "bytes": 254824
+      }
+    ]
+  },
+  "assets/ships/mars-repair-unit.png": {
+    "sha256": "5ead6b091d58",
+    "original_bytes": 1420663,
+    "variants": [
+      {
+        "file": "assets/previews/mars-repair-unit-5ead6b091d58-m4-320.webp",
+        "width": 320,
+        "bytes": 31688
+      },
+      {
+        "file": "assets/previews/mars-repair-unit-5ead6b091d58-m4-640.webp",
+        "width": 640,
+        "bytes": 98552
+      },
+      {
+        "file": "assets/previews/mars-repair-unit-5ead6b091d58-m4-960.webp",
+        "width": 960,
+        "bytes": 196046
+      }
+    ]
+  },
+  "assets/ships/mars-scout.png": {
+    "sha256": "4135602c3202",
+    "original_bytes": 1246073,
+    "variants": [
+      {
+        "file": "assets/previews/mars-scout-4135602c3202-m4-320.webp",
+        "width": 320,
+        "bytes": 24738
+      },
+      {
+        "file": "assets/previews/mars-scout-4135602c3202-m4-640.webp",
+        "width": 640,
+        "bytes": 75222
+      },
+      {
+        "file": "assets/previews/mars-scout-4135602c3202-m4-960.webp",
+        "width": 960,
+        "bytes": 154482
+      }
+    ]
+  },
+  "assets/ships/mars-striker.png": {
+    "sha256": "9dcea2ecfb4e",
+    "original_bytes": 1823856,
+    "variants": [
+      {
+        "file": "assets/previews/mars-striker-9dcea2ecfb4e-m4-320.webp",
+        "width": 320,
+        "bytes": 31148
+      },
+      {
+        "file": "assets/previews/mars-striker-9dcea2ecfb4e-m4-640.webp",
+        "width": 640,
+        "bytes": 100032
+      },
+      {
+        "file": "assets/previews/mars-striker-9dcea2ecfb4e-m4-960.webp",
+        "width": 960,
+        "bytes": 210178
+      }
+    ]
+  },
+  "assets/ships/maya-ship.png": {
+    "sha256": "3144a0de2c0a",
+    "original_bytes": 938388,
+    "variants": [
+      {
+        "file": "assets/previews/maya-ship-3144a0de2c0a-m4-320.webp",
+        "width": 320,
+        "bytes": 17916
+      },
+      {
+        "file": "assets/previews/maya-ship-3144a0de2c0a-m4-640.webp",
+        "width": 640,
+        "bytes": 52634
+      },
+      {
+        "file": "assets/previews/maya-ship-3144a0de2c0a-m4-960.webp",
+        "width": 960,
+        "bytes": 103484
+      }
+    ]
+  },
+  "assets/ships/mercury-01.png": {
+    "sha256": "37758f69f4cb",
+    "original_bytes": 1236401,
+    "variants": [
+      {
+        "file": "assets/previews/mercury-01-37758f69f4cb-m4-320.webp",
+        "width": 320,
+        "bytes": 22258
+      },
+      {
+        "file": "assets/previews/mercury-01-37758f69f4cb-m4-640.webp",
+        "width": 640,
+        "bytes": 64284
+      },
+      {
+        "file": "assets/previews/mercury-01-37758f69f4cb-m4-960.webp",
+        "width": 960,
+        "bytes": 129414
+      }
+    ]
+  },
+  "assets/ships/mercury-02.png": {
+    "sha256": "351237fb24a2",
+    "original_bytes": 862858,
+    "variants": [
+      {
+        "file": "assets/previews/mercury-02-351237fb24a2-m4-320.webp",
+        "width": 320,
+        "bytes": 18360
+      },
+      {
+        "file": "assets/previews/mercury-02-351237fb24a2-m4-640.webp",
+        "width": 640,
+        "bytes": 54644
+      },
+      {
+        "file": "assets/previews/mercury-02-351237fb24a2-m4-960.webp",
+        "width": 960,
+        "bytes": 105912
+      }
+    ]
+  },
+  "assets/ships/mercury-03.png": {
+    "sha256": "aedfe846b447",
+    "original_bytes": 1358953,
+    "variants": [
+      {
+        "file": "assets/previews/mercury-03-aedfe846b447-m4-320.webp",
+        "width": 320,
+        "bytes": 22034
+      },
+      {
+        "file": "assets/previews/mercury-03-aedfe846b447-m4-640.webp",
+        "width": 640,
+        "bytes": 64790
+      },
+      {
+        "file": "assets/previews/mercury-03-aedfe846b447-m4-960.webp",
+        "width": 960,
+        "bytes": 131306
+      }
+    ]
+  },
+  "assets/ships/mercury-04.png": {
+    "sha256": "7e73333fc5a5",
+    "original_bytes": 1415236,
+    "variants": [
+      {
+        "file": "assets/previews/mercury-04-7e73333fc5a5-m4-320.webp",
+        "width": 320,
+        "bytes": 22274
+      },
+      {
+        "file": "assets/previews/mercury-04-7e73333fc5a5-m4-640.webp",
+        "width": 640,
+        "bytes": 65368
+      },
+      {
+        "file": "assets/previews/mercury-04-7e73333fc5a5-m4-960.webp",
+        "width": 960,
+        "bytes": 129136
+      }
+    ]
+  },
+  "assets/ships/neptune-ark-guard.png": {
+    "sha256": "dba1aeeafb57",
+    "original_bytes": 553048,
+    "variants": [
+      {
+        "file": "assets/previews/neptune-ark-guard-dba1aeeafb57-m4-320.webp",
+        "width": 320,
+        "bytes": 8618
+      },
+      {
+        "file": "assets/previews/neptune-ark-guard-dba1aeeafb57-m4-640.webp",
+        "width": 640,
+        "bytes": 21660
+      },
+      {
+        "file": "assets/previews/neptune-ark-guard-dba1aeeafb57-m4-960.webp",
+        "width": 960,
+        "bytes": 39896
+      }
+    ]
+  },
+  "assets/ships/neptune-assimilator.png": {
+    "sha256": "3862155e648a",
+    "original_bytes": 1027429,
+    "variants": [
+      {
+        "file": "assets/previews/neptune-assimilator-3862155e648a-m4-320.webp",
+        "width": 320,
+        "bytes": 26836
+      },
+      {
+        "file": "assets/previews/neptune-assimilator-3862155e648a-m4-640.webp",
+        "width": 640,
+        "bytes": 72456
+      },
+      {
+        "file": "assets/previews/neptune-assimilator-3862155e648a-m4-960.webp",
+        "width": 960,
+        "bytes": 135430
+      }
+    ]
+  },
+  "assets/ships/neptune-boss-integration-ark-phase1.png": {
+    "sha256": "9817b8e9f1ef",
+    "original_bytes": 831297,
+    "variants": [
+      {
+        "file": "assets/previews/neptune-boss-integration-ark-phase1-9817b8e9f1ef-m4-320.webp",
+        "width": 320,
+        "bytes": 21732
+      },
+      {
+        "file": "assets/previews/neptune-boss-integration-ark-phase1-9817b8e9f1ef-m4-640.webp",
+        "width": 640,
+        "bytes": 55754
+      },
+      {
+        "file": "assets/previews/neptune-boss-integration-ark-phase1-9817b8e9f1ef-m4-960.webp",
+        "width": 960,
+        "bytes": 106160
+      }
+    ]
+  },
+  "assets/ships/neptune-boss-integration-ark-phase2.png": {
+    "sha256": "a5712005f54e",
+    "original_bytes": 954332,
+    "variants": [
+      {
+        "file": "assets/previews/neptune-boss-integration-ark-phase2-a5712005f54e-m4-320.webp",
+        "width": 313,
+        "bytes": 26864
+      },
+      {
+        "file": "assets/previews/neptune-boss-integration-ark-phase2-a5712005f54e-m4-640.webp",
+        "width": 625,
+        "bytes": 70826
+      },
+      {
+        "file": "assets/previews/neptune-boss-integration-ark-phase2-a5712005f54e-m4-960.webp",
+        "width": 938,
+        "bytes": 132842
+      }
+    ]
+  },
+  "assets/ships/neptune-command-seed-phase3.png": {
+    "sha256": "57fffdc5297e",
+    "original_bytes": 531203,
+    "variants": [
+      {
+        "file": "assets/previews/neptune-command-seed-phase3-57fffdc5297e-m4-320.webp",
+        "width": 320,
+        "bytes": 9342
+      },
+      {
+        "file": "assets/previews/neptune-command-seed-phase3-57fffdc5297e-m4-640.webp",
+        "width": 640,
+        "bytes": 23298
+      },
+      {
+        "file": "assets/previews/neptune-command-seed-phase3-57fffdc5297e-m4-960.webp",
+        "width": 960,
+        "bytes": 44230
+      }
+    ]
+  },
+  "assets/ships/neptune-lattice.png": {
+    "sha256": "2ef1889afc7a",
+    "original_bytes": 428341,
+    "variants": [
+      {
+        "file": "assets/previews/neptune-lattice-2ef1889afc7a-m4-320.webp",
+        "width": 320,
+        "bytes": 14464
+      },
+      {
+        "file": "assets/previews/neptune-lattice-2ef1889afc7a-m4-640.webp",
+        "width": 640,
+        "bytes": 38424
+      },
+      {
+        "file": "assets/previews/neptune-lattice-2ef1889afc7a-m4-960.webp",
+        "width": 960,
+        "bytes": 69260
+      }
+    ]
+  },
+  "assets/ships/neptune-shard.png": {
+    "sha256": "0af906319d17",
+    "original_bytes": 491168,
+    "variants": [
+      {
+        "file": "assets/previews/neptune-shard-0af906319d17-m4-320.webp",
+        "width": 320,
+        "bytes": 9046
+      },
+      {
+        "file": "assets/previews/neptune-shard-0af906319d17-m4-640.webp",
+        "width": 640,
+        "bytes": 22308
+      },
+      {
+        "file": "assets/previews/neptune-shard-0af906319d17-m4-960.webp",
+        "width": 960,
+        "bytes": 40318
+      }
+    ]
+  },
+  "assets/ships/player-interceptor.png": {
+    "sha256": "22c4b71b567f",
+    "original_bytes": 986172,
+    "variants": [
+      {
+        "file": "assets/previews/player-interceptor-22c4b71b567f-m4-320.webp",
+        "width": 320,
+        "bytes": 20832
+      },
+      {
+        "file": "assets/previews/player-interceptor-22c4b71b567f-m4-640.webp",
+        "width": 640,
+        "bytes": 58972
+      },
+      {
+        "file": "assets/previews/player-interceptor-22c4b71b567f-m4-960.webp",
+        "width": 960,
+        "bytes": 116820
+      }
+    ]
+  },
+  "assets/ships/rex-ship.png": {
+    "sha256": "7293146d2bca",
+    "original_bytes": 1673336,
+    "variants": [
+      {
+        "file": "assets/previews/rex-ship-7293146d2bca-m4-320.webp",
+        "width": 320,
+        "bytes": 22606
+      },
+      {
+        "file": "assets/previews/rex-ship-7293146d2bca-m4-640.webp",
+        "width": 640,
+        "bytes": 69142
+      },
+      {
+        "file": "assets/previews/rex-ship-7293146d2bca-m4-960.webp",
+        "width": 960,
+        "bytes": 149690
+      }
+    ]
+  },
+  "assets/ships/saturn-archive-wisp.png": {
+    "sha256": "f9e3fe77fdf2",
+    "original_bytes": 2001675,
+    "variants": [
+      {
+        "file": "assets/previews/saturn-archive-wisp-f9e3fe77fdf2-m4-320.webp",
+        "width": 320,
+        "bytes": 30680
+      },
+      {
+        "file": "assets/previews/saturn-archive-wisp-f9e3fe77fdf2-m4-640.webp",
+        "width": 640,
+        "bytes": 83638
+      },
+      {
+        "file": "assets/previews/saturn-archive-wisp-f9e3fe77fdf2-m4-960.webp",
+        "width": 960,
+        "bytes": 164688
+      }
+    ]
+  },
+  "assets/ships/saturn-boss-mnemosyne-sentinel-phase1.png": {
+    "sha256": "e834d1fa3129",
+    "original_bytes": 1937676,
+    "variants": [
+      {
+        "file": "assets/previews/saturn-boss-mnemosyne-sentinel-phase1-e834d1fa3129-m4-320.webp",
+        "width": 320,
+        "bytes": 41104
+      },
+      {
+        "file": "assets/previews/saturn-boss-mnemosyne-sentinel-phase1-e834d1fa3129-m4-640.webp",
+        "width": 640,
+        "bytes": 125314
+      },
+      {
+        "file": "assets/previews/saturn-boss-mnemosyne-sentinel-phase1-e834d1fa3129-m4-960.webp",
+        "width": 960,
+        "bytes": 256168
+      }
+    ]
+  },
+  "assets/ships/saturn-guard.png": {
+    "sha256": "bcffeafdc095",
+    "original_bytes": 1573515,
+    "variants": [
+      {
+        "file": "assets/previews/saturn-guard-bcffeafdc095-m4-320.webp",
+        "width": 320,
+        "bytes": 22436
+      },
+      {
+        "file": "assets/previews/saturn-guard-bcffeafdc095-m4-640.webp",
+        "width": 640,
+        "bytes": 67842
+      },
+      {
+        "file": "assets/previews/saturn-guard-bcffeafdc095-m4-960.webp",
+        "width": 960,
+        "bytes": 141358
+      }
+    ]
+  },
+  "assets/ships/saturn-purge-drone.png": {
+    "sha256": "250757235d8f",
+    "original_bytes": 839104,
+    "variants": [
+      {
+        "file": "assets/previews/saturn-purge-drone-250757235d8f-m4-320.webp",
+        "width": 320,
+        "bytes": 18132
+      },
+      {
+        "file": "assets/previews/saturn-purge-drone-250757235d8f-m4-640.webp",
+        "width": 640,
+        "bytes": 50392
+      },
+      {
+        "file": "assets/previews/saturn-purge-drone-250757235d8f-m4-960.webp",
+        "width": 960,
+        "bytes": 100318
+      }
+    ]
+  },
+  "assets/ships/saturn-scout.png": {
+    "sha256": "f340c900643a",
+    "original_bytes": 883294,
+    "variants": [
+      {
+        "file": "assets/previews/saturn-scout-f340c900643a-m4-320.webp",
+        "width": 320,
+        "bytes": 20532
+      },
+      {
+        "file": "assets/previews/saturn-scout-f340c900643a-m4-640.webp",
+        "width": 640,
+        "bytes": 55576
+      },
+      {
+        "file": "assets/previews/saturn-scout-f340c900643a-m4-960.webp",
+        "width": 960,
+        "bytes": 109888
+      }
+    ]
+  },
+  "assets/ships/saturn-striker.png": {
+    "sha256": "578e4a66494a",
+    "original_bytes": 1335186,
+    "variants": [
+      {
+        "file": "assets/previews/saturn-striker-578e4a66494a-m4-320.webp",
+        "width": 320,
+        "bytes": 26914
+      },
+      {
+        "file": "assets/previews/saturn-striker-578e4a66494a-m4-640.webp",
+        "width": 640,
+        "bytes": 74922
+      },
+      {
+        "file": "assets/previews/saturn-striker-578e4a66494a-m4-960.webp",
+        "width": 960,
+        "bytes": 150336
+      }
+    ]
+  },
+  "assets/ships/solar-crown-alien-seed-clean.png": {
+    "sha256": "73c592e58226",
+    "original_bytes": 463150,
+    "variants": [
+      {
+        "file": "assets/previews/solar-crown-alien-seed-clean-73c592e58226-m4-320.webp",
+        "width": 320,
+        "bytes": 7034
+      },
+      {
+        "file": "assets/previews/solar-crown-alien-seed-clean-73c592e58226-m4-640.webp",
+        "width": 640,
+        "bytes": 16560
+      },
+      {
+        "file": "assets/previews/solar-crown-alien-seed-clean-73c592e58226-m4-960.webp",
+        "width": 960,
+        "bytes": 31278
+      }
+    ]
+  },
+  "assets/ships/solar-crown-remnant-stage1.png": {
+    "sha256": "d9495c45db3e",
+    "original_bytes": 2802087,
+    "variants": [
+      {
+        "file": "assets/previews/solar-crown-remnant-stage1-d9495c45db3e-m4-320.webp",
+        "width": 320,
+        "bytes": 50584
+      },
+      {
+        "file": "assets/previews/solar-crown-remnant-stage1-d9495c45db3e-m4-640.webp",
+        "width": 640,
+        "bytes": 168972
+      },
+      {
+        "file": "assets/previews/solar-crown-remnant-stage1-d9495c45db3e-m4-960.webp",
+        "width": 960,
+        "bytes": 348566
+      }
+    ]
+  },
+  "assets/ships/solar-crown-remnant-stage2.png": {
+    "sha256": "2c91e82154e1",
+    "original_bytes": 2002513,
+    "variants": [
+      {
+        "file": "assets/previews/solar-crown-remnant-stage2-2c91e82154e1-m4-320.webp",
+        "width": 320,
+        "bytes": 43536
+      },
+      {
+        "file": "assets/previews/solar-crown-remnant-stage2-2c91e82154e1-m4-640.webp",
+        "width": 640,
+        "bytes": 138530
+      },
+      {
+        "file": "assets/previews/solar-crown-remnant-stage2-2c91e82154e1-m4-960.webp",
+        "width": 960,
+        "bytes": 275502
+      }
+    ]
+  },
+  "assets/ships/solar-crown-remnant-stage3.png": {
+    "sha256": "86bd6933d634",
+    "original_bytes": 664371,
+    "variants": [
+      {
+        "file": "assets/previews/solar-crown-remnant-stage3-86bd6933d634-m4-320.webp",
+        "width": 320,
+        "bytes": 18456
+      },
+      {
+        "file": "assets/previews/solar-crown-remnant-stage3-86bd6933d634-m4-640.webp",
+        "width": 640,
+        "bytes": 56776
+      },
+      {
+        "file": "assets/previews/solar-crown-remnant-stage3-86bd6933d634-m4-960.webp",
+        "width": 960,
+        "bytes": 114574
+      }
+    ]
+  },
+  "assets/ships/upgrades/hangar/earth.png": {
+    "sha256": "1f2f642df16a",
+    "original_bytes": 1297606,
+    "variants": [
+      {
+        "file": "assets/previews/earth-1f2f642df16a-m4-320.webp",
+        "width": 320,
+        "bytes": 25134
+      },
+      {
+        "file": "assets/previews/earth-1f2f642df16a-m4-640.webp",
+        "width": 640,
+        "bytes": 72150
+      },
+      {
+        "file": "assets/previews/earth-1f2f642df16a-m4-960.webp",
+        "width": 960,
+        "bytes": 136202
+      }
+    ]
+  },
+  "assets/ships/upgrades/hangar/jupiter.png": {
+    "sha256": "260e3af1465a",
+    "original_bytes": 1361769,
+    "variants": [
+      {
+        "file": "assets/previews/jupiter-260e3af1465a-m4-320.webp",
+        "width": 320,
+        "bytes": 26932
+      },
+      {
+        "file": "assets/previews/jupiter-260e3af1465a-m4-640.webp",
+        "width": 640,
+        "bytes": 79466
+      },
+      {
+        "file": "assets/previews/jupiter-260e3af1465a-m4-960.webp",
+        "width": 960,
+        "bytes": 153592
+      }
+    ]
+  },
+  "assets/ships/upgrades/hangar/mars.png": {
+    "sha256": "2ab4da3112b2",
+    "original_bytes": 1383610,
+    "variants": [
+      {
+        "file": "assets/previews/mars-2ab4da3112b2-m4-320.webp",
+        "width": 320,
+        "bytes": 25926
+      },
+      {
+        "file": "assets/previews/mars-2ab4da3112b2-m4-640.webp",
+        "width": 640,
+        "bytes": 77876
+      },
+      {
+        "file": "assets/previews/mars-2ab4da3112b2-m4-960.webp",
+        "width": 960,
+        "bytes": 152920
+      }
+    ]
+  },
+  "assets/ships/upgrades/hangar/mercury.png": {
+    "sha256": "33f70e0e5ded",
+    "original_bytes": 1155801,
+    "variants": [
+      {
+        "file": "assets/previews/mercury-33f70e0e5ded-m4-320.webp",
+        "width": 320,
+        "bytes": 23058
+      },
+      {
+        "file": "assets/previews/mercury-33f70e0e5ded-m4-640.webp",
+        "width": 640,
+        "bytes": 66168
+      },
+      {
+        "file": "assets/previews/mercury-33f70e0e5ded-m4-960.webp",
+        "width": 960,
+        "bytes": 129102
+      }
+    ]
+  },
+  "assets/ships/upgrades/hangar/neptune.png": {
+    "sha256": "93385ca06c2b",
+    "original_bytes": 1396579,
+    "variants": [
+      {
+        "file": "assets/previews/neptune-93385ca06c2b-m4-320.webp",
+        "width": 320,
+        "bytes": 27972
+      },
+      {
+        "file": "assets/previews/neptune-93385ca06c2b-m4-640.webp",
+        "width": 640,
+        "bytes": 82006
+      },
+      {
+        "file": "assets/previews/neptune-93385ca06c2b-m4-960.webp",
+        "width": 960,
+        "bytes": 158548
+      }
+    ]
+  },
+  "assets/ships/upgrades/hangar/saturn.png": {
+    "sha256": "716ae0ae72ae",
+    "original_bytes": 1397267,
+    "variants": [
+      {
+        "file": "assets/previews/saturn-716ae0ae72ae-m4-320.webp",
+        "width": 320,
+        "bytes": 27644
+      },
+      {
+        "file": "assets/previews/saturn-716ae0ae72ae-m4-640.webp",
+        "width": 640,
+        "bytes": 82302
+      },
+      {
+        "file": "assets/previews/saturn-716ae0ae72ae-m4-960.webp",
+        "width": 960,
+        "bytes": 161296
+      }
+    ]
+  },
+  "assets/ships/upgrades/hangar/solar-crown.png": {
+    "sha256": "678bd3fa05ef",
+    "original_bytes": 1479020,
+    "variants": [
+      {
+        "file": "assets/previews/solar-crown-678bd3fa05ef-m4-320.webp",
+        "width": 320,
+        "bytes": 30420
+      },
+      {
+        "file": "assets/previews/solar-crown-678bd3fa05ef-m4-640.webp",
+        "width": 640,
+        "bytes": 92700
+      },
+      {
+        "file": "assets/previews/solar-crown-678bd3fa05ef-m4-960.webp",
+        "width": 960,
+        "bytes": 182394
+      }
+    ]
+  },
+  "assets/ships/upgrades/hangar/uranus.png": {
+    "sha256": "19994c56b820",
+    "original_bytes": 1491611,
+    "variants": [
+      {
+        "file": "assets/previews/uranus-19994c56b820-m4-320.webp",
+        "width": 320,
+        "bytes": 28922
+      },
+      {
+        "file": "assets/previews/uranus-19994c56b820-m4-640.webp",
+        "width": 640,
+        "bytes": 85348
+      },
+      {
+        "file": "assets/previews/uranus-19994c56b820-m4-960.webp",
+        "width": 960,
+        "bytes": 168872
+      }
+    ]
+  },
+  "assets/ships/upgrades/hangar/venus.png": {
+    "sha256": "95cfd8414c4a",
+    "original_bytes": 1249564,
+    "variants": [
+      {
+        "file": "assets/previews/venus-95cfd8414c4a-m4-320.webp",
+        "width": 320,
+        "bytes": 23308
+      },
+      {
+        "file": "assets/previews/venus-95cfd8414c4a-m4-640.webp",
+        "width": 640,
+        "bytes": 67310
+      },
+      {
+        "file": "assets/previews/venus-95cfd8414c4a-m4-960.webp",
+        "width": 960,
+        "bytes": 131538
+      }
+    ]
+  },
+  "assets/ships/uranus-assimilator.png": {
+    "sha256": "3862155e648a",
+    "original_bytes": 1027429,
+    "variants": [
+      {
+        "file": "assets/previews/uranus-assimilator-3862155e648a-m4-320.webp",
+        "width": 320,
+        "bytes": 26836
+      },
+      {
+        "file": "assets/previews/uranus-assimilator-3862155e648a-m4-640.webp",
+        "width": 640,
+        "bytes": 72456
+      },
+      {
+        "file": "assets/previews/uranus-assimilator-3862155e648a-m4-960.webp",
+        "width": 960,
+        "bytes": 135430
+      }
+    ]
+  },
+  "assets/ships/uranus-boss-null-vessel-phase1.png": {
+    "sha256": "fa15fc9c1d83",
+    "original_bytes": 647818,
+    "variants": [
+      {
+        "file": "assets/previews/uranus-boss-null-vessel-phase1-fa15fc9c1d83-m4-320.webp",
+        "width": 320,
+        "bytes": 15416
+      },
+      {
+        "file": "assets/previews/uranus-boss-null-vessel-phase1-fa15fc9c1d83-m4-640.webp",
+        "width": 640,
+        "bytes": 39692
+      },
+      {
+        "file": "assets/previews/uranus-boss-null-vessel-phase1-fa15fc9c1d83-m4-960.webp",
+        "width": 960,
+        "bytes": 75348
+      }
+    ]
+  },
+  "assets/ships/uranus-lattice.png": {
+    "sha256": "2ef1889afc7a",
+    "original_bytes": 428341,
+    "variants": [
+      {
+        "file": "assets/previews/uranus-lattice-2ef1889afc7a-m4-320.webp",
+        "width": 320,
+        "bytes": 14464
+      },
+      {
+        "file": "assets/previews/uranus-lattice-2ef1889afc7a-m4-640.webp",
+        "width": 640,
+        "bytes": 38424
+      },
+      {
+        "file": "assets/previews/uranus-lattice-2ef1889afc7a-m4-960.webp",
+        "width": 960,
+        "bytes": 69260
+      }
+    ]
+  },
+  "assets/ships/uranus-object-scan-target.png": {
+    "sha256": "66c167ccf38f",
+    "original_bytes": 503238,
+    "variants": [
+      {
+        "file": "assets/previews/uranus-object-scan-target-66c167ccf38f-m4-320.webp",
+        "width": 320,
+        "bytes": 8114
+      },
+      {
+        "file": "assets/previews/uranus-object-scan-target-66c167ccf38f-m4-640.webp",
+        "width": 640,
+        "bytes": 19292
+      },
+      {
+        "file": "assets/previews/uranus-object-scan-target-66c167ccf38f-m4-960.webp",
+        "width": 960,
+        "bytes": 35228
+      }
+    ]
+  },
+  "assets/ships/uranus-shard.png": {
+    "sha256": "0af906319d17",
+    "original_bytes": 491168,
+    "variants": [
+      {
+        "file": "assets/previews/uranus-shard-0af906319d17-m4-320.webp",
+        "width": 320,
+        "bytes": 9046
+      },
+      {
+        "file": "assets/previews/uranus-shard-0af906319d17-m4-640.webp",
+        "width": 640,
+        "bytes": 22308
+      },
+      {
+        "file": "assets/previews/uranus-shard-0af906319d17-m4-960.webp",
+        "width": 960,
+        "bytes": 40318
+      }
+    ]
+  },
+  "assets/ships/venus-boss.png": {
+    "sha256": "c9fae5e60382",
+    "original_bytes": 1893958,
+    "variants": [
+      {
+        "file": "assets/previews/venus-boss-c9fae5e60382-m4-320.webp",
+        "width": 320,
+        "bytes": 28160
+      },
+      {
+        "file": "assets/previews/venus-boss-c9fae5e60382-m4-640.webp",
+        "width": 640,
+        "bytes": 88054
+      },
+      {
+        "file": "assets/previews/venus-boss-c9fae5e60382-m4-960.webp",
+        "width": 960,
+        "bytes": 188370
+      }
+    ]
+  },
+  "assets/ships/venus-guard.png": {
+    "sha256": "77c96d7e5734",
+    "original_bytes": 2113711,
+    "variants": [
+      {
+        "file": "assets/previews/venus-guard-77c96d7e5734-m4-320.webp",
+        "width": 320,
+        "bytes": 26136
+      },
+      {
+        "file": "assets/previews/venus-guard-77c96d7e5734-m4-640.webp",
+        "width": 640,
+        "bytes": 82602
+      },
+      {
+        "file": "assets/previews/venus-guard-77c96d7e5734-m4-960.webp",
+        "width": 960,
+        "bytes": 173624
+      }
+    ]
+  },
+  "assets/ships/venus-scout.png": {
+    "sha256": "fb197ece04d1",
+    "original_bytes": 932117,
+    "variants": [
+      {
+        "file": "assets/previews/venus-scout-fb197ece04d1-m4-320.webp",
+        "width": 320,
+        "bytes": 19036
+      },
+      {
+        "file": "assets/previews/venus-scout-fb197ece04d1-m4-640.webp",
+        "width": 640,
+        "bytes": 56800
+      },
+      {
+        "file": "assets/previews/venus-scout-fb197ece04d1-m4-960.webp",
+        "width": 960,
+        "bytes": 116432
+      }
+    ]
+  },
+  "assets/ships/venus-striker.png": {
+    "sha256": "3157e66a19cd",
+    "original_bytes": 1703736,
+    "variants": [
+      {
+        "file": "assets/previews/venus-striker-3157e66a19cd-m4-320.webp",
+        "width": 320,
+        "bytes": 25200
+      },
+      {
+        "file": "assets/previews/venus-striker-3157e66a19cd-m4-640.webp",
+        "width": 640,
+        "bytes": 78088
+      },
+      {
+        "file": "assets/previews/venus-striker-3157e66a19cd-m4-960.webp",
+        "width": 960,
+        "bytes": 163364
+      }
+    ]
+  },
+  "assets/ships/venus-veil-hunter.png": {
+    "sha256": "461338e01624",
+    "original_bytes": 1251002,
+    "variants": [
+      {
+        "file": "assets/previews/venus-veil-hunter-461338e01624-m4-320.webp",
+        "width": 320,
+        "bytes": 24684
+      },
+      {
+        "file": "assets/previews/venus-veil-hunter-461338e01624-m4-640.webp",
+        "width": 640,
+        "bytes": 73332
+      },
+      {
+        "file": "assets/previews/venus-veil-hunter-461338e01624-m4-960.webp",
+        "width": 960,
+        "bytes": 150138
+      }
+    ]
+  },
+  "assets/solar-logo-polished.png": {
+    "sha256": "44e27131ec94",
+    "original_bytes": 1487356,
+    "variants": [
+      {
+        "file": "assets/previews/solar-logo-polished-44e27131ec94-m4-320.webp",
+        "width": 320,
+        "bytes": 16964
+      },
+      {
+        "file": "assets/previews/solar-logo-polished-44e27131ec94-m4-640.webp",
+        "width": 640,
+        "bytes": 43880
+      },
+      {
+        "file": "assets/previews/solar-logo-polished-44e27131ec94-m4-960.webp",
+        "width": 960,
+        "bytes": 78734
+      }
+    ]
+  }
+}

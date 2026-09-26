@@ -2,11 +2,12 @@
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
 from bs4 import BeautifulSoup as Soup
-import re
+import re,json
 
 ROOT=Path(__file__).resolve().parents[1]
 pages={p.name:Soup(p.read_text(encoding='utf8'),'html.parser') for p in ROOT.glob('*.html')}
 reader=pages['scenario.html']
+dialogue_ids={e['id'] for e in json.loads((ROOT/'assets/dialogues.json').read_text(encoding='utf8'))['entries']}
 def normalized(scene):
     clone=Soup(str(scene),'html.parser')
     for el in clone.select('.priority'):el.decompose()
@@ -40,7 +41,9 @@ for name,page in pages.items():
         if u.scheme or u.netloc:continue
         path=unquote(u.path) or name
         assert (ROOT/path).exists(),(name,path)
-        if u.fragment and path in pages:assert pages[path].find(id=unquote(u.fragment)),(name,path,u.fragment)
+        if u.fragment and path in pages:
+            dynamic = path == 'dialogues.html' and unquote(u.fragment) in dialogue_ids
+            assert pages[path].find(id=unquote(u.fragment)) or dynamic,(name,path,u.fragment)
 assert 'Last confirmed memory: Saturn departure.' in reader.get_text()
 assert 'Two transports clear. We lost the third.' in reader.get_text()
 assert reader.select_one('#mission-8-1').get_text().find('It\'s ROOK.')>=0

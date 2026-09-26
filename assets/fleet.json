@@ -157,6 +157,9 @@
       "archived": false,
       "legacyIds": [
         "ship-venus-scout"
+      ],
+      "appearances": [
+        "2-1"
       ]
     },
     {
@@ -167,13 +170,16 @@
       "image": "assets/ships/venus-striker.png",
       "width": 1254,
       "height": 1254,
-      "description": "Ударный корабль. В текущей рабочей версии игры оставляет короткий кислотный след: контакт наносит урон, остаток временно замедляет восстановление щита в чистом потоке Acid Front.",
+      "description": "Кислотный след действует в миссиях Venus, где появляется Striker. Остаток замедляет восстановление щита в чистом потоке Acid Front. Сверка рабочей игры: 2026-09-22.",
       "technicalCode": null,
       "mission": null,
       "phase": null,
       "archived": false,
       "legacyIds": [
         "ship-venus-striker"
+      ],
+      "appearances": [
+        "2-3"
       ]
     },
     {
@@ -184,13 +190,17 @@
       "image": "assets/ships/venus-guard.png",
       "width": 1254,
       "height": 1254,
-      "description": "Защита, глушение и ложные контакты. В текущей рабочей версии игры Guard задерживает обновление сенсорных отметок своего сектора. Echo Jammer — функция оснащённых ею Guard, а не отдельный класс.",
+      "description": "Помехи принадлежат Guard: отметки сектора обновляются с задержкой до 0,8 с; уничтожение источника восстанавливает обновления. Ложные контакты создают оснащённые Echo Jammer Guard. Влияние на lock-on не реализовано; критические предупреждения не задерживаются. Сверка рабочей игры: 2026-09-22.",
       "technicalCode": null,
       "mission": null,
       "phase": null,
       "archived": false,
       "legacyIds": [
         "ship-venus-guard"
+      ],
+      "appearances": [
+        "2-1",
+        "2-4"
       ]
     },
     {
@@ -225,6 +235,9 @@
       "archived": false,
       "legacyIds": [
         "ship-earth-scout"
+      ],
+      "appearances": [
+        "3-1"
       ]
     },
     {
@@ -242,6 +255,10 @@
       "archived": false,
       "legacyIds": [
         "ship-earth-striker"
+      ],
+      "appearances": [
+        "3-1",
+        "3-4"
       ]
     },
     {
@@ -259,6 +276,9 @@
       "archived": false,
       "legacyIds": [
         "ship-earth-guard"
+      ],
+      "appearances": [
+        "3-1"
       ]
     },
     {
@@ -293,6 +313,9 @@
       "archived": false,
       "legacyIds": [
         "ship-mars-scout"
+      ],
+      "appearances": [
+        "4-2"
       ]
     },
     {
@@ -310,6 +333,9 @@
       "archived": false,
       "legacyIds": [
         "ship-mars-striker"
+      ],
+      "appearances": [
+        "4-1"
       ]
     },
     {
@@ -327,6 +353,9 @@
       "archived": false,
       "legacyIds": [
         "ship-mars-guard"
+      ],
+      "appearances": [
+        "4-2"
       ]
     },
     {
@@ -513,7 +542,11 @@
       "legacyIds": [],
       "image": "assets/ships/jupiter-scout.png",
       "width": 1254,
-      "height": 1254
+      "height": 1254,
+      "appearances": [
+        "5-1",
+        "5-5"
+      ]
     },
     {
       "id": "jupiter-striker",
@@ -528,7 +561,10 @@
       "legacyIds": [],
       "image": "assets/ships/jupiter-striker.png",
       "width": 1254,
-      "height": 1254
+      "height": 1254,
+      "appearances": [
+        "5-2"
+      ]
     },
     {
       "id": "jupiter-guard",
@@ -543,7 +579,10 @@
       "legacyIds": [],
       "image": "assets/ships/jupiter-guard.png",
       "width": 1254,
-      "height": 1254
+      "height": 1254,
+      "appearances": [
+        "5-3"
+      ]
     },
     {
       "id": "tempest-crown",
@@ -948,7 +987,10 @@
       "detailLink": {
         "url": "character-maya.html",
         "label": "Досье пилота"
-      }
+      },
+      "appearances": [
+        "2-2"
+      ]
     },
     {
       "id": "rex-ship",
@@ -967,7 +1009,12 @@
       "detailLink": {
         "url": "character-rex.html",
         "label": "Досье пилота"
-      }
+      },
+      "appearances": [
+        "3-1",
+        "3-2",
+        "5-3"
+      ]
     },
     {
       "id": "saturn-archive-wisp",
@@ -982,7 +1029,10 @@
       "legacyIds": [],
       "image": "assets/ships/saturn-archive-wisp.png",
       "width": 1254,
-      "height": 1254
+      "height": 1254,
+      "appearances": [
+        "6-3"
+      ]
     },
     {
       "id": "earth-missile-frigate",
@@ -997,7 +1047,10 @@
       "legacyIds": [],
       "image": "assets/ships/earth-missile-frigate.png",
       "width": 1254,
-      "height": 1254
+      "height": 1254,
+      "appearances": [
+        "3-2"
+      ]
     },
     {
       "id": "earth-rail-platform",
@@ -1012,14 +1065,17 @@
       "legacyIds": [],
       "image": "assets/ships/earth-rail-platform.png",
       "width": 1254,
-      "height": 1254
+      "height": 1254,
+      "appearances": [
+        "3-1"
+      ]
     }
   ],
   "notes": [
     "Корабль Andygen — Player Interceptor. Mercury: Mercury Scout, Mercury Striker, Mercury Guard; босс — Helios Warden. Venus: Venus Scout, Venus Striker, Venus Guard; босс — Veil Hunter. Номера MRC — только технические обозначения.",
     "Выход из облаков — поведение Venus Scout. Кислотный след — специальная способность Venus Striker; проверена в рабочей версии игры 22.09.2026.",
     "Echo Jammer («постановщик помех») — функция Venus Guard, а не отдельный класс корабля. Guard отвечает за защиту, глушение и ложные контакты.",
-    "Сверка рабочей версии игры 22.09.2026: кислотный след Striker и помехи Guard прошли автоматические проверки. Guard задерживает сенсорные отметки сектора до 0,8 с; уничтожение источника восстанавливает обновления. Ложные контакты принадлежат оснащённым Echo Jammer Guard в 2-1. Влияние на lock-on не реализовано; критические предупреждения не задерживаются. Это статус локальной рабочей версии, а не опубликованного билда.",
+    "Сверка рабочей версии игры: Кислотный след действует в миссиях Venus, где появляется Striker. Остаток замедляет восстановление щита в чистом потоке Acid Front. Помехи принадлежат Guard: отметки сектора обновляются с задержкой до 0,8 с; уничтожение источника восстанавливает обновления. Ложные контакты создают оснащённые Echo Jammer Guard. Влияние на lock-on не реализовано; критические предупреждения не задерживаются. Дата: 2026-09-22. Это статус локальной рабочей версии, а не опубликованного билда.",
     "Earth: Earth Scout, Earth Striker, Earth Guard; босс — Aegis Citadel. Mars: Mars Scout, Mars Striker, Mars Guard, ремонтный аппарат Mars Repair Unit; босс — Assembler Prime. Опубликованный PNG Assembler Prime показывает только фазу 1."
   ],
   "archiveNotes": [

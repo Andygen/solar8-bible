@@ -1,0 +1,2556 @@
+{
+  "schema_version": 1,
+  "speakers": [
+    "ANDYGEN",
+    "ROOK",
+    "VALE",
+    "MAYA",
+    "LENA",
+    "MAX",
+    "REX",
+    "COLE",
+    "SOLAR"
+  ],
+  "entries": [
+    {
+      "id": "dlg.rook.rook.001",
+      "speaker": "ROOK",
+      "mission": "mercury_1_1",
+      "context": "rook",
+      "trigger": "TIPS",
+      "order": 1,
+      "legacy_text": "Helios security does not recognize friendly craft. Keep moving and leave the marked solar-flare zone."
+    },
+    {
+      "id": "dlg.rook.rook.002",
+      "speaker": "ROOK",
+      "mission": "mercury_1_2",
+      "context": "rook",
+      "trigger": "TIPS",
+      "order": 2,
+      "legacy_text": "Six debris targets are marked. The larger structures absorb fire. I recommend flying around those."
+    },
+    {
+      "id": "dlg.rook.rook.003",
+      "speaker": "ROOK",
+      "mission": "mercury_1_3",
+      "context": "rook",
+      "trigger": "TIPS",
+      "order": 3,
+      "legacy_text": "Four seconds to enter a thermal shelter. The entire ship, Andygen. Not just the part you like most."
+    },
+    {
+      "id": "dlg.rook.rook.004",
+      "speaker": "ROOK",
+      "mission": "mercury_1_4",
+      "context": "rook",
+      "trigger": "TIPS",
+      "order": 4,
+      "legacy_text": "Turret control, shield generator, communications. Three nodes. Disabling them opens the route to the core."
+    },
+    {
+      "id": "dlg.rook.rook.005",
+      "speaker": "ROOK",
+      "mission": "mercury_1_5",
+      "context": "rook",
+      "trigger": "TIPS",
+      "order": 5,
+      "legacy_text": "The Warden changes tactics as its armor fails. Keep a clear lane when the collectors begin to surge."
+    },
+    {
+      "id": "dlg.rook.rook.006",
+      "speaker": "ROOK",
+      "mission": "venus_2_5",
+      "context": "rook",
+      "trigger": "TIPS",
+      "order": 6,
+      "legacy_text": "Track engine flares through false contacts. Avoid charged sectors. In the final phase, hit the central core during every 1.8-second overload after a strike."
+    },
+    {
+      "id": "dlg.rook.rook.007",
+      "speaker": "ROOK",
+      "mission": "venus_2_4",
+      "context": "rook",
+      "trigger": "TIPS",
+      "order": 7,
+      "legacy_text": "Jammers hide radar contacts in their sector, not physical hulls. Disable each node before its second reinforcement, at 22 seconds. Keep half your shield at the final node."
+    },
+    {
+      "id": "dlg.rook.rook.008",
+      "speaker": "ROOK",
+      "mission": "venus_2_3",
+      "context": "rook",
+      "trigger": "TIPS",
+      "order": 8,
+      "legacy_text": "Stay inside the clear lane, allowing room for your hull. Acid drains shield after sustained exposure. Three seconds in clear air restores one shield unit."
+    },
+    {
+      "id": "dlg.rook.rook.009",
+      "speaker": "ROOK",
+      "mission": "venus_2_2",
+      "context": "rook",
+      "trigger": "TIPS",
+      "order": 9,
+      "legacy_text": "Maya's beacon repeats two short pulses, then one long: ..- . Read the signature before holding inside a ring. False signals never match."
+    },
+    {
+      "id": "dlg.rook.rook.010",
+      "speaker": "ROOK",
+      "mission": "venus_2_1",
+      "context": "rook",
+      "trigger": "TIPS",
+      "order": 10,
+      "legacy_text": "Cyan brackets mark Venus Scouts. Destroy them before their second pass. Crossed contacts are false; eliminate the ringed Venus Guard to clear the sensor."
+    },
+    {
+      "id": "dlg.rook.rook.011",
+      "speaker": "ROOK",
+      "mission": "venus_2_1",
+      "context": "rook",
+      "trigger": "BANTER",
+      "order": 11,
+      "legacy_text": "All systems nominal. Your flight plan remains the least predictable component."
+    },
+    {
+      "id": "dlg.rook.rook.012",
+      "speaker": "ROOK",
+      "mission": "venus_2_1",
+      "context": "rook",
+      "trigger": "BANTER",
+      "order": 12,
+      "legacy_text": "Max checked the docking clamps twice. I checked his work a third time. We are ready."
+    },
+    {
+      "id": "dlg.rook.rook.013",
+      "speaker": "ROOK",
+      "mission": "venus_2_1",
+      "context": "rook",
+      "trigger": "BANTER",
+      "order": 13,
+      "legacy_text": "I have updated the risk assessment. It still includes you."
+    },
+    {
+      "id": "dlg.venus_enemy.rook.001",
+      "speaker": "ROOK",
+      "mission": null,
+      "context": "venus_enemy",
+      "trigger": "_process",
+      "order": 1,
+      "legacy_text": "Three contacts are false. Crossed marks are echoes. Destroy the ringed Venus Guard to clear them."
+    },
+    {
+      "id": "dlg.venus_enemy.andygen.002",
+      "speaker": "ANDYGEN",
+      "mission": null,
+      "context": "venus_enemy",
+      "trigger": "_process",
+      "order": 2,
+      "legacy_text": "The radar is lying?"
+    },
+    {
+      "id": "dlg.venus_enemy.rook.003",
+      "speaker": "ROOK",
+      "mission": null,
+      "context": "venus_enemy",
+      "trigger": "_process",
+      "order": 3,
+      "legacy_text": "Someone is lying through the radar."
+    },
+    {
+      "id": "dlg.venus_support.rook.001",
+      "speaker": "ROOK",
+      "mission": null,
+      "context": "venus_support",
+      "trigger": "_process",
+      "order": 1,
+      "legacy_text": "Venus Striker is venting acid. Avoid its wake; residue slows shield recovery."
+    },
+    {
+      "id": "dlg.venus_support.rook.002",
+      "speaker": "ROOK",
+      "mission": null,
+      "context": "venus_support",
+      "trigger": "_process",
+      "order": 2,
+      "legacy_text": "Venus Guard is delaying sector contacts. Trust visible hulls; destroy the Guard to restore updates."
+    },
+    {
+      "id": "dlg.game.rook.001",
+      "speaker": "ROOK",
+      "mission": "earth_3_3",
+      "context": "game",
+      "trigger": "_spawn_enemy_job",
+      "order": 1,
+      "legacy_text": "Contact ahead. No visual. Cyan brackets mark Venus Scouts: intercept before their second pass."
+    },
+    {
+      "id": "dlg.game.rook.002",
+      "speaker": "ROOK",
+      "mission": "mercury_1_5",
+      "context": "game",
+      "trigger": "_spawn_boss",
+      "order": 2,
+      "legacy_text": "Helios Warden. It has classified you as a system-level threat."
+    },
+    {
+      "id": "dlg.game.andygen.003",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_5",
+      "context": "game",
+      "trigger": "_spawn_boss",
+      "order": 3,
+      "legacy_text": "Finally, some respect."
+    },
+    {
+      "id": "dlg.game.rook.004",
+      "speaker": "ROOK",
+      "mission": "venus_2_5",
+      "context": "game",
+      "trigger": "_spawn_boss",
+      "order": 4,
+      "legacy_text": "Multiple echoes. One physical hull. Watch the engine flares."
+    },
+    {
+      "id": "dlg.game.rook.005",
+      "speaker": "ROOK",
+      "mission": "mercury_1_5",
+      "context": "game",
+      "trigger": "_on_boss_phase_changed",
+      "order": 5,
+      "legacy_text": "Armor breach. Core exposed."
+    },
+    {
+      "id": "dlg.game.max.006",
+      "speaker": "MAX",
+      "mission": "mercury_1_5",
+      "context": "game",
+      "trigger": "_on_boss_phase_changed",
+      "order": 6,
+      "legacy_text": "Don't celebrate. That core is drawing more power."
+    },
+    {
+      "id": "dlg.game.rook.007",
+      "speaker": "ROOK",
+      "mission": "mercury_1_5",
+      "context": "game",
+      "trigger": "_on_boss_phase_changed",
+      "order": 7,
+      "legacy_text": "Warden is drawing directly from the collector grid."
+    },
+    {
+      "id": "dlg.orbital_ring.rook.001",
+      "speaker": "ROOK",
+      "mission": "mercury_1_2",
+      "context": "orbital_ring",
+      "trigger": "_process",
+      "order": 1,
+      "legacy_text": "Collision course. Large wreck from the left. Three seconds."
+    },
+    {
+      "id": "dlg.acid_front.lena.001",
+      "speaker": "LENA",
+      "mission": "venus_2_3",
+      "context": "acid_front",
+      "trigger": "TRANSMISSIONS",
+      "order": 1,
+      "legacy_text": "Those green bands are concentrated sulfuric aerosols. Avoid prolonged exposure."
+    },
+    {
+      "id": "dlg.acid_front.andygen.002",
+      "speaker": "ANDYGEN",
+      "mission": "venus_2_3",
+      "context": "acid_front",
+      "trigger": "TRANSMISSIONS",
+      "order": 2,
+      "legacy_text": "You could have led with 'it melts shields.'"
+    },
+    {
+      "id": "dlg.acid_front.lena.003",
+      "speaker": "LENA",
+      "mission": "venus_2_3",
+      "context": "acid_front",
+      "trigger": "TRANSMISSIONS",
+      "order": 3,
+      "legacy_text": "I assumed that part was visually obvious."
+    },
+    {
+      "id": "dlg.acid_front.maya.004",
+      "speaker": "MAYA",
+      "mission": "venus_2_3",
+      "context": "acid_front",
+      "trigger": "TRANSMISSIONS",
+      "order": 4,
+      "legacy_text": "Follow the clear current. The gap moves; keep your shield above zero."
+    },
+    {
+      "id": "dlg.acid_front.lena.005",
+      "speaker": "LENA",
+      "mission": "venus_2_3",
+      "context": "acid_front",
+      "trigger": "TRANSMISSIONS",
+      "order": 5,
+      "legacy_text": "I have the infected weather drone. Keep the channel isolated."
+    },
+    {
+      "id": "dlg.acid_front.max.006",
+      "speaker": "MAX",
+      "mission": "venus_2_3",
+      "context": "acid_front",
+      "trigger": "TRANSMISSIONS",
+      "order": 6,
+      "legacy_text": "Sending you a sandbox. If it explodes, that's normal."
+    },
+    {
+      "id": "dlg.acid_front.lena.007",
+      "speaker": "LENA",
+      "mission": "venus_2_3",
+      "context": "acid_front",
+      "trigger": "TRANSMISSIONS",
+      "order": 7,
+      "legacy_text": "Define normal."
+    },
+    {
+      "id": "dlg.acid_front.maya.008",
+      "speaker": "MAYA",
+      "mission": "venus_2_3",
+      "context": "acid_front",
+      "trigger": "update_sector",
+      "order": 8,
+      "legacy_text": "Acid front ahead. Follow the clear lane; it will drift during the crossing."
+    },
+    {
+      "id": "dlg.aegis_line.cole.001",
+      "speaker": "COLE",
+      "mission": "earth_3_4",
+      "context": "aegis_line",
+      "trigger": "TRANSMISSIONS",
+      "order": 1,
+      "legacy_text": "Destroy the pylons and the line collapses."
+    },
+    {
+      "id": "dlg.aegis_line.vale.002",
+      "speaker": "VALE",
+      "mission": "earth_3_4",
+      "context": "aegis_line",
+      "trigger": "TRANSMISSIONS",
+      "order": 2,
+      "legacy_text": "No. ROOK goes inside. We take them offline intact."
+    },
+    {
+      "id": "dlg.aegis_line.cole.003",
+      "speaker": "COLE",
+      "mission": "earth_3_4",
+      "context": "aegis_line",
+      "trigger": "TRANSMISSIONS",
+      "order": 3,
+      "legacy_text": "You're risking pilots to preserve infected hardware."
+    },
+    {
+      "id": "dlg.aegis_line.vale.004",
+      "speaker": "VALE",
+      "mission": "earth_3_4",
+      "context": "aegis_line",
+      "trigger": "TRANSMISSIONS",
+      "order": 4,
+      "legacy_text": "I'm risking pilots to understand it."
+    },
+    {
+      "id": "dlg.aegis_line.rook.005",
+      "speaker": "ROOK",
+      "mission": "earth_3_4",
+      "context": "aegis_line",
+      "trigger": "start_infiltration",
+      "order": 5,
+      "legacy_text": "I will require forty-three seconds."
+    },
+    {
+      "id": "dlg.aegis_line.andygen.006",
+      "speaker": "ANDYGEN",
+      "mission": "earth_3_4",
+      "context": "aegis_line",
+      "trigger": "start_infiltration",
+      "order": 6,
+      "legacy_text": "You have twenty."
+    },
+    {
+      "id": "dlg.aegis_line.rook.007",
+      "speaker": "ROOK",
+      "mission": "earth_3_4",
+      "context": "aegis_line",
+      "trigger": "start_infiltration",
+      "order": 7,
+      "legacy_text": "Then expect twenty seconds of quality."
+    },
+    {
+      "id": "dlg.aegis_line.rex.008",
+      "speaker": "REX",
+      "mission": "earth_3_4",
+      "context": "aegis_line",
+      "trigger": "start_infiltration",
+      "order": 8,
+      "legacy_text": "I understand why you two get along."
+    },
+    {
+      "id": "dlg.aegis_line.rook.009",
+      "speaker": "ROOK",
+      "mission": "earth_3_4",
+      "context": "aegis_line",
+      "trigger": "core_lost",
+      "order": 9,
+      "legacy_text": "Command core destroyed. Switching to manual isolation. Preserve the remaining cores."
+    },
+    {
+      "id": "dlg.atmospheric_citadel.maya.001",
+      "speaker": "MAYA",
+      "mission": "venus_2_4",
+      "context": "atmospheric_citadel",
+      "trigger": "TRANSMISSIONS",
+      "order": 1,
+      "legacy_text": "Three jammer nodes around the station. Kill them and I get my eyes back."
+    },
+    {
+      "id": "dlg.atmospheric_citadel.andygen.002",
+      "speaker": "ANDYGEN",
+      "mission": "venus_2_4",
+      "context": "atmospheric_citadel",
+      "trigger": "TRANSMISSIONS",
+      "order": 2,
+      "legacy_text": "You say that like I took them."
+    },
+    {
+      "id": "dlg.atmospheric_citadel.maya.003",
+      "speaker": "MAYA",
+      "mission": "venus_2_4",
+      "context": "atmospheric_citadel",
+      "trigger": "TRANSMISSIONS",
+      "order": 3,
+      "legacy_text": "You were late. Same category."
+    },
+    {
+      "id": "dlg.atmospheric_citadel.rook.004",
+      "speaker": "ROOK",
+      "mission": "venus_2_4",
+      "context": "atmospheric_citadel",
+      "trigger": "_next_sector",
+      "order": 4,
+      "legacy_text": "Jammer %s exposed. Destroy it to restore that sensor sector."
+    },
+    {
+      "id": "dlg.atmospheric_citadel.maya.005",
+      "speaker": "MAYA",
+      "mission": "venus_2_4",
+      "context": "atmospheric_citadel",
+      "trigger": "_send_patrol",
+      "order": 5,
+      "legacy_text": "Patrol inbound through restored sector %s."
+    },
+    {
+      "id": "dlg.atmospheric_citadel.rook.006",
+      "speaker": "ROOK",
+      "mission": "venus_2_4",
+      "context": "atmospheric_citadel",
+      "trigger": "_node_destroyed",
+      "order": 6,
+      "legacy_text": "Sensor latency reduced by thirty-one percent. Sector A restored."
+    },
+    {
+      "id": "dlg.atmospheric_citadel.andygen.007",
+      "speaker": "ANDYGEN",
+      "mission": "venus_2_4",
+      "context": "atmospheric_citadel",
+      "trigger": "_node_destroyed",
+      "order": 7,
+      "legacy_text": "Tell me the third one turns the weather off."
+    },
+    {
+      "id": "dlg.atmospheric_citadel.maya.008",
+      "speaker": "MAYA",
+      "mission": "venus_2_4",
+      "context": "atmospheric_citadel",
+      "trigger": "_node_destroyed",
+      "order": 8,
+      "legacy_text": "Sure. Let's pretend it does."
+    },
+    {
+      "id": "dlg.atmospheric_citadel.rook.009",
+      "speaker": "ROOK",
+      "mission": "venus_2_4",
+      "context": "atmospheric_citadel",
+      "trigger": "_node_destroyed",
+      "order": 9,
+      "legacy_text": "All three sensor sectors restored. Clear the remaining patrols to secure the command traffic."
+    },
+    {
+      "id": "dlg.briefing_dialogues.max.001",
+      "speaker": "MAX",
+      "mission": "mars_4_1",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 1,
+      "legacy_text": "The production queue leads into the Mars Industrial transport belt."
+    },
+    {
+      "id": "dlg.briefing_dialogues.rook.002",
+      "speaker": "ROOK",
+      "mission": "mars_4_1",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 2,
+      "legacy_text": "Loaders cross on magnetic rails. Industrial arms sweep in from the sides. Amber markings show their paths before movement."
+    },
+    {
+      "id": "dlg.briefing_dialogues.max.003",
+      "speaker": "MAX",
+      "mission": "mars_4_1",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 3,
+      "legacy_text": "Cross the belt. Avoid machinery contact and preserve the hull. Your shield can absorb a collision, but the flight recorder still counts it."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.004",
+      "speaker": "ANDYGEN",
+      "mission": "mars_4_1",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 4,
+      "legacy_text": "Let's find out who's keeping the factories busy."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.005",
+      "speaker": "VALE",
+      "mission": "earth_3_5",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 5,
+      "legacy_text": "Capture Aegis Citadel intact. Disable its external weapon pods first."
+    },
+    {
+      "id": "dlg.briefing_dialogues.rook.006",
+      "speaker": "ROOK",
+      "mission": "earth_3_5",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 6,
+      "legacy_text": "Strike shield modules only inside the rotating green window. Rex will draw the railgun's aim."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.007",
+      "speaker": "VALE",
+      "mission": "earth_3_5",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 7,
+      "legacy_text": "When the core opens, shift your fire to the four outer relay nodes. Let ROOK connect and hold against the final wave."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.008",
+      "speaker": "ANDYGEN",
+      "mission": "earth_3_5",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 8,
+      "legacy_text": "Four relays. No shots into the core. Understood."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.009",
+      "speaker": "VALE",
+      "mission": "earth_3_4",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 9,
+      "legacy_text": "ROOK must enter three service channels. Keep the command cores out of your firing lane."
+    },
+    {
+      "id": "dlg.briefing_dialogues.rook.010",
+      "speaker": "ROOK",
+      "mission": "earth_3_4",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 10,
+      "legacy_text": "Approach the green service marker. Stay inside the uplink ring while I work. Leaving it pauses progress, but not the timer."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.011",
+      "speaker": "VALE",
+      "mission": "earth_3_4",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 11,
+      "legacy_text": "Complete each operation in less than forty-three seconds. A destroyed core forces a slower manual bypass."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.012",
+      "speaker": "ANDYGEN",
+      "mission": "earth_3_4",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 12,
+      "legacy_text": "Rex covers the approach. I'll keep the line open."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.013",
+      "speaker": "VALE",
+      "mission": "earth_3_3",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 13,
+      "legacy_text": "Restore three autonomous relays. We need a route back into the dark sector."
+    },
+    {
+      "id": "dlg.briefing_dialogues.rook.014",
+      "speaker": "ROOK",
+      "mission": "earth_3_3",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 14,
+      "legacy_text": "Approach each cyan ring to deploy me. I need twenty seconds at the service port. Radar is offline."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.015",
+      "speaker": "VALE",
+      "mission": "earth_3_3",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 15,
+      "legacy_text": "Cover ROOK and protect your hull during each operation. Critical damage forces him back for repair and restarts that relay."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.016",
+      "speaker": "ANDYGEN",
+      "mission": "earth_3_3",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 16,
+      "legacy_text": "Then we do this the old-fashioned way."
+    },
+    {
+      "id": "dlg.briefing_dialogues.maya.017",
+      "speaker": "MAYA",
+      "mission": "earth_3_2",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 17,
+      "legacy_text": "Three civilian transports need an escort. Bring at least two through the corridor."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.018",
+      "speaker": "VALE",
+      "mission": "earth_3_2",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 18,
+      "legacy_text": "Keep all three alive and preserve every transport's shield for the full mission rating."
+    },
+    {
+      "id": "dlg.briefing_dialogues.rook.019",
+      "speaker": "ROOK",
+      "mission": "earth_3_2",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 19,
+      "legacy_text": "Orange locks mark missile launches. Shoot the launcher or intercept its missiles. Friendly ships do not block your fire."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.020",
+      "speaker": "ANDYGEN",
+      "mission": "earth_3_2",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 20,
+      "legacy_text": "Rex takes high cover. I'll stay with the convoy."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.021",
+      "speaker": "VALE",
+      "mission": "earth_3_1",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 21,
+      "legacy_text": "Approach Earth through the lunar transport corridor. Defense control is compromised."
+    },
+    {
+      "id": "dlg.briefing_dialogues.rook.022",
+      "speaker": "ROOK",
+      "mission": "earth_3_1",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 22,
+      "legacy_text": "Three seconds before each railgun salvo. Follow Rex into the green lane. Orange corridors mark incoming missiles."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.023",
+      "speaker": "VALE",
+      "mission": "earth_3_1",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 23,
+      "legacy_text": "Spare the objects marked NEUTRAL. Keep them out of your firing lane; your weapons fire automatically."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.024",
+      "speaker": "ANDYGEN",
+      "mission": "earth_3_1",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 24,
+      "legacy_text": "Getting home was supposed to be the easy part."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.025",
+      "speaker": "VALE",
+      "mission": "mercury_1_1",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 25,
+      "legacy_text": "Helios stopped responding six hours ago. Reach the outer relay and bring me something useful."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.026",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_1",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 26,
+      "legacy_text": "You say that like I usually bring back souvenirs."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.027",
+      "speaker": "VALE",
+      "mission": "mercury_1_1",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 27,
+      "legacy_text": "You usually bring back repair bills."
+    },
+    {
+      "id": "dlg.briefing_dialogues.rook.028",
+      "speaker": "ROOK",
+      "mission": "mercury_1_1",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 28,
+      "legacy_text": "Statistically accurate."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.029",
+      "speaker": "VALE",
+      "mission": "mercury_1_2",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 29,
+      "legacy_text": "The override came from inside Helios. Cross the ruined ring. We need to know what happened."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.030",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_2",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 30,
+      "legacy_text": "Define passable."
+    },
+    {
+      "id": "dlg.briefing_dialogues.rook.031",
+      "speaker": "ROOK",
+      "mission": "mercury_1_2",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 31,
+      "legacy_text": "Large structures absorb fire. Fly through the gaps. I've marked six small debris targets."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.032",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_2",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 32,
+      "legacy_text": "A scenic route. With target practice."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.033",
+      "speaker": "VALE",
+      "mission": "mercury_1_3",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 33,
+      "legacy_text": "Follow the collectors toward Helios. Find out where all that power is going."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.034",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_3",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 34,
+      "legacy_text": "Can the shields take the heat?"
+    },
+    {
+      "id": "dlg.briefing_dialogues.rook.035",
+      "speaker": "ROOK",
+      "mission": "mercury_1_3",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 35,
+      "legacy_text": "Not a direct discharge. Four seconds' warning. Get the whole ship inside the marked shelter."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.036",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_3",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 36,
+      "legacy_text": "Shelter first. Questions when we're less on fire."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.037",
+      "speaker": "VALE",
+      "mission": "mercury_1_4",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 37,
+      "legacy_text": "We need the command signature intact. Do not flatten the complex."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.038",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_4",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 38,
+      "legacy_text": "You really know how to take the fun out of a briefing."
+    },
+    {
+      "id": "dlg.briefing_dialogues.rook.039",
+      "speaker": "ROOK",
+      "mission": "mercury_1_4",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 39,
+      "legacy_text": "Three command nodes lock the route. Turret control, shield generator, then communications."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.040",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_4",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 40,
+      "legacy_text": "Three precise shots. More or less."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.041",
+      "speaker": "VALE",
+      "mission": "mercury_1_5",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 41,
+      "legacy_text": "SOLAR's signature is authentic. The Warden guards the core log. Disable it and recover the evidence."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.042",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_5",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 42,
+      "legacy_text": "I'll ask it to stand aside."
+    },
+    {
+      "id": "dlg.briefing_dialogues.rook.043",
+      "speaker": "ROOK",
+      "mission": "mercury_1_5",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 43,
+      "legacy_text": "Expect changing attack patterns as the armor fails. Keep clear of the collector surges."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.044",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_5",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 44,
+      "legacy_text": "Negotiations may be brief."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.045",
+      "speaker": "VALE",
+      "mission": "venus_2_1",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 45,
+      "legacy_text": "The Helios log names Venus as the next node. Contact went dark immediately afterward."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.046",
+      "speaker": "ANDYGEN",
+      "mission": "venus_2_1",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 46,
+      "legacy_text": "So we know the connection. Just not what it's starting."
+    },
+    {
+      "id": "dlg.briefing_dialogues.rook.047",
+      "speaker": "ROOK",
+      "mission": "venus_2_1",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 47,
+      "legacy_text": "Clouds hide incoming craft. Follow sensor marks; destroy Venus Guards. Intercept marked Venus Scouts before their second pass."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.048",
+      "speaker": "ANDYGEN",
+      "mission": "venus_2_1",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 48,
+      "legacy_text": "Another quiet station. I'll try not to take it personally."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.049",
+      "speaker": "VALE",
+      "mission": "venus_2_2",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 49,
+      "legacy_text": "Recon pilot Maya Renn missed two check-ins. Find her beacon."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.050",
+      "speaker": "ANDYGEN",
+      "mission": "venus_2_2",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 50,
+      "legacy_text": "Any chance she just hates paperwork?"
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.051",
+      "speaker": "VALE",
+      "mission": "venus_2_2",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 51,
+      "legacy_text": "You'd know."
+    },
+    {
+      "id": "dlg.briefing_dialogues.rook.052",
+      "speaker": "ROOK",
+      "mission": "venus_2_2",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 52,
+      "legacy_text": "Follow five beacons. Match two short pulses and one long: ..- . Hold your ship inside the correct ring to authenticate it."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.053",
+      "speaker": "VALE",
+      "mission": "venus_2_3",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 53,
+      "legacy_text": "Dr. Lena Ishikawa is isolating a weather drone. Cross the acid front and secure her analysis channel."
+    },
+    {
+      "id": "dlg.briefing_dialogues.lena.054",
+      "speaker": "LENA",
+      "mission": "venus_2_3",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 54,
+      "legacy_text": "Stay in the clear current. Prolonged acid exposure drains your shield, then your hull. Clear air restores shield slowly."
+    },
+    {
+      "id": "dlg.briefing_dialogues.maya.055",
+      "speaker": "MAYA",
+      "mission": "venus_2_3",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 55,
+      "legacy_text": "Watch the lane edges. The current drifts during each crossing."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.056",
+      "speaker": "ANDYGEN",
+      "mission": "venus_2_3",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 56,
+      "legacy_text": "Weather that melts shields. Venus keeps finding new ways to be welcoming."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.057",
+      "speaker": "VALE",
+      "mission": "venus_2_4",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 57,
+      "legacy_text": "The atmospheric station carries the command traffic. Disable its three jammers and recover the signature."
+    },
+    {
+      "id": "dlg.briefing_dialogues.maya.058",
+      "speaker": "MAYA",
+      "mission": "venus_2_4",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 58,
+      "legacy_text": "Each node blinds a sensor sector. Destroy it and that part of the radar comes back."
+    },
+    {
+      "id": "dlg.briefing_dialogues.rook.059",
+      "speaker": "ROOK",
+      "mission": "venus_2_4",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 59,
+      "legacy_text": "Second reinforcements arrive twenty-two seconds after each node is exposed. Keep at least half your shield for the final node."
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.060",
+      "speaker": "ANDYGEN",
+      "mission": "venus_2_4",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 60,
+      "legacy_text": "Three switches. One very unfriendly station."
+    },
+    {
+      "id": "dlg.briefing_dialogues.vale.061",
+      "speaker": "VALE",
+      "mission": "venus_2_5",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 61,
+      "legacy_text": "The command trail ends inside that storm. Find the interceptor guarding it."
+    },
+    {
+      "id": "dlg.briefing_dialogues.maya.062",
+      "speaker": "MAYA",
+      "mission": "venus_2_5",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 62,
+      "legacy_text": "Veil Hunter hides in the clouds. Watch engine flares, not duplicate radar contacts."
+    },
+    {
+      "id": "dlg.briefing_dialogues.lena.063",
+      "speaker": "LENA",
+      "mission": "venus_2_5",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 63,
+      "legacy_text": "Lightning reveals its hull. In the eye, follow the clear wedges and hit the central core after each strike."
+    },
+    {
+      "id": "dlg.briefing_dialogues.rook.064",
+      "speaker": "ROOK",
+      "mission": "venus_2_5",
+      "context": "briefing_dialogues",
+      "trigger": "DIALOGUES",
+      "order": 64,
+      "legacy_text": "Core overload lasts one point eight seconds. Every window counts."
+    },
+    {
+      "id": "dlg.closed_sky.rook.001",
+      "speaker": "ROOK",
+      "mission": "earth_3_1",
+      "context": "closed_sky",
+      "trigger": "TRANSMISSIONS",
+      "order": 1,
+      "legacy_text": "Earth defense network has classified us hostile."
+    },
+    {
+      "id": "dlg.closed_sky.andygen.002",
+      "speaker": "ANDYGEN",
+      "mission": "earth_3_1",
+      "context": "closed_sky",
+      "trigger": "TRANSMISSIONS",
+      "order": 2,
+      "legacy_text": "Home sweet home."
+    },
+    {
+      "id": "dlg.closed_sky.rook.003",
+      "speaker": "ROOK",
+      "mission": "earth_3_1",
+      "context": "closed_sky",
+      "trigger": "TRANSMISSIONS",
+      "order": 3,
+      "legacy_text": "Current welcome protocol appears inconsistent with that phrase."
+    },
+    {
+      "id": "dlg.closed_sky.rex.004",
+      "speaker": "REX",
+      "mission": "earth_3_1",
+      "context": "closed_sky",
+      "trigger": "TRANSMISSIONS",
+      "order": 4,
+      "legacy_text": "Try not to shoot anything with a flag on it."
+    },
+    {
+      "id": "dlg.closed_sky.andygen.005",
+      "speaker": "ANDYGEN",
+      "mission": "earth_3_1",
+      "context": "closed_sky",
+      "trigger": "TRANSMISSIONS",
+      "order": 5,
+      "legacy_text": "Good advice. You first."
+    },
+    {
+      "id": "dlg.closed_sky.rex.006",
+      "speaker": "REX",
+      "mission": "earth_3_1",
+      "context": "closed_sky",
+      "trigger": "TRANSMISSIONS",
+      "order": 6,
+      "legacy_text": "I already like him less than the briefing suggested."
+    },
+    {
+      "id": "dlg.closed_sky.cole.007",
+      "speaker": "COLE",
+      "mission": "earth_3_1",
+      "context": "closed_sky",
+      "trigger": "TRANSMISSIONS",
+      "order": 7,
+      "legacy_text": "All infected nodes are considered lost. Destroy them before they reach the surface network."
+    },
+    {
+      "id": "dlg.closed_sky.vale.008",
+      "speaker": "VALE",
+      "mission": "earth_3_1",
+      "context": "closed_sky",
+      "trigger": "TRANSMISSIONS",
+      "order": 8,
+      "legacy_text": "Negative. We need one core intact."
+    },
+    {
+      "id": "dlg.closed_sky.cole.009",
+      "speaker": "COLE",
+      "mission": "earth_3_1",
+      "context": "closed_sky",
+      "trigger": "TRANSMISSIONS",
+      "order": 9,
+      "legacy_text": "You need answers. I need Earth alive."
+    },
+    {
+      "id": "dlg.dead_orbit.rook.001",
+      "speaker": "ROOK",
+      "mission": "earth_3_3",
+      "context": "dead_orbit",
+      "trigger": "TRANSMISSIONS",
+      "order": 1,
+      "legacy_text": "No navigation grid. No tactical relay. We'll be doing this manually."
+    },
+    {
+      "id": "dlg.dead_orbit.andygen.002",
+      "speaker": "ANDYGEN",
+      "mission": "earth_3_3",
+      "context": "dead_orbit",
+      "trigger": "TRANSMISSIONS",
+      "order": 2,
+      "legacy_text": "You say that like it's a bad thing."
+    },
+    {
+      "id": "dlg.dead_orbit.rook.003",
+      "speaker": "ROOK",
+      "mission": "earth_3_3",
+      "context": "dead_orbit",
+      "trigger": "TRANSMISSIONS",
+      "order": 3,
+      "legacy_text": "It is statistically a bad thing."
+    },
+    {
+      "id": "dlg.dead_orbit.rook.004",
+      "speaker": "ROOK",
+      "mission": "earth_3_3",
+      "context": "dead_orbit",
+      "trigger": "_process",
+      "order": 4,
+      "legacy_text": "Recovered data packet. SOLAR signature. No infection markers."
+    },
+    {
+      "id": "dlg.dead_orbit.andygen.005",
+      "speaker": "ANDYGEN",
+      "mission": "earth_3_3",
+      "context": "dead_orbit",
+      "trigger": "_process",
+      "order": 5,
+      "legacy_text": "So there are two voices in there."
+    },
+    {
+      "id": "dlg.dead_orbit.lena.006",
+      "speaker": "LENA",
+      "mission": "earth_3_3",
+      "context": "dead_orbit",
+      "trigger": "_process",
+      "order": 6,
+      "legacy_text": "Not voices. Processes. But yes — two of them."
+    },
+    {
+      "id": "dlg.dead_orbit.andygen.007",
+      "speaker": "ANDYGEN",
+      "mission": "earth_3_3",
+      "context": "dead_orbit",
+      "trigger": "start_defense",
+      "order": 7,
+      "legacy_text": "You sure about leaving the ship?"
+    },
+    {
+      "id": "dlg.dead_orbit.rook.008",
+      "speaker": "ROOK",
+      "mission": "earth_3_3",
+      "context": "dead_orbit",
+      "trigger": "start_defense",
+      "order": 8,
+      "legacy_text": "No. Proceeding anyway."
+    },
+    {
+      "id": "dlg.dead_orbit.rook.009",
+      "speaker": "ROOK",
+      "mission": "earth_3_3",
+      "context": "dead_orbit",
+      "trigger": "damage_rook",
+      "order": 9,
+      "legacy_text": "Critical damage. Returning for repair. Relay operation interrupted."
+    },
+    {
+      "id": "dlg.dead_orbit.rook.010",
+      "speaker": "ROOK",
+      "mission": "earth_3_3",
+      "context": "dead_orbit",
+      "trigger": "damage_rook",
+      "order": 10,
+      "legacy_text": "Taking fire. Cover the service approach."
+    },
+    {
+      "id": "dlg.earth_neutral.rook.001",
+      "speaker": "ROOK",
+      "mission": null,
+      "context": "earth_neutral",
+      "trigger": "hit",
+      "order": 1,
+      "legacy_text": "Neutral defense object lost. Hold fire around green identification markers."
+    },
+    {
+      "id": "dlg.evacuation_corridor.maya.001",
+      "speaker": "MAYA",
+      "mission": "earth_3_2",
+      "context": "evacuation_corridor",
+      "trigger": "TRANSMISSIONS",
+      "order": 1,
+      "legacy_text": "Three civilian transports entering the corridor. Keep the lane clean."
+    },
+    {
+      "id": "dlg.evacuation_corridor.rex.002",
+      "speaker": "REX",
+      "mission": "earth_3_2",
+      "context": "evacuation_corridor",
+      "trigger": "TRANSMISSIONS",
+      "order": 2,
+      "legacy_text": "I'll take high cover. Andygen, stay with the convoy."
+    },
+    {
+      "id": "dlg.evacuation_corridor.andygen.003",
+      "speaker": "ANDYGEN",
+      "mission": "earth_3_2",
+      "context": "evacuation_corridor",
+      "trigger": "TRANSMISSIONS",
+      "order": 3,
+      "legacy_text": "I was going to say the same thing to you."
+    },
+    {
+      "id": "dlg.evacuation_corridor.maya.004",
+      "speaker": "MAYA",
+      "mission": "earth_3_2",
+      "context": "evacuation_corridor",
+      "trigger": "on_transport_lost",
+      "order": 4,
+      "legacy_text": "Transport %d lost. Protect the remaining civilians."
+    },
+    {
+      "id": "dlg.evacuation_corridor.rook.005",
+      "speaker": "ROOK",
+      "mission": "earth_3_2",
+      "context": "evacuation_corridor",
+      "trigger": "warn_launcher",
+      "order": 5,
+      "legacy_text": "Missile lock on transport two."
+    },
+    {
+      "id": "dlg.evacuation_corridor.maya.006",
+      "speaker": "MAYA",
+      "mission": "earth_3_2",
+      "context": "evacuation_corridor",
+      "trigger": "warn_launcher",
+      "order": 6,
+      "legacy_text": "Frigate launching from twelve o'clock."
+    },
+    {
+      "id": "dlg.evacuation_corridor.rook.007",
+      "speaker": "ROOK",
+      "mission": "earth_3_2",
+      "context": "evacuation_corridor",
+      "trigger": "_update_refusal",
+      "order": 7,
+      "legacy_text": "Defense battery had a firing solution. It did not engage."
+    },
+    {
+      "id": "dlg.evacuation_corridor.rex.008",
+      "speaker": "REX",
+      "mission": "earth_3_2",
+      "context": "evacuation_corridor",
+      "trigger": "_update_refusal",
+      "order": 8,
+      "legacy_text": "Maybe it likes civilians."
+    },
+    {
+      "id": "dlg.evacuation_corridor.andygen.009",
+      "speaker": "ANDYGEN",
+      "mission": "earth_3_2",
+      "context": "evacuation_corridor",
+      "trigger": "_update_refusal",
+      "order": 9,
+      "legacy_text": "Or something inside it does."
+    },
+    {
+      "id": "dlg.evacuation_corridor.cole.010",
+      "speaker": "COLE",
+      "mission": "earth_3_2",
+      "context": "evacuation_corridor",
+      "trigger": "_update_refusal",
+      "order": 10,
+      "legacy_text": "Do not anthropomorphize compromised weapons."
+    },
+    {
+      "id": "dlg.helios_assault.rook.001",
+      "speaker": "ROOK",
+      "mission": null,
+      "context": "helios_assault",
+      "trigger": "_next_sector",
+      "order": 1,
+      "legacy_text": "Command signature secured. SOLAR 8 central network."
+    },
+    {
+      "id": "dlg.helios_assault.andygen.002",
+      "speaker": "ANDYGEN",
+      "mission": null,
+      "context": "helios_assault",
+      "trigger": "_next_sector",
+      "order": 2,
+      "legacy_text": "I'm starting to see a pattern."
+    },
+    {
+      "id": "dlg.helios_assault.rook.003",
+      "speaker": "ROOK",
+      "mission": null,
+      "context": "helios_assault",
+      "trigger": "_next_sector",
+      "order": 3,
+      "legacy_text": "Your pattern recognition is improving."
+    },
+    {
+      "id": "dlg.helios_assault.rook.004",
+      "speaker": "ROOK",
+      "mission": null,
+      "context": "helios_assault",
+      "trigger": "_node_destroyed",
+      "order": 4,
+      "legacy_text": "Defense offline. Recovering the isolated node recorder. Cover the readout."
+    },
+    {
+      "id": "dlg.lost_signal.rook.001",
+      "speaker": "ROOK",
+      "mission": "venus_2_2",
+      "context": "lost_signal",
+      "trigger": "TRANSMISSIONS",
+      "order": 1,
+      "legacy_text": "Maya's beacon signature: two short pulses, one long. Match ..- and hold inside the ring while I authenticate it."
+    },
+    {
+      "id": "dlg.lost_signal.andygen.002",
+      "speaker": "ANDYGEN",
+      "mission": "venus_2_2",
+      "context": "lost_signal",
+      "trigger": "TRANSMISSIONS",
+      "order": 2,
+      "legacy_text": "Let's hope she left a forwarding address."
+    },
+    {
+      "id": "dlg.lost_signal.rook.003",
+      "speaker": "ROOK",
+      "mission": "venus_2_2",
+      "context": "lost_signal",
+      "trigger": "_activate",
+      "order": 3,
+      "legacy_text": "Beacon rejected. Signal signature is synthetic. Match two short pulses, then one long: ..-"
+    },
+    {
+      "id": "dlg.lost_signal.rook.004",
+      "speaker": "ROOK",
+      "mission": "venus_2_2",
+      "context": "lost_signal",
+      "trigger": "_activate",
+      "order": 4,
+      "legacy_text": "Maya's live channel authenticated. Clear the remaining patrol to establish contact."
+    },
+    {
+      "id": "dlg.lost_signal.rook.005",
+      "speaker": "ROOK",
+      "mission": "venus_2_2",
+      "context": "lost_signal",
+      "trigger": "_activate",
+      "order": 5,
+      "legacy_text": "Beacon authenticated. Next beacon group acquired. Keep matching ..-."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.001",
+      "speaker": "ROOK",
+      "mission": "mercury_1_1",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 1,
+      "legacy_text": "Navigation locked. Mercury approach confirmed."
+    },
+    {
+      "id": "dlg.mercury_dialogue.andygen.002",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_1",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 2,
+      "legacy_text": "Helios, this is Andygen. Friendly approach. Try not to shoot."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.003",
+      "speaker": "ROOK",
+      "mission": "mercury_1_1",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 3,
+      "legacy_text": "No response. Contacts match Helios security."
+    },
+    {
+      "id": "dlg.mercury_dialogue.andygen.004",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_1",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 4,
+      "legacy_text": "Those are ours."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.005",
+      "speaker": "ROOK",
+      "mission": "mercury_1_1",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 5,
+      "legacy_text": "They disagree."
+    },
+    {
+      "id": "dlg.mercury_dialogue.andygen.006",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_1",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 6,
+      "legacy_text": "For a broken station, Helios is very committed to killing me."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.007",
+      "speaker": "ROOK",
+      "mission": "mercury_1_1",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 7,
+      "legacy_text": "Your ability to inspire commitment remains impressive."
+    },
+    {
+      "id": "dlg.mercury_dialogue.vale.008",
+      "speaker": "VALE",
+      "mission": "mercury_1_1",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 8,
+      "legacy_text": "Reach the access relay. We need its last transmission."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.009",
+      "speaker": "ROOK",
+      "mission": "mercury_1_2",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 9,
+      "legacy_text": "Orbital ring integrity: fourteen percent."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.010",
+      "speaker": "ROOK",
+      "mission": "mercury_1_2",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 10,
+      "legacy_text": "That was not a recommendation."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.011",
+      "speaker": "ROOK",
+      "mission": "mercury_1_2",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 11,
+      "legacy_text": "Large debris cannot be destroyed. Adjust course."
+    },
+    {
+      "id": "dlg.mercury_dialogue.andygen.012",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_2",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 12,
+      "legacy_text": "This damage is facing the wrong way."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.013",
+      "speaker": "ROOK",
+      "mission": "mercury_1_2",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 13,
+      "legacy_text": "Confirmed. Pressure deformation points outward."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.014",
+      "speaker": "ROOK",
+      "mission": "mercury_1_2",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 14,
+      "legacy_text": "The ring failed from inside."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.015",
+      "speaker": "ROOK",
+      "mission": "mercury_1_2",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 15,
+      "legacy_text": "Narrow passage ahead. Watch the gap."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.016",
+      "speaker": "ROOK",
+      "mission": "mercury_1_3",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 16,
+      "legacy_text": "Radiation exceeds Helios operational limits."
+    },
+    {
+      "id": "dlg.mercury_dialogue.andygen.017",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_3",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 17,
+      "legacy_text": "Good thing I don't read operational limits."
+    },
+    {
+      "id": "dlg.mercury_dialogue.andygen.018",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_3",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 18,
+      "legacy_text": "You could've marked a larger shelter."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.019",
+      "speaker": "ROOK",
+      "mission": "mercury_1_3",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 19,
+      "legacy_text": "All collectors are feeding Helios at maximum output."
+    },
+    {
+      "id": "dlg.mercury_dialogue.andygen.020",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_3",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 20,
+      "legacy_text": "What's it powering?"
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.021",
+      "speaker": "ROOK",
+      "mission": "mercury_1_3",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 21,
+      "legacy_text": "Unknown. Demand is six times normal station load."
+    },
+    {
+      "id": "dlg.mercury_dialogue.max.022",
+      "speaker": "MAX",
+      "mission": "mercury_1_3",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 22,
+      "legacy_text": "Six? That's not emergency load. That's construction load."
+    },
+    {
+      "id": "dlg.mercury_dialogue.max.023",
+      "speaker": "MAX",
+      "mission": "mercury_1_3",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 23,
+      "legacy_text": "Andygen, if the shield starts glowing white, that's bad."
+    },
+    {
+      "id": "dlg.mercury_dialogue.andygen.024",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_3",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 24,
+      "legacy_text": "Useful timing, Max."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.025",
+      "speaker": "ROOK",
+      "mission": "mercury_1_5",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 25,
+      "legacy_text": "Patrol density dropping."
+    },
+    {
+      "id": "dlg.mercury_dialogue.andygen.026",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_5",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 26,
+      "legacy_text": "I don't like that."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.027",
+      "speaker": "ROOK",
+      "mission": "mercury_1_5",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 27,
+      "legacy_text": "Your instincts are improving as well."
+    },
+    {
+      "id": "dlg.red_line.max.001",
+      "speaker": "MAX",
+      "mission": "mars_4_1",
+      "context": "red_line",
+      "trigger": "TRANSMISSIONS",
+      "order": 1,
+      "legacy_text": "Mars Industrial is running at three hundred ten percent of scheduled output."
+    },
+    {
+      "id": "dlg.red_line.max.002",
+      "speaker": "MAX",
+      "mission": "mars_4_1",
+      "context": "red_line",
+      "trigger": "TRANSMISSIONS",
+      "order": 2,
+      "legacy_text": "Illegal, impossible, and impressive. In that order."
+    },
+    {
+      "id": "dlg.red_line.rook.003",
+      "speaker": "ROOK",
+      "mission": "mars_4_1",
+      "context": "red_line",
+      "trigger": "deploy",
+      "order": 3,
+      "legacy_text": "Mag-rail loader crossing flight path."
+    },
+    {
+      "id": "dlg.red_line.rook.004",
+      "speaker": "ROOK",
+      "mission": "mars_4_1",
+      "context": "red_line",
+      "trigger": "deploy",
+      "order": 4,
+      "legacy_text": "Industrial arm movement. %s sector unsafe."
+    },
+    {
+      "id": "dlg.relay_readout.rook.001",
+      "speaker": "ROOK",
+      "mission": null,
+      "context": "relay_readout",
+      "trigger": "_ready",
+      "order": 1,
+      "legacy_text": "Local log secured. Returning to your ship."
+    },
+    {
+      "id": "dlg.relay_readout.rook.002",
+      "speaker": "ROOK",
+      "mission": null,
+      "context": "relay_readout",
+      "trigger": "start",
+      "order": 2,
+      "legacy_text": "Outer relay reached. I'll fly to its recorder and recover the local log."
+    },
+    {
+      "id": "dlg.shield_of_earth.rex.001",
+      "speaker": "REX",
+      "mission": "earth_3_5",
+      "context": "shield_of_earth",
+      "trigger": "_ready",
+      "order": 1,
+      "legacy_text": "That's a lot of guns for a station we're not allowed to destroy."
+    },
+    {
+      "id": "dlg.shield_of_earth.andygen.002",
+      "speaker": "ANDYGEN",
+      "mission": "earth_3_5",
+      "context": "shield_of_earth",
+      "trigger": "_ready",
+      "order": 2,
+      "legacy_text": "Keeps it interesting."
+    },
+    {
+      "id": "dlg.shield_of_earth.rook.003",
+      "speaker": "ROOK",
+      "mission": "earth_3_5",
+      "context": "shield_of_earth",
+      "trigger": "_enter_phase",
+      "order": 3,
+      "legacy_text": "Shield rotation slowing. Attack window opening."
+    },
+    {
+      "id": "dlg.shield_of_earth.rex.004",
+      "speaker": "REX",
+      "mission": "earth_3_5",
+      "context": "shield_of_earth",
+      "trigger": "_enter_phase",
+      "order": 4,
+      "legacy_text": "I'll drag the railgun. Take the window."
+    },
+    {
+      "id": "dlg.shield_of_earth.cole.005",
+      "speaker": "COLE",
+      "mission": "earth_3_5",
+      "context": "shield_of_earth",
+      "trigger": "_enter_phase",
+      "order": 5,
+      "legacy_text": "You have your proof. Finish it."
+    },
+    {
+      "id": "dlg.shield_of_earth.vale.006",
+      "speaker": "VALE",
+      "mission": "earth_3_5",
+      "context": "shield_of_earth",
+      "trigger": "_enter_phase",
+      "order": 6,
+      "legacy_text": "Negative. Capture the core."
+    },
+    {
+      "id": "dlg.shield_of_earth.andygen.007",
+      "speaker": "ANDYGEN",
+      "mission": "earth_3_5",
+      "context": "shield_of_earth",
+      "trigger": "_enter_phase",
+      "order": 7,
+      "legacy_text": "For once, I'm with the Admiral."
+    },
+    {
+      "id": "dlg.shield_of_earth.rook.008",
+      "speaker": "ROOK",
+      "mission": "earth_3_5",
+      "context": "shield_of_earth",
+      "trigger": "core_hit",
+      "order": 8,
+      "legacy_text": "Command core hit. Target only the four external relay nodes."
+    },
+    {
+      "id": "dlg.shield_of_earth.rook.009",
+      "speaker": "ROOK",
+      "mission": "earth_3_5",
+      "context": "shield_of_earth",
+      "trigger": "_refusal",
+      "order": 9,
+      "legacy_text": "Citadel has target lock on Evac Hub Seven."
+    },
+    {
+      "id": "dlg.shield_of_earth.rook.010",
+      "speaker": "ROOK",
+      "mission": "earth_3_5",
+      "context": "shield_of_earth",
+      "trigger": "_refusal",
+      "order": 10,
+      "legacy_text": "It is refusing the firing command."
+    },
+    {
+      "id": "dlg.shield_of_earth.lena.011",
+      "speaker": "LENA",
+      "mission": "earth_3_5",
+      "context": "shield_of_earth",
+      "trigger": "_refusal",
+      "order": 11,
+      "legacy_text": "The infected process issued the command. Something inside SOLAR blocked it."
+    },
+    {
+      "id": "dlg.venus_dialogue.rook.001",
+      "speaker": "ROOK",
+      "mission": "venus_2_1",
+      "context": "venus_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 1,
+      "legacy_text": "Optical range reduced to twelve percent."
+    },
+    {
+      "id": "dlg.venus_dialogue.andygen.002",
+      "speaker": "ANDYGEN",
+      "mission": "venus_2_1",
+      "context": "venus_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 2,
+      "legacy_text": "So now I get to shoot weather."
+    },
+    {
+      "id": "dlg.venus_dialogue.rook.003",
+      "speaker": "ROOK",
+      "mission": "venus_2_1",
+      "context": "venus_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 3,
+      "legacy_text": "Preferably only the parts shooting back."
+    },
+    {
+      "id": "dlg.venus_dialogue.andygen.004",
+      "speaker": "ANDYGEN",
+      "mission": "venus_2_1",
+      "context": "venus_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 4,
+      "legacy_text": "For a dead network, it has a lot to hide."
+    },
+    {
+      "id": "dlg.venus_dialogue.rook.005",
+      "speaker": "ROOK",
+      "mission": "venus_2_1",
+      "context": "venus_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 5,
+      "legacy_text": "Local traffic is active. Searching for the external telemetry link."
+    },
+    {
+      "id": "dlg.venus_dialogue.vale.006",
+      "speaker": "VALE",
+      "mission": "venus_2_1",
+      "context": "venus_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 6,
+      "legacy_text": "Hold the approach. Recover that transmission."
+    },
+    {
+      "id": "dlg.voice_in_storm.rook.001",
+      "speaker": "ROOK",
+      "mission": "venus_2_5",
+      "context": "voice_in_storm",
+      "trigger": "TRANSMISSIONS",
+      "order": 1,
+      "legacy_text": "Large contact entering the storm cell. Sensor lock unstable."
+    },
+    {
+      "id": "dlg.voice_in_storm.maya.002",
+      "speaker": "MAYA",
+      "mission": "venus_2_5",
+      "context": "voice_in_storm",
+      "trigger": "TRANSMISSIONS",
+      "order": 2,
+      "legacy_text": "Ignore the radar. Watch the engine flare."
+    },
+    {
+      "id": "dlg.voice_in_storm.lena.003",
+      "speaker": "LENA",
+      "mission": "venus_2_5",
+      "context": "voice_in_storm",
+      "trigger": "_change_phase",
+      "order": 3,
+      "legacy_text": "Lightning is exposing its hull. Use the flashes. The clear lane stays safe."
+    },
+    {
+      "id": "dlg.voice_in_storm.rook.004",
+      "speaker": "ROOK",
+      "mission": "venus_2_5",
+      "context": "voice_in_storm",
+      "trigger": "_change_phase",
+      "order": 4,
+      "legacy_text": "Core overload after each strike. Window: one point eight seconds. Follow the clear wedges."
+    },
+    {
+      "id": "dlg.voice_in_storm.maya.005",
+      "speaker": "MAYA",
+      "mission": "venus_2_5",
+      "context": "voice_in_storm",
+      "trigger": "_change_phase",
+      "order": 5,
+      "legacy_text": "I've heard that one."
+    },
+    {
+      "id": "dlg.chapter_transmission.rook.001",
+      "speaker": "ROOK",
+      "mission": "earth_3_2",
+      "context": "chapter_transmission",
+      "trigger": "_show_line",
+      "order": 1,
+      "legacy_text": "ANDYGEN"
+    },
+    {
+      "id": "dlg.hangar.max.001",
+      "speaker": "MAX",
+      "mission": null,
+      "context": "hangar",
+      "trigger": "_mechanic_advice",
+      "order": 1,
+      "legacy_text": "You're back in one piece. Good. I'd fit %s next.\n\n%s. I've got the tools; you have the %d materials."
+    },
+    {
+      "id": "dlg.hangar.max.002",
+      "speaker": "MAX",
+      "mission": null,
+      "context": "hangar",
+      "trigger": "_mechanic_advice",
+      "order": 2,
+      "legacy_text": "The ship still has room to grow. Bring me %d more materials for %s and we'll make the next flight a little easier."
+    },
+    {
+      "id": "dlg.hangar.max.003",
+      "speaker": "MAX",
+      "mission": null,
+      "context": "hangar",
+      "trigger": "_mechanic_advice",
+      "order": 3,
+      "legacy_text": "Every module is fitted. I'd tighten something else, but that would just be showing off. She's ready to fly."
+    },
+    {
+      "id": "dlg.acid_front.lena.009",
+      "speaker": "LENA",
+      "mission": "venus_2_3",
+      "context": "acid_front",
+      "trigger": "ENDING",
+      "order": 9,
+      "legacy_text": "It changed while I was reading it."
+    },
+    {
+      "id": "dlg.acid_front.rook.010",
+      "speaker": "ROOK",
+      "mission": "venus_2_3",
+      "context": "acid_front",
+      "trigger": "ENDING",
+      "order": 10,
+      "legacy_text": "Clarify."
+    },
+    {
+      "id": "dlg.acid_front.lena.011",
+      "speaker": "LENA",
+      "mission": "venus_2_3",
+      "context": "acid_front",
+      "trigger": "ENDING",
+      "order": 11,
+      "legacy_text": "The code noticed the analysis."
+    },
+    {
+      "id": "dlg.acid_front.max.012",
+      "speaker": "MAX",
+      "mission": "venus_2_3",
+      "context": "acid_front",
+      "trigger": "ENDING",
+      "order": 12,
+      "legacy_text": "That's not a virus."
+    },
+    {
+      "id": "dlg.aegis_line.rook.010",
+      "speaker": "ROOK",
+      "mission": "earth_3_4",
+      "context": "aegis_line",
+      "trigger": "ENDING",
+      "order": 10,
+      "legacy_text": "Mass production orders redirected to Mars Industrial Network."
+    },
+    {
+      "id": "dlg.aegis_line.max.011",
+      "speaker": "MAX",
+      "mission": "earth_3_4",
+      "context": "aegis_line",
+      "trigger": "ENDING",
+      "order": 11,
+      "legacy_text": "Send me the manifests. If it's building something, I want the shopping list."
+    },
+    {
+      "id": "dlg.atmospheric_citadel.rook.010",
+      "speaker": "ROOK",
+      "mission": "venus_2_4",
+      "context": "atmospheric_citadel",
+      "trigger": "ENDING",
+      "order": 10,
+      "legacy_text": "Command traffic recovered. Source: SOLAR network. Structure: nonstandard."
+    },
+    {
+      "id": "dlg.atmospheric_citadel.lena.011",
+      "speaker": "LENA",
+      "mission": "venus_2_4",
+      "context": "atmospheric_citadel",
+      "trigger": "ENDING",
+      "order": 11,
+      "legacy_text": "SOLAR is carrying the commands. That doesn't mean SOLAR wrote them."
+    },
+    {
+      "id": "dlg.atmospheric_citadel.vale.012",
+      "speaker": "VALE",
+      "mission": "venus_2_4",
+      "context": "atmospheric_citadel",
+      "trigger": "ENDING",
+      "order": 12,
+      "legacy_text": "That's a dangerous distinction."
+    },
+    {
+      "id": "dlg.atmospheric_citadel.lena.013",
+      "speaker": "LENA",
+      "mission": "venus_2_4",
+      "context": "atmospheric_citadel",
+      "trigger": "ENDING",
+      "order": 13,
+      "legacy_text": "It's still a distinction."
+    },
+    {
+      "id": "dlg.closed_sky.rex.010",
+      "speaker": "REX",
+      "mission": "earth_3_1",
+      "context": "closed_sky",
+      "trigger": "ENDING",
+      "order": 10,
+      "legacy_text": "You fly like you own the orbit."
+    },
+    {
+      "id": "dlg.closed_sky.andygen.011",
+      "speaker": "ANDYGEN",
+      "mission": "earth_3_1",
+      "context": "closed_sky",
+      "trigger": "ENDING",
+      "order": 11,
+      "legacy_text": "You sound surprised."
+    },
+    {
+      "id": "dlg.dead_orbit.cole.011",
+      "speaker": "COLE",
+      "mission": "earth_3_3",
+      "context": "dead_orbit",
+      "trigger": "ENDING",
+      "order": 11,
+      "legacy_text": "A clean packet proves nothing about the system as a whole."
+    },
+    {
+      "id": "dlg.dead_orbit.vale.012",
+      "speaker": "VALE",
+      "mission": "earth_3_3",
+      "context": "dead_orbit",
+      "trigger": "ENDING",
+      "order": 12,
+      "legacy_text": "It proves the whole system isn't cleanly under one control."
+    },
+    {
+      "id": "dlg.evacuation_corridor.maya.011",
+      "speaker": "MAYA",
+      "mission": "earth_3_2",
+      "context": "evacuation_corridor",
+      "trigger": "ENDING",
+      "order": 11,
+      "legacy_text": "All transports clear. No civilian losses."
+    },
+    {
+      "id": "dlg.evacuation_corridor.rook.012",
+      "speaker": "ROOK",
+      "mission": "earth_3_2",
+      "context": "evacuation_corridor",
+      "trigger": "ENDING",
+      "order": 12,
+      "legacy_text": "Defense refusal event archived."
+    },
+    {
+      "id": "dlg.evacuation_corridor.maya.013",
+      "speaker": "MAYA",
+      "mission": "earth_3_2",
+      "context": "evacuation_corridor",
+      "trigger": "DAMAGED_ENDING",
+      "order": 13,
+      "legacy_text": "Two transports clear. We lost one civilian ship."
+    },
+    {
+      "id": "dlg.evacuation_corridor.rook.014",
+      "speaker": "ROOK",
+      "mission": "earth_3_2",
+      "context": "evacuation_corridor",
+      "trigger": "DAMAGED_ENDING",
+      "order": 14,
+      "legacy_text": "Defense refusal event archived."
+    },
+    {
+      "id": "dlg.lost_signal.maya.006",
+      "speaker": "MAYA",
+      "mission": "venus_2_2",
+      "context": "lost_signal",
+      "trigger": "ENDING",
+      "order": 6,
+      "legacy_text": "You took your time."
+    },
+    {
+      "id": "dlg.lost_signal.andygen.007",
+      "speaker": "ANDYGEN",
+      "mission": "venus_2_2",
+      "context": "lost_signal",
+      "trigger": "ENDING",
+      "order": 7,
+      "legacy_text": "I came to rescue you."
+    },
+    {
+      "id": "dlg.lost_signal.maya.008",
+      "speaker": "MAYA",
+      "mission": "venus_2_2",
+      "context": "lost_signal",
+      "trigger": "ENDING",
+      "order": 8,
+      "legacy_text": "Then you're about fourteen minutes late."
+    },
+    {
+      "id": "dlg.lost_signal.rook.009",
+      "speaker": "ROOK",
+      "mission": "venus_2_2",
+      "context": "lost_signal",
+      "trigger": "ENDING",
+      "order": 9,
+      "legacy_text": "Fourteen minutes, twenty-two seconds."
+    },
+    {
+      "id": "dlg.lost_signal.maya.010",
+      "speaker": "MAYA",
+      "mission": "venus_2_2",
+      "context": "lost_signal",
+      "trigger": "ENDING",
+      "order": 10,
+      "legacy_text": "I like him."
+    },
+    {
+      "id": "dlg.lost_signal.maya.011",
+      "speaker": "MAYA",
+      "mission": "venus_2_2",
+      "context": "lost_signal",
+      "trigger": "ENDING",
+      "order": 11,
+      "legacy_text": "The network isn't just hiding signals. It's creating new ones."
+    },
+    {
+      "id": "dlg.lost_signal.rook.012",
+      "speaker": "ROOK",
+      "mission": "venus_2_2",
+      "context": "lost_signal",
+      "trigger": "ENDING",
+      "order": 12,
+      "legacy_text": "Agreed. Deception appears intentional."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.028",
+      "speaker": "ROOK",
+      "mission": "mercury_1_1",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 28,
+      "legacy_text": "Relay link established. Downloading local event log."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.029",
+      "speaker": "ROOK",
+      "mission": "mercury_1_1",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 29,
+      "legacy_text": "Defense network override detected. Origin: internal."
+    },
+    {
+      "id": "dlg.mercury_dialogue.andygen.030",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_1",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 30,
+      "legacy_text": "So nobody broke in."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.031",
+      "speaker": "ROOK",
+      "mission": "mercury_1_1",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 31,
+      "legacy_text": "Not from the outside."
+    },
+    {
+      "id": "dlg.mercury_dialogue.vale.032",
+      "speaker": "VALE",
+      "mission": "mercury_1_1",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 32,
+      "legacy_text": "Bring me the log. And don't start a theory before Max sees it."
+    },
+    {
+      "id": "dlg.mercury_dialogue.max.033",
+      "speaker": "MAX",
+      "mission": "mercury_1_2",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 33,
+      "legacy_text": "I've got the ring telemetry. Rook's right. Whatever happened, it started in the core network."
+    },
+    {
+      "id": "dlg.mercury_dialogue.andygen.034",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_2",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 34,
+      "legacy_text": "So Helios attacked itself?"
+    },
+    {
+      "id": "dlg.mercury_dialogue.max.035",
+      "speaker": "MAX",
+      "mission": "mercury_1_2",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 35,
+      "legacy_text": "Or something inside Helios did."
+    },
+    {
+      "id": "dlg.mercury_dialogue.vale.036",
+      "speaker": "VALE",
+      "mission": "mercury_1_3",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 36,
+      "legacy_text": "Find where the power goes. Nothing else matters until we know what Helios is building."
+    },
+    {
+      "id": "dlg.mercury_dialogue.andygen.037",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_3",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 37,
+      "legacy_text": "Then let's ask the core."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.038",
+      "speaker": "ROOK",
+      "mission": "mercury_1_4",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 38,
+      "legacy_text": "Command authority recovered. Signature matches SOLAR 8 central network."
+    },
+    {
+      "id": "dlg.mercury_dialogue.max.039",
+      "speaker": "MAX",
+      "mission": "mercury_1_4",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 39,
+      "legacy_text": "No spoofing?"
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.040",
+      "speaker": "ROOK",
+      "mission": "mercury_1_4",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 40,
+      "legacy_text": "None detected."
+    },
+    {
+      "id": "dlg.mercury_dialogue.andygen.041",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_4",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 41,
+      "legacy_text": "So Helios isn't doing this alone."
+    },
+    {
+      "id": "dlg.mercury_dialogue.vale.042",
+      "speaker": "VALE",
+      "mission": "mercury_1_4",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 42,
+      "legacy_text": "Get to the central core. I want proof before anyone on Earth starts shutting systems down."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.043",
+      "speaker": "ROOK",
+      "mission": "mercury_1_5",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 43,
+      "legacy_text": "Warden offline. Accessing Helios core."
+    },
+    {
+      "id": "dlg.mercury_dialogue.andygen.044",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_5",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 44,
+      "legacy_text": "Complete what?"
+    },
+    {
+      "id": "dlg.mercury_dialogue.max.045",
+      "speaker": "MAX",
+      "mission": "mercury_1_5",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 45,
+      "legacy_text": "I don't know. But Venus just stopped talking."
+    },
+    {
+      "id": "dlg.mercury_dialogue.rook.046",
+      "speaker": "ROOK",
+      "mission": "mercury_1_5",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 46,
+      "legacy_text": "This phase marker predates the fight. Destroying Warden only exposed the log."
+    },
+    {
+      "id": "dlg.mercury_dialogue.vale.047",
+      "speaker": "VALE",
+      "mission": "mercury_1_5",
+      "context": "mercury_dialogue",
+      "trigger": "ENDINGS",
+      "order": 47,
+      "legacy_text": "New heading. Venus."
+    },
+    {
+      "id": "dlg.red_line.max.005",
+      "speaker": "MAX",
+      "mission": "mars_4_1",
+      "context": "red_line",
+      "trigger": "ENDING",
+      "order": 5,
+      "legacy_text": "Most of the customers are offline. The factories are still taking orders."
+    },
+    {
+      "id": "dlg.red_line.andygen.006",
+      "speaker": "ANDYGEN",
+      "mission": "mars_4_1",
+      "context": "red_line",
+      "trigger": "ENDING",
+      "order": 6,
+      "legacy_text": "From who?"
+    },
+    {
+      "id": "dlg.red_line.max.007",
+      "speaker": "MAX",
+      "mission": "mars_4_1",
+      "context": "red_line",
+      "trigger": "ENDING",
+      "order": 7,
+      "legacy_text": "That's the expensive question."
+    },
+    {
+      "id": "dlg.shield_of_earth.max.012",
+      "speaker": "MAX",
+      "mission": "earth_3_5",
+      "context": "shield_of_earth",
+      "trigger": "ENDING",
+      "order": 12,
+      "legacy_text": "I found the production queue. Whatever it's building, it's building it on Mars."
+    },
+    {
+      "id": "dlg.shield_of_earth.andygen.013",
+      "speaker": "ANDYGEN",
+      "mission": "earth_3_5",
+      "context": "shield_of_earth",
+      "trigger": "ENDING",
+      "order": 13,
+      "legacy_text": "Then let's go see what we're paying for."
+    },
+    {
+      "id": "dlg.venus_dialogue.rook.007",
+      "speaker": "ROOK",
+      "mission": "venus_2_1",
+      "context": "venus_dialogue",
+      "trigger": "ENDING",
+      "order": 7,
+      "legacy_text": "Venus telemetry is active. External reporting has been deliberately suppressed."
+    },
+    {
+      "id": "dlg.venus_dialogue.andygen.008",
+      "speaker": "ANDYGEN",
+      "mission": "venus_2_1",
+      "context": "venus_dialogue",
+      "trigger": "ENDING",
+      "order": 8,
+      "legacy_text": "So the silence was part of the plan."
+    },
+    {
+      "id": "dlg.venus_dialogue.vale.009",
+      "speaker": "VALE",
+      "mission": "venus_2_1",
+      "context": "venus_dialogue",
+      "trigger": "ENDING",
+      "order": 9,
+      "legacy_text": "Then someone wanted us blind. Bring back the record. We need a route deeper into Venus."
+    },
+    {
+      "id": "dlg.voice_in_storm.andygen.006",
+      "speaker": "ANDYGEN",
+      "mission": "venus_2_5",
+      "context": "voice_in_storm",
+      "trigger": "ENDING",
+      "order": 6,
+      "legacy_text": "Storm's clearing."
+    },
+    {
+      "id": "dlg.voice_in_storm.solar.007",
+      "speaker": "SOLAR",
+      "mission": "venus_2_5",
+      "context": "voice_in_storm",
+      "trigger": "ENDING",
+      "order": 7,
+      "legacy_text": "PILOT ANDYGEN. TURN BACK."
+    },
+    {
+      "id": "dlg.voice_in_storm.andygen.008",
+      "speaker": "ANDYGEN",
+      "mission": "venus_2_5",
+      "context": "voice_in_storm",
+      "trigger": "ENDING",
+      "order": 8,
+      "legacy_text": "ROOK?"
+    },
+    {
+      "id": "dlg.voice_in_storm.rook.009",
+      "speaker": "ROOK",
+      "mission": "venus_2_5",
+      "context": "voice_in_storm",
+      "trigger": "ENDING",
+      "order": 9,
+      "legacy_text": "That was not me."
+    },
+    {
+      "id": "dlg.voice_in_storm.maya.010",
+      "speaker": "MAYA",
+      "mission": "venus_2_5",
+      "context": "voice_in_storm",
+      "trigger": "ENDING",
+      "order": 10,
+      "legacy_text": "Tell me you recorded that."
+    },
+    {
+      "id": "dlg.voice_in_storm.rook.011",
+      "speaker": "ROOK",
+      "mission": "venus_2_5",
+      "context": "voice_in_storm",
+      "trigger": "ENDING",
+      "order": 11,
+      "legacy_text": "Every sample."
+    },
+    {
+      "id": "dlg.voice_in_storm.vale.012",
+      "speaker": "VALE",
+      "mission": "venus_2_5",
+      "context": "voice_in_storm",
+      "trigger": "ENDING",
+      "order": 12,
+      "legacy_text": "Earth Orbital Defense just entered full lockdown."
+    },
+    {
+      "id": "dlg.voice_in_storm.andygen.013",
+      "speaker": "ANDYGEN",
+      "mission": "venus_2_5",
+      "context": "voice_in_storm",
+      "trigger": "ENDING",
+      "order": 13,
+      "legacy_text": "Because of us?"
+    },
+    {
+      "id": "dlg.voice_in_storm.vale.014",
+      "speaker": "VALE",
+      "mission": "venus_2_5",
+      "context": "voice_in_storm",
+      "trigger": "ENDING",
+      "order": 14,
+      "legacy_text": "I don't know. You're coming home."
+    },
+    {
+      "id": "dlg.acid_front.max.013",
+      "speaker": "MAX",
+      "mission": null,
+      "context": "acid_front",
+      "trigger": "TRANSMISSIONS",
+      "order": 13,
+      "legacy_text": "Recoverable."
+    },
+    {
+      "id": "dlg.mercury_dialogue.andygen.048",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_2",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 48,
+      "legacy_text": "Plenty."
+    },
+    {
+      "id": "dlg.mercury_dialogue.andygen.049",
+      "speaker": "ANDYGEN",
+      "mission": "mercury_1_2",
+      "context": "mercury_dialogue",
+      "trigger": "TRANSMISSIONS",
+      "order": 49,
+      "legacy_text": "Meaning?"
+    },
+    {
+      "id": "dlg.red_line.andygen.008",
+      "speaker": "ANDYGEN",
+      "mission": "mars_4_1",
+      "context": "red_line",
+      "trigger": "TRANSMISSIONS",
+      "order": 8,
+      "legacy_text": "Efficient."
+    },
+    {
+      "id": "dlg.shield_of_earth.cole.014",
+      "speaker": "COLE",
+      "mission": null,
+      "context": "shield_of_earth",
+      "trigger": "_refusal",
+      "order": 14,
+      "legacy_text": "What?"
+    },
+    {
+      "id": "dlg.voice_in_storm.andygen.015",
+      "speaker": "ANDYGEN",
+      "mission": null,
+      "context": "voice_in_storm",
+      "trigger": "_change_phase",
+      "order": 15,
+      "legacy_text": "Plenty."
+    }
+  ],
+  "baseline_revision": "2026-09-26-initial",
+  "baseline_translation_hash": "4a87047d881028d10d076995b9f2967d7fca81c5c66d40f4f1397b0932d10f8c"
+}
