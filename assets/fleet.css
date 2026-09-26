@@ -7,6 +7,11 @@
 @media(max-width:620px){.fleet-page .wrap>section{margin-bottom:44px}.fleet-intro{padding-top:8px}.fleet-grid{gap:12px;grid-template-columns:1fr}.fleet-feature{grid-template-columns:1fr}.fleet-feature .fleet-art{min-height:0;aspect-ratio:1.2}.fleet-art{aspect-ratio:1.2}.fleet-copy{padding:20px}.fleet-heading{align-items:flex-start}.fleet-heading h2{font-size:36px}.fleet-heading>a{margin-top:8px}.fleet-archive{padding:16px}.fleet-archive .fleet-grid{grid-template-columns:1fr}.fleet-archive summary{font-size:18px}.fleet-thumbs{display:flex;overflow-x:auto;gap:8px;scroll-snap-type:x proximity;padding-bottom:8px}.fleet-thumb{flex:0 0 96px;scroll-snap-align:start}.fleet-thumb img{height:76px}.fleet-preview{padding:14px}.fleet-preview-head .kicker{font-size:8px}.fleet-preview-head>a{font-size:11px}.fleet-world-links a{padding:12px}.fleet-stats{gap:26px}}
 
 .fleet-actions{display:flex;flex-wrap:wrap;gap:12px 24px}
+.fleet-resources{grid-column:1/-1;min-width:0;padding:24px;border-top:1px solid var(--line)}
+.fleet-resources summary{cursor:pointer;font-size:18px}
+.fleet-resources>p{font-size:13px;max-width:800px}
+.fleet-resources a{color:var(--orange)}
+.fleet-resources .fleet-variants{margin-top:20px}
 
 /* Keep every chapter's examples visible, including on narrow screens. */
 .fleet-thumbs{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));overflow:visible;gap:12px}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "name": "assembler-gripper-top-down-prototype",
+  "status": "tested_2d_prototype_not_integrated_with_boss",
+  "coordinate_system": "x_right_y_down_positive_angle_clockwise",
+  "source_size": [1254, 1254],
+  "units": "source_pixels_for_pivots_demo_units_for_link_lengths_degrees_for_angles",
+  "parts": {
+    "base": {"file": "assets/rig/assembler-gripper/assembler-gripper-base.png", "pivot": [627, 604], "scale": 0.16},
+    "upper": {"file": "assets/rig/assembler-gripper/assembler-gripper-upper.png", "proximal": [210, 620], "distal": [1039, 620], "length": 260},
+    "forearm": {"file": "assets/rig/assembler-gripper/assembler-gripper-forearm.png", "proximal": [235, 620], "distal": [1078, 624], "length": 220},
+    "gripper": {"file": "assets/rig/assembler-gripper/assembler-gripper-gripper.png", "pivot": [626, 893], "scale": 0.12, "forward_axis": "negative_y", "jaws": "fixed_open"}
+  },
+  "draw_order": ["base", "upper", "shoulder_cap", "forearm", "elbow_cap", "gripper"],
+  "caps": {
+    "shoulder_cap": {"sprite": "base", "scale": 0.03, "rotation": 0},
+    "elbow_cap": {"sprite": "base", "scale": 0.034, "rotation": 0}
+  },
+  "demo": {
+    "duration_seconds": 8,
+    "loop": false,
+    "phase": "w = sin(2*pi*progress)",
+    "angles_degrees": {"shoulder": "-105 + 20*w", "elbow_relative": "70 + 35*w", "wrist_relative": "-15 + 20*w"},
+    "note": "Ranges describe one coupled trajectory; arbitrary combinations are not validated."
+  },
+  "notes": [
+    "Pivots measured visually on full source images; adjust after trimming or resizing source canvas.",
+    "rig.mjs aligns the 4-pixel forearm distal y offset. The archived demo uses a horizontal approximation, differing by about 1 demo pixel.",
+    "No 3D backfaces, finger motion, collision shapes, gameplay triggers or final boss attachment included."
+  ]
+}

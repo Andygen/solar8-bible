@@ -15,7 +15,7 @@ ships = data['ships']
 categories = data['planets'] + data.get('extras', [])
 active = [s for s in ships if not s['archived']]
 archive = [s for s in ships if s['archived']]
-roles = {'player': 'Корабль игрока', 'scout': 'Разведка', 'striker': 'Атака',
+roles = {'ally': 'Корабль союзника', 'player': 'Корабль игрока', 'scout': 'Разведка', 'striker': 'Атака',
          'guard': 'Защита', 'support': 'Ремонт и поддержка', 'boss': 'Босс',
          'alien': 'Чужой аппарат', 'formation': 'Связанная формация',
          'control': 'Мобильный узел управления', 'object': 'Объект сканирования'}
@@ -52,6 +52,15 @@ def card(s):
         for v in s['variants']:
             variants += f'''<div class="fleet-variant"><a class="fleet-art" href="{esc(v['image'])}" aria-label="Увеличить: {esc(v['name'])}">{image(v)}<span class="fleet-zoom" aria-hidden="true">↗</span></a><div class="fleet-copy"><h4>{esc(v['name'])}</h4><p>{esc(v['description'])}</p><div class="fleet-actions"><a href="{esc(v['image'])}" download="{Path(v['image']).name}">Скачать PNG ↓</a></div></div></div>'''
         variants += '</div>'
+    for group in s.get('resourceGroups', []):
+        variants += f'<details class="fleet-resources"><summary>{esc(group["title"])}</summary><p>{esc(group["description"])}</p>'
+        if group.get('link'):
+            variants += f'<p><a href="{esc(group["link"])}">Открыть демонстрацию движения →</a></p>'
+        variants += '<div class="fleet-variants">'
+        for v in group['items']:
+            assert (ROOT / v['image']).is_file(), v['image']
+            variants += f'<div class="fleet-variant"><a class="fleet-art" href="{esc(v["image"])}" aria-label="Увеличить: {esc(v["name"])}">{image(v)}</a><div class="fleet-copy"><h4>{esc(v["name"])}</h4><a href="{esc(v["image"])}" download="{Path(v["image"]).name}">Скачать PNG ↓</a></div></div>'
+        variants += '</div></details>'
     return f'''<article class="{classes}" id="ship-{s['id']}">
 <a class="fleet-art" href="{esc(s['image'])}" aria-label="Увеличить: {esc(s['name'])}">{image(s)}<span class="fleet-zoom" aria-hidden="true">↗</span></a>
 <div class="fleet-copy"><div class="kicker">{esc(label)}</div><h3>{esc(s['name'])}</h3>
@@ -75,6 +84,8 @@ for block in home.select('#mercury > .gallery'):
     if block.select_one('img[src="assets/player_ship.svg"]'):
         block.decompose()
 for p in categories:
+    if p.get('catalogOnly'):
+        continue
     group = [s for s in active if s['planet'] == p['name']]
     preview = f'<div class="fleet-preview" data-fleet-preview="{p["id"]}"><div class="fleet-preview-head"><span class="kicker">ФЛОТ / {p["name"].upper()}</span><a href="fleet.html#{p["id"]}">Флот {p["name"]} →</a></div><div class="fleet-thumbs">'
     preview += ''.join(f'<a class="fleet-thumb" href="fleet.html#ship-{s["id"]}">{image(s)}<span>{esc(s["name"])}</span></a>' for s in group)
@@ -109,6 +120,18 @@ for path in ROOT.glob('*.html'):
                 a['href'] = legacy[u.fragment]
     if path.name == 'index.html' and not page.select_one('link[href="assets/fleet.css"]'):
         page.head.append(parse('<link rel="stylesheet" href="assets/fleet.css"/>'))
+    pilot = {'character-maya.html': 'maya-ship', 'character-rex.html': 'rex-ship'}.get(path.name)
+    if pilot:
+        old = page.find(id='pilot-ship')
+        if old:
+            old.decompose()
+        ship = next(s for s in ships if s['id'] == pilot)
+        panel = parse(f'<section class="section" id="pilot-ship"><h2>{esc(ship["name"])}</h2><a href="{ship["image"]}">{image(ship, "style=\"width:100%;max-width:460px;height:auto;object-fit:contain\"")}</a><p>Цельное изображение корабля. Анимация и игровые механики требуют отдельного подключения.</p><p><a href="fleet.html#ship-{pilot}">Карточка во Флоте →</a> · <a href="{ship["image"]}" download>Скачать PNG ↓</a></p></section>')
+        footer = page.main.select_one('footer')
+        if footer:
+            footer.insert_before(panel)
+        else:
+            page.main.append(panel)
     path.write_text(str(page), encoding='utf-8')
 
 home = Soup((ROOT / 'index.html').read_text(encoding='utf-8'), 'html.parser')
@@ -127,7 +150,7 @@ player = next(s for s in active if s['kind'] == 'player')
 content += '<section class="fleet-world" id="player"><div class="fleet-heading"><div><div class="kicker">ANDYGEN</div><h2>Корабль игрока</h2></div></div>' + card(player) + '</section>'
 for p in categories:
     group = [s for s in active if s['planet'] == p['name']]
-    number = 'BONUS' if p.get('homeAnchor') else f"{['mercury','venus','earth','mars','jupiter','saturn','uranus','neptune'].index(p['id']) + 1:02d}"
+    number = 'ALLIES' if p.get('catalogOnly') else 'BONUS' if p.get('homeAnchor') else f"{['mercury','venus','earth','mars','jupiter','saturn','uranus','neptune'].index(p['id']) + 1:02d}"
     chapter_url = p.get('chapterUrl', 'index.html#'+p['id'])
     content += f'''<section class="fleet-world" id="{p['id']}"><div class="fleet-heading"><div><div class="kicker">{number} / {p['ru']} · Аппаратов: {len(group)}</div><h2>{p['name']}</h2><p>{p['tagline']}</p></div><a href="{chapter_url}">К главе →</a></div><div class="fleet-grid">'''
     content += ''.join(card(s) for s in group) + '</div>'
@@ -145,6 +168,10 @@ index_path = ROOT / 'assets/search-index.json'
 index = json.loads(index_path.read_text(encoding='utf-8'))
 old_urls = {'index.html#' + id for id in legacy} | {'index.html#entry-93'}
 index = [e for e in index if e['url'] not in old_urls and not e['url'].startswith('fleet.html')]
+for pilot in ['maya', 'rex']:
+    url = f'character-{pilot}.html#pilot-ship'
+    index = [e for e in index if e['url'] != url]
+    index.append({'title': f'Корабль {pilot.title()}', 'page': 'Досье пилота', 'url': url, 'text': 'Корабль союзника, PNG и карточка во Флоте'})
 for s in ships:
     block = fleet.find(id='ship-' + s['id'])
     index.append({'title': s['name'], 'page': 'Флот / ' + ('Архив концептов' if s['archived'] else s['planet']), 'url': 'fleet.html#ship-' + s['id'], 'text': block.get_text(' ', strip=True)})

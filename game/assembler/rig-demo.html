@@ -1,0 +1,14 @@
+<!doctype html><html lang="ru"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Assembler Prime — прототип захвата</title>
+<style>body{margin:0;background:#090b0e;color:#ececec;font:16px/1.6 system-ui}main{max-width:1000px;margin:auto;padding:24px}a{color:#efb878}canvas{width:100%;height:auto;display:block;background:#11171f;border-radius:12px}button{font:inherit;background:#efb878;color:#151515;border:0;padding:12px 20px;border-radius:6px;cursor:pointer}button:disabled{opacity:.5}p{max-width:800px}</style>
+<main><a href="../../fleet.html#ship-assembler-prime">← Assembler Prime / Флот</a><h1>Прототип захвата — вид сверху</h1><p>Три шарнира, движение в плоскости; клешня фиксирована открытой. Посадка на корпус босса не выполнена. Это демонстрация отдельного захвата, не готовая анимация всех манипуляторов.</p><canvas width="900" height="650" aria-label="Подвижный захват Assembler Prime"></canvas><p><button id="play" disabled>Показать движение</button> <span id="status" role="status">Загрузка деталей…</span></p><a href="rig.json" download>Скачать параметры шарниров</a> · <a href="rig.mjs" download>Скачать модуль движения</a></main>
+<script type="module">
+import {createAssemblerGripper,demoAngles} from './rig.mjs';
+const canvas=document.querySelector('canvas'),ctx=canvas.getContext('2d'),button=document.querySelector('#play'),status=document.querySelector('#status');
+try{
+ const rig=await createAssemblerGripper();let running=false,start=0;
+ function draw(t){ctx.clearRect(0,0,900,650);rig.draw(ctx,{x:430,y:510,scale:.85,...demoAngles(t)});}
+ draw(0);button.disabled=false;status.textContent='Готово';
+ button.onclick=()=>{if(running)return;running=true;button.disabled=true;start=performance.now();status.textContent='Демонстрация: 8 секунд';requestAnimationFrame(frame);};
+ function frame(now){const t=Math.min(1,(now-start)/8000);draw(t);if(t<1)requestAnimationFrame(frame);else{running=false;button.disabled=false;status.textContent='Движение завершено';}}
+}catch(e){status.textContent='Не удалось загрузить детали. Обновите страницу.';console.error(e);}
+</script></html>

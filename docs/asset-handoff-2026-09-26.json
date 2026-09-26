@@ -1,0 +1,621 @@
+{
+  "schema_version": 1,
+  "pack": "solar8-assets-handoff-2026-09-26",
+  "date": "2026-09-26",
+  "scope_ru": "Текущая дополнительная партия ассетов и прототип захвата; не полный архив всего проекта.",
+  "bible": "https://andygen.github.io/solar8-bible/",
+  "assets": [
+    {
+      "id": "maya-ship",
+      "file": "assets/ships/maya-ship.png",
+      "status": "flattened_sprite",
+      "planet": "character",
+      "entity": "Maya",
+      "note_ru": "Цельное изображение; масштаб, направление, коллизии и эффекты настраиваются в игре.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 938388,
+      "sha256": "3144a0de2c0a01a14444b8fb332abf9519c6697dc08b902bc4b97b13b55a7015",
+      "source_file": "exec-dfe47806-e689-4c31-983a-242bce3bd98a.png"
+    },
+    {
+      "id": "rex-ship",
+      "file": "assets/ships/rex-ship.png",
+      "status": "flattened_sprite",
+      "planet": "earth",
+      "entity": "Rex",
+      "note_ru": "Цельное изображение; масштаб, направление, коллизии и эффекты настраиваются в игре.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 1673336,
+      "sha256": "7293146d2bca2a00db3c848cab22183fd44ff6094d44e48e86bbc3e5ef020e94",
+      "source_file": "exec-b06cc8b1-7a89-40ac-8eaa-fa165a8a6b6e.png"
+    },
+    {
+      "id": "saturn-archive-wisp",
+      "file": "assets/ships/saturn-archive-wisp.png",
+      "status": "flattened_sprite",
+      "planet": "saturn",
+      "entity": "Archive Wisp",
+      "note_ru": "Цельное изображение; масштаб, направление, коллизии и эффекты настраиваются в игре.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 2001675,
+      "sha256": "f9e3fe77fdf2d10e44eb7bc2e9ab971b40c746a10d3202845b870b13d69cf26e",
+      "source_file": "exec-7a065587-605b-4ccc-8975-86f467601e0d.png"
+    },
+    {
+      "id": "earth-missile-frigate",
+      "file": "assets/ships/earth-missile-frigate.png",
+      "status": "flattened_sprite",
+      "planet": "earth",
+      "entity": "Missile Frigate",
+      "note_ru": "Цельное изображение; масштаб, направление, коллизии и эффекты настраиваются в игре.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 1464405,
+      "sha256": "1ceb745443be32b614e5b83d77482d1d36e3f23ee71d3be5b64e71b8086cba8d",
+      "source_file": "exec-7002d892-3060-499b-b024-f4dbc31af090.png"
+    },
+    {
+      "id": "earth-rail-platform",
+      "file": "assets/ships/earth-rail-platform.png",
+      "status": "flattened_sprite",
+      "planet": "earth",
+      "entity": "Rail Platform",
+      "note_ru": "Цельное изображение; масштаб, направление, коллизии и эффекты настраиваются в игре.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 1560613,
+      "sha256": "4cb084e3b1b810e373c2161e5ad223ba6fbf6469c7abb64980dc4a4364ed2d19",
+      "source_file": "exec-df51876d-706f-4ab3-ab6b-19335331149e.png"
+    },
+    {
+      "id": "saturn-boss-mnemosyne-sentinel-phase2",
+      "file": "assets/bosses/saturn-boss-mnemosyne-sentinel-phase2.png",
+      "status": "flattened_boss_state",
+      "planet": "saturn",
+      "entity": "Mnemosyne Sentinel",
+      "note_ru": "Цельное состояние; фазы не зарегистрированы попиксельно. Нужна настройка положения и масштаба при смене.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 2207407,
+      "sha256": "1f64fb4abee0b556c6d01c4855a7932e1f8be90fe0eade8b54903661df8083d7",
+      "source_file": "exec-0157c3e9-0aa7-4b28-ab83-3b25bce74c82.png"
+    },
+    {
+      "id": "saturn-boss-mnemosyne-sentinel-phase3",
+      "file": "assets/bosses/saturn-boss-mnemosyne-sentinel-phase3.png",
+      "status": "flattened_boss_state",
+      "planet": "saturn",
+      "entity": "Mnemosyne Sentinel",
+      "note_ru": "Цельное состояние; фазы не зарегистрированы попиксельно. Нужна настройка положения и масштаба при смене.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 2037570,
+      "sha256": "4174b51c1afbe809caf9c311e8ca291a3297f5e58863207be40ef402c34e664b",
+      "source_file": "exec-ab027bb0-54ee-401f-85b9-bdc4814f9ce8.png"
+    },
+    {
+      "id": "saturn-boss-mnemosyne-sentinel-phase1",
+      "file": "references/phase1/saturn-boss-mnemosyne-sentinel-phase1.png",
+      "status": "existing_site_reference",
+      "planet": "saturn",
+      "entity": "Mnemosyne Sentinel",
+      "note_ru": "Существующий исходник с Bible; приложен для сравнения, не новая версия.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 1937676,
+      "sha256": "e834d1fa31291b67f00a9b1c9562524beb01e8ebfd6762140a79df56bdbc4623",
+      "source_file": "saturn-boss-mnemosyne-sentinel-phase1.png"
+    },
+    {
+      "id": "mars-boss-assembler-prime-phase2",
+      "file": "assets/bosses/mars-boss-assembler-prime-phase2.png",
+      "status": "flattened_boss_state",
+      "planet": "mars",
+      "entity": "Assembler Prime",
+      "note_ru": "Цельное состояние; фазы не зарегистрированы попиксельно. Нужна настройка положения и масштаба при смене.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 2657050,
+      "sha256": "48d46caff41cfa0ab3ef73cd2d6f98f0213680b5a8c02c205218e21bf8f3d43a",
+      "source_file": "exec-9060e31f-ff77-45e7-ad76-8ed4fa12a0d2.png"
+    },
+    {
+      "id": "mars-boss-assembler-prime-phase3",
+      "file": "assets/bosses/mars-boss-assembler-prime-phase3.png",
+      "status": "flattened_boss_state",
+      "planet": "mars",
+      "entity": "Assembler Prime",
+      "note_ru": "Цельное состояние; фазы не зарегистрированы попиксельно. Нужна настройка положения и масштаба при смене.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 2688334,
+      "sha256": "1d2451b5c504c465f4d59d8750b38bf6a66074393cc8c77d6c4bc520c6212a24",
+      "source_file": "exec-9d508c1a-5bee-4055-87db-45053e119cff.png"
+    },
+    {
+      "id": "mars-boss-assembler-prime-phase1",
+      "file": "references/phase1/mars-boss-assembler-prime-phase1.png",
+      "status": "existing_site_reference",
+      "planet": "mars",
+      "entity": "Assembler Prime",
+      "note_ru": "Существующий исходник с Bible; приложен для сравнения, не новая версия.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 2481907,
+      "sha256": "1e2842cf325234511d8c02c91f2dc9c47d2c76b5848686d72d7c27063d7e5b7d",
+      "source_file": "mars-boss-assembler-prime-phase1.png"
+    },
+    {
+      "id": "jupiter-boss-tempest-crown-phase2",
+      "file": "assets/bosses/jupiter-boss-tempest-crown-phase2.png",
+      "status": "flattened_boss_state",
+      "planet": "jupiter",
+      "entity": "Tempest Crown",
+      "note_ru": "Цельное состояние; фазы не зарегистрированы попиксельно. Нужна настройка положения и масштаба при смене.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 1091515,
+      "sha256": "35abe020ee285ef8828e9399cc4a168031a221f6f321fd73dcfbd4eadd784368",
+      "source_file": "exec-02675f8a-e7e6-4e56-840c-79ed8beae9dc.png"
+    },
+    {
+      "id": "jupiter-boss-tempest-crown-phase3",
+      "file": "assets/bosses/jupiter-boss-tempest-crown-phase3.png",
+      "status": "flattened_boss_state",
+      "planet": "jupiter",
+      "entity": "Tempest Crown",
+      "note_ru": "Цельное состояние; фазы не зарегистрированы попиксельно. Нужна настройка положения и масштаба при смене.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 1285736,
+      "sha256": "16ddd29a020c7390fcfd2432749a1215eecd60f6475cfdb7422c65cfcf411113",
+      "source_file": "exec-66cf4f2b-8d26-4485-89af-d99055997bba.png"
+    },
+    {
+      "id": "jupiter-boss-tempest-crown-phase1",
+      "file": "references/phase1/jupiter-boss-tempest-crown-phase1.png",
+      "status": "existing_site_reference",
+      "planet": "jupiter",
+      "entity": "Tempest Crown",
+      "note_ru": "Существующий исходник с Bible; приложен для сравнения, не новая версия.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 1038130,
+      "sha256": "b5930c09fda01665b6b15184defb07a0fb7e4b41407c13fc5b8b8fccc3d84a6c",
+      "source_file": "jupiter-boss-tempest-crown-phase1.png"
+    },
+    {
+      "id": "uranus-boss-null-vessel-phase2",
+      "file": "assets/bosses/uranus-boss-null-vessel-phase2.png",
+      "status": "flattened_boss_state",
+      "planet": "uranus",
+      "entity": "Null Vessel",
+      "note_ru": "Цельное состояние; фазы не зарегистрированы попиксельно. Нужна настройка положения и масштаба при смене.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 621167,
+      "sha256": "9e5e0e6f519f8169670088af1d6a55fb43534e188e04e071ba31ad0a0412b360",
+      "source_file": "exec-636aad0d-67dc-4305-bfd9-65efacea8668.png"
+    },
+    {
+      "id": "uranus-boss-null-vessel-phase3",
+      "file": "assets/bosses/uranus-boss-null-vessel-phase3.png",
+      "status": "flattened_boss_state",
+      "planet": "uranus",
+      "entity": "Null Vessel",
+      "note_ru": "Цельное состояние; фазы не зарегистрированы попиксельно. Нужна настройка положения и масштаба при смене.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 648916,
+      "sha256": "68d17424334d0d5ae3b308c6326d279944ec182d1f8fd3343fbba6d237d3f98c",
+      "source_file": "exec-669aacde-8aaf-4ce3-ba44-4b6f1fd1cecd.png"
+    },
+    {
+      "id": "uranus-boss-null-vessel-phase1",
+      "file": "references/phase1/uranus-boss-null-vessel-phase1.png",
+      "status": "existing_site_reference",
+      "planet": "uranus",
+      "entity": "Null Vessel",
+      "note_ru": "Существующий исходник с Bible; приложен для сравнения, не новая версия.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 647818,
+      "sha256": "fa15fc9c1d835cf11b65afa5d8a6602569c9c238e525c228c8b262bcfb6d087f",
+      "source_file": "uranus-boss-null-vessel-phase1.png"
+    },
+    {
+      "id": "null-vessel-plate-top",
+      "file": "assets/parts/null-vessel/null-vessel-plate-top.png",
+      "status": "unregistered_part",
+      "planet": "uranus",
+      "entity": "Null Vessel",
+      "note_ru": "Отдельно сгенерированная пластина; центр и масштаб не совпадают с цельным боссом автоматически. Не точная вырезка оригинала.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 816524,
+      "sha256": "a83393d79d342d66dbbe18c55a8e3470c3c51c930b645363bd14486ef20e6418",
+      "source_file": "exec-a10051c4-2c30-45a3-8d61-b4cdce348262.png"
+    },
+    {
+      "id": "null-vessel-plate-upper-left",
+      "file": "assets/parts/null-vessel/null-vessel-plate-upper-left.png",
+      "status": "unregistered_part",
+      "planet": "uranus",
+      "entity": "Null Vessel",
+      "note_ru": "Отдельно сгенерированная пластина; центр и масштаб не совпадают с цельным боссом автоматически. Не точная вырезка оригинала.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 521314,
+      "sha256": "f1c909f27908a7e6cfa2661975b4941d195e899623a054194a225456e694a908",
+      "source_file": "exec-5f04bd1e-ea45-42ba-b5b2-5b2617c7e398.png"
+    },
+    {
+      "id": "null-vessel-plate-upper-right",
+      "file": "assets/parts/null-vessel/null-vessel-plate-upper-right.png",
+      "status": "unregistered_part",
+      "planet": "uranus",
+      "entity": "Null Vessel",
+      "note_ru": "Отдельно сгенерированная пластина; центр и масштаб не совпадают с цельным боссом автоматически. Не точная вырезка оригинала.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 507347,
+      "sha256": "0604b3095741bd6176a2e14c350ed450556d3b3180cf3e6a12a778f3da7d79a2",
+      "source_file": "exec-74193519-c4c1-475d-beb7-4046ada1faa6.png"
+    },
+    {
+      "id": "null-vessel-plate-bottom",
+      "file": "assets/parts/null-vessel/null-vessel-plate-bottom.png",
+      "status": "unregistered_part",
+      "planet": "uranus",
+      "entity": "Null Vessel",
+      "note_ru": "Отдельно сгенерированная пластина; центр и масштаб не совпадают с цельным боссом автоматически. Не точная вырезка оригинала.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 582131,
+      "sha256": "83a2a2d0ad50f1e550a7c0643aee1e2c248457d3ca536a4ee6e2b51261b0d709",
+      "source_file": "exec-090a7eb0-067f-4aab-aa78-b21a850688b0.png"
+    },
+    {
+      "id": "null-vessel-plate-lower-left",
+      "file": "assets/parts/null-vessel/null-vessel-plate-lower-left.png",
+      "status": "unregistered_part",
+      "planet": "uranus",
+      "entity": "Null Vessel",
+      "note_ru": "Отдельно сгенерированная пластина; центр и масштаб не совпадают с цельным боссом автоматически. Не точная вырезка оригинала.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 461885,
+      "sha256": "bdd28a8b34b7cc84dd9be5669f6653dce8f9350a83369596ae4c7ce6b238103d",
+      "source_file": "exec-e5a2459b-7849-4f18-93ea-8d44a50fe02a.png"
+    },
+    {
+      "id": "null-vessel-plate-lower-right",
+      "file": "assets/parts/null-vessel/null-vessel-plate-lower-right.png",
+      "status": "unregistered_part",
+      "planet": "uranus",
+      "entity": "Null Vessel",
+      "note_ru": "Отдельно сгенерированная пластина; центр и масштаб не совпадают с цельным боссом автоматически. Не точная вырезка оригинала.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 466570,
+      "sha256": "8c7900d20f4580f03d7c609447c41c1e8405da7b88107ba8cafe19acf51f992b",
+      "source_file": "exec-d04ea832-1970-43c3-a1df-2e499be15c4c.png"
+    },
+    {
+      "id": "assembler-base-open",
+      "file": "assets/parts/assembler/assembler-base-open.png",
+      "status": "unregistered_part",
+      "planet": "mars",
+      "entity": "Assembler Prime",
+      "note_ru": "Открытые двери остаются частью основания; отдельной анимации дверей пока нет.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 2077887,
+      "sha256": "9f308f07b16845c168bbc37dba19075f79e1739440a3e6075a1405dfca15231b",
+      "source_file": "exec-dc71369f-37be-490f-9d66-d9a8c8fd1427.png"
+    },
+    {
+      "id": "assembler-press-ram",
+      "file": "assets/parts/assembler/assembler-press-ram.png",
+      "status": "unregistered_part",
+      "planet": "mars",
+      "entity": "Assembler Prime",
+      "note_ru": "Опорные элементы остаются в спрайте пресса; требуется подгонка.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 258914,
+      "sha256": "76fcdac35fbf76bea2e6dcbe69884d4e81d96a61b87c88e80aeb74dbfc1113e1",
+      "source_file": "exec-401c160d-f21f-4d15-bc64-804c4477423b.png"
+    },
+    {
+      "id": "assembler-foreign-module",
+      "file": "assets/parts/assembler/assembler-foreign-module.png",
+      "status": "unregistered_part",
+      "planet": "mars",
+      "entity": "Assembler Prime",
+      "note_ru": "Изолированный модуль; требуется подгонка размера и позиции.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 105409,
+      "sha256": "979b9aab61bfe252c2f61a6aba05e37b5194b6f0dabfa787c9722381af7971aa",
+      "source_file": "exec-a972510f-b720-4981-b764-d18445a4180f.png"
+    },
+    {
+      "id": "assembler-upper-left-gripper",
+      "file": "concepts/assembler-whole-arms/assembler-upper-left-gripper.png",
+      "status": "concept_only",
+      "planet": "mars",
+      "entity": "Assembler Prime",
+      "note_ru": "Цельная рука в перспективе: годится как концепт, не для сгибания. Проекция отличается от босса; у нижнего правого захвата верх немного обрезан.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 1731969,
+      "sha256": "7a9bba780b2c6f3dd67624ad1f6b1cc43469164d58c9f29731aadb08cb0724fe",
+      "source_file": "exec-0a3eb870-e439-4ae0-a163-292d0955ebb3.png"
+    },
+    {
+      "id": "assembler-upper-right-drill",
+      "file": "concepts/assembler-whole-arms/assembler-upper-right-drill.png",
+      "status": "concept_only",
+      "planet": "mars",
+      "entity": "Assembler Prime",
+      "note_ru": "Цельная рука в перспективе: годится как концепт, не для сгибания. Проекция отличается от босса; у нижнего правого захвата верх немного обрезан.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 1598070,
+      "sha256": "506a8eb551a3e1ded687806019a0f1a22f36c0e94ef57636139a362378fff6a0",
+      "source_file": "exec-fa654277-4efe-4dee-8965-f21a401a2ae9.png"
+    },
+    {
+      "id": "assembler-lower-left-saw",
+      "file": "concepts/assembler-whole-arms/assembler-lower-left-saw.png",
+      "status": "concept_only",
+      "planet": "mars",
+      "entity": "Assembler Prime",
+      "note_ru": "Цельная рука в перспективе: годится как концепт, не для сгибания. Проекция отличается от босса; у нижнего правого захвата верх немного обрезан.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 1420409,
+      "sha256": "2d834c89623f6b3374013568ad24230cb3d4dab60229fab0ef05fd8367058bd4",
+      "source_file": "exec-e9b82546-6cf1-47f3-91f6-703b01541a18.png"
+    },
+    {
+      "id": "assembler-lower-right-gripper",
+      "file": "concepts/assembler-whole-arms/assembler-lower-right-gripper.png",
+      "status": "concept_only",
+      "planet": "mars",
+      "entity": "Assembler Prime",
+      "note_ru": "Цельная рука в перспективе: годится как концепт, не для сгибания. Проекция отличается от босса; у нижнего правого захвата верх немного обрезан.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 1444350,
+      "sha256": "eeed88c8ad2069a482bf8642b23ca4dfe55b306f1febcc3edc9c7d9dce85bee2",
+      "source_file": "exec-b512bd9c-2fa3-42cb-be6e-8ed4c79a317e.png"
+    },
+    {
+      "id": "assembler-gripper-base",
+      "file": "assets/rig/assembler-gripper/assembler-gripper-base.png",
+      "status": "tested_2d_rig_component",
+      "planet": "mars",
+      "entity": "Assembler Prime",
+      "note_ru": "Проверенный прототип вида сверху; три оси, открытая клешня. Посадка на оригинальный корпус босса ещё не выполнена.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 2535341,
+      "sha256": "85d7c71a91d38a04f0811dcbccea22f5fe561d0b3919ca60c1c4f7a3adc26659",
+      "source_file": "exec-eb8f3418-8c6a-4316-b3aa-255529aef6df.png"
+    },
+    {
+      "id": "assembler-gripper-upper",
+      "file": "assets/rig/assembler-gripper/assembler-gripper-upper.png",
+      "status": "tested_2d_rig_component",
+      "planet": "mars",
+      "entity": "Assembler Prime",
+      "note_ru": "Проверенный прототип вида сверху; три оси, открытая клешня. Посадка на оригинальный корпус босса ещё не выполнена.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 987614,
+      "sha256": "f141535ade9729f338a4411703bc64073587b258a2f4b2791dd65d144f21e220",
+      "source_file": "exec-5528a3ed-5d20-4e15-a2dc-01a9277da3c5.png"
+    },
+    {
+      "id": "assembler-gripper-forearm",
+      "file": "assets/rig/assembler-gripper/assembler-gripper-forearm.png",
+      "status": "tested_2d_rig_component",
+      "planet": "mars",
+      "entity": "Assembler Prime",
+      "note_ru": "Проверенный прототип вида сверху; три оси, открытая клешня. Посадка на оригинальный корпус босса ещё не выполнена.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 894777,
+      "sha256": "9351c3b36ac01eeaae8fb30803f8aadb9c12ce709ec59e6f4c9c5882582c0d7a",
+      "source_file": "exec-0c4a3cec-0e2a-4d09-a733-6683506837d4.png"
+    },
+    {
+      "id": "assembler-gripper-gripper",
+      "file": "assets/rig/assembler-gripper/assembler-gripper-gripper.png",
+      "status": "tested_2d_rig_component",
+      "planet": "mars",
+      "entity": "Assembler Prime",
+      "note_ru": "Проверенный прототип вида сверху; три оси, открытая клешня. Посадка на оригинальный корпус босса ещё не выполнена.",
+      "width": 1254,
+      "height": 1254,
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "bytes": 1700951,
+      "sha256": "7e94d8fe22462f8f3861b9d2bea4fb7caed2dd68f17f7db34cc1f4e04578e9b1",
+      "source_file": "exec-ee924fc8-fffc-481f-8474-094928563ddf.png"
+    }
+  ]
+}

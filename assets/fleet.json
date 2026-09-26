@@ -35,7 +35,7 @@
       "name": "Saturn",
       "ru": "Сатурн",
       "tagline": "Охрана архива Mnemosyne и машины стирания",
-      "note": "Для Mnemosyne Sentinel подготовлена первая защищённая конфигурация. Отдельные изображения фаз 2–3 ещё не подготовлены."
+      "note": "Для Mnemosyne Sentinel подготовлены три цельных изображения фаз. Раздельные руки, щиты, блоки памяти и анимация раскрытия ядра ещё требуют подготовки."
     },
     {
       "id": "uranus",
@@ -357,10 +357,113 @@
       "description": "Начальное состояние фабрики-босса: четыре манипулятора, центральный пресс и сборочные ячейки. Чужой управляющий модуль пока скрыт.",
       "technicalCode": null,
       "mission": "4-5",
-      "phase": "Фаза 1 / производство",
+      "phase": "Фаза 1 / цельное изображение",
       "archived": false,
       "legacyIds": [
         "ship-mars-boss-assembler-prime-phase1"
+      ],
+      "variants": [
+        {
+          "name": "Assembler Prime / фаза 2",
+          "image": "assets/bosses/mars-boss-assembler-prime-phase2.png",
+          "width": 1254,
+          "height": 1254,
+          "description": "Цельное изображение фазы. Раздельная анимация и механика в игре требуют подключения; масштаб и положение между состояниями требуют совмещения."
+        },
+        {
+          "name": "Assembler Prime / фаза 3",
+          "image": "assets/bosses/mars-boss-assembler-prime-phase3.png",
+          "width": 1254,
+          "height": 1254,
+          "description": "Цельное изображение фазы. Раздельная анимация и механика в игре требуют подключения; масштаб и положение между состояниями требуют совмещения."
+        }
+      ],
+      "resourceGroups": [
+        {
+          "title": "Отдельные детали",
+          "description": "Требуется совмещение масштаба и положения. Набор ещё не собран в анимацию босса.",
+          "items": [
+            {
+              "name": "Открытое основание",
+              "image": "assets/parts/assembler/assembler-base-open.png",
+              "width": 1254,
+              "height": 1254
+            },
+            {
+              "name": "Чужой модуль",
+              "image": "assets/parts/assembler/assembler-foreign-module.png",
+              "width": 1254,
+              "height": 1254
+            },
+            {
+              "name": "Пресс",
+              "image": "assets/parts/assembler/assembler-press-ram.png",
+              "width": 1254,
+              "height": 1254
+            }
+          ]
+        },
+        {
+          "title": "Прототип движения — вид сверху",
+          "description": "Три шарнира, движение в плоскости; клешня фиксирована открытой. Посадка на корпус босса не выполнена.",
+          "items": [
+            {
+              "name": "Основание захвата",
+              "image": "assets/rig/assembler-gripper/assembler-gripper-base.png",
+              "width": 1254,
+              "height": 1254
+            },
+            {
+              "name": "Предплечье захвата",
+              "image": "assets/rig/assembler-gripper/assembler-gripper-forearm.png",
+              "width": 1254,
+              "height": 1254
+            },
+            {
+              "name": "Открытая клешня",
+              "image": "assets/rig/assembler-gripper/assembler-gripper-gripper.png",
+              "width": 1254,
+              "height": 1254
+            },
+            {
+              "name": "Плечо захвата",
+              "image": "assets/rig/assembler-gripper/assembler-gripper-upper.png",
+              "width": 1254,
+              "height": 1254
+            }
+          ],
+          "link": "game/assembler/rig-demo.html"
+        },
+        {
+          "title": "Архив разработки: цельные манипуляторы",
+          "description": "Концепт — не готовый анимационный слой. Не подтверждает возможность сгибать цельную руку.",
+          "items": [
+            {
+              "name": "Нижняя левая пила",
+              "image": "assets/concepts/assembler/assembler-lower-left-saw.png",
+              "width": 1254,
+              "height": 1254
+            },
+            {
+              "name": "Нижний правый захват",
+              "image": "assets/concepts/assembler/assembler-lower-right-gripper.png",
+              "width": 1254,
+              "height": 1254
+            },
+            {
+              "name": "Верхний левый захват",
+              "image": "assets/concepts/assembler/assembler-upper-left-gripper.png",
+              "width": 1254,
+              "height": 1254
+            },
+            {
+              "name": "Верхний правый бур",
+              "image": "assets/concepts/assembler/assembler-upper-right-drill.png",
+              "width": 1254,
+              "height": 1254
+            }
+          ]
+        }
       ]
     },
     {
@@ -450,12 +553,28 @@
       "description": "Штормовой ретранслятор: цилиндрическое ядро, центральное кольцо и три радиальных рычага. Корпус закрыт, внешняя антенна скрыта. Изображения фаз 2–3 в набор не входят.",
       "technicalCode": null,
       "mission": "5-5",
-      "phase": "Фаза 1 / закрытый корпус",
+      "phase": "Фаза 1 / цельное изображение",
       "archived": false,
       "legacyIds": [],
       "image": "assets/ships/jupiter-boss-tempest-crown-phase1.png",
       "width": 1254,
-      "height": 1254
+      "height": 1254,
+      "variants": [
+        {
+          "name": "Tempest Crown / фаза 2",
+          "image": "assets/bosses/jupiter-boss-tempest-crown-phase2.png",
+          "width": 1254,
+          "height": 1254,
+          "description": "Цельное изображение фазы. Раздельная анимация и механика в игре требуют подключения; масштаб и положение между состояниями требуют совмещения."
+        },
+        {
+          "name": "Tempest Crown / фаза 3",
+          "image": "assets/bosses/jupiter-boss-tempest-crown-phase3.png",
+          "width": 1254,
+          "height": 1254,
+          "description": "Цельное изображение фазы. Раздельная анимация и механика в игре требуют подключения; масштаб и положение между состояниями требуют совмещения."
+        }
+      ]
     },
     {
       "id": "uranus-shard",
@@ -525,12 +644,72 @@
       "description": "Раздельные чёрные плоскости и пустой центр. Статический корпус первой фазы; последующие состояния и эффекты пространственного смещения в набор не входят.",
       "technicalCode": null,
       "mission": "7-5",
-      "phase": "Фаза 1 / геометрия",
+      "phase": "Фаза 1 / цельное изображение",
       "archived": false,
       "legacyIds": [],
       "image": "assets/ships/uranus-boss-null-vessel-phase1.png",
       "width": 1254,
-      "height": 1254
+      "height": 1254,
+      "variants": [
+        {
+          "name": "Null Vessel / фаза 2",
+          "image": "assets/bosses/uranus-boss-null-vessel-phase2.png",
+          "width": 1254,
+          "height": 1254,
+          "description": "Цельное изображение фазы. Раздельная анимация и механика в игре требуют подключения; масштаб и положение между состояниями требуют совмещения."
+        },
+        {
+          "name": "Null Vessel / фаза 3",
+          "image": "assets/bosses/uranus-boss-null-vessel-phase3.png",
+          "width": 1254,
+          "height": 1254,
+          "description": "Цельное изображение фазы. Раздельная анимация и механика в игре требуют подключения; масштаб и положение между состояниями требуют совмещения."
+        }
+      ],
+      "resourceGroups": [
+        {
+          "title": "Отдельные детали",
+          "description": "Требуется совмещение масштаба и положения. Пластины — реконструкции элементов, не попиксельные вырезки одного исходника.",
+          "items": [
+            {
+              "name": "Нижняя пластина",
+              "image": "assets/parts/null-vessel/null-vessel-plate-bottom.png",
+              "width": 1254,
+              "height": 1254
+            },
+            {
+              "name": "Нижняя левая пластина",
+              "image": "assets/parts/null-vessel/null-vessel-plate-lower-left.png",
+              "width": 1254,
+              "height": 1254
+            },
+            {
+              "name": "Нижняя правая пластина",
+              "image": "assets/parts/null-vessel/null-vessel-plate-lower-right.png",
+              "width": 1254,
+              "height": 1254
+            },
+            {
+              "name": "Верхняя пластина",
+              "image": "assets/parts/null-vessel/null-vessel-plate-top.png",
+              "width": 1254,
+              "height": 1254
+            },
+            {
+              "name": "Верхняя левая пластина",
+              "image": "assets/parts/null-vessel/null-vessel-plate-upper-left.png",
+              "width": 1254,
+              "height": 1254
+            },
+            {
+              "name": "Верхняя правая пластина",
+              "image": "assets/parts/null-vessel/null-vessel-plate-upper-right.png",
+              "width": 1254,
+              "height": 1254
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "neptune-shard",
@@ -729,10 +908,109 @@
       "description": "Хранитель архива исполняет испорченный приказ физического стирания. Кольца-хранилища закрывают ядро; игрок разрывает purge-связи и сохраняет память.",
       "technicalCode": null,
       "mission": "6-5",
-      "phase": "Фаза 1 / защищённая конфигурация",
+      "phase": "Фаза 1 / цельное изображение",
       "archived": false,
       "legacyIds": [],
       "image": "assets/ships/saturn-boss-mnemosyne-sentinel-phase1.png",
+      "width": 1254,
+      "height": 1254,
+      "variants": [
+        {
+          "name": "Mnemosyne Sentinel / фаза 2",
+          "image": "assets/bosses/saturn-boss-mnemosyne-sentinel-phase2.png",
+          "width": 1254,
+          "height": 1254,
+          "description": "Цельное изображение фазы. Раздельная анимация и механика в игре требуют подключения; масштаб и положение между состояниями требуют совмещения."
+        },
+        {
+          "name": "Mnemosyne Sentinel / фаза 3",
+          "image": "assets/bosses/saturn-boss-mnemosyne-sentinel-phase3.png",
+          "width": 1254,
+          "height": 1254,
+          "description": "Цельное изображение фазы. Раздельная анимация и механика в игре требуют подключения; масштаб и положение между состояниями требуют совмещения."
+        }
+      ]
+    },
+    {
+      "id": "maya-ship",
+      "name": "Корабль Maya",
+      "planet": "Allies",
+      "kind": "ally",
+      "description": "Корабль Майи. Отдельное цельное изображение; модель и принадлежность к планете не определяются этим PNG.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [],
+      "image": "assets/ships/maya-ship.png",
+      "width": 1254,
+      "height": 1254,
+      "detailLink": {
+        "url": "character-maya.html",
+        "label": "Досье пилота"
+      }
+    },
+    {
+      "id": "rex-ship",
+      "name": "Корабль Rex",
+      "planet": "Earth",
+      "kind": "ally",
+      "description": "Корабль Рекса в составе земного флота. Цельное изображение; масштаб, коллизии и поведение требуют подключения в игре.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [],
+      "image": "assets/ships/rex-ship.png",
+      "width": 1254,
+      "height": 1254,
+      "detailLink": {
+        "url": "character-rex.html",
+        "label": "Досье пилота"
+      }
+    },
+    {
+      "id": "saturn-archive-wisp",
+      "name": "Archive Wisp",
+      "planet": "Saturn",
+      "kind": "support",
+      "description": "Сервисный архивный аппарат. Отдельная сущность, не боевой Purge Drone.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [],
+      "image": "assets/ships/saturn-archive-wisp.png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "earth-missile-frigate",
+      "name": "Missile Frigate",
+      "planet": "Earth",
+      "kind": "striker",
+      "description": "Отдельный ракетный носитель земного флота.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [],
+      "image": "assets/ships/earth-missile-frigate.png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "earth-rail-platform",
+      "name": "Rail Platform",
+      "planet": "Earth",
+      "kind": "guard",
+      "description": "Отдельная рельсовая платформа земной обороны.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [],
+      "image": "assets/ships/earth-rail-platform.png",
       "width": 1254,
       "height": 1254
     }
@@ -756,6 +1034,14 @@
       "homeAnchor": "entry-209",
       "chapterUrl": "scenario.html#solar-crown",
       "note": "Три стадии — художественная организация набора, а не утверждённое число игровых фаз. Чистое ядро служит вспомогательным ресурсом. Это другой оставленный control-seed, не сбежавшее ядро Emissary; остаточный сигнал находят при проверке отключения сети после титров."
+    },
+    {
+      "id": "allies",
+      "name": "Allies",
+      "ru": "Корабли союзников",
+      "tagline": "Именные корабли команды",
+      "chapterUrl": "index.html#characters",
+      "catalogOnly": true
     }
   ]
 }

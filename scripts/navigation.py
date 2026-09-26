@@ -42,8 +42,8 @@ def update_navigation():
         elif name=='fleet.html':
             title='Каталог флота';parent=anchor('index.html#campaign','← К мирам')
             content=anchor('#overview','Обзор каталога')+anchor('#player','Корабль Andygen')
-            planets=[anchor(url,text) for url,text in links if url not in ['#overview','#player','#fleet-rules','#archive']]
-            content+=group('planets','По планетам',planets)+group('reference','Справочник',[anchor('#fleet-rules','Названия и способности'),anchor('#archive','Архив концептов')])
+            planets=[anchor(url,text) for url,text in links if url not in ['#overview','#player','#fleet-rules','#archive','#allies']]
+            content+=anchor('#allies','Корабли союзников')+group('planets','По планетам',planets)+group('reference','Справочник',[anchor('#fleet-rules','Названия и способности'),anchor('#archive','Архив концептов')])
         elif name=='player-upgrades.html':
             title='Развитие корабля';parent=anchor('fleet.html#player','← Корабль Andygen')
             content=anchor('#overview','Обзор развития')
