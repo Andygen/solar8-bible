@@ -31,6 +31,13 @@
       "tagline": "Штормовые машины и атмосферные ретрансляторы"
     },
     {
+      "id": "saturn",
+      "name": "Saturn",
+      "ru": "Сатурн",
+      "tagline": "Охрана архива Mnemosyne и машины стирания",
+      "note": "Для Mnemosyne Sentinel подготовлена первая защищённая конфигурация. Отдельные изображения фаз 2–3 ещё не подготовлены."
+    },
+    {
       "id": "uranus",
       "name": "Uranus",
       "ru": "Уран",
@@ -651,6 +658,81 @@
         }
       ],
       "image": "assets/ships/solar-crown-remnant-stage1.png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "saturn-scout",
+      "name": "Saturn Scout",
+      "planet": "Saturn",
+      "kind": "scout",
+      "description": "Лёгкий патрульный аппарат с узким корпусом и открытыми боковыми дугами.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [],
+      "image": "assets/ships/saturn-scout.png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "saturn-striker",
+      "name": "Saturn Striker",
+      "planet": "Saturn",
+      "kind": "striker",
+      "description": "Ударный аппарат с парными оружейными модулями.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [],
+      "image": "assets/ships/saturn-striker.png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "saturn-guard",
+      "name": "Saturn Guard",
+      "planet": "Saturn",
+      "kind": "guard",
+      "description": "Тяжёлый защищённый аппарат с сегментированным корпусом.",
+      "technicalCode": null,
+      "mission": null,
+      "phase": null,
+      "archived": false,
+      "legacyIds": [],
+      "image": "assets/ships/saturn-guard.png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "saturn-purge-drone",
+      "name": "Purge Drone",
+      "planet": "Saturn",
+      "kind": "support",
+      "description": "Архивный дрон с манипуляторами извлечения модулей памяти. Приоритетная угроза при защите архивных секторов.",
+      "technicalCode": null,
+      "mission": "6-3",
+      "phase": null,
+      "archived": false,
+      "legacyIds": [],
+      "image": "assets/ships/saturn-purge-drone.png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "id": "saturn-boss-mnemosyne-sentinel-phase1",
+      "name": "Mnemosyne Sentinel",
+      "planet": "Saturn",
+      "kind": "boss",
+      "description": "Хранитель архива исполняет испорченный приказ физического стирания. Кольца-хранилища закрывают ядро; игрок разрывает purge-связи и сохраняет память.",
+      "technicalCode": null,
+      "mission": "6-5",
+      "phase": "Фаза 1 / защищённая конфигурация",
+      "archived": false,
+      "legacyIds": [],
+      "image": "assets/ships/saturn-boss-mnemosyne-sentinel-phase1.png",
       "width": 1254,
       "height": 1254
     }

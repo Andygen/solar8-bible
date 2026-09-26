@@ -18,6 +18,7 @@ s.html['class']=['scenario-document']
 meta=s.select_one('meta[name="description"]')
 if not meta:meta=s.new_tag('meta',attrs={'name':'description'});s.head.append(meta)
 meta['content']='Полный сценарий SOLAR 8: общий сюжет, восемь планет, 40 миссий, диалоги и эпилог Solar Crown. Читайте по порядку или выбирайте главу в дереве.'
+s.head.append(s.new_tag('link',rel='stylesheet',href='assets/fleet.css')) if not s.select_one('link[href="assets/fleet.css"]') else None
 s.head.append(s.new_tag('link',rel='stylesheet',href='assets/scenario.css'));s.head.append(s.new_tag('script',src='assets/scenario.js',defer=True))
 if not s.select_one('link[href="assets/upgrades.css"]'):s.head.append(s.new_tag('link',rel='stylesheet',href='assets/upgrades.css'))
 main=s.main;main.clear();main['class']=['wrap','reader']
@@ -77,6 +78,8 @@ for no,planet in enumerate(planets,1):
  path=chapter.select_one('.path')
  if path:chunk+='<p class="story-path">'+escape(path.get_text(' ',strip=True))+'</p>'
  chunk+='</div>'
+ preview=chapter.select_one('[data-fleet-preview]')
+ if preview:chunk+=str(preview)
  # Intro/story-beat cards outside the mission list, when available.
  cards=[c for c in chapter.select('article.card') if not c.find_parent(class_='missions') and 'mission' not in c.get('class',[]) and c.h3]
  chunk+=prose(cards)
@@ -109,6 +112,8 @@ for title in ['Почти внутри короны']:
 crown='<section class="reader-section" id="solar-crown"><div class="kicker">ЭПИЛОГ / ПОСЛЕ ТИТРОВ</div><h2>Solar Crown</h2><p class="reader-lead">Бонусная миссия у самого Солнца. Основная история завершена на Neptune; здесь появляется следующая загадка.</p>'+prose(crown_cards)+upgrade_scene(STAGES[-1])+'<h3>Координаты происхождения</h3>'+scenes(epilogue)+'<p>Крючок для продолжения. Основной финал остаётся завершённым и без прохождения бонуса.</p><nav class="mission-pagination"><a href="#mission-8-5">← Финал Neptune</a><a href="#overview">К началу ↑</a></nav></section>'
 for stage in STAGES[1:]:
  search.append({'title':stage['title']+' / VO-черновик','page':'Сценарий / ангар Max','url':'scenario.html#upgrade-'+stage['id'],'text':BeautifulSoup(upgrade_scene(stage),'html.parser').get_text(' ',strip=True)})
+preview=home.select_one('[data-fleet-preview="solar-crown"]')
+if preview:crown=crown.replace(prose(crown_cards),str(preview)+prose(crown_cards),1)
 html+=crown;tree+='<a href="#solar-crown">Solar Crown <small>Эпилог</small></a>'
 search.append({'title':'Solar Crown','page':'Сценарий / эпилог','url':'scenario.html#solar-crown','text':BeautifulSoup(crown,'html.parser').get_text(' ',strip=True)})
 html+='<footer class="footer"><a href="index.html"><img src="assets/solar-logo-polished.png" alt="SOLAR 8" width="2048" height="768"></a><span>СЦЕНАРИЙ / ЧИТАТЕЛЬСКАЯ ВЕРСИЯ</span><a href="#overview">К началу ↑</a></footer>'

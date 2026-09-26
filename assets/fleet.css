@@ -7,3 +7,17 @@
 @media(max-width:620px){.fleet-page .wrap>section{margin-bottom:44px}.fleet-intro{padding-top:8px}.fleet-grid{gap:12px;grid-template-columns:1fr}.fleet-feature{grid-template-columns:1fr}.fleet-feature .fleet-art{min-height:0;aspect-ratio:1.2}.fleet-art{aspect-ratio:1.2}.fleet-copy{padding:20px}.fleet-heading{align-items:flex-start}.fleet-heading h2{font-size:36px}.fleet-heading>a{margin-top:8px}.fleet-archive{padding:16px}.fleet-archive .fleet-grid{grid-template-columns:1fr}.fleet-archive summary{font-size:18px}.fleet-thumbs{display:flex;overflow-x:auto;gap:8px;scroll-snap-type:x proximity;padding-bottom:8px}.fleet-thumb{flex:0 0 96px;scroll-snap-align:start}.fleet-thumb img{height:76px}.fleet-preview{padding:14px}.fleet-preview-head .kicker{font-size:8px}.fleet-preview-head>a{font-size:11px}.fleet-world-links a{padding:12px}.fleet-stats{gap:26px}}
 
 .fleet-actions{display:flex;flex-wrap:wrap;gap:12px 24px}
+
+/* Keep every chapter's examples visible, including on narrow screens. */
+.fleet-thumbs{display:grid;grid-template-columns:repeat(auto-fit,minmax(125px,1fr));overflow:visible;gap:12px}
+.fleet-thumb{border:1px solid var(--line);background:#ffffff03;padding:12px;min-width:0}
+.fleet-thumb img{height:130px;max-width:100%;object-fit:contain}
+.fleet-thumb span{font-size:12px;overflow-wrap:anywhere}
+.fleet-thumb:focus-visible{outline:2px solid var(--orange);outline-offset:3px}
+.fleet-thumb:only-child{max-width:280px}
+@media(max-width:620px){
+ .fleet-thumbs{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding-bottom:0}
+ .fleet-thumb{padding:10px}
+ .fleet-thumb img{height:110px}
+ .fleet-preview-head{flex-wrap:wrap}
+}

@@ -36,6 +36,8 @@ def card(s):
     feature = s['kind'] in ['boss', 'player'] and not s['archived']
     classes = 'fleet-card' + (' fleet-feature' if feature else '')
     label = 'Архивный концепт' if s['archived'] else roles[s['kind']]
+    if s['id'] == 'saturn-purge-drone':
+        label = 'Стирание архивной памяти'
     if s['name'] == 'Venus Guard':
         label = 'Защита и помехи'
     if s['mission']:
