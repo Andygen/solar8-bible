@@ -15,6 +15,6 @@ for path in ROOT.glob('*.html'):
             if node.get('data-asset-source'):node[attr]=source;del node['data-asset-source']
         else:
             node['data-asset-source']=source
-            digest=hashlib.sha256((ROOT/u.path).read_bytes()).hexdigest()[:12]
+            digest=hashlib.sha256((ROOT/u.path).read_text(encoding='utf8').encode('utf8')).hexdigest()[:12]
             node[attr]=u.path+'?v='+digest
     path.write_text(str(page),encoding='utf8')
