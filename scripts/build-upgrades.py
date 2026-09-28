@@ -35,7 +35,7 @@ def table(headers, rows):
 content+='<section class="upgrade-notes" id="revision-nine"><h2>Накопленный износ</h2>'+paragraphs(DATA['wearIntro'])+table(['Стадия','Состояние старого корпуса'],[(s['name'],s['wear']) for s in STAGES])+paragraphs(DATA['wearNotes'])+'</section>'
 content+='<section class="upgrade-notes" id="readability"><h2>Отражения окружения</h2>'+paragraphs(DATA['lightIntro'])+table(['Локация','Отражённый свет'],[(s['name'],s['light']) for s in STAGES])+paragraphs(DATA['lightNotes'])+'</section>'
 content+='<section class="upgrade-notes" id="engines"><h2>Двигатели и ангарное состояние</h2>'+paragraphs(DATA['engines'])+'</section>'
-content+='<section class="upgrade-notes" id="hangar-scenes"><h2>Как Max представляет улучшение</h2>'+paragraphs(DATA['presentation'])+'<p>Английские реплики — VO-черновик; русский смысл доступен под каждой сценой. Получение улучшения не зависит от просмотра сцены; повторный просмотр не выдаёт награду заново.</p>'+''.join(scene(s,'upgrades') for s in STAGES[1:])+'</section>'
+content+='<section class="upgrade-notes" id="hangar-scenes"><h2>Как Max представляет улучшение</h2>'+paragraphs(DATA['presentation'])+'<p>Реплики на двух языках собраны в общем сценарии. Получение улучшения не зависит от просмотра сцены; повторный просмотр не выдаёт награду заново.</p>'+''.join(f'<aside class="upgrade-interlude" id="upgrade-{s["id"]}"><h3>{esc(s["title"])}</h3><p>{esc(s["when"])}</p><a href="scenario.html#upgrade-{s["id"]}">Читать сцену RU / EN →</a></aside>' for s in STAGES[1:])+'</section>'
 content+='<section class="upgrade-notes" id="story-links"><h2>Сюжетные связи</h2>'+paragraphs(DATA['story'])+'</section>'
 content+='<span id="neptune-presentation"><a href="#upgrade-neptune">Презентация Neptune ↑</a></span><span id="crown-presentation"><a href="#upgrade-solar-crown">Презентация Solar Crown ↑</a></span>'
 footer=page.select_one('main .footer').extract();page.main.clear();page.main.append(parse(content));page.main.append(footer)
@@ -45,23 +45,11 @@ for section in page.select('main > section[id]'):
 save('player-upgrades.html',page)
 
 # Separately labelled proposals preserve every original scene and line.
-for filename in sorted({s['script'] for s in STAGES[1:]}):
-    doc=parse((ROOT/filename).read_text(encoding='utf-8'))
-    for old in doc.select('.upgrade-interlude'):old.decompose()
-    if not doc.select_one('link[href="assets/upgrades.css"]'):doc.head.append(parse('<link rel="stylesheet" href="assets/upgrades.css"/>'))
-    for s in STAGES[1:]:
-        if s['script']!=filename:continue
-        if s['id']=='solar-crown':doc.select('.mission')[-1].insert(0,parse(scene(s,'source')))
-        else:
-            m=next(m for m in doc.select('.mission') if m.select_one('.mid') and m.select_one('.mid').get_text(strip=True)==s['after'])
-            m.append(parse(scene(s,'source')))
-    save(filename,doc)
-
 p=ROOT/'assets/search-index.json';idx=json.loads(p.read_text(encoding='utf-8'))
 idx=[e for e in idx if not e['url'].startswith('player-upgrades.html') and not (e['url'].startswith('scripts-') and '#upgrade-' in e['url'])]
 for section in page.select('main > section[id],.upgrade-interlude'):
     h=section.find(['h1','h2','h3']);idx.append(dict(title=h.get_text(' ',strip=True),page='Player Interceptor / развитие',url='player-upgrades.html#'+section['id'],text=section.get_text(' ',strip=True)))
-for s in STAGES[1:]:idx.append(dict(title=s['title']+' / VO-черновик',page='Межглавная сцена Max',url=s['script']+'#upgrade-'+s['id'],text=parse(scene(s)).get_text(' ',strip=True)))
+
 p.write_text(json.dumps(idx,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
 print('Built nine hangar stages and eight proposed transitions; original dialogue preserved.')
 

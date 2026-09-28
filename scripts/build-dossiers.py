@@ -5,7 +5,9 @@ Requires BeautifulSoup 4. Run before build-fleet.py.
 from pathlib import Path
 from copy import deepcopy
 from html import escape as esc
-import json
+import json,sys
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from story_data import STORY,GAME
 from bs4 import BeautifulSoup as Soup
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -26,14 +28,13 @@ def gallery(items,name):
     return '<div class="gallery">'+''.join(f'<figure class="card"><a href="{m["original"]}" aria-label="Увеличить: {esc(name)} — {esc(label(m))}">{img(m,name+" — "+label(m))}</a><figcaption class="caption"><b>{esc(label(m))}</b><br/><a class="dossier-download" href="{m["original"]}" download>Скачать оригинальный PNG ↓</a></figcaption></figure>' for m in items)+'</div>'
 
 vo=[]
-for path in sorted(ROOT.glob('scripts-*.html')):
-    page=read(path.name)
-    for line in page.select('.line'):
-        speaker=line.select_one('.speaker'); text=line.select_one('.text')
-        if not speaker or not text: continue
-        mission=line.find_parent('article')
-        anchor=mission.h3.get('id') if mission and mission.h3 else None
-        vo.append((speaker.get_text(' ',strip=True).split(' P')[0],text.get_text(' ',strip=True),path.name+('#'+anchor if anchor else '')))
+for mission in STORY['missions']:
+    target='mission-'+mission['id'] if len(mission['id'])==3 else mission['id']
+    for scene in mission['scenes']:
+        for block in scene['blocks']:
+            if block['type']!='line':continue
+            line=block['line'];text=GAME.get(line.get('dialogue_id')) or line
+            vo.append((line['speaker'],text['en'],'scenario.html#'+target))
 
 for d in records:
     page=deepcopy(template); page.title.string='SOLAR 8 // '+d['title']+' — Character Bible'

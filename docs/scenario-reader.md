@@ -1,17 +1,28 @@
-# Scenario reading edition
+# Единый сценарий SOLAR 8
 
-`scenario.html` gathers the existing story in campaign order. It does not invent new dialogue or translate the existing English VO.
+Читать историю: `scenario.html`. Каталог для работы с игровыми ID: `dialogues.html`.
 
-Sources:
-- `index.html`: overall plot, chapter introductions, 40 mission summaries, interludes tagged `BEFORE n-n` or `AFTER n-n`, and Solar Crown gameplay. BEFORE scenes are placed before gameplay dialogue and included in search.
-- Four `scripts-*.html` pages: full dialogue scene sequences for each numbered mission; the final Solar Crown scene comes from `scripts-uranus-neptune.html`.
+## Источники
 
-Rebuild with `python scripts/build-scenario.py` (Python and BeautifulSoup 4). It regenerates the reading edition and its search entries, and ensures the Scenario menu exists on every HTML page. Source pages retain their original IDs and remain available through each mission's source link.
+- `assets/story-scenes.json`: 40 миссий, эпилог, дополнительные реплики при поражении, режиссура голосов, условия сцен и межмиссионные вставки. Порядок сцен и строк сохраняет исходную английскую версию.
+- У литературной строки есть постоянный `id`, `speaker`, `en`, `ru` и `translation_status`. Новый русский текст имеет статус `editorial_draft`; после редакторской проверки можно поставить `reviewed`.
+- Строка, связанная с игрой, содержит `dialogue_id` и **не содержит** собственной копии `en`/`ru`. Текст берётся из `assets/dialogues.json`. Игровые адаптации доступны отдельно в каталоге и не подменяют литературную версию.
+- `assets/story-labels.json`: перевод названий сцен.
+- `assets/player-progression.json`: предлагаемые ангарные сцены, их исходные реплики и русский смысл. Полный диалог показывается в сценарии; страница улучшений ведёт к нему.
+- `index.html`: обзор истории и описания действий/механик миссий. Повторяющиеся радиодиалоги заменены переходами в сценарий; описания боевых классов сохранены.
 
-The reader has native anchor navigation, eight expandable chapter trees with five missions each, previous/next links, keyboard-accessible disclosure controls, mobile contents, and optional local browser reading-position storage. Content remains readable when JavaScript or storage is disabled.
+`markup` в блоках сцен хранит исходные режиссёрские заметки и условия запуска. Приоритеты озвучки сохранены в `priority_html` как производственные метаданные. Они не создают отдельную копию реплики.
 
-Verification on initial publication: all 40 mission dialogue sequences and the epilogue exactly match their source text after removing VO priority badges; 156 scenes / 454 dialogue lines; no missing source links; desktop and mobile navigation, search, resume and overflow checks pass.
+## Языки и статусы
 
-Revision 2026-09-22: source VO was intentionally edited to resolve the narrative audit. The reader now contains 170 source scenes / 514 dialogue lines, plus the separate proposed upgrade exchanges. Conditional scene notes are part of the source and must remain in the reader. `scripts/verify-narrative.py` checks source parity, BEFORE/AFTER placement, links and core continuity.
+По умолчанию выбран русский язык реплик; выбор RU / EN сохраняется между страницами. Названия сцен переключаются вместе с репликами. Описания событий и режиссёрские заметки остаются на русском. Все сюжетные раскрытия открыты.
 
-Editorial reference: `docs/story-rules.md` → `scripts/build-story-rules.py` → `story-rules.html`. Build after the content generators. Run `scripts/refresh-search.py` last to refresh existing records after direct source edits. These tools require BeautifulSoup; the rules builder also uses Python Markdown. New scenes are VO drafts, not claims of game implementation.
+Игровой перевод и редакционный черновик помечены отдельно. Наличие русского перевода не подтверждает реализацию миссии в игре. Без JavaScript доступны английские тексты из сборки; при недоступном игровом JSON используется сохранённая двуязычная версия с уведомлением.
+
+## Старые адреса
+
+Четыре страницы `scripts-*.html` — только переходы. `legacy_routes` хранит соответствия прежних якорей главам, миссиям и ангарным сценам. JavaScript перенаправляет к нужному месту; без JavaScript доступны обычные ссылки. Старые адреса исключены из поиска и помечены `noindex`.
+
+Не редактировать сгенерированные HTML. Полная сборка и проверки: `python scripts/build.py`. `verify-narrative.py` проверяет порядок сцен и межмиссионных вставок; `verify-story.py` — ID, покрытие переводами, старые ссылки и русский поиск; `verify-site.py` — ссылки и игровой контракт.
+
+Миграция 28.09.2026: английские последовательности реплик всех 40 миссий сверены с прежними страницами без изменений; игровой JSON сохранён без изменений. Прежние версии страниц доступны в истории Git до миграции.

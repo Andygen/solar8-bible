@@ -20,6 +20,6 @@ for entry in entries:
                 pieces.append(sibling.get_text(' ',strip=True))
             entry['text']=' '.join(pieces);continue
         else:node=node.find_parent('section') or node.parent
-    entry['text']=node.get_text(' ',strip=True)
+    entry['text']=node.get_text(' ',strip=True)+' '+' '.join(n['data-ru'] for n in node.select('[data-ru]'))
 path.write_text(json.dumps(entries,ensure_ascii=False,separators=(',',':')),encoding='utf8')
 print('Refreshed',len(entries),'search records from current HTML.')

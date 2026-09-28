@@ -27,6 +27,7 @@ for path in sorted(ROOT.glob('*.html')):
     nodes = page.select('.scene .line > .text, .dialogue > .line, [data-dialogue-id]')
     for node in nodes:
         key = node.get('data-dialogue-id')
+        if not key and node.get('data-story-id'):continue
         if not key:
             row = node.parent; speaker = row.select_one('.speaker')
             if not speaker: continue
@@ -58,7 +59,7 @@ for path in sorted(ROOT.glob('*.html')):
             node['lang'] = 'en'; node.string = by_id[key]['en']
             bindings.append({'page':path.name,'id':key})
     bound = page.select('[data-dialogue-id]')
-    if bound:
+    if bound and path.name!='scenario.html':
         if not page.select_one('script[src="assets/dialogue-bindings.js"]'):
             page.head.append(page.new_tag('script',src='assets/dialogue-bindings.js',defer=True))
         if not page.select_one('link[href="assets/dialogues.css"]'):

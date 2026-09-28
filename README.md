@@ -25,3 +25,5 @@ manually. The image manifest records their source fingerprints.
 Narrative rules and missing asset priorities: `docs/story-rules.md` → `python scripts/build-story-rules.py` → `story-rules.html`. After editorial changes, run `python scripts/refresh-search.py` and `python scripts/verify-narrative.py`. The rules builder requires Python Markdown in addition to BeautifulSoup.
 
 Ship catalogue data: `assets/fleet.json`. Rebuild the fleet page and planet previews with `python scripts/build-fleet.py` (Python + BeautifulSoup 4). See [fleet maintenance](docs/fleet.md) and [scenario maintenance](docs/scenario-reader.md).
+
+Unified story reader: `assets/story-scenes.json` → `scenario.html`, with game strings resolved by ID from `assets/dialogues.json`. Old `scripts-*.html` URLs redirect to the exact chapter/mission. See `docs/scenario-reader.md` for editorial translations and source ownership.

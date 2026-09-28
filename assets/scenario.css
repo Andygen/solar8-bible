@@ -7,3 +7,5 @@
 .scenario-document{scroll-behavior:auto}body.scenario-page .reader{width:calc(100% - var(--sidebar));max-width:1100px;margin-left:var(--sidebar)}body.scenario-page .reader>section{max-width:820px}.scenario-page .reader-section,.scenario-page .reader-mission{scroll-margin-top:12px}
 @media(max-width:960px){body.scenario-page .reader{width:100%;margin-left:0}}
 @media print{body.scenario-page .reader{width:100%;max-width:none;margin:0}}
+
+.translation-state{font-size:11px;line-height:1.5;color:#d9b17a;margin:0 0 10px}.scene-reference{margin:12px 0}.scene-reference a{color:var(--gold,#ffd06e)}

@@ -9,9 +9,10 @@ import json,re
 import sys
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from progression import STAGES, scene as upgrade_scene
+from story_data import STORY, render_scenes
 r=Path(__file__).resolve().parents[1]
 home=BeautifulSoup((r/'index.html').read_text(encoding='utf-8'),'html.parser')
-s=BeautifulSoup((r/'scripts-mercury-venus.html').read_text(encoding='utf-8'),'html.parser')
+s=BeautifulSoup((r/'scenario.html').read_text(encoding='utf-8'),'html.parser')
 s.title.string='SOLAR 8 // Сценарий — полная история'
 s.body['class']=['script-page','scenario-page']
 s.html['class']=['scenario-document']
@@ -21,16 +22,14 @@ meta['content']='Полный сценарий SOLAR 8: общий сюжет, �
 s.head.append(s.new_tag('link',rel='stylesheet',href='assets/fleet.css')) if not s.select_one('link[href="assets/fleet.css"]') else None
 s.head.append(s.new_tag('link',rel='stylesheet',href='assets/scenario.css'));s.head.append(s.new_tag('script',src='assets/scenario.js',defer=True))
 if not s.select_one('link[href="assets/upgrades.css"]'):s.head.append(s.new_tag('link',rel='stylesheet',href='assets/upgrades.css'))
+for selector in ['link[href="assets/scenario.css"]','script[src="assets/scenario.js"]']:
+ nodes=s.select(selector)
+ for n in nodes[1:]:n.decompose()
+for n in s.select('script[src="assets/dialogue-bindings.js"]'):n.decompose()
 main=s.main;main.clear();main['class']=['wrap','reader']
 planets=['Mercury','Venus','Earth','Mars','Jupiter','Saturn','Uranus','Neptune']
-files=['scripts-mercury-venus.html','scripts-earth-mars.html','scripts-jupiter-saturn.html','scripts-uranus-neptune.html']
-vo={};epilogue=None
-for filename in files:
- doc=BeautifulSoup((r/filename).read_text(encoding='utf-8'),'html.parser')
- for m in doc.select('.mission'):
-  mid=m.select_one('.mid')
-  if mid and re.fullmatch(r'[1-8]-[1-5]',mid.get_text(strip=True)):vo[mid.get_text(strip=True)]=(filename,m)
- if filename==files[-1]:epilogue=doc.select('.mission')[-1]
+vo={m['id']:m for m in STORY['missions'] if re.fullmatch(r'[1-8]-[1-5]',m['id'])}
+epilogue=next(m for m in STORY['missions'] if m['id']=='solar-crown')
 assert len(vo)==40
 
 def clean(node):
@@ -40,12 +39,7 @@ def clean(node):
  return n
 
 def scenes(m):
- out=''
- for scene in m.select(':scope > .scene'):
-  n=clean(scene)
-  for priority in n.select('.priority'):priority.decompose()
-  out+=str(n)
- return out
+ return render_scenes(m)
 
 def prose(cards):
  out=''
@@ -58,19 +52,16 @@ def prose(cards):
   if quote:out+='<blockquote>'+quote.decode_contents()+'</blockquote>'
  return out
 
-intro='''<section id="overview" class="reader-section"><div class="kicker">SOLAR 8 / СЦЕНАРИЙ</div><h1>От первого сигнала<br>до первого контакта.</h1><p class="reader-lead">История целиком: восемь планет, сорок миссий и эпилог у самого Солнца.</p><div class="reader-actions"><a class="reader-button" href="#mercury">Начать читать →</a><button type="button" class="reader-button resume-reading" hidden>Продолжить чтение →</button><button type="button" class="reader-button open-contents">Оглавление</button></div><p class="edition-note">Описание событий — на русском. Реплики с постоянными ID читаются из общего JSON и доступны на двух языках; остальные относятся к литературному сценарию и будущим главам. Все сюжетные раскрытия включены.</p><h2>Общий сюжет</h2>'''
+intro='''<section id="overview" class="reader-section"><div class="kicker">SOLAR 8 / СЦЕНАРИЙ</div><h1>От первого сигнала<br>до первого контакта.</h1><p class="reader-lead">История целиком: восемь планет, сорок миссий и эпилог у самого Солнца.</p><div class="reader-actions"><a class="reader-button" href="#mercury">Начать читать →</a><button type="button" class="reader-button resume-reading" hidden>Продолжить чтение →</button><button type="button" class="reader-button open-contents">Оглавление</button></div><p class="edition-note">Описание событий — на русском; язык реплик выбирается ниже. Игровые переводы сохранены из общего каталога. Переводы остальных реплик — редакционный черновик, не подтверждение реализации сцен в игре. Все сюжетные раскрытия включены.</p><h2>Общий сюжет</h2>'''
 intro+=prose(home.select('#story .card'))+'</section>'
 html=intro;tree='<a href="#overview">Общий сюжет</a>'
 search=[{'title':'Сценарий','page':'История SOLAR 8','url':'scenario.html#overview','text':BeautifulSoup(intro,'html.parser').get_text(' ',strip=True)}]
 mission_titles={}
 interludes={};before_interludes={}
-for c in home.select('#production article'):
- k=c.select_one('.kicker')
- if k:
-  match=re.fullmatch(r'(AFTER|BEFORE) ([1-8]-[1-5])',k.get_text(strip=True))
-  if match:
-   target=interludes if match.group(1)=='AFTER' else before_interludes
-   target.setdefault(match.group(2),[]).append(c)
+for item in STORY['interludes']:
+ c=BeautifulSoup(item['html'],'html.parser').article
+ target=interludes if item['timing']=='AFTER' else before_interludes
+ target.setdefault(item['mission'],[]).append(c)
 for no,planet in enumerate(planets,1):
  slug=planet.lower();chapter=home.find(id=slug);missions=chapter.select('.missions > .mission');assert len(missions)==5,(slug,len(missions))
  tree+=f'<details class="chapter-tree" data-chapter="{slug}"><summary><span>{planet}</span><small>05</small></summary><div class="tree-children"><a href="#{slug}">О главе</a>'
@@ -87,14 +78,14 @@ for no,planet in enumerate(planets,1):
  for m in missions:
   mid=m.select_one('.mid').get_text(strip=True);title=m.h3.get_text(' ',strip=True);mission_titles[mid]=title
   tree+=f'<a href="#mission-{mid}"><span>{mid}</span> {escape(title)}</a>'
-  filename,v=vo[mid];chunk+=f'<article class="reader-mission" id="mission-{mid}" data-chapter="{slug}"><header><div class="kicker">МИССИЯ {mid}</div><h3>{escape(title)}</h3></header>'
+  v=vo[mid];chunk+=f'<article class="reader-mission" id="mission-{mid}" data-chapter="{slug}"><header><div class="kicker">МИССИЯ {mid}</div><h3>{escape(title)}</h3></header>'
   for c in before_interludes.get(mid,[]):chunk+='<aside class="interlude"><div class="kicker">ПЕРЕД МИССИЕЙ / БРИФИНГ</div>'+prose([c])+'</aside>'
   for item in m.select('.meta > div'):chunk+='<p class="mission-context">'+item.decode_contents()+'</p>'
   body=m.find_all('p');kind=m.select_one('.kind')
   chunk+='<details class="mission-gameplay"><summary>Действие и механика миссии</summary>'
   if kind:chunk+='<p class="kind">'+escape(kind.get_text(' ',strip=True))+'</p>'
   chunk+=''.join(str(clean(p)) for p in body)+'</details>'
-  chunk+=f'<div class="dialogue-heading" id="dialogue-{mid}"><h4>Диалоги и сцены</h4><a href="{filename}#{v.h3.get("id")}">Исходный VO ↗</a></div>'+scenes(v)
+  chunk+=f'<div class="dialogue-heading" id="dialogue-{mid}"><h4>Диалоги и сцены</h4></div>'+scenes(v)
   for c in interludes.get(mid,[]):chunk+='<aside class="interlude"><div class="kicker">ПОСЛЕ МИССИИ / АНГАР</div>'+prose([c])+'</aside>'
   for stage in STAGES[1:-1]:
    if stage['after']==mid:
@@ -102,7 +93,7 @@ for no,planet in enumerate(planets,1):
     tree+=f'<a href="#upgrade-{stage["id"]}">Ангар Max → {stage["name"]} · черновик</a>'
   chunk+=f'<nav class="mission-pagination" aria-label="Переходы после миссии {mid}" data-mission="{mid}"></nav></article>'
   surrounding=before_interludes.get(mid,[])+interludes.get(mid,[])
-  search.append({'title':mid+' · '+title,'page':'Сценарий / '+planet,'url':'scenario.html#mission-'+mid,'text':m.get_text(' ',strip=True)+' '+v.get_text(' ',strip=True)+' '+' '.join(c.get_text(' ',strip=True) for c in surrounding)})
+  search.append({'title':mid+' · '+title,'page':'Сценарий / '+planet,'url':'scenario.html#mission-'+mid,'text':m.get_text(' ',strip=True)+' '+BeautifulSoup(scenes(v),'html.parser').get_text(' ',strip=True)+' '+' '.join(c.get_text(' ',strip=True) for c in surrounding)})
  chunk+='</section>';html+=chunk;tree+='</div></details>'
  search.append({'title':planet,'page':'Сценарий / глава '+str(no),'url':'scenario.html#'+slug,'text':chapter_intro+' '+', '.join(mission_titles[f'{no}-{i}'] for i in range(1,6))})
 crown_cards=[]
@@ -116,6 +107,12 @@ preview=home.select_one('[data-fleet-preview="solar-crown"]')
 if preview:crown=crown.replace(prose(crown_cards),str(preview)+prose(crown_cards),1)
 html+=crown;tree+='<a href="#solar-crown">Solar Crown <small>Эпилог</small></a>'
 search.append({'title':'Solar Crown','page':'Сценарий / эпилог','url':'scenario.html#solar-crown','text':BeautifulSoup(crown,'html.parser').get_text(' ',strip=True)})
+for appendix in [m for m in STORY['missions'] if m['id'] not in vo and m['id']!='solar-crown']:
+ label={'voice-earth-mars':'Режиссура голосов · Earth / Mars','voice-jupiter-saturn':'Режиссура голосов · Jupiter / Saturn','failure-pool':'Реплики при поражении'}[appendix['id']]
+ html+=f'<section class="reader-section" id="{appendix["id"]}"><h2>{label}</h2>'+scenes(appendix)+'</section>'
+ tree+=f'<a href="#{appendix["id"]}">{label}</a>'
+html+='<section class="reader-section" id="voice-notes"><h2>Режиссёрские заметки</h2>'+''.join('<details><summary>'+item['source'].replace('scripts-','').replace('.html','')+'</summary>'+''.join(item['notes'])+'</details>' for item in STORY['production_notes'])+'</section>'
+tree+='<a href="#voice-notes">Режиссёрские заметки</a>'
 html+='<footer class="footer"><a href="index.html"><img src="assets/solar-logo-polished.png" alt="SOLAR 8" width="2048" height="768"></a><span>СЦЕНАРИЙ / ЧИТАТЕЛЬСКАЯ ВЕРСИЯ</span><a href="#overview">К началу ↑</a></footer>'
 main.append(BeautifulSoup(html,'html.parser'))
 ids=list(mission_titles)

@@ -2,7 +2,9 @@
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
 from bs4 import BeautifulSoup as Soup
-import re,json
+import re,json,sys
+sys.path.insert(0,str(Path(__file__).resolve().parent))
+from story_data import STORY,render_scenes
 
 ROOT=Path(__file__).resolve().parents[1]
 pages={p.name:Soup(p.read_text(encoding='utf8'),'html.parser') for p in ROOT.glob('*.html')}
@@ -10,18 +12,16 @@ reader=pages['scenario.html']
 dialogue_ids={e['id'] for e in json.loads((ROOT/'assets/dialogues.json').read_text(encoding='utf8'))['entries']}
 def normalized(scene):
     clone=Soup(str(scene),'html.parser')
-    for el in clone.select('.priority'):el.decompose()
+    for el in clone.select('.priority,.translation-state'):el.decompose()
     return clone.get_text(' ',strip=True)
 count=0
-for name,source in pages.items():
-    if not name.startswith('scripts-'):continue
-    for mission in source.select('.mission'):
-        mid=mission.select_one('.mid')
-        if not mid or not re.fullmatch(r'[1-8]-[1-5]',mid.get_text(strip=True)):continue
-        target=reader.select_one('#mission-'+mid.get_text(strip=True))
-        assert target is not None
-        assert [normalized(s) for s in mission.select(':scope > .scene')]==[normalized(s) for s in target.select(':scope > .scene')],mid
-        count+=1
+for mission in STORY['missions']:
+    if not re.fullmatch(r'[1-8]-[1-5]',mission['id']):continue
+    target=reader.select_one('#mission-'+mission['id'])
+    source=Soup(render_scenes(mission),'html.parser')
+    assert target is not None
+    assert [normalized(s) for s in source.select('.scene')]==[normalized(s) for s in target.select(':scope > .scene')],mission['id']
+    count+=1
 assert count==40
 for card in pages['index.html'].select('#production article'):
     kicker=card.select_one('.kicker')

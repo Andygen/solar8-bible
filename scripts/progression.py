@@ -16,8 +16,6 @@ def scene(stage, location='scenario'):
     links = f'<a href="player-upgrades.html#stage-{slug}">Оборудование и ангарный вид ↗</a>'
     if location == 'upgrades':
         links = f'<a href="scenario.html#upgrade-{slug}">Место сцены в сценарии ↗</a>'
-    if location != 'source':
-        links += f' · <a href="{stage["script"]}#upgrade-{slug}">Исходный VO ↗</a>'
-    vo = ''.join(f'<div class="line"><div class="speaker">{esc(l["speaker"])}</div><div class="text" lang="en">{esc(l["text"])}</div></div>' for l in stage['dialogue'])
+    vo = ''.join(f'<div class="line"><div class="speaker">{esc(l["speaker"])}</div><div class="text" lang="en" data-en="{esc(l["text"],quote=True)}" data-ru="{esc(stage["translation"][i]["text"],quote=True)}">{esc(l["text"])}</div></div>' for i,l in enumerate(stage['dialogue']))
     ru = ''.join(f'<p><b>{esc(l["speaker"])}</b>: {esc(l["text"])}</p>' for l in stage['translation'])
     return f'''<aside class="upgrade-interlude" id="upgrade-{slug}" data-chapter="{chapter}"><div class="kicker">АНГАР / ПРЕДЛАГАЕМАЯ СЦЕНА</div><h3>{esc(stage['title'])}</h3><p class="upgrade-label">VO-черновик · игровые эффекты предложены к реализации · числовые бонусы не определены.</p><p>{esc(stage['when'])}. Акцент на новом оборудовании; предполагаемая длительность 12–18 секунд, сцену можно пропустить.</p><div class="upgrade-dialogue">{vo}</div><details class="upgrade-translation"><summary>Русский смысл реплик</summary>{ru}</details>{paragraphs(stage['notes'])}<p>{links}</p></aside>'''
