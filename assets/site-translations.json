@@ -11528,6 +11528,22 @@
     "Ring Skimmer / Ice Ram / Archive Wisp / Purge Drone": {
       "en": "Ring Skimmer / Ice Ram / Archive Wisp / Purge Drone",
       "ru": "Ring Skimmer / Ice Ram / Archive Wisp / Очистка Drone"
+    },
+    "Анимированная обложка SOLAR 8": {
+      "ru": "Анимированная обложка SOLAR 8",
+      "en": "Animated SOLAR 8 cover"
+    },
+    "Приостановить видео": {
+      "ru": "Приостановить видео",
+      "en": "Pause video"
+    },
+    "Воспроизвести видео": {
+      "ru": "Воспроизвести видео",
+      "en": "Play video"
+    },
+    "Бронзовый iPhone с анимированной обложкой SOLAR 8.": {
+      "ru": "Бронзовый iPhone с анимированной обложкой SOLAR 8.",
+      "en": "Bronze iPhone showing the animated SOLAR 8 cover."
     }
   }
 }
