@@ -42,3 +42,9 @@ Search indexes both original and English page descriptions.
 `build-site-details.py` publishes Andygen's ship from the fleet master and the shared
 logo-derived SVG favicon. The cast banner uses 640/1280/native-1672 WebP variants;
 the native variant is lossless. Other galleries retain the normal preview pipeline.
+
+`assets/favicon.js` derives 48 small PNG frames from the `solar-orbit` and
+`solar-letter` layers in `assets/solar-mark.svg`. Only the crescent and flare rotate
+(one turn per eight seconds). The static SVG remains the fallback. Hidden pages
+pause animation, and reduced-motion preference disables it. Keep the layer IDs
+when editing the mark; the build installs the script on all full site pages.

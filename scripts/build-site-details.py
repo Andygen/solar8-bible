@@ -10,6 +10,9 @@ for path in ROOT.glob('*.html'):
     page=Soup(path.read_text(encoding='utf8'),'html.parser')
     for icon in page.select('link[rel="icon"]'):icon.decompose()
     page.head.append(page.new_tag('link',rel='icon',href='assets/solar-mark.svg',type='image/svg+xml'))
+    for old in page.select('script[src^="assets/favicon.js"]'):old.decompose()
+    if page.select_one('.top'):
+        page.head.append(page.new_tag('script',src='assets/favicon.js',defer=True))
     if path.name=='character-andygen.html':
         old=page.find(id='pilot-ship')
         if old:old.decompose()
