@@ -1,5 +1,5 @@
 {
-  "revision": "2026-09-26-initial",
+  "revision": "2026-09-29-mars-complete",
   "bindings": [
     {
       "page": "scenario.html",
@@ -648,6 +648,198 @@
     {
       "page": "scenario.html",
       "id": "dlg.red_line.max.007"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_2.assembly.max.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_2.assembly.andygen.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_2.assembly.max.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_2.repair.rook.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_2.repair.andygen.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_2.repair.rook.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_2.ending.max.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_2.ending.lena.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_2.ending.max.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_3.isolation.rook.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_3.isolation.lena.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_3.contact.nova.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_3.contact.andygen.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_3.contact.rook.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_3.pulse.nova.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_3.pulse.lena.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_3.pulse.nova.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_3.defense.rook.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_3.defense.max.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_3.ending.max.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_3.ending.andygen.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_3.ending.max.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_4.discovery.rook.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_4.discovery.max.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_4.scan_one.max.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_4.scan_one.lena.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_4.scan_one.max.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_4.result.lena.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_4.result.max.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_4.result.max.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_4.ending.vale.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_4.ending.andygen.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_4.ending.vale.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_5.reveal.max.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_5.reveal.andygen.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_5.reveal.max.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_5.production.rook.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_5.repair.rook.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_5.repair.andygen.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_5.core.rook.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_5.core.max.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_5.core.andygen.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_5.core.max.004"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_5.ending.solar.001"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_5.ending.andygen.002"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_5.ending.rook.003"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_5.ending.maya.004"
+    },
+    {
+      "page": "scenario.html",
+      "id": "dlg.mars_4_5.ending.rook.005"
     }
   ],
   "ambiguous": []

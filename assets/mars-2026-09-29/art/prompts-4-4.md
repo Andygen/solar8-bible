@@ -1,0 +1,11 @@
+# Image generation
+
+Provider: built-in imagegen. Generated 2026-09-29. No existing assets overwritten.
+
+## foreign-module master
+
+Create a production-ready background PNG for a portrait top-down 2D sci-fi vertical shooter SOLAR 8, mission Mars 4-4 'Foreign Template'. Strict orthographic straight-down camera, portrait 2:3 composition. A hidden unnaturally clean black-and-ivory-white manufacturing module embedded inside rusty dark red Martian industrial infrastructure. Outer left and right 15% edges rusty human pipes, girders, rails; transitioning inward to clean angular white machine housings with smooth black triangular insets, unfamiliar geometric precision. Large central 60% of image is empty dark charcoal factory floor with subtle precise panel seams, flat and uncluttered to make ships and bullets legible. Machinery only at edges, some dim amber service lights, extremely subtle cool accents. Painted photorealistic detailed hard-surface game environment. No perspective horizon, no fog, no text, no HUD, no characters, no ships, no pickups, no objectives, no baked light beams across center. Fill whole canvas, no border. Not tiled. Vertical portrait.
+
+## foreign-sample master
+
+Generate one production-ready transparent PNG game prop for SOLAR 8 Mars 4-4 Foreign Template. Strict top-down orthographic view straight down, no perspective. One compact partly assembled alien-designed machine sample inside a small human industrial assembly mount. Central device: ivory-white asymmetric interlocking angular ceramic plates enclosing perfectly smooth black geometric folded triangular core, tiny restrained amber circuit glints. Three uneven white fins forming unusual but coherent mechanical silhouette. Outer mount: thin worn burnt-orange steel support clamps on four corners and short disconnected service cables, not a ring. Scientific object to preserve and scan, NOT a spaceship, not a circular shield power-up, not an eyeball, not a character, no guns. Detailed realistic sci-fi hard-surface sprite, crisp separated silhouette, centered with 10% transparent margin. Entire background genuinely transparent alpha, including between clamps. No shadow cast onto floor, no text, no UI, no glow haze. Square canvas.

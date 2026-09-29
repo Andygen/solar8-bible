@@ -1,0 +1,17 @@
+{
+  "version":1,
+  "space":"x-right,y-down,clockwise-positive",
+  "body":{"worldOrigin":[550,535],"pivot":[627,627],"scale":0.5,"socketPixels":[[207,188],[1047,188],[207,925],[1047,925]]},
+  "base":{"pivot":[627,604],"shoulderScale":0.085,"shoulderCapScale":0.015,"elbowCapScale":0.019},
+  "upper":{"proximal":[210,620],"distal":[1039,620],"length":125},
+  "forearm":{"proximal":[235,620],"distal":[1078,624],"length":105},
+  "gripper":{"hubScale":0.059,"leftFingerPivotLocal":[-20,-5],"rightFingerPivotLocal":[20,-5],"fingerSpritePivot":[599,951],"fingerScale":0.074,"rightFingerMirrorX":true,"spreadDegrees":[8,22]},
+  "drill":{"pivot":[627,967],"scale":0.105,"axialSpin":false},
+  "saw":{"pivot":[627,612],"scale":0.105,"revolutionsPerCycle":4},
+  "hatches":{"pivot":[444,887],"scale":0.14,"closedCenters":[[506,490],[594,490]],"rightMirrorX":true,"openingByPhase":[0,35,98]},
+  "press":{"pivot":[627,627],"scale":0.14,"x":550,"workingY":411,"retractedY":324},
+  "core":{"pivot":[627,627],"scale":0.2,"center":[550,490],"visibleWhen":"opening>35"},
+  "drawOrder":["chassis","core-if-exposed","hatch-left","hatch-right","press","arms:base-upper-cap-forearm-cap-tool-fingers"],
+  "demo":{"canvas":[1100,850],"viewOffset":[0,-150],"durationSeconds":10,"loop":false,"phaseTransitionMilliseconds":650},
+  "note":"Trajectory formulas are in assembler-rig.js. Collision shapes and arbitrary angle combinations are not validated."
+}

@@ -1175,6 +1175,315 @@
       }
     ]
   },
+  "assets/mars-2026-09-29/art/masters/4-1/industrial-arm.png": {
+    "sha256": "8a1162f8c61b",
+    "original_bytes": 1016003,
+    "variants": [
+      {
+        "file": "assets/previews/industrial-arm-8a1162f8c61b-m4-320.webp",
+        "width": 320,
+        "bytes": 11310
+      },
+      {
+        "file": "assets/previews/industrial-arm-8a1162f8c61b-m4-640.webp",
+        "width": 640,
+        "bytes": 30070
+      },
+      {
+        "file": "assets/previews/industrial-arm-8a1162f8c61b-m4-960.webp",
+        "width": 960,
+        "bytes": 55660
+      }
+    ]
+  },
+  "assets/mars-2026-09-29/art/masters/4-1/mag-rail-loader.png": {
+    "sha256": "39ef37ae7c40",
+    "original_bytes": 1963725,
+    "variants": [
+      {
+        "file": "assets/previews/mag-rail-loader-39ef37ae7c40-m4-320.webp",
+        "width": 320,
+        "bytes": 14022
+      },
+      {
+        "file": "assets/previews/mag-rail-loader-39ef37ae7c40-m4-640.webp",
+        "width": 640,
+        "bytes": 41004
+      },
+      {
+        "file": "assets/previews/mag-rail-loader-39ef37ae7c40-m4-960.webp",
+        "width": 960,
+        "bytes": 82616
+      }
+    ]
+  },
+  "assets/mars-2026-09-29/art/masters/4-2/assembly-cradle.png": {
+    "sha256": "9e4074eaada6",
+    "original_bytes": 1648733,
+    "variants": [
+      {
+        "file": "assets/previews/assembly-cradle-9e4074eaada6-m4-320.webp",
+        "width": 320,
+        "bytes": 35544
+      },
+      {
+        "file": "assets/previews/assembly-cradle-9e4074eaada6-m4-640.webp",
+        "width": 640,
+        "bytes": 106096
+      },
+      {
+        "file": "assets/previews/assembly-cradle-9e4074eaada6-m4-960.webp",
+        "width": 960,
+        "bytes": 219824
+      }
+    ]
+  },
+  "assets/mars-2026-09-29/art/masters/4-2/factory-floor.png": {
+    "sha256": "98d36e93f499",
+    "original_bytes": 3113069,
+    "variants": [
+      {
+        "file": "assets/previews/factory-floor-98d36e93f499-m4-320.webp",
+        "width": 213,
+        "bytes": 17676
+      },
+      {
+        "file": "assets/previews/factory-floor-98d36e93f499-m4-640.webp",
+        "width": 427,
+        "bytes": 71346
+      },
+      {
+        "file": "assets/previews/factory-floor-98d36e93f499-m4-960.webp",
+        "width": 640,
+        "bytes": 155756
+      }
+    ]
+  },
+  "assets/mars-2026-09-29/art/masters/4-3/nova-dialogue.png": {
+    "sha256": "3f48022ade61",
+    "original_bytes": 2646018,
+    "variants": [
+      {
+        "file": "assets/previews/nova-dialogue-3f48022ade61-m4-320.webp",
+        "width": 320,
+        "bytes": 37220
+      },
+      {
+        "file": "assets/previews/nova-dialogue-3f48022ade61-m4-640.webp",
+        "width": 640,
+        "bytes": 118292
+      },
+      {
+        "file": "assets/previews/nova-dialogue-3f48022ade61-m4-960.webp",
+        "width": 960,
+        "bytes": 238670
+      }
+    ]
+  },
+  "assets/mars-2026-09-29/art/masters/4-3/nova-memory-node.png": {
+    "sha256": "b6915ca7cbc9",
+    "original_bytes": 1888772,
+    "variants": [
+      {
+        "file": "assets/previews/nova-memory-node-b6915ca7cbc9-m4-320.webp",
+        "width": 320,
+        "bytes": 30836
+      },
+      {
+        "file": "assets/previews/nova-memory-node-b6915ca7cbc9-m4-640.webp",
+        "width": 640,
+        "bytes": 95956
+      },
+      {
+        "file": "assets/previews/nova-memory-node-b6915ca7cbc9-m4-960.webp",
+        "width": 960,
+        "bytes": 192302
+      }
+    ]
+  },
+  "assets/mars-2026-09-29/art/masters/4-3/nova-server.png": {
+    "sha256": "52f9c7641447",
+    "original_bytes": 2672988,
+    "variants": [
+      {
+        "file": "assets/previews/nova-server-52f9c7641447-m4-320.webp",
+        "width": 213,
+        "bytes": 11980
+      },
+      {
+        "file": "assets/previews/nova-server-52f9c7641447-m4-640.webp",
+        "width": 427,
+        "bytes": 48238
+      },
+      {
+        "file": "assets/previews/nova-server-52f9c7641447-m4-960.webp",
+        "width": 640,
+        "bytes": 104176
+      }
+    ]
+  },
+  "assets/mars-2026-09-29/art/masters/4-4/foreign-module.png": {
+    "sha256": "5dbc1857d258",
+    "original_bytes": 2537886,
+    "variants": [
+      {
+        "file": "assets/previews/foreign-module-5dbc1857d258-m4-320.webp",
+        "width": 213,
+        "bytes": 25846
+      },
+      {
+        "file": "assets/previews/foreign-module-5dbc1857d258-m4-640.webp",
+        "width": 427,
+        "bytes": 75264
+      },
+      {
+        "file": "assets/previews/foreign-module-5dbc1857d258-m4-960.webp",
+        "width": 640,
+        "bytes": 174364
+      }
+    ]
+  },
+  "assets/mars-2026-09-29/art/masters/4-4/foreign-sample.png": {
+    "sha256": "1b72e4041554",
+    "original_bytes": 1310527,
+    "variants": [
+      {
+        "file": "assets/previews/foreign-sample-1b72e4041554-m4-320.webp",
+        "width": 320,
+        "bytes": 23690
+      },
+      {
+        "file": "assets/previews/foreign-sample-1b72e4041554-m4-640.webp",
+        "width": 640,
+        "bytes": 70560
+      },
+      {
+        "file": "assets/previews/foreign-sample-1b72e4041554-m4-960.webp",
+        "width": 960,
+        "bytes": 140276
+      }
+    ]
+  },
+  "assets/mars-2026-09-29/art/masters/4-5/assembly-ring.png": {
+    "sha256": "11e4ea9354b1",
+    "original_bytes": 2787577,
+    "variants": [
+      {
+        "file": "assets/previews/assembly-ring-11e4ea9354b1-m4-320.webp",
+        "width": 213,
+        "bytes": 12926
+      },
+      {
+        "file": "assets/previews/assembly-ring-11e4ea9354b1-m4-640.webp",
+        "width": 427,
+        "bytes": 50318
+      },
+      {
+        "file": "assets/previews/assembly-ring-11e4ea9354b1-m4-960.webp",
+        "width": 640,
+        "bytes": 111038
+      }
+    ]
+  },
+  "assets/mars-2026-09-29/screenshots/assembler-phase1.png": {
+    "sha256": "fc3150c2dc19",
+    "original_bytes": 847307,
+    "variants": [
+      {
+        "file": "assets/previews/assembler-phase1-fc3150c2dc19-m4-320.webp",
+        "width": 180,
+        "bytes": 13868
+      }
+    ]
+  },
+  "assets/mars-2026-09-29/screenshots/assembler-phase3.png": {
+    "sha256": "eada426a9a96",
+    "original_bytes": 848491,
+    "variants": [
+      {
+        "file": "assets/previews/assembler-phase3-eada426a9a96-m4-320.webp",
+        "width": 180,
+        "bytes": 14436
+      }
+    ]
+  },
+  "assets/mars-2026-09-29/screenshots/assembler-repair-modules.png": {
+    "sha256": "f261e42a133b",
+    "original_bytes": 852426,
+    "variants": [
+      {
+        "file": "assets/previews/assembler-repair-modules-f261e42a133b-m4-320.webp",
+        "width": 180,
+        "bytes": 14648
+      }
+    ]
+  },
+  "assets/mars-2026-09-29/screenshots/assembler-solar.png": {
+    "sha256": "5ce2d57942a9",
+    "original_bytes": 447999,
+    "variants": [
+      {
+        "file": "assets/previews/assembler-solar-5ce2d57942a9-m4-320.webp",
+        "width": 180,
+        "bytes": 4998
+      }
+    ]
+  },
+  "assets/mars-2026-09-29/screenshots/factory-repair-warning.png": {
+    "sha256": "420991ad3f50",
+    "original_bytes": 914282,
+    "variants": [
+      {
+        "file": "assets/previews/factory-repair-warning-420991ad3f50-m4-320.webp",
+        "width": 180,
+        "bytes": 15154
+      }
+    ]
+  },
+  "assets/mars-2026-09-29/screenshots/nova-defense.png": {
+    "sha256": "f784d1caf417",
+    "original_bytes": 806809,
+    "variants": [
+      {
+        "file": "assets/previews/nova-defense-f784d1caf417-m4-320.webp",
+        "width": 180,
+        "bytes": 12638
+      }
+    ]
+  },
+  "assets/mars-2026-09-29/screenshots/red-line-arm.png": {
+    "sha256": "daf743953d4b",
+    "original_bytes": 611837,
+    "variants": [
+      {
+        "file": "assets/previews/red-line-arm-daf743953d4b-m4-320.webp",
+        "width": 148,
+        "bytes": 8260
+      }
+    ]
+  },
+  "assets/mars-2026-09-29/screenshots/red-line-loader.png": {
+    "sha256": "fb040962a359",
+    "original_bytes": 609947,
+    "variants": [
+      {
+        "file": "assets/previews/red-line-loader-fb040962a359-m4-320.webp",
+        "width": 148,
+        "bytes": 8322
+      }
+    ]
+  },
+  "assets/mars-2026-09-29/screenshots/template-scan.png": {
+    "sha256": "daa5183df06e",
+    "original_bytes": 689502,
+    "variants": [
+      {
+        "file": "assets/previews/template-scan-daa5183df06e-m4-320.webp",
+        "width": 180,
+        "bytes": 10756
+      }
+    ]
+  },
   "assets/parts/assembler/assembler-base-open.png": {
     "sha256": "9f308f07b168",
     "original_bytes": 2077887,

@@ -50,6 +50,8 @@ for page_path in sorted(ROOT.glob('character-*.html'))+[ROOT/'player-upgrades.ht
         name=img.get('alt') or Path(file).stem
         category='Персонажи' if page_path.name.startswith('character-') else 'Развитие игрока' if page_path.name=='player-upgrades.html' else 'Миры'
         unique[file]=dict(id=page_path.stem+'--'+Path(file).stem,entity=page.h1.get_text(' ',strip=True) if page.h1 else category,name=name,planet=category,kind='Визуальный референс',file=file,width=width,height=height,readiness='Статический референс опубликован',visual='Текущий опубликованный набор; отдельная приёмка не зафиксирована',game='Изображение не подтверждает готовую анимацию, техлист или игровую интеграцию',checked_at=status['revision'],url=page_path.name+anchor)
+for row in json.loads((ROOT/'assets/mars-resources.json').read_text(encoding='utf8')):
+    unique[row['file']]=row
 rows=list(unique.values())
 (ROOT/'assets/resource-status.json').write_text(json.dumps({'revision':status['revision'],'resources':rows,'game_checks':status['checks']},ensure_ascii=False,indent=2)+'\n',encoding='utf8')
 doc=ROOT/'docs/story-rules.md';text=doc.read_text(encoding='utf8')

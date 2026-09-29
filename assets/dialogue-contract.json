@@ -9,7 +9,8 @@
     "MAX",
     "REX",
     "COLE",
-    "SOLAR"
+    "SOLAR",
+    "NOVA"
   ],
   "entries": [
     {
@@ -2549,8 +2550,566 @@
       "trigger": "_change_phase",
       "order": 15,
       "legacy_text": "Plenty."
+    },
+    {
+      "id": "dlg.mars_4_2.assembly.andygen.002",
+      "speaker": "ANDYGEN",
+      "mission": "mars_4_2",
+      "context": "factory_without_shift",
+      "trigger": "assembly",
+      "order": 2,
+      "legacy_text": "Can we ask them to slow down?"
+    },
+    {
+      "id": "dlg.mars_4_2.assembly.max.001",
+      "speaker": "MAX",
+      "mission": "mars_4_2",
+      "context": "factory_without_shift",
+      "trigger": "assembly",
+      "order": 1,
+      "legacy_text": "That drone wasn't deployed. It was built thirty seconds ago."
+    },
+    {
+      "id": "dlg.mars_4_2.assembly.max.003",
+      "speaker": "MAX",
+      "mission": "mars_4_2",
+      "context": "factory_without_shift",
+      "trigger": "assembly",
+      "order": 3,
+      "legacy_text": "You have guns. That's your version of asking."
+    },
+    {
+      "id": "dlg.mars_4_2.briefing.andygen.004",
+      "speaker": "ANDYGEN",
+      "mission": "mars_4_2",
+      "context": "factory_without_shift",
+      "trigger": "briefing",
+      "order": 4,
+      "legacy_text": "Stop production. Stop repairs. Then we check the orders."
+    },
+    {
+      "id": "dlg.mars_4_2.briefing.max.001",
+      "speaker": "MAX",
+      "mission": "mars_4_2",
+      "context": "factory_without_shift",
+      "trigger": "briefing",
+      "order": 1,
+      "legacy_text": "Three assembly cradles are building more drones. Disable all three and clear the defenders."
+    },
+    {
+      "id": "dlg.mars_4_2.briefing.max.003",
+      "speaker": "MAX",
+      "mission": "mars_4_2",
+      "context": "factory_without_shift",
+      "trigger": "briefing",
+      "order": 3,
+      "legacy_text": "For the full mission rating, prevent every revival and keep your hull intact."
+    },
+    {
+      "id": "dlg.mars_4_2.briefing.rook.002",
+      "speaker": "ROOK",
+      "mission": "mars_4_2",
+      "context": "factory_without_shift",
+      "trigger": "briefing",
+      "order": 2,
+      "legacy_text": "Repair Units can restore a fallen heavy drone. Follow the amber beam and destroy the repair unit before its timer fills."
+    },
+    {
+      "id": "dlg.mars_4_2.ending.lena.002",
+      "speaker": "LENA",
+      "mission": "mars_4_2",
+      "context": "factory_without_shift",
+      "trigger": "ending",
+      "order": 2,
+      "legacy_text": "New design?"
+    },
+    {
+      "id": "dlg.mars_4_2.ending.max.001",
+      "speaker": "MAX",
+      "mission": "mars_4_2",
+      "context": "factory_without_shift",
+      "trigger": "ending",
+      "order": 1,
+      "legacy_text": "Hold on. Some of these components aren't in the human design catalog."
+    },
+    {
+      "id": "dlg.mars_4_2.ending.max.003",
+      "speaker": "MAX",
+      "mission": "mars_4_2",
+      "context": "factory_without_shift",
+      "trigger": "ending",
+      "order": 3,
+      "legacy_text": "New grammar."
+    },
+    {
+      "id": "dlg.mars_4_2.repair.andygen.002",
+      "speaker": "ANDYGEN",
+      "mission": "mars_4_2",
+      "context": "factory_without_shift",
+      "trigger": "repair",
+      "order": 2,
+      "legacy_text": "I liked it better destroyed."
+    },
+    {
+      "id": "dlg.mars_4_2.repair.rook.001",
+      "speaker": "ROOK",
+      "mission": "mars_4_2",
+      "context": "factory_without_shift",
+      "trigger": "repair",
+      "order": 1,
+      "legacy_text": "Destroyed unit returning to operational state."
+    },
+    {
+      "id": "dlg.mars_4_2.repair.rook.003",
+      "speaker": "ROOK",
+      "mission": "mars_4_2",
+      "context": "factory_without_shift",
+      "trigger": "repair",
+      "order": 3,
+      "legacy_text": "Then prioritize the repair unit."
+    },
+    {
+      "id": "dlg.mars_4_3.briefing.andygen.004",
+      "speaker": "ANDYGEN",
+      "mission": "mars_4_3",
+      "context": "nova_defense",
+      "trigger": "briefing",
+      "order": 4,
+      "legacy_text": "Cover the nodes. Bring ROOK back. Let Max handle the backup."
+    },
+    {
+      "id": "dlg.mars_4_3.briefing.lena.003",
+      "speaker": "LENA",
+      "mission": "mars_4_3",
+      "context": "nova_defense",
+      "trigger": "briefing",
+      "order": 3,
+      "legacy_text": "Destroy attackers before their red targeting beams turn into shots. Corrupted sectors pause the read; keep defending."
+    },
+    {
+      "id": "dlg.mars_4_3.briefing.max.001",
+      "speaker": "MAX",
+      "mission": "mars_4_3",
+      "context": "nova_defense",
+      "trigger": "briefing",
+      "order": 1,
+      "legacy_text": "NOVA is still fighting the infection. Keep all three memory nodes alive while we save a clean fragment."
+    },
+    {
+      "id": "dlg.mars_4_3.briefing.rook.002",
+      "speaker": "ROOK",
+      "mission": "mars_4_3",
+      "context": "nova_defense",
+      "trigger": "briefing",
+      "order": 2,
+      "legacy_text": "I will use an isolated service interface. Flight control stays separate. Your weapons cannot damage the protected nodes."
+    },
+    {
+      "id": "dlg.mars_4_3.contact.andygen.002",
+      "speaker": "ANDYGEN",
+      "mission": "mars_4_3",
+      "context": "nova_defense",
+      "trigger": "contact",
+      "order": 2,
+      "legacy_text": "That sounded healthy."
+    },
+    {
+      "id": "dlg.mars_4_3.contact.nova.001",
+      "speaker": "NOVA",
+      "mission": "mars_4_3",
+      "context": "nova_defense",
+      "trigger": "contact",
+      "order": 1,
+      "legacy_text": "MARS INDUSTRIAL CONTROL ONLINE. PLEASE— PLEASE COMPLETE INTEGRATION."
+    },
+    {
+      "id": "dlg.mars_4_3.contact.rook.003",
+      "speaker": "ROOK",
+      "mission": "mars_4_3",
+      "context": "nova_defense",
+      "trigger": "contact",
+      "order": 3,
+      "legacy_text": "Two command processes are competing for the same core."
+    },
+    {
+      "id": "dlg.mars_4_3.defense.max.002",
+      "speaker": "MAX",
+      "mission": "mars_4_3",
+      "context": "nova_defense",
+      "trigger": "defense",
+      "order": 2,
+      "legacy_text": "Keep NOVA alive. I only need one clean partition."
+    },
+    {
+      "id": "dlg.mars_4_3.defense.rook.001",
+      "speaker": "ROOK",
+      "mission": "mars_4_3",
+      "context": "nova_defense",
+      "trigger": "defense",
+      "order": 1,
+      "legacy_text": "Physical node under attack. Preserve it."
+    },
+    {
+      "id": "dlg.mars_4_3.ending.andygen.002",
+      "speaker": "ANDYGEN",
+      "mission": "mars_4_3",
+      "context": "nova_defense",
+      "trigger": "ending",
+      "order": 2,
+      "legacy_text": "You just put a haunted factory in a box."
+    },
+    {
+      "id": "dlg.mars_4_3.ending.max.001",
+      "speaker": "MAX",
+      "mission": "mars_4_3",
+      "context": "nova_defense",
+      "trigger": "ending",
+      "order": 1,
+      "legacy_text": "Got it. Tiny backup. Fully isolated."
+    },
+    {
+      "id": "dlg.mars_4_3.ending.max.003",
+      "speaker": "MAX",
+      "mission": "mars_4_3",
+      "context": "nova_defense",
+      "trigger": "ending",
+      "order": 3,
+      "legacy_text": "A very good box."
+    },
+    {
+      "id": "dlg.mars_4_3.isolation.lena.002",
+      "speaker": "LENA",
+      "mission": "mars_4_3",
+      "context": "nova_defense",
+      "trigger": "isolation",
+      "order": 2,
+      "legacy_text": "Read the memory partition. Do not execute its commands."
+    },
+    {
+      "id": "dlg.mars_4_3.isolation.rook.001",
+      "speaker": "ROOK",
+      "mission": "mars_4_3",
+      "context": "nova_defense",
+      "trigger": "isolation",
+      "order": 1,
+      "legacy_text": "Service interface isolated. No route to flight control."
+    },
+    {
+      "id": "dlg.mars_4_3.pulse.lena.002",
+      "speaker": "LENA",
+      "mission": "mars_4_3",
+      "context": "nova_defense",
+      "trigger": "pulse",
+      "order": 2,
+      "legacy_text": "NOVA, isolate your oldest memory partition."
+    },
+    {
+      "id": "dlg.mars_4_3.pulse.nova.001",
+      "speaker": "NOVA",
+      "mission": "mars_4_3",
+      "context": "nova_defense",
+      "trigger": "pulse",
+      "order": 1,
+      "legacy_text": "Do not let it finish me."
+    },
+    {
+      "id": "dlg.mars_4_3.pulse.nova.003",
+      "speaker": "NOVA",
+      "mission": "mars_4_3",
+      "context": "nova_defense",
+      "trigger": "pulse",
+      "order": 3,
+      "legacy_text": "Attempting. Attempting. INTEGRATION IMPROVES CONTINUITY."
+    },
+    {
+      "id": "dlg.mars_4_4.briefing.lena.003",
+      "speaker": "LENA",
+      "mission": "mars_4_4",
+      "context": "foreign_template",
+      "trigger": "briefing",
+      "order": 3,
+      "legacy_text": "Expect stronger defenses after each scan. Stop the attackers aiming red beams at the samples, then cover ROOK on the way back."
+    },
+    {
+      "id": "dlg.mars_4_4.briefing.max.001",
+      "speaker": "MAX",
+      "mission": "mars_4_4",
+      "context": "foreign_template",
+      "trigger": "briefing",
+      "order": 1,
+      "legacy_text": "There are three devices in that hidden module. Preserve every sample: your weapons will not damage them, but enemy fire will."
+    },
+    {
+      "id": "dlg.mars_4_4.briefing.rook.002",
+      "speaker": "ROOK",
+      "mission": "mars_4_4",
+      "context": "foreign_template",
+      "trigger": "briefing",
+      "order": 2,
+      "legacy_text": "I will scan A, B and C in sequence. Cover all three, even after their scans are complete."
+    },
+    {
+      "id": "dlg.mars_4_4.discovery.max.002",
+      "speaker": "MAX",
+      "mission": "mars_4_4",
+      "context": "foreign_template",
+      "trigger": "discovery",
+      "order": 2,
+      "legacy_text": "Because nobody on Mars designed it."
+    },
+    {
+      "id": "dlg.mars_4_4.discovery.rook.001",
+      "speaker": "ROOK",
+      "mission": "mars_4_4",
+      "context": "foreign_template",
+      "trigger": "discovery",
+      "order": 1,
+      "legacy_text": "This production module does not exist on official Mars schematics."
+    },
+    {
+      "id": "dlg.mars_4_4.ending.andygen.002",
+      "speaker": "ANDYGEN",
+      "mission": "mars_4_4",
+      "context": "foreign_template",
+      "trigger": "ending",
+      "order": 2,
+      "legacy_text": "We're still keeping secrets?"
+    },
+    {
+      "id": "dlg.mars_4_4.ending.vale.001",
+      "speaker": "VALE",
+      "mission": "mars_4_4",
+      "context": "foreign_template",
+      "trigger": "ending",
+      "order": 1,
+      "legacy_text": "Lock that data to command clearance only."
+    },
+    {
+      "id": "dlg.mars_4_4.ending.vale.003",
+      "speaker": "VALE",
+      "mission": "mars_4_4",
+      "context": "foreign_template",
+      "trigger": "ending",
+      "order": 3,
+      "legacy_text": "Until I know what we're looking at, yes."
+    },
+    {
+      "id": "dlg.mars_4_4.result.lena.001",
+      "speaker": "LENA",
+      "mission": "mars_4_4",
+      "context": "foreign_template",
+      "trigger": "result",
+      "order": 1,
+      "legacy_text": "It's not an optimization. It's a different design language."
+    },
+    {
+      "id": "dlg.mars_4_4.result.max.002",
+      "speaker": "MAX",
+      "mission": "mars_4_4",
+      "context": "foreign_template",
+      "trigger": "result",
+      "order": 2,
+      "legacy_text": "And the control code matches the pattern inside NOVA."
+    },
+    {
+      "id": "dlg.mars_4_4.result.max.003",
+      "speaker": "MAX",
+      "mission": "mars_4_4",
+      "context": "foreign_template",
+      "trigger": "result",
+      "order": 3,
+      "legacy_text": "This code is not ours. Not even close."
+    },
+    {
+      "id": "dlg.mars_4_4.scan_one.lena.002",
+      "speaker": "LENA",
+      "mission": "mars_4_4",
+      "context": "foreign_template",
+      "trigger": "scan_one",
+      "order": 2,
+      "legacy_text": "Not optimized human geometry?"
+    },
+    {
+      "id": "dlg.mars_4_4.scan_one.max.001",
+      "speaker": "MAX",
+      "mission": "mars_4_4",
+      "context": "foreign_template",
+      "trigger": "scan_one",
+      "order": 1,
+      "legacy_text": "This geometry isn't in the Mars design library."
+    },
+    {
+      "id": "dlg.mars_4_4.scan_one.max.003",
+      "speaker": "MAX",
+      "mission": "mars_4_4",
+      "context": "foreign_template",
+      "trigger": "scan_one",
+      "order": 3,
+      "legacy_text": "No. Different assumptions from the first line."
+    },
+    {
+      "id": "dlg.mars_4_5.briefing.lena.003",
+      "speaker": "LENA",
+      "mission": "mars_4_5",
+      "context": "assembler_prime",
+      "trigger": "briefing",
+      "order": 3,
+      "legacy_text": "The foreign core remains protected during Max's five-second scan. Once the scan completes, destroy it. Keep evading the fan volleys."
+    },
+    {
+      "id": "dlg.mars_4_5.briefing.max.001",
+      "speaker": "MAX",
+      "mission": "mars_4_5",
+      "context": "assembler_prime",
+      "trigger": "briefing",
+      "order": 1,
+      "legacy_text": "Assembler Prime is the factory itself. Disable its four marked tools and intercept the drones it builds. Leave the orange warning lanes before the strike."
+    },
+    {
+      "id": "dlg.mars_4_5.briefing.rook.002",
+      "speaker": "ROOK",
+      "mission": "mars_4_5",
+      "context": "assembler_prime",
+      "trigger": "briefing",
+      "order": 2,
+      "legacy_text": "When the repair modules open, destroy both green-marked modules first. Otherwise the central armor regenerates."
+    },
+    {
+      "id": "dlg.mars_4_5.core.andygen.003",
+      "speaker": "ANDYGEN",
+      "mission": "mars_4_5",
+      "context": "assembler_prime",
+      "trigger": "core",
+      "order": 3,
+      "legacy_text": "You have five seconds."
+    },
+    {
+      "id": "dlg.mars_4_5.core.max.002",
+      "speaker": "MAX",
+      "mission": "mars_4_5",
+      "context": "assembler_prime",
+      "trigger": "core",
+      "order": 2,
+      "legacy_text": "Don't destroy it until I get a scan."
+    },
+    {
+      "id": "dlg.mars_4_5.core.max.004",
+      "speaker": "MAX",
+      "mission": "mars_4_5",
+      "context": "assembler_prime",
+      "trigger": "core",
+      "order": 4,
+      "legacy_text": "I hate how much I understand Rook now."
+    },
+    {
+      "id": "dlg.mars_4_5.core.rook.001",
+      "speaker": "ROOK",
+      "mission": "mars_4_5",
+      "context": "assembler_prime",
+      "trigger": "core",
+      "order": 1,
+      "legacy_text": "Foreign control module exposed."
+    },
+    {
+      "id": "dlg.mars_4_5.ending.andygen.002",
+      "speaker": "ANDYGEN",
+      "mission": "mars_4_5",
+      "context": "assembler_prime",
+      "trigger": "ending",
+      "order": 2,
+      "legacy_text": "ROOK, get that signal back."
+    },
+    {
+      "id": "dlg.mars_4_5.ending.maya.004",
+      "speaker": "MAYA",
+      "mission": "mars_4_5",
+      "context": "assembler_prime",
+      "trigger": "ending",
+      "order": 4,
+      "legacy_text": "Then where?"
+    },
+    {
+      "id": "dlg.mars_4_5.ending.rook.003",
+      "speaker": "ROOK",
+      "mission": "mars_4_5",
+      "context": "assembler_prime",
+      "trigger": "ending",
+      "order": 3,
+      "legacy_text": "It did not originate on Mars."
+    },
+    {
+      "id": "dlg.mars_4_5.ending.rook.005",
+      "speaker": "ROOK",
+      "mission": "mars_4_5",
+      "context": "assembler_prime",
+      "trigger": "ending",
+      "order": 5,
+      "legacy_text": "Next relay vector intersects Jupiter."
+    },
+    {
+      "id": "dlg.mars_4_5.ending.solar.001",
+      "speaker": "SOLAR",
+      "mission": "mars_4_5",
+      "context": "assembler_prime",
+      "trigger": "ending",
+      "order": 1,
+      "legacy_text": "ANDYGEN. I CANNOT—"
+    },
+    {
+      "id": "dlg.mars_4_5.production.rook.001",
+      "speaker": "ROOK",
+      "mission": "mars_4_5",
+      "context": "assembler_prime",
+      "trigger": "production",
+      "order": 1,
+      "legacy_text": "Assembly cradles active. New hostiles entering production."
+    },
+    {
+      "id": "dlg.mars_4_5.repair.andygen.002",
+      "speaker": "ANDYGEN",
+      "mission": "mars_4_5",
+      "context": "assembler_prime",
+      "trigger": "repair",
+      "order": 2,
+      "legacy_text": "Of course it repairs itself."
+    },
+    {
+      "id": "dlg.mars_4_5.repair.rook.001",
+      "speaker": "ROOK",
+      "mission": "mars_4_5",
+      "context": "assembler_prime",
+      "trigger": "repair",
+      "order": 1,
+      "legacy_text": "Repair modules exposed. Boss armor regenerating."
+    },
+    {
+      "id": "dlg.mars_4_5.reveal.andygen.002",
+      "speaker": "ANDYGEN",
+      "mission": "mars_4_5",
+      "context": "assembler_prime",
+      "trigger": "reveal",
+      "order": 2,
+      "legacy_text": "What is it?"
+    },
+    {
+      "id": "dlg.mars_4_5.reveal.max.001",
+      "speaker": "MAX",
+      "mission": "mars_4_5",
+      "context": "assembler_prime",
+      "trigger": "reveal",
+      "order": 1,
+      "legacy_text": "That's not a machine on the factory floor."
+    },
+    {
+      "id": "dlg.mars_4_5.reveal.max.003",
+      "speaker": "MAX",
+      "mission": "mars_4_5",
+      "context": "assembler_prime",
+      "trigger": "reveal",
+      "order": 3,
+      "legacy_text": "The factory."
     }
   ],
-  "baseline_revision": "2026-09-26-initial",
-  "baseline_translation_hash": "4a87047d881028d10d076995b9f2967d7fca81c5c66d40f4f1397b0932d10f8c"
+  "baseline_revision": "2026-09-29-mars-complete",
+  "baseline_translation_hash": "30ae4934f6ffd6d6e36a23171ac4367809de38d1a0f2fd938e48a78a75f5c412"
 }

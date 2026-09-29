@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "status": "assembled_2d_prototype_pending_engine_integration",
+  "assets": [
+    {
+      "id": "chassis",
+      "file": "assets/assembler-chassis.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "47e03b7787e0ed21cf96b547b1e894193755dc2a93803aaab7065457205fd7b5"
+    },
+    {
+      "id": "jaw",
+      "file": "assets/assembler-jaw.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "46a9d60a24ffb93d458f7f79ddc19894594402cc7ef780a15209d5b5e8b7dfe5"
+    },
+    {
+      "id": "drill",
+      "file": "assets/assembler-drill.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "b07b8ab8213a7e83658f0888fd3340336b4c51f123a7b90f1cce2e6f67e6d5e1"
+    },
+    {
+      "id": "saw",
+      "file": "assets/assembler-saw.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "94ab0ec48eab186c03ced468809a45d0555f03bf520b8d14f8d3d6f6210046a1"
+    },
+    {
+      "id": "hatch",
+      "file": "assets/assembler-hatch.png",
+      "size": [
+        887,
+        1774
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "0fa775eb36d27571191c5e58099889006c455584d9f97786ee5ce7b9435832c4"
+    },
+    {
+      "id": "press",
+      "file": "assets/assembler-press.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "4e6a06af13ff81309065712d923e8f87e3f57a123bd7fb0bcae31d4e660d7358"
+    },
+    {
+      "id": "core",
+      "file": "assets/assembler-core.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "b36151fc74e6730954ba14190ca391ee3c413c5cb9e06d6a2c09e758b68acd4f"
+    },
+    {
+      "id": "base",
+      "file": "assets/assembler-base.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "85d7c71a91d38a04f0811dcbccea22f5fe561d0b3919ca60c1c4f7a3adc26659"
+    },
+    {
+      "id": "upper",
+      "file": "assets/assembler-upper.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "f141535ade9729f338a4411703bc64073587b258a2f4b2791dd65d144f21e220"
+    },
+    {
+      "id": "forearm",
+      "file": "assets/assembler-forearm.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "sha256": "9351c3b36ac01eeaae8fb30803f8aadb9c12ce709ec59e6f4c9c5882582c0d7a"
+    }
+  ]
+}

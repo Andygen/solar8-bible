@@ -303,7 +303,7 @@
     },
     "О главе": {
       "ru": "О главе",
-      "en": "About this chapter"
+      "en": "About the chapter"
     },
     "Отличия": {
       "ru": "Отличия",
@@ -807,7 +807,7 @@
     },
     "Мегасборщик": {
       "ru": "Мегасборщик",
-      "en": "Mega-Assembler"
+      "en": "Assembler Prime"
     },
     "Общий сюжет": {
       "ru": "Общий сюжет",
@@ -1067,11 +1067,11 @@
     },
     "Чужой модуль": {
       "ru": "Чужой модуль",
-      "en": "Alien Module"
+      "en": "Alien module"
     },
     "Чужой шаблон": {
       "ru": "Чужой шаблон",
-      "en": "Alien Pattern"
+      "en": "Foreign Template"
     },
     "Язык релиза:": {
       "ru": "Язык релиза:",
@@ -3251,7 +3251,7 @@
     },
     "Фабрика без смены": {
       "ru": "Фабрика без смены",
-      "en": "Factory Without a Shift"
+      "en": "Factory Without Shift"
     },
     "Формула характера": {
       "ru": "Формула характера",
@@ -11544,6 +11544,466 @@
     "Бронзовый iPhone с анимированной обложкой SOLAR 8.": {
       "ru": "Бронзовый iPhone с анимированной обложкой SOLAR 8.",
       "en": "Bronze iPhone showing the animated SOLAR 8 cover."
+    },
+    "Новая графика; визуальная приёмка ожидается": {
+      "ru": "Новая графика; визуальная приёмка ожидается",
+      "en": "New artwork; visual approval pending"
+    },
+    "Используется в локальной реализации из пакета 29.09.2026; ручная проверка отдельно": {
+      "ru": "Используется в локальной реализации из пакета 29.09.2026; ручная проверка отдельно",
+      "en": "Used in the local implementation supplied on 29 September 2026; manual review separate"
+    },
+    "SOLAR 8 // Mars — реализованная глава": {
+      "ru": "SOLAR 8 // Mars — реализованная глава",
+      "en": "SOLAR 8 // Mars — implemented chapter"
+    },
+    "Марс: пять миссий": {
+      "ru": "Марс: пять миссий",
+      "en": "Mars: five missions"
+    },
+    "Глава реализована в локальной игре: 4-1 → 4-2 → 4-3 → 4-4 → 4-5 → меню. Здесь собраны текущие правила, графика и подвижная сборка босса из полного пакета 29.09.2026.": {
+      "ru": "Глава реализована в локальной игре: 4-1 → 4-2 → 4-3 → 4-4 → 4-5 → меню. Здесь собраны текущие правила, графика и подвижная сборка босса из полного пакета 29.09.2026.",
+      "en": "The local game implements the chapter: 4-1 → 4-2 → 4-3 → 4-4 → 4-5 → menu. This page collects current mechanics, artwork and the animated boss rig from the complete 29 September 2026 handoff."
+    },
+    "Автоматические проверки заявлены в пакете; мы не запускали игру из этих выдержек. Тестовый пилот 4-2–4-5 был неуязвим: это проверка достижимости победы, а не окончательной сложности. Ручное прохождение и визуальная приёмка ещё нужны. APK всей главы в комплекте нет.": {
+      "ru": "Автоматические проверки заявлены в пакете; мы не запускали игру из этих выдержек. Тестовый пилот 4-2–4-5 был неуязвим: это проверка достижимости победы, а не окончательной сложности. Ручное прохождение и визуальная приёмка ещё нужны. APK всей главы в комплекте нет.",
+      "en": "The package reports automated checks; these excerpts were not used to run the game here. The 4-2–4-5 test pilot was invulnerable: this verifies completion, not final difficulty. Human playtesting and visual approval remain required. No full-chapter APK is included."
+    },
+    "Читать сюжет Mars": {
+      "ru": "Читать сюжет Mars",
+      "en": "Read the Mars story"
+    },
+    "Флот Mars": {
+      "ru": "Флот Mars",
+      "en": "Mars fleet"
+    },
+    "Посмотреть движение босса": {
+      "ru": "Посмотреть движение босса",
+      "en": "View boss animation"
+    },
+    "Пройти транспортный пояс: четыре платформы, четыре механические руки и девять волн Mars Scout / Striker / Guard. Предупреждение длится 3 секунды, движение — 6; безопасный маршрут остаётся доступен.": {
+      "ru": "Пройти транспортный пояс: четыре платформы, четыре механические руки и девять волн Mars Scout / Striker / Guard. Предупреждение длится 3 секунды, движение — 6; безопасный маршрут остаётся доступен.",
+      "en": "Cross the transport belt: four platforms, four mechanical arms and nine waves of Mars Scout / Striker / Guard. Warnings last 3 seconds and movement 6; a safe route remains available."
+    },
+    "Победа после прохода всех восьми механизмов, завершения очереди волн и зачистки. Один механизм учитывает столкновение только один раз. Щит или неуязвимость сохраняют корпус, но не отменяют контакт; урон от врагов учитывается отдельно.": {
+      "ru": "Победа после прохода всех восьми механизмов, завершения очереди волн и зачистки. Один механизм учитывает столкновение только один раз. Щит или неуязвимость сохраняют корпус, но не отменяют контакт; урон от врагов учитывается отдельно.",
+      "en": "Win after all eight machines pass, the wave queue ends and enemies are cleared. Each machine counts contact only once. Shields or invulnerability preserve hull HP but do not erase contact; enemy damage is tracked separately."
+    },
+    "Три звезды в текущей игре": {
+      "ru": "Три звезды в текущей игре",
+      "en": "Three stars in the current game"
+    },
+    "Пройти пояс": {
+      "ru": "Пройти пояс",
+      "en": "Cross the belt"
+    },
+    "Ни одного контакта с механизмами": {
+      "ru": "Ни одного контакта с механизмами",
+      "en": "No machinery contact"
+    },
+    "Без урона корпусу от механизмов": {
+      "ru": "Без урона корпусу от механизмов",
+      "en": "No hull damage from machinery"
+    },
+    "Звёзды выдаются только при победе. Числа HP, таймеры и дополнительные условия — текущая настройка для согласования, а не утверждённый числовой канон.": {
+      "ru": "Звёзды выдаются только при победе. Числа HP, таймеры и дополнительные условия — текущая настройка для согласования, а не утверждённый числовой канон.",
+      "en": "Stars require mission success. HP, timers and extra conditions are current tuning proposals, not approved numerical canon."
+    },
+    "Производство работает на 310%; неизвестные приказы ведут к фабрике 4-2. Живая сборка и восстановление врагов здесь ещё не вводятся.": {
+      "ru": "Производство работает на 310%; неизвестные приказы ведут к фабрике 4-2. Живая сборка и восстановление врагов здесь ещё не вводятся.",
+      "en": "Production runs at 310%; unknown orders lead to factory 4-2. Live enemy assembly and revival are not introduced here."
+    },
+    "Сцены и реплики →": {
+      "ru": "Сцены и реплики →",
+      "en": "Scenes and dialogue →"
+    },
+    "Подробная записка реализации": {
+      "ru": "Подробная записка реализации",
+      "en": "Full implementation notes"
+    },
+    "Оригинал PNG": {
+      "ru": "Оригинал PNG",
+      "en": "Original PNG"
+    },
+    "Версия в игре": {
+      "ru": "Версия в игре",
+      "en": "Game version"
+    },
+    "Кадры автоматических проверок": {
+      "ru": "Кадры автоматических проверок",
+      "en": "Automated-test captures"
+    },
+    "Это кадры тестов, не запись обычного прохождения. Таймеры и реплики могли переключаться тестом.": {
+      "ru": "Это кадры тестов, не запись обычного прохождения. Таймеры и реплики могли переключаться тестом.",
+      "en": "These are test captures, not normal playthrough footage. Timers and dialogue may have been advanced by the test."
+    },
+    "Реализовано в локальной игре; по данным переданного пакета": {
+      "ru": "Реализовано в локальной игре; по данным переданного пакета",
+      "en": "Implemented locally; reported by the supplied package"
+    },
+    "Пройти транспортный пояс: четыре платформы, четыре механические руки и девять волн Mars Scout / Striker / Guard. Предупреждение длится 3 секунды, движение — 6; безопасный маршрут остаётся доступен. Производство работает на 310%; неизвестные приказы ведут к фабрике 4-2. Живая сборка и восстановление врагов здесь ещё не вводятся.": {
+      "ru": "Пройти транспортный пояс: четыре платформы, четыре механические руки и девять волн Mars Scout / Striker / Guard. Предупреждение длится 3 секунды, движение — 6; безопасный маршрут остаётся доступен. Производство работает на 310%; неизвестные приказы ведут к фабрике 4-2. Живая сборка и восстановление врагов здесь ещё не вводятся.",
+      "en": "Cross the transport belt: four platforms, four mechanical arms and nine waves of Mars Scout / Striker / Guard. Warnings last 3 seconds and movement 6; a safe route remains available. Production runs at 310%; unknown orders lead to factory 4-2. Live enemy assembly and revival are not introduced here."
+    },
+    "Уничтожить три стапеля и зачистить сектор. Стапели собирают врагов на экране; Mars Repair Unit может вернуть тяжёлую машину в бой. Уничтожение ремонтного аппарата прерывает восстановление.": {
+      "ru": "Уничтожить три стапеля и зачистить сектор. Стапели собирают врагов на экране; Mars Repair Unit может вернуть тяжёлую машину в бой. Уничтожение ремонтного аппарата прерывает восстановление.",
+      "en": "Destroy three assembly cradles and clear the sector. Cradles build enemies on screen; Mars Repair Unit can revive a heavy craft. Destroying the repair unit interrupts restoration."
+    },
+    "Текущая настройка: стапель — 24 HP, цикл сборки — 10 секунд, до семи защитников. Обломок существует 12 секунд, ремонт занимает 6 секунд после прибытия. Каждая тяжёлая машина возрождается один раз и не даёт повторных очков.": {
+      "ru": "Текущая настройка: стапель — 24 HP, цикл сборки — 10 секунд, до семи защитников. Обломок существует 12 секунд, ремонт занимает 6 секунд после прибытия. Каждая тяжёлая машина возрождается один раз и не даёт повторных очков.",
+      "en": "Current tuning: 24 HP per cradle, a 10-second assembly cycle, up to seven defenders. Wrecks last 12 seconds; repair takes 6 seconds after arrival. Each heavy craft revives once without duplicate score."
+    },
+    "Остановить стапели и зачистить сектор": {
+      "ru": "Остановить стапели и зачистить сектор",
+      "en": "Stop production and clear the sector"
+    },
+    "Ни одного восстановления врага": {
+      "ru": "Ни одного восстановления врага",
+      "en": "Prevent every enemy revival"
+    },
+    "Без урона корпусу": {
+      "ru": "Без урона корпусу",
+      "en": "No hull damage"
+    },
+    "Макс и Лена находят незнакомые компоненты. После финала открывается реализованная миссия 4-3; раскрытие NOVA остаётся там.": {
+      "ru": "Макс и Лена находят незнакомые компоненты. После финала открывается реализованная миссия 4-3; раскрытие NOVA остаётся там.",
+      "en": "Max and Lena discover unfamiliar components. The ending leads to implemented mission 4-3, where NOVA is revealed."
+    },
+    "Уничтожить три стапеля и зачистить сектор. Стапели собирают врагов на экране; Mars Repair Unit может вернуть тяжёлую машину в бой. Уничтожение ремонтного аппарата прерывает восстановление. Макс и Лена находят незнакомые компоненты. После финала открывается реализованная миссия 4-3; раскрытие NOVA остаётся там.": {
+      "ru": "Уничтожить три стапеля и зачистить сектор. Стапели собирают врагов на экране; Mars Repair Unit может вернуть тяжёлую машину в бой. Уничтожение ремонтного аппарата прерывает восстановление. Макс и Лена находят незнакомые компоненты. После финала открывается реализованная миссия 4-3; раскрытие NOVA остаётся там.",
+      "en": "Destroy three assembly cradles and clear the sector. Cradles build enemies on screen; Mars Repair Unit can revive a heavy craft. Destroying the repair unit interrupts restoration. Max and Lena discover unfamiliar components. The ending leads to implemented mission 4-3, where NOVA is revealed."
+    },
+    "NOVA": {
+      "ru": "NOVA",
+      "en": "NOVA"
+    },
+    "Защитить три узла памяти, пока ROOK читает NOVA через изолированный сервисный интерфейс. У интерфейса нет доступа к управлению кораблём. Огонь игрока не повреждает узлы; потеря любого узла означает поражение.": {
+      "ru": "Защитить три узла памяти, пока ROOK читает NOVA через изолированный сервисный интерфейс. У интерфейса нет доступа к управлению кораблём. Огонь игрока не повреждает узлы; потеря любого узла означает поражение.",
+      "en": "Protect three memory nodes while ROOK reads NOVA through an isolated service interface with no access to flight controls. Player fire cannot damage nodes; losing any node fails the mission."
+    },
+    "Текущая настройка: 10 HP на узел, вступление 24 секунды, 60 секунд активного чтения, пауза 4 секунды каждые 22 секунды. Девять пар атакующих с интервалом 8 секунд. Для завершения ROOK должен вернуться, а оставшиеся враги — быть уничтожены.": {
+      "ru": "Текущая настройка: 10 HP на узел, вступление 24 секунды, 60 секунд активного чтения, пауза 4 секунды каждые 22 секунды. Девять пар атакующих с интервалом 8 секунд. Для завершения ROOK должен вернуться, а оставшиеся враги — быть уничтожены.",
+      "en": "Current tuning: 10 HP per node, a 24-second introduction, 60 seconds of active reading, 4-second interruptions every 22 seconds. Nine attacker pairs arrive 8 seconds apart. Completion requires ROOK to return and surviving attackers to be cleared."
+    },
+    "Сохранить изолированный фрагмент": {
+      "ru": "Сохранить изолированный фрагмент",
+      "en": "Preserve the isolated fragment"
+    },
+    "Ни одного повреждения узлов": {
+      "ru": "Ни одного повреждения узлов",
+      "en": "No node damage"
+    },
+    "Макс сохраняет небольшой чистый фрагмент личности. NOVA не исцелена целиком; фрагмент остаётся в отдельном хранилище. Следующая миссия — 4-4.": {
+      "ru": "Макс сохраняет небольшой чистый фрагмент личности. NOVA не исцелена целиком; фрагмент остаётся в отдельном хранилище. Следующая миссия — 4-4.",
+      "en": "Max preserves a small clean personality fragment. NOVA is not fully cured; the fragment remains in separate storage. Next mission: 4-4."
+    },
+    "Защитить три узла памяти, пока ROOK читает NOVA через изолированный сервисный интерфейс. У интерфейса нет доступа к управлению кораблём. Огонь игрока не повреждает узлы; потеря любого узла означает поражение. Макс сохраняет небольшой чистый фрагмент личности. NOVA не исцелена целиком; фрагмент остаётся в отдельном хранилище. Следующая миссия — 4-4.": {
+      "ru": "Защитить три узла памяти, пока ROOK читает NOVA через изолированный сервисный интерфейс. У интерфейса нет доступа к управлению кораблём. Огонь игрока не повреждает узлы; потеря любого узла означает поражение. Макс сохраняет небольшой чистый фрагмент личности. NOVA не исцелена целиком; фрагмент остаётся в отдельном хранилище. Следующая миссия — 4-4.",
+      "en": "Protect three memory nodes while ROOK reads NOVA through an isolated service interface with no access to flight controls. Player fire cannot damage nodes; losing any node fails the mission. Max preserves a small clean personality fragment. NOVA is not fully cured; the fragment remains in separate storage. Next mission: 4-4."
+    },
+    "Последовательно просканировать три образца A → B → C и сохранить все до конца. ROOK физически перемещается между ними и читает только в рабочей зоне. Огонь игрока безопасен для образцов; враг может уничтожить даже уже просканированный образец и вызвать поражение.": {
+      "ru": "Последовательно просканировать три образца A → B → C и сохранить все до конца. ROOK физически перемещается между ними и читает только в рабочей зоне. Огонь игрока безопасен для образцов; враг может уничтожить даже уже просканированный образец и вызвать поражение.",
+      "en": "Scan three samples sequentially, A → B → C, and preserve all until completion. ROOK physically travels between them and reads only in range. Player fire is harmless to samples; enemies can destroy even a scanned sample and cause failure."
+    },
+    "Текущая настройка: 10 HP на образец, вступление 12 секунд, по 22 секунды активного сканирования. Волна каждые 10 секунд: один, затем два и три противника. После третьего скана новые волны прекращаются; победа ждёт стыковки ROOK и зачистки.": {
+      "ru": "Текущая настройка: 10 HP на образец, вступление 12 секунд, по 22 секунды активного сканирования. Волна каждые 10 секунд: один, затем два и три противника. После третьего скана новые волны прекращаются; победа ждёт стыковки ROOK и зачистки.",
+      "en": "Current tuning: 10 HP per sample, a 12-second introduction and 22 seconds of active scanning each. Waves every 10 seconds grow from one to two to three enemies. After scan three, new waves stop; victory waits for ROOK to dock and enemies to be cleared."
+    },
+    "Просканировать и сохранить все образцы": {
+      "ru": "Просканировать и сохранить все образцы",
+      "en": "Scan and preserve all samples"
+    },
+    "Ни одного повреждения образцов": {
+      "ru": "Ни одного повреждения образцов",
+      "en": "No sample damage"
+    },
+    "Получен первый полный блок чужого кода. Вейл ограничивает доступ; глава продолжается боем с Assembler Prime в 4-5.": {
+      "ru": "Получен первый полный блок чужого кода. Вейл ограничивает доступ; глава продолжается боем с Assembler Prime в 4-5.",
+      "en": "The first complete block of alien code is obtained. Vale restricts access; the chapter continues with Assembler Prime in 4-5."
+    },
+    "Последовательно просканировать три образца A → B → C и сохранить все до конца. ROOK физически перемещается между ними и читает только в рабочей зоне. Огонь игрока безопасен для образцов; враг может уничтожить даже уже просканированный образец и вызвать поражение. Получен первый полный блок чужого кода. Вейл ограничивает доступ; глава продолжается боем с Assembler Prime в 4-5.": {
+      "ru": "Последовательно просканировать три образца A → B → C и сохранить все до конца. ROOK физически перемещается между ними и читает только в рабочей зоне. Огонь игрока безопасен для образцов; враг может уничтожить даже уже просканированный образец и вызвать поражение. Получен первый полный блок чужого кода. Вейл ограничивает доступ; глава продолжается боем с Assembler Prime в 4-5.",
+      "en": "Scan three samples sequentially, A → B → C, and preserve all until completion. ROOK physically travels between them and reads only in range. Player fire is harmless to samples; enemies can destroy even a scanned sample and cause failure. The first complete block of alien code is obtained. Vale restricts access; the chapter continues with Assembler Prime in 4-5."
+    },
+    "Три фазы: уничтожение четырёх инструментов и дронов; отключение двух ремонтных модулей; сканирование и уничтожение чужого ядра. Разрушенный инструмент останавливается и отменяет подготовленный удар. Третья фаза недоступна, пока жив хотя бы один ремонтный модуль.": {
+      "ru": "Три фазы: уничтожение четырёх инструментов и дронов; отключение двух ремонтных модулей; сканирование и уничтожение чужого ядра. Разрушенный инструмент останавливается и отменяет подготовленный удар. Третья фаза недоступна, пока жив хотя бы один ремонтный модуль.",
+      "en": "Three phases: destroy four tools and drones; disable two repair modules; scan and destroy the alien core. Destroyed tools stop and cancel pending strikes. Phase three cannot begin while any repair module survives."
+    },
+    "Текущая настройка: инструменты — по 16 HP, ремонтные модули — по 12 HP, броня — 60 HP, ядро — 42 HP. Модуль возвращает 3 HP брони каждые 2 секунды. В третьей фазе Макс сканирует ядро через сенсорный канал ROOK 5 секунд; до завершения скана ядро защищено от огня.": {
+      "ru": "Текущая настройка: инструменты — по 16 HP, ремонтные модули — по 12 HP, броня — 60 HP, ядро — 42 HP. Модуль возвращает 3 HP брони каждые 2 секунды. В третьей фазе Макс сканирует ядро через сенсорный канал ROOK 5 секунд; до завершения скана ядро защищено от огня.",
+      "en": "Current tuning: 16 HP per tool, 12 HP per repair module, 60 armor HP and 42 core HP. Each module restores 3 armor HP every 2 seconds. In phase three Max scans through ROOK’s sensor link for 5 seconds; the core is protected until scanning completes."
+    },
+    "Просканировать и уничтожить ядро": {
+      "ru": "Просканировать и уничтожить ядро",
+      "en": "Scan and destroy the core"
+    },
+    "Не допустить восстановления брони": {
+      "ru": "Не допустить восстановления брони",
+      "en": "Prevent all armor regeneration"
+    },
+    "Чистый фрагмент SOLAR, обрыв связи и трасса к Юпитеру. Текущая игра возвращает в меню: миссии Jupiter и эффект новых турбин ещё не реализованы. Предлагаемая ангарная сцена не включена автоматически.": {
+      "ru": "Чистый фрагмент SOLAR, обрыв связи и трасса к Юпитеру. Текущая игра возвращает в меню: миссии Jupiter и эффект новых турбин ещё не реализованы. Предлагаемая ангарная сцена не включена автоматически.",
+      "en": "A clean SOLAR fragment, interrupted contact and a vector to Jupiter. The current game returns to the menu: Jupiter missions and new turbine effects remain unimplemented. The proposed hangar scene is not automatically enabled."
+    },
+    "Три фазы: уничтожение четырёх инструментов и дронов; отключение двух ремонтных модулей; сканирование и уничтожение чужого ядра. Разрушенный инструмент останавливается и отменяет подготовленный удар. Третья фаза недоступна, пока жив хотя бы один ремонтный модуль. Чистый фрагмент SOLAR, обрыв связи и трасса к Юпитеру. Текущая игра возвращает в меню: миссии Jupiter и эффект новых турбин ещё не реализованы. Предлагаемая ангарная сцена не включена автоматически.": {
+      "ru": "Три фазы: уничтожение четырёх инструментов и дронов; отключение двух ремонтных модулей; сканирование и уничтожение чужого ядра. Разрушенный инструмент останавливается и отменяет подготовленный удар. Третья фаза недоступна, пока жив хотя бы один ремонтный модуль. Чистый фрагмент SOLAR, обрыв связи и трасса к Юпитеру. Текущая игра возвращает в меню: миссии Jupiter и эффект новых турбин ещё не реализованы. Предлагаемая ангарная сцена не включена автоматически.",
+      "en": "Three phases: destroy four tools and drones; disable two repair modules; scan and destroy the alien core. Destroyed tools stop and cancel pending strikes. Phase three cannot begin while any repair module survives. A clean SOLAR fragment, interrupted contact and a vector to Jupiter. The current game returns to the menu: Jupiter missions and new turbine effects remain unimplemented. The proposed hangar scene is not automatically enabled."
+    },
+    "Assembler Prime: подвижная сборка v1": {
+      "ru": "Assembler Prime: подвижная сборка v1",
+      "en": "Assembler Prime: animated rig v1"
+    },
+    "Десять отдельных деталей, четыре манипулятора, раскрывающиеся захваты и центральный отсек. В пакете от 29.09 подтверждён перенос в Sprite2D для 4-5; более ранний manifest исходной сборки ещё помечен как прототип. Старые цельные фазы сохраняются отдельно.": {
+      "ru": "Десять отдельных деталей, четыре манипулятора, раскрывающиеся захваты и центральный отсек. В пакете от 29.09 подтверждён перенос в Sprite2D для 4-5; более ранний manifest исходной сборки ещё помечен как прототип. Старые цельные фазы сохраняются отдельно.",
+      "en": "Ten separate parts, four manipulators, opening grippers and a central bay. The 29 September package reports a Sprite2D port used in 4-5; the earlier source-rig manifest still labels it a prototype. Previous whole-phase images remain separate."
+    },
+    "Просмотр показывает геометрию и движение, а не игровые столкновения или баланс. Пивоты считаются в координатах оригинальных PNG; уменьшенные игровые копии рисуются с компенсацией масштаба.": {
+      "ru": "Просмотр показывает геометрию и движение, а не игровые столкновения или баланс. Пивоты считаются в координатах оригинальных PNG; уменьшенные игровые копии рисуются с компенсацией масштаба.",
+      "en": "This preview shows geometry and movement, not combat collisions or balance. Pivots use original PNG coordinates; smaller game images are rendered with scale compensation."
+    },
+    "Модель загружается по кнопке": {
+      "ru": "Модель загружается по кнопке",
+      "en": "Load the model using the button"
+    },
+    "Загрузить модель": {
+      "ru": "Загрузить модель",
+      "en": "Load model"
+    },
+    "Состояние": {
+      "ru": "Состояние",
+      "en": "State"
+    },
+    "Охлаждение": {
+      "ru": "Охлаждение",
+      "en": "Cooling"
+    },
+    "Показать движение": {
+      "ru": "Показать движение",
+      "en": "Play animation"
+    },
+    "Положение": {
+      "ru": "Положение",
+      "en": "Position"
+    },
+    "Цельные фазы и прежние детали": {
+      "ru": "Цельные фазы и прежние детали",
+      "en": "Whole phases and earlier parts"
+    },
+    "Исходная демонстрация": {
+      "ru": "Исходная демонстрация",
+      "en": "Original demo"
+    },
+    "Пивоты JSON": {
+      "ru": "Пивоты JSON",
+      "en": "Pivot JSON"
+    },
+    "Документация сборки": {
+      "ru": "Документация сборки",
+      "en": "Rig documentation"
+    },
+    "chassis · PNG": {
+      "ru": "chassis · PNG",
+      "en": "chassis · PNG"
+    },
+    "jaw · PNG": {
+      "ru": "jaw · PNG",
+      "en": "jaw · PNG"
+    },
+    "drill · PNG": {
+      "ru": "drill · PNG",
+      "en": "drill · PNG"
+    },
+    "saw · PNG": {
+      "ru": "saw · PNG",
+      "en": "saw · PNG"
+    },
+    "hatch · PNG": {
+      "ru": "hatch · PNG",
+      "en": "hatch · PNG"
+    },
+    "press · PNG": {
+      "ru": "press · PNG",
+      "en": "press · PNG"
+    },
+    "core · PNG": {
+      "ru": "core · PNG",
+      "en": "core · PNG"
+    },
+    "base · PNG": {
+      "ru": "base · PNG",
+      "en": "base · PNG"
+    },
+    "upper · PNG": {
+      "ru": "upper · PNG",
+      "en": "upper · PNG"
+    },
+    "forearm · PNG": {
+      "ru": "forearm · PNG",
+      "en": "forearm · PNG"
+    },
+    "Общий источник реплик и исходники": {
+      "ru": "Общий источник реплик и исходники",
+      "en": "Shared dialogue master and sources"
+    },
+    "74 реплики Mars: 12 существующих сохранены, 62 добавлены по постоянным ID. 48 новых сюжетных строк связаны со сценарием; 14 новых строк инструктажа остаются игровыми адаптациями. NOVA добавлена в список говорящих.": {
+      "ru": "74 реплики Mars: 12 существующих сохранены, 62 добавлены по постоянным ID. 48 новых сюжетных строк связаны со сценарием; 14 новых строк инструктажа остаются игровыми адаптациями. NOVA добавлена в список говорящих.",
+      "en": "74 Mars lines: 12 existing records preserved and 62 added by persistent ID. 48 new story lines are linked to the scenario; 14 new briefing lines remain game adaptations. NOVA is now an allowed speaker."
+    },
+    "Открыть общий каталог RU / EN": {
+      "ru": "Открыть общий каталог RU / EN",
+      "en": "Open the shared RU / EN catalog"
+    },
+    "Актуальный мастер JSON": {
+      "ru": "Актуальный мастер JSON",
+      "en": "Current master JSON"
+    },
+    "Файлы внутри пакета — снимок передачи, а не второй редактируемый каталог. Игра должна получать дальнейшие редакторские изменения из общего assets/dialogues.json.": {
+      "ru": "Файлы внутри пакета — снимок передачи, а не второй редактируемый каталог. Игра должна получать дальнейшие редакторские изменения из общего assets/dialogues.json.",
+      "en": "Files inside the handoff are an archival snapshot, not a second editable catalog. The game should pull future editorial changes from the shared assets/dialogues.json."
+    },
+    "README пакета": {
+      "ru": "README пакета",
+      "en": "Package README"
+    },
+    "Манифест ресурсов": {
+      "ru": "Манифест ресурсов",
+      "en": "Asset manifest"
+    },
+    "Контрольные суммы": {
+      "ru": "Контрольные суммы",
+      "en": "Checksums"
+    },
+    "Связи с игровыми файлами": {
+      "ru": "Связи с игровыми файлами",
+      "en": "Game-file bindings"
+    },
+    "Подвижный Assembler Prime": {
+      "ru": "Подвижный Assembler Prime",
+      "en": "Animated Assembler Prime"
+    },
+    "Источники": {
+      "ru": "Источники",
+      "en": "Sources"
+    },
+    "Mars в игре: миссии, графика и сборка босса →": {
+      "ru": "Mars в игре: миссии, графика и сборка босса →",
+      "en": "Mars in the game: missions, artwork and boss rig →"
+    },
+    "2089 × 753 · учёт 2026-09-29": {
+      "ru": "2089 × 753 · учёт 2026-09-29",
+      "en": "2089 × 753 · recorded 2026-09-29"
+    },
+    "2172 × 724 · учёт 2026-09-29": {
+      "ru": "2172 × 724 · учёт 2026-09-29",
+      "en": "2172 × 724 · recorded 2026-09-29"
+    },
+    "1254 × 1254 · учёт 2026-09-29": {
+      "ru": "1254 × 1254 · учёт 2026-09-29",
+      "en": "1254 × 1254 · recorded 2026-09-29"
+    },
+    "1024 × 1536 · учёт 2026-09-29": {
+      "ru": "1024 × 1536 · учёт 2026-09-29",
+      "en": "1024 × 1536 · recorded 2026-09-29"
+    },
+    "Модель загружается…": {
+      "ru": "Модель загружается…",
+      "en": "Loading model…"
+    },
+    "Модель готова": {
+      "ru": "Модель готова",
+      "en": "Model ready"
+    },
+    "Не удалось загрузить модель. Повторите попытку.": {
+      "ru": "Не удалось загрузить модель. Повторите попытку.",
+      "en": "Could not load model. Try again."
+    },
+    "Пауза": {
+      "ru": "Пауза",
+      "en": "Pause"
+    },
+    "Реализованная глава Mars": {
+      "ru": "Реализованная глава Mars",
+      "en": "Implemented Mars chapter"
+    },
+    "384 × 512 · учёт 2026-09-29": {
+      "ru": "384 × 512 · учёт 2026-09-29",
+      "en": "384 × 512 · recorded 2026-09-29"
+    },
+    "512 × 512 · учёт 2026-09-29": {
+      "ru": "512 × 512 · учёт 2026-09-29",
+      "en": "512 × 512 · recorded 2026-09-29"
+    },
+    "520 × 649 · учёт 2026-09-29": {
+      "ru": "520 × 649 · учёт 2026-09-29",
+      "en": "520 × 649 · recorded 2026-09-29"
+    },
+    "533 × 800 · учёт 2026-09-29": {
+      "ru": "533 × 800 · учёт 2026-09-29",
+      "en": "533 × 800 · recorded 2026-09-29"
+    },
+    "560 × 700 · учёт 2026-09-29": {
+      "ru": "560 × 700 · учёт 2026-09-29",
+      "en": "560 × 700 · recorded 2026-09-29"
+    },
+    "620 × 774 · учёт 2026-09-29": {
+      "ru": "620 × 774 · учёт 2026-09-29",
+      "en": "620 × 774 · recorded 2026-09-29"
+    },
+    "720 × 720 · учёт 2026-09-29": {
+      "ru": "720 × 720 · учёт 2026-09-29",
+      "en": "720 × 720 · recorded 2026-09-29"
+    },
+    "2048 × 768 · учёт 2026-09-29": {
+      "ru": "2048 × 768 · учёт 2026-09-29",
+      "en": "2048 × 768 · recorded 2026-09-29"
+    },
+    "900 × 1124 · учёт 2026-09-29": {
+      "ru": "900 × 1124 · учёт 2026-09-29",
+      "en": "900 × 1124 · recorded 2026-09-29"
+    },
+    "1000 × 1249 · учёт 2026-09-29": {
+      "ru": "1000 × 1249 · учёт 2026-09-29",
+      "en": "1000 × 1249 · recorded 2026-09-29"
+    },
+    "1240 × 1269 · учёт 2026-09-29": {
+      "ru": "1240 × 1269 · учёт 2026-09-29",
+      "en": "1240 × 1269 · recorded 2026-09-29"
+    },
+    "1448 × 1086 · учёт 2026-09-29": {
+      "ru": "1448 × 1086 · учёт 2026-09-29",
+      "en": "1448 × 1086 · recorded 2026-09-29"
+    },
+    "← Mars": {
+      "ru": "← Mars",
+      "en": "← Mars"
+    },
+    "Реализовано в локальной игре; по данным переданного пакета · 2026-09-29": {
+      "ru": "Реализовано в локальной игре; по данным переданного пакета · 2026-09-29",
+      "en": "Implemented locally; reported by the supplied package · 2026-09-29"
+    },
+    "В ЛОКАЛЬНОЙ ИГРЕ · 29.09.2026": {
+      "ru": "В ЛОКАЛЬНОЙ ИГРЕ · 29.09.2026",
+      "en": "IN THE LOCAL GAME · 29 SEP 2026"
+    },
+    "4-1 · Красная линия": {
+      "ru": "4-1 · Красная линия",
+      "en": "4-1 · Red Line"
+    },
+    "4-2 · Фабрика без смены": {
+      "ru": "4-2 · Фабрика без смены",
+      "en": "4-2 · Factory Without Shift"
+    },
+    "4-3 · NOVA": {
+      "ru": "4-3 · NOVA",
+      "en": "4-3 · NOVA"
+    },
+    "4-4 · Чужой шаблон": {
+      "ru": "4-4 · Чужой шаблон",
+      "en": "4-4 · Foreign Template"
+    },
+    "4-5 · Мегасборщик": {
+      "ru": "4-5 · Мегасборщик",
+      "en": "4-5 · Assembler Prime"
     }
   }
 }

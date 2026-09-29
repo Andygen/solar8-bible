@@ -1,0 +1,375 @@
+{
+  "schema_version": 1,
+  "bindings": [
+    {
+      "id": "dlg.briefing_dialogues.max.001",
+      "speaker": "MAX",
+      "file": "scripts/missions/briefing_dialogues.gd"
+    },
+    {
+      "id": "dlg.briefing_dialogues.rook.002",
+      "speaker": "ROOK",
+      "file": "scripts/missions/briefing_dialogues.gd"
+    },
+    {
+      "id": "dlg.briefing_dialogues.max.003",
+      "speaker": "MAX",
+      "file": "scripts/missions/briefing_dialogues.gd"
+    },
+    {
+      "id": "dlg.briefing_dialogues.andygen.004",
+      "speaker": "ANDYGEN",
+      "file": "scripts/missions/briefing_dialogues.gd"
+    },
+    {
+      "id": "dlg.red_line.max.001",
+      "speaker": "MAX",
+      "file": "scripts/missions/red_line.gd"
+    },
+    {
+      "id": "dlg.red_line.max.002",
+      "speaker": "MAX",
+      "file": "scripts/missions/red_line.gd"
+    },
+    {
+      "id": "dlg.red_line.rook.003",
+      "speaker": "ROOK",
+      "file": "scripts/missions/red_line.gd"
+    },
+    {
+      "id": "dlg.red_line.rook.004",
+      "speaker": "ROOK",
+      "file": "scripts/missions/red_line.gd"
+    },
+    {
+      "id": "dlg.red_line.max.005",
+      "speaker": "MAX",
+      "file": "scripts/missions/red_line.gd"
+    },
+    {
+      "id": "dlg.red_line.andygen.006",
+      "speaker": "ANDYGEN",
+      "file": "scripts/missions/red_line.gd"
+    },
+    {
+      "id": "dlg.red_line.max.007",
+      "speaker": "MAX",
+      "file": "scripts/missions/red_line.gd"
+    },
+    {
+      "id": "dlg.red_line.andygen.008",
+      "speaker": "ANDYGEN",
+      "file": "scripts/missions/red_line.gd"
+    },
+    {
+      "id": "dlg.mars_4_2.assembly.max.001",
+      "speaker": "MAX",
+      "file": "scripts/missions/factory_without_shift.gd"
+    },
+    {
+      "id": "dlg.mars_4_2.assembly.andygen.002",
+      "speaker": "ANDYGEN",
+      "file": "scripts/missions/factory_without_shift.gd"
+    },
+    {
+      "id": "dlg.mars_4_2.assembly.max.003",
+      "speaker": "MAX",
+      "file": "scripts/missions/factory_without_shift.gd"
+    },
+    {
+      "id": "dlg.mars_4_2.repair.rook.001",
+      "speaker": "ROOK",
+      "file": "scripts/missions/factory_without_shift.gd"
+    },
+    {
+      "id": "dlg.mars_4_2.repair.andygen.002",
+      "speaker": "ANDYGEN",
+      "file": "scripts/missions/factory_without_shift.gd"
+    },
+    {
+      "id": "dlg.mars_4_2.repair.rook.003",
+      "speaker": "ROOK",
+      "file": "scripts/missions/factory_without_shift.gd"
+    },
+    {
+      "id": "dlg.mars_4_2.ending.max.001",
+      "speaker": "MAX",
+      "file": "scripts/missions/factory_without_shift.gd"
+    },
+    {
+      "id": "dlg.mars_4_2.ending.lena.002",
+      "speaker": "LENA",
+      "file": "scripts/missions/factory_without_shift.gd"
+    },
+    {
+      "id": "dlg.mars_4_2.ending.max.003",
+      "speaker": "MAX",
+      "file": "scripts/missions/factory_without_shift.gd"
+    },
+    {
+      "id": "dlg.mars_4_2.briefing.max.001",
+      "speaker": "MAX",
+      "file": "scripts/missions/briefing_dialogues.gd"
+    },
+    {
+      "id": "dlg.mars_4_2.briefing.rook.002",
+      "speaker": "ROOK",
+      "file": "scripts/missions/briefing_dialogues.gd"
+    },
+    {
+      "id": "dlg.mars_4_2.briefing.max.003",
+      "speaker": "MAX",
+      "file": "scripts/missions/briefing_dialogues.gd"
+    },
+    {
+      "id": "dlg.mars_4_2.briefing.andygen.004",
+      "speaker": "ANDYGEN",
+      "file": "scripts/missions/briefing_dialogues.gd"
+    },
+    {
+      "id": "dlg.mars_4_3.isolation.rook.001",
+      "speaker": "ROOK",
+      "file": "scripts/missions/nova_defense.gd"
+    },
+    {
+      "id": "dlg.mars_4_3.isolation.lena.002",
+      "speaker": "LENA",
+      "file": "scripts/missions/nova_defense.gd"
+    },
+    {
+      "id": "dlg.mars_4_3.contact.nova.001",
+      "speaker": "NOVA",
+      "file": "scripts/missions/nova_defense.gd"
+    },
+    {
+      "id": "dlg.mars_4_3.contact.andygen.002",
+      "speaker": "ANDYGEN",
+      "file": "scripts/missions/nova_defense.gd"
+    },
+    {
+      "id": "dlg.mars_4_3.contact.rook.003",
+      "speaker": "ROOK",
+      "file": "scripts/missions/nova_defense.gd"
+    },
+    {
+      "id": "dlg.mars_4_3.pulse.nova.001",
+      "speaker": "NOVA",
+      "file": "scripts/missions/nova_defense.gd"
+    },
+    {
+      "id": "dlg.mars_4_3.pulse.lena.002",
+      "speaker": "LENA",
+      "file": "scripts/missions/nova_defense.gd"
+    },
+    {
+      "id": "dlg.mars_4_3.pulse.nova.003",
+      "speaker": "NOVA",
+      "file": "scripts/missions/nova_defense.gd"
+    },
+    {
+      "id": "dlg.mars_4_3.defense.rook.001",
+      "speaker": "ROOK",
+      "file": "scripts/missions/nova_defense.gd"
+    },
+    {
+      "id": "dlg.mars_4_3.defense.max.002",
+      "speaker": "MAX",
+      "file": "scripts/missions/nova_defense.gd"
+    },
+    {
+      "id": "dlg.mars_4_3.ending.max.001",
+      "speaker": "MAX",
+      "file": "scripts/missions/nova_defense.gd"
+    },
+    {
+      "id": "dlg.mars_4_3.ending.andygen.002",
+      "speaker": "ANDYGEN",
+      "file": "scripts/missions/nova_defense.gd"
+    },
+    {
+      "id": "dlg.mars_4_3.ending.max.003",
+      "speaker": "MAX",
+      "file": "scripts/missions/nova_defense.gd"
+    },
+    {
+      "id": "dlg.mars_4_3.briefing.max.001",
+      "speaker": "MAX",
+      "file": "scripts/missions/briefing_dialogues.gd"
+    },
+    {
+      "id": "dlg.mars_4_3.briefing.rook.002",
+      "speaker": "ROOK",
+      "file": "scripts/missions/briefing_dialogues.gd"
+    },
+    {
+      "id": "dlg.mars_4_3.briefing.lena.003",
+      "speaker": "LENA",
+      "file": "scripts/missions/briefing_dialogues.gd"
+    },
+    {
+      "id": "dlg.mars_4_3.briefing.andygen.004",
+      "speaker": "ANDYGEN",
+      "file": "scripts/missions/briefing_dialogues.gd"
+    },
+    {
+      "id": "dlg.mars_4_4.discovery.rook.001",
+      "speaker": "ROOK",
+      "file": "scripts/missions/foreign_template.gd"
+    },
+    {
+      "id": "dlg.mars_4_4.discovery.max.002",
+      "speaker": "MAX",
+      "file": "scripts/missions/foreign_template.gd"
+    },
+    {
+      "id": "dlg.mars_4_4.scan_one.max.001",
+      "speaker": "MAX",
+      "file": "scripts/missions/foreign_template.gd"
+    },
+    {
+      "id": "dlg.mars_4_4.scan_one.lena.002",
+      "speaker": "LENA",
+      "file": "scripts/missions/foreign_template.gd"
+    },
+    {
+      "id": "dlg.mars_4_4.scan_one.max.003",
+      "speaker": "MAX",
+      "file": "scripts/missions/foreign_template.gd"
+    },
+    {
+      "id": "dlg.mars_4_4.result.lena.001",
+      "speaker": "LENA",
+      "file": "scripts/missions/foreign_template.gd"
+    },
+    {
+      "id": "dlg.mars_4_4.result.max.002",
+      "speaker": "MAX",
+      "file": "scripts/missions/foreign_template.gd"
+    },
+    {
+      "id": "dlg.mars_4_4.result.max.003",
+      "speaker": "MAX",
+      "file": "scripts/missions/foreign_template.gd"
+    },
+    {
+      "id": "dlg.mars_4_4.ending.vale.001",
+      "speaker": "VALE",
+      "file": "scripts/missions/foreign_template.gd"
+    },
+    {
+      "id": "dlg.mars_4_4.ending.andygen.002",
+      "speaker": "ANDYGEN",
+      "file": "scripts/missions/foreign_template.gd"
+    },
+    {
+      "id": "dlg.mars_4_4.ending.vale.003",
+      "speaker": "VALE",
+      "file": "scripts/missions/foreign_template.gd"
+    },
+    {
+      "id": "dlg.mars_4_4.briefing.max.001",
+      "speaker": "MAX",
+      "file": "scripts/missions/briefing_dialogues.gd"
+    },
+    {
+      "id": "dlg.mars_4_4.briefing.rook.002",
+      "speaker": "ROOK",
+      "file": "scripts/missions/briefing_dialogues.gd"
+    },
+    {
+      "id": "dlg.mars_4_4.briefing.lena.003",
+      "speaker": "LENA",
+      "file": "scripts/missions/briefing_dialogues.gd"
+    },
+    {
+      "id": "dlg.mars_4_5.reveal.max.001",
+      "speaker": "MAX",
+      "file": "scripts/missions/assembler_prime.gd"
+    },
+    {
+      "id": "dlg.mars_4_5.reveal.andygen.002",
+      "speaker": "ANDYGEN",
+      "file": "scripts/missions/assembler_prime.gd"
+    },
+    {
+      "id": "dlg.mars_4_5.reveal.max.003",
+      "speaker": "MAX",
+      "file": "scripts/missions/assembler_prime.gd"
+    },
+    {
+      "id": "dlg.mars_4_5.production.rook.001",
+      "speaker": "ROOK",
+      "file": "scripts/missions/assembler_prime.gd"
+    },
+    {
+      "id": "dlg.mars_4_5.repair.rook.001",
+      "speaker": "ROOK",
+      "file": "scripts/missions/assembler_prime.gd"
+    },
+    {
+      "id": "dlg.mars_4_5.repair.andygen.002",
+      "speaker": "ANDYGEN",
+      "file": "scripts/missions/assembler_prime.gd"
+    },
+    {
+      "id": "dlg.mars_4_5.core.rook.001",
+      "speaker": "ROOK",
+      "file": "scripts/missions/assembler_prime.gd"
+    },
+    {
+      "id": "dlg.mars_4_5.core.max.002",
+      "speaker": "MAX",
+      "file": "scripts/missions/assembler_prime.gd"
+    },
+    {
+      "id": "dlg.mars_4_5.core.andygen.003",
+      "speaker": "ANDYGEN",
+      "file": "scripts/missions/assembler_prime.gd"
+    },
+    {
+      "id": "dlg.mars_4_5.core.max.004",
+      "speaker": "MAX",
+      "file": "scripts/missions/assembler_prime.gd"
+    },
+    {
+      "id": "dlg.mars_4_5.ending.solar.001",
+      "speaker": "SOLAR",
+      "file": "scripts/missions/assembler_prime.gd"
+    },
+    {
+      "id": "dlg.mars_4_5.ending.andygen.002",
+      "speaker": "ANDYGEN",
+      "file": "scripts/missions/assembler_prime.gd"
+    },
+    {
+      "id": "dlg.mars_4_5.ending.rook.003",
+      "speaker": "ROOK",
+      "file": "scripts/missions/assembler_prime.gd"
+    },
+    {
+      "id": "dlg.mars_4_5.ending.maya.004",
+      "speaker": "MAYA",
+      "file": "scripts/missions/assembler_prime.gd"
+    },
+    {
+      "id": "dlg.mars_4_5.ending.rook.005",
+      "speaker": "ROOK",
+      "file": "scripts/missions/assembler_prime.gd"
+    },
+    {
+      "id": "dlg.mars_4_5.briefing.max.001",
+      "speaker": "MAX",
+      "file": "scripts/missions/briefing_dialogues.gd"
+    },
+    {
+      "id": "dlg.mars_4_5.briefing.rook.002",
+      "speaker": "ROOK",
+      "file": "scripts/missions/briefing_dialogues.gd"
+    },
+    {
+      "id": "dlg.mars_4_5.briefing.lena.003",
+      "speaker": "LENA",
+      "file": "scripts/missions/briefing_dialogues.gd"
+    }
+  ]
+}

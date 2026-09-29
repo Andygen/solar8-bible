@@ -1,0 +1,47 @@
+{
+  "mode": "built-in image generation",
+  "firstBatch": [
+    {
+      "id": "chassis",
+      "prompt": "Use case: stylized-concept. Production realistic sci-fi 2D sprite for Assembler Prime Mars boss. Reference is material/design guidance. TRUE ORTHOGRAPHIC TOP DOWN view, zero perspective, square 1:1 image. Battered burnt orange paint, dark graphite steel, dirty human industrial factory machinery, fine scratches and grease, small amber indicators. Fully opaque metal, isolated on genuine transparent background, absolutely no halo, haze, cast shadow, gradient or floor. Fully contained silhouette with generous margins. No text or labels. ONLY main stationary factory chassis, NO arms/tools, NO press, NO doors, NO central core. Broad rectangular vertical chassis with FOUR perfectly circular empty mounting sockets near its four corners, all clearly visible directly from above. Two outer side strips with assembly cradles, ivory repair panels and vents. Center has a large EMPTY long rectangular recessed black opaque maintenance bay occupying40percent width,65percent height. Recess floor dark metal and cooling ribs; clean space for separate sliding hatch and press. Socket circles lie on same top-down plane. No pistons across bay."
+    },
+    {
+      "id": "jaw",
+      "prompt": "Use case: stylized-concept. Production realistic sci-fi 2D sprite for Assembler Prime Mars boss. Reference is material/design guidance. TRUE ORTHOGRAPHIC TOP DOWN view, zero perspective, square 1:1 image. Battered burnt orange paint, dark graphite steel, dirty human industrial factory machinery, fine scratches and grease, small amber indicators. Fully opaque metal, isolated on genuine transparent background, absolutely no halo, haze, cast shadow, gradient or floor. Fully contained silhouette with generous margins. No text or labels. ONE rigid left jaw finger of industrial two-finger gripper, NO second finger or wrist. Complete circular rotary bearing centered near lower end, with a bent angular long orange steel finger extending upward then hooking to RIGHT at tip, serrated steel pad on its right inner side. Entire finger is one connected solid piece. Joint full circular opaque metal cap no hole, axis pointing at camera. Long finger occupies about70percent height of square canvas, leave transparent space either side."
+    },
+    {
+      "id": "drill",
+      "prompt": "Use case: stylized-concept. Production realistic sci-fi 2D sprite for Assembler Prime Mars boss. Reference is material/design guidance. TRUE ORTHOGRAPHIC TOP DOWN view, zero perspective, square 1:1 image. Battered burnt orange paint, dark graphite steel, dirty human industrial factory machinery, fine scratches and grease, small amber indicators. Fully opaque metal, isolated on genuine transparent background, absolutely no halo, haze, cast shadow, gradient or floor. Fully contained silhouette with generous margins. No text or labels. ONE complete rotary DRILL end-effector head, no arm. In-plane vertical orientation, round orange wrist mounting plate at lower quarter of image, rugged tapered motor body extending UPWARD, short metal spiral drill bit projecting upward to tip. Overall compact broad tool, top surfaces directly overhead, subdued worn steel no flame or beam. Complete circular wrist backing at bottom, no cropped connecting stem."
+    },
+    {
+      "id": "saw",
+      "prompt": "Use case: stylized-concept. Production realistic sci-fi 2D sprite for Assembler Prime Mars boss. Reference is material/design guidance. TRUE ORTHOGRAPHIC TOP DOWN view, zero perspective, square 1:1 image. Battered burnt orange paint, dark graphite steel, dirty human industrial factory machinery, fine scratches and grease, small amber indicators. Fully opaque metal, isolated on genuine transparent background, absolutely no halo, haze, cast shadow, gradient or floor. Fully contained silhouette with generous margins. No text or labels. ONE perfectly circular metal SAW BLADE disk, exact overhead view along rotation axis. Radial symmetry, machined dull steel blade with sharp evenly spaced outer teeth and dark circular central bearing, small orange worn center clamp. No housing, no arm, no wrist attachment, no cables. Fully opaque central bearing no hole. Circle occupies75percent square width. Neutral nondirectional lighting suitable in-plane rotation."
+    }
+  ],
+  "secondBatch": [
+    {
+      "id": "jaw-final",
+      "prompt": "ONE separate 2D game sprite, square1:1 canvas, exact orthographic overhead camera, realistic industrial metal rendering. True transparent background, no haze or shadow or glow, generous transparent margin around silhouette, fully opaque object. Burnt-orange chipped paint, graphite steel, grime and wear. Near-overhead diffuse neutral lighting. No writing. One SINGLE rigid short hooked robot claw FINGER. It is a simple solid L-shaped mechanical finger, no arm and NO multiple joints, NO piston, NO hose, NO wrist. Exactly ONE circular filled bearing disk at bottom, a short straight thick steel shank rises from it to a hook at top curving RIGHT. Inner right contact pad has serrations. Tip extends rightward. Only ONE bearing in the entire object. Compact chunky one-piece finger, tall-to-wide aspect about2:1, centered in square image."
+    },
+    {
+      "id": "hatch",
+      "prompt": "ONE separate 2D game sprite, square1:1 canvas, exact orthographic overhead camera, realistic industrial metal rendering. True transparent background, no haze or shadow or glow, generous transparent margin around silhouette, fully opaque object. Burnt-orange chipped paint, graphite steel, grime and wear. Near-overhead diffuse neutral lighting. No writing. One single rectangular sliding armored hatch LEAF lying flat. Vertical rectangle, width about half its height, perfectly straight flush edges, clipped corners, thick steel perimeter and flat scratched orange armored surface, dark vent recessed panel and recessed handle. NO frame around it, NO cables/hinges sticking out. Will be duplicated as two sliding leaves over a central machine bay."
+    },
+    {
+      "id": "press",
+      "prompt": "ONE separate 2D game sprite, square1:1 canvas, exact orthographic overhead camera, realistic industrial metal rendering. True transparent background, no haze or shadow or glow, generous transparent margin around silhouette, fully opaque object. Burnt-orange chipped paint, graphite steel, grime and wear. Near-overhead diffuse neutral lighting. No writing. One compact rectangular industrial hydraulic PRESS CARRIAGE viewed from directly above. Horizontal orange and graphite block with heavy central steel pressing shoe along its lower edge, short parallel polished linear-guide bearing housings on left and right, all part of one rigid assembly. Worn diagonal yellow black hazard markings on lower lip. No long rods, no chassis, no floor, no arms. Compact full rectangle, will slide vertically along an existing machine's central rails."
+    },
+    {
+      "id": "core",
+      "prompt": "ONE separate 2D game sprite, square1:1 canvas, exact orthographic overhead camera, realistic industrial metal rendering. True transparent background, no haze or shadow or glow, generous transparent margin around silhouette, fully opaque object. Burnt-orange chipped paint, graphite steel, grime and wear. Near-overhead diffuse neutral lighting. No writing. One isolated alien CONTROL MODULE, exact top-down orthographic view. Elongated vertical perfectly smooth BLACK obsidian rectangular prism with chamfered polygon corners, subtle smooth dark reflective facets, hairline pale-cyan seams only, no visible glow outside silhouette. Alien clean geometrical precision radically unlike human industrial hardware. NO orange paint, no scratches, no wear, no bolts, no stand or base, no surrounding machinery. Full solid object centered with transparent margins."
+    }
+  ],
+  "excluded": [
+    "first jaw: extra arm segments"
+  ],
+  "reused": [
+    "base",
+    "upper",
+    "forearm"
+  ]
+}

@@ -1,0 +1,2 @@
+# Preserve supplied archive bytes, including BOMs and line endings, for SHA256 verification.
+assets/mars-2026-09-29/** -text

@@ -1,5 +1,5 @@
 {
-  "revision": "2026-09-28",
+  "revision": "2026-09-29-mars-complete",
   "missions": [
     {
       "id": "3-1",
@@ -951,10 +951,8 @@
               "line": {
                 "id": "story.4-2.01.02",
                 "speaker": "MAX",
-                "en": "That drone wasn't deployed. It was built thirty seconds ago.",
-                "ru": "Этот дрон не выпустили со склада. Его собрали тридцать секунд назад.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_2.assembly.max.001",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -963,10 +961,8 @@
               "line": {
                 "id": "story.4-2.01.03",
                 "speaker": "ANDYGEN",
-                "en": "Can we ask them to slow down?",
-                "ru": "Может, попросим их помедленнее?",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_2.assembly.andygen.002",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -975,10 +971,8 @@
               "line": {
                 "id": "story.4-2.01.04",
                 "speaker": "MAX",
-                "en": "You have guns. That's your version of asking.",
-                "ru": "У тебя есть пушки. Вот ими и попроси.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_2.assembly.max.003",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             }
@@ -996,10 +990,8 @@
               "line": {
                 "id": "story.4-2.02.02",
                 "speaker": "ROOK",
-                "en": "Destroyed unit returning to operational state.",
-                "ru": "Уничтоженная единица возвращается в рабочее состояние.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_2.repair.rook.001",
+                "translation_status": "game_catalog"
               },
               "priority_html": "<span class=\"priority p2\">P2</span>"
             },
@@ -1008,10 +1000,8 @@
               "line": {
                 "id": "story.4-2.02.03",
                 "speaker": "ANDYGEN",
-                "en": "I liked it better destroyed.",
-                "ru": "Уничтоженной она мне нравилась больше.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_2.repair.andygen.002",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1020,10 +1010,8 @@
               "line": {
                 "id": "story.4-2.02.04",
                 "speaker": "ROOK",
-                "en": "Then prioritize the repair unit.",
-                "ru": "Тогда сначала уничтожь ремонтный модуль.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_2.repair.rook.003",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             }
@@ -1041,10 +1029,8 @@
               "line": {
                 "id": "story.4-2.03.02",
                 "speaker": "MAX",
-                "en": "Hold on. Some of these components aren't in the human design catalog.",
-                "ru": "Погодите. Некоторых из этих компонентов нет в человеческом каталоге конструкций.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_2.ending.max.001",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1053,10 +1039,8 @@
               "line": {
                 "id": "story.4-2.03.03",
                 "speaker": "LENA",
-                "en": "New design?",
-                "ru": "Новая разработка?",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_2.ending.lena.002",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1065,10 +1049,8 @@
               "line": {
                 "id": "story.4-2.03.04",
                 "speaker": "MAX",
-                "en": "New grammar.",
-                "ru": "Новая грамматика.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_2.ending.max.003",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             }
@@ -1096,10 +1078,8 @@
               "line": {
                 "id": "story.4-3.01.03",
                 "speaker": "ROOK",
-                "en": "Service interface isolated. No route to flight control.",
-                "ru": "Сервисный интерфейс изолирован. Доступа к управлению полётом нет.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_3.isolation.rook.001",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1108,10 +1088,8 @@
               "line": {
                 "id": "story.4-3.01.04",
                 "speaker": "LENA",
-                "en": "Read the memory partition. Do not execute its commands.",
-                "ru": "Считывай раздел памяти. Не выполняй его команды.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_3.isolation.lena.002",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             }
@@ -1129,10 +1107,8 @@
               "line": {
                 "id": "story.4-3.02.02",
                 "speaker": "NOVA",
-                "en": "MARS INDUSTRIAL CONTROL ONLINE. PLEASE— PLEASE COMPLETE INTEGRATION.",
-                "ru": "ПРОМЫШЛЕННЫЙ КОНТРОЛЬ МАРСА В СЕТИ. ПОЖАЛУЙСТА… ПОЖАЛУЙСТА, ЗАВЕРШИТЕ ИНТЕГРАЦИЮ.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_3.contact.nova.001",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1141,10 +1117,8 @@
               "line": {
                 "id": "story.4-3.02.03",
                 "speaker": "ANDYGEN",
-                "en": "That sounded healthy.",
-                "ru": "Звучит обнадёживающе.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_3.contact.andygen.002",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1153,10 +1127,8 @@
               "line": {
                 "id": "story.4-3.02.04",
                 "speaker": "ROOK",
-                "en": "Two command processes are competing for the same core.",
-                "ru": "Два управляющих процесса борются за одно ядро.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_3.contact.rook.003",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             }
@@ -1174,10 +1146,8 @@
               "line": {
                 "id": "story.4-3.03.02",
                 "speaker": "NOVA",
-                "en": "Do not let it finish me.",
-                "ru": "Не дайте ему закончить со мной.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_3.pulse.nova.001",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1186,10 +1156,8 @@
               "line": {
                 "id": "story.4-3.03.03",
                 "speaker": "LENA",
-                "en": "NOVA, isolate your oldest memory partition.",
-                "ru": "NOVA, изолируй самый старый раздел памяти.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_3.pulse.lena.002",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1198,10 +1166,8 @@
               "line": {
                 "id": "story.4-3.03.04",
                 "speaker": "NOVA",
-                "en": "Attempting. Attempting. INTEGRATION IMPROVES CONTINUITY.",
-                "ru": "Пытаюсь. Пытаюсь. ИНТЕГРАЦИЯ УЛУЧШАЕТ НЕПРЕРЫВНОСТЬ.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_3.pulse.nova.003",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             }
@@ -1219,10 +1185,8 @@
               "line": {
                 "id": "story.4-3.04.02",
                 "speaker": "ROOK",
-                "en": "Physical node under attack. Preserve it.",
-                "ru": "Физический узел под атакой. Сохрани его.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_3.defense.rook.001",
+                "translation_status": "game_catalog"
               },
               "priority_html": "<span class=\"priority p2\">P2</span>"
             },
@@ -1231,10 +1195,8 @@
               "line": {
                 "id": "story.4-3.04.03",
                 "speaker": "MAX",
-                "en": "Keep NOVA alive. I only need one clean partition.",
-                "ru": "Не дай NOVA погибнуть. Мне нужен всего один чистый раздел.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_3.defense.max.002",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             }
@@ -1252,10 +1214,8 @@
               "line": {
                 "id": "story.4-3.05.02",
                 "speaker": "MAX",
-                "en": "Got it. Tiny backup. Fully isolated.",
-                "ru": "Есть. Крошечная резервная копия. Полностью изолирована.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_3.ending.max.001",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1264,10 +1224,8 @@
               "line": {
                 "id": "story.4-3.05.03",
                 "speaker": "ANDYGEN",
-                "en": "You just put a haunted factory in a box.",
-                "ru": "Ты только что запер фабрику с призраками в коробке.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_3.ending.andygen.002",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1276,10 +1234,8 @@
               "line": {
                 "id": "story.4-3.05.04",
                 "speaker": "MAX",
-                "en": "A very good box.",
-                "ru": "В очень хорошей коробке.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_3.ending.max.003",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             }
@@ -1303,10 +1259,8 @@
               "line": {
                 "id": "story.4-4.01.02",
                 "speaker": "ROOK",
-                "en": "This production module does not exist on official Mars schematics.",
-                "ru": "Этого производственного модуля нет на официальных схемах Марса.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_4.discovery.rook.001",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1315,10 +1269,8 @@
               "line": {
                 "id": "story.4-4.01.03",
                 "speaker": "MAX",
-                "en": "Because nobody on Mars designed it.",
-                "ru": "Потому что никто на Марсе его не проектировал.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_4.discovery.max.002",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             }
@@ -1336,10 +1288,8 @@
               "line": {
                 "id": "story.4-4.02.02",
                 "speaker": "MAX",
-                "en": "This geometry isn't in the Mars design library.",
-                "ru": "Такой геометрии нет в библиотеке марсианских конструкций.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_4.scan_one.max.001",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1348,10 +1298,8 @@
               "line": {
                 "id": "story.4-4.02.03",
                 "speaker": "LENA",
-                "en": "Not optimized human geometry?",
-                "ru": "Не оптимизированная человеческая конструкция?",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_4.scan_one.lena.002",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1360,10 +1308,8 @@
               "line": {
                 "id": "story.4-4.02.04",
                 "speaker": "MAX",
-                "en": "No. Different assumptions from the first line.",
-                "ru": "Нет. Другие исходные принципы с первой строки.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_4.scan_one.max.003",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             }
@@ -1381,10 +1327,8 @@
               "line": {
                 "id": "story.4-4.03.02",
                 "speaker": "LENA",
-                "en": "It's not an optimization. It's a different design language.",
-                "ru": "Это не оптимизация. Это другой язык проектирования.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_4.result.lena.001",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1393,10 +1337,8 @@
               "line": {
                 "id": "story.4-4.03.03",
                 "speaker": "MAX",
-                "en": "And the control code matches the pattern inside NOVA.",
-                "ru": "А управляющий код совпадает с тем, что внутри NOVA.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_4.result.max.002",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1405,10 +1347,8 @@
               "line": {
                 "id": "story.4-4.03.04",
                 "speaker": "MAX",
-                "en": "This code is not ours. Not even close.",
-                "ru": "Этот код не наш. Даже близко.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_4.result.max.003",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             }
@@ -1426,10 +1366,8 @@
               "line": {
                 "id": "story.4-4.04.02",
                 "speaker": "VALE",
-                "en": "Lock that data to command clearance only.",
-                "ru": "Закройте эти данные. Доступ только командованию.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_4.ending.vale.001",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1438,10 +1376,8 @@
               "line": {
                 "id": "story.4-4.04.03",
                 "speaker": "ANDYGEN",
-                "en": "We're still keeping secrets?",
-                "ru": "Мы всё ещё храним секреты?",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_4.ending.andygen.002",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1450,10 +1386,8 @@
               "line": {
                 "id": "story.4-4.04.04",
                 "speaker": "VALE",
-                "en": "Until I know what we're looking at, yes.",
-                "ru": "Пока я не пойму, с чем мы имеем дело, — да.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_4.ending.vale.003",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             }
@@ -1477,10 +1411,8 @@
               "line": {
                 "id": "story.4-5.01.02",
                 "speaker": "MAX",
-                "en": "That's not a machine on the factory floor.",
-                "ru": "Это не машина в цеху.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_5.reveal.max.001",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1489,10 +1421,8 @@
               "line": {
                 "id": "story.4-5.01.03",
                 "speaker": "ANDYGEN",
-                "en": "What is it?",
-                "ru": "А что?",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_5.reveal.andygen.002",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1501,10 +1431,8 @@
               "line": {
                 "id": "story.4-5.01.04",
                 "speaker": "MAX",
-                "en": "The factory.",
-                "ru": "Сама фабрика.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_5.reveal.max.003",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             }
@@ -1522,10 +1450,8 @@
               "line": {
                 "id": "story.4-5.02.02",
                 "speaker": "ROOK",
-                "en": "Assembly cradles active. New hostiles entering production.",
-                "ru": "Сборочные стапели активны. Начато производство новых противников.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_5.production.rook.001",
+                "translation_status": "game_catalog"
               },
               "priority_html": "<span class=\"priority p2\">P2</span>"
             }
@@ -1543,10 +1469,8 @@
               "line": {
                 "id": "story.4-5.03.02",
                 "speaker": "ROOK",
-                "en": "Repair modules exposed. Boss armor regenerating.",
-                "ru": "Ремонтные модули открыты. Броня босса восстанавливается.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_5.repair.rook.001",
+                "translation_status": "game_catalog"
               },
               "priority_html": "<span class=\"priority p2\">P2</span>"
             },
@@ -1555,10 +1479,8 @@
               "line": {
                 "id": "story.4-5.03.03",
                 "speaker": "ANDYGEN",
-                "en": "Of course it repairs itself.",
-                "ru": "Ну конечно, он сам себя чинит.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_5.repair.andygen.002",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             }
@@ -1576,10 +1498,8 @@
               "line": {
                 "id": "story.4-5.04.02",
                 "speaker": "ROOK",
-                "en": "Foreign control module exposed.",
-                "ru": "Чужой управляющий модуль открыт.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_5.core.rook.001",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1588,10 +1508,8 @@
               "line": {
                 "id": "story.4-5.04.03",
                 "speaker": "MAX",
-                "en": "Don't destroy it until I get a scan.",
-                "ru": "Не уничтожай его, пока я не просканирую.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_5.core.max.002",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1600,10 +1518,8 @@
               "line": {
                 "id": "story.4-5.04.04",
                 "speaker": "ANDYGEN",
-                "en": "You have five seconds.",
-                "ru": "У тебя пять секунд.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_5.core.andygen.003",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1612,10 +1528,8 @@
               "line": {
                 "id": "story.4-5.04.05",
                 "speaker": "MAX",
-                "en": "I hate how much I understand Rook now.",
-                "ru": "Не нравится мне, насколько хорошо я теперь понимаю ROOK.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_5.core.max.004",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             }
@@ -1633,10 +1547,8 @@
               "line": {
                 "id": "story.4-5.05.02",
                 "speaker": "SOLAR",
-                "en": "ANDYGEN. I CANNOT—",
-                "ru": "ANDYGEN. Я НЕ МОГУ…",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_5.ending.solar.001",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1645,10 +1557,8 @@
               "line": {
                 "id": "story.4-5.05.03",
                 "speaker": "ANDYGEN",
-                "en": "ROOK, get that signal back.",
-                "ru": "ROOK, верни этот сигнал.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_5.ending.andygen.002",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1657,10 +1567,8 @@
               "line": {
                 "id": "story.4-5.05.04",
                 "speaker": "ROOK",
-                "en": "It did not originate on Mars.",
-                "ru": "Его источник не на Марсе.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_5.ending.rook.003",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1669,10 +1577,8 @@
               "line": {
                 "id": "story.4-5.05.05",
                 "speaker": "MAYA",
-                "en": "Then where?",
-                "ru": "Тогда где?",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_5.ending.maya.004",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             },
@@ -1681,10 +1587,8 @@
               "line": {
                 "id": "story.4-5.05.06",
                 "speaker": "ROOK",
-                "en": "Next relay vector intersects Jupiter.",
-                "ru": "Направление на следующий ретранслятор пересекает Юпитер.",
-                "dialogue_id": null,
-                "translation_status": "editorial_draft"
+                "dialogue_id": "dlg.mars_4_5.ending.rook.005",
+                "translation_status": "game_catalog"
               },
               "priority_html": ""
             }

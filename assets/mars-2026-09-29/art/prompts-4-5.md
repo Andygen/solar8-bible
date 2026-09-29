@@ -1,0 +1,5 @@
+# Assembly ring background
+
+Built-in imagegen, 2026-09-29. No boss parts generated or replaced.
+
+Production game background PNG for SOLAR 8 Mars finale 4-5, portrait top-down vertical shooter. Strict orthographic overhead factory interior. A gigantic burnt-orange and dark steel assembly ring encircles the UPPER HALF of an immense Martian central factory, only large side arcs and overhead segment visible, leaving the center dark empty for a separately rendered boss. Lower half empty dark steel staging floor for player flight, rails and automatic manufacturing lines restricted to far edges. Two narrow recessed molten-metal channels on extreme outer edges, subtle warm orange light, not dominating. Far top a closed orbital launch aperture with a small hint of space beyond, no horizon or perspective. Premium detailed realistic hard surface industrial environment. Readability first: central 65 percent low-contrast dark charcoal, machinery around perimeter. No boss, no ships, no characters, no bullets, no text, no HUD, no fog. Single coherent portrait 2:3 image with no visible seams or panels of separate scenes.

@@ -1,0 +1,16 @@
+{
+  "created": "2026-09-29",
+  "missions": {
+    "mars_4_1": 12,
+    "mars_4_2": 13,
+    "mars_4_3": 17,
+    "mars_4_4": 14,
+    "mars_4_5": 18
+  },
+  "dialogues": 74,
+  "missing_on_site": 62,
+  "already_published": 12,
+  "new_art_masters": 10,
+  "assembler_parts": 10,
+  "apk_included": false
+}
