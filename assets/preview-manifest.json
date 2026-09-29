@@ -928,19 +928,19 @@
     "original_bytes": 2472782,
     "variants": [
       {
-        "file": "assets/previews/solar8-team-hangar-v2-1466550d4edc-m4-320.webp",
-        "width": 320,
-        "bytes": 21670
-      },
-      {
-        "file": "assets/previews/solar8-team-hangar-v2-1466550d4edc-m4-640.webp",
+        "file": "assets/previews/solar8-team-hangar-v2-1466550d4edc-cast-hq-640.webp",
         "width": 640,
-        "bytes": 69978
+        "bytes": 116096
       },
       {
-        "file": "assets/previews/solar8-team-hangar-v2-1466550d4edc-m4-960.webp",
-        "width": 960,
-        "bytes": 131376
+        "file": "assets/previews/solar8-team-hangar-v2-1466550d4edc-cast-hq-1280.webp",
+        "width": 1280,
+        "bytes": 337784
+      },
+      {
+        "file": "assets/previews/solar8-team-hangar-v2-1466550d4edc-cast-hq-1672.webp",
+        "width": 1672,
+        "bytes": 1838996
       }
     ]
   },

@@ -1,0 +1,5 @@
+.site-language{display:inline-flex;align-items:center;flex-shrink:0;margin-left:6px}
+.site-language select{color:#f2eee6;background:#11151c;border:1px solid #ffffff35;border-radius:6px;font:inherit;font-size:12px;font-weight:600;line-height:1.2;padding:9px 6px;min-height:36px;cursor:pointer}
+.site-language select:focus-visible{outline:2px solid #ffae55;outline-offset:3px}
+#story-language>label,#dialogue-language>label{display:none}
+@media(max-width:620px){.site-language{margin-left:auto}.site-language select{font-size:11px;padding:7px 3px;min-width:56px}.top .search-open{margin-left:0}}

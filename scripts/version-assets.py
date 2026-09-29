@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1]
 normalize='--normalize' in sys.argv
 for path in ROOT.glob('*.html'):
     page=Soup(path.read_text(encoding='utf8'),'html.parser')
-    for node in page.select('script[src],link[rel="stylesheet"][href]'):
+    for node in page.select('script[src],link[rel="stylesheet"][href],link[rel="icon"][href]'):
         attr='src' if node.name=='script' else 'href'
         source=node.get('data-asset-source',node[attr]);u=urlsplit(source)
         if u.scheme or u.netloc or not (ROOT/u.path).is_file():continue

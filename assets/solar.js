@@ -121,17 +121,19 @@
     try {
       const index = await loadIndex(); if(version !== searchVersion) return;
       const words = query.split(/\s+/);
-      const found = index.map(entry => ({...entry, score: words.every(w => (entry.title+' '+entry.page+' '+entry.text).toLocaleLowerCase().includes(w)) ? (entry.title.toLocaleLowerCase() === query ? 30 : entry.title.toLocaleLowerCase().includes(query) ? 10 : 1) + (entry.url.startsWith('character-') ? 2 : 0) : 0})).filter(x => x.score).sort((a,b) => b.score-a.score);
+      const found = index.map(entry => ({...entry, score: words.every(w => (entry.title+' '+entry.page+' '+entry.text+' '+(entry.text_en||'')).toLocaleLowerCase().includes(w)) ? (entry.title.toLocaleLowerCase() === query ? 30 : entry.title.toLocaleLowerCase().includes(query) ? 10 : 1) + (entry.url.startsWith('character-') ? 2 : 0) : 0})).filter(x => x.score).sort((a,b) => b.score-a.score);
       status.textContent = found.length ? 'Найдено: '+found.length+(found.length>30?' · показаны первые 30':'') : 'Ничего не найдено. Попробуйте другое имя или слово.';
       found.slice(0,30).forEach(entry => {
         const a = document.createElement('a'); a.href = entry.url;
         const title = document.createElement('strong'); title.textContent = entry.title;
         const page = document.createElement('small'); page.textContent = entry.page;
-        const snippet = document.createElement('p'); const pos = entry.text.toLocaleLowerCase().indexOf(words[0]); const start = Math.max(0,pos-45); snippet.textContent = (start?'…':'')+entry.text.slice(start,start+170)+'…';
+        const content=window.SOLAR_I18N?.language==='en' ? (entry.text_en||entry.text) : entry.text;
+        const snippet = document.createElement('p'); const pos = content.toLocaleLowerCase().indexOf(words[0]); const start = Math.max(0,pos-45); snippet.textContent = (start?'…':'')+content.slice(start,start+170)+'…';
         a.append(title,page,snippet); a.addEventListener('click', () => searchDialog.close()); results.append(a);
       });
     } catch { if(version === searchVersion) status.textContent = 'Поиск временно недоступен. Используйте оглавление.'; }
   });
+  document.addEventListener('site-language-change',()=>{if(searchDialog.open)input.dispatchEvent(new Event('input'));});
   input.addEventListener('keydown', e => {
     if(e.key === 'Enter' && results.firstElementChild) { e.preventDefault(); results.firstElementChild.click(); }
     if(e.key === 'ArrowDown') { e.preventDefault(); results.querySelector('a')?.focus(); }

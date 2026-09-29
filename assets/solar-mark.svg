@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#090b0e"/><path d="M30 32C8 17 18 8 32 8S54 19 34 32C56 47 47 56 32 56S10 46 30 32Z" fill="none" stroke="#eab47b" stroke-width="4"/><path d="M53 12L46 26L59 21Z" fill="#f2efe8"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+<defs><linearGradient id="sun" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#ff6b00"/><stop offset=".65" stop-color="#ffb128"/><stop offset="1" stop-color="#fff8d0"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="1.5"/></filter></defs>
+<rect width="64" height="64" rx="13" fill="#070c13"/>
+<path d="M9 23A27 27 0 1 1 11 47A25 25 0 1 0 9 23Z" fill="url(#sun)"/>
+<circle cx="28" cy="33" r="15" fill="none" stroke="#54a9ff" stroke-width="5" filter="url(#glow)"/>
+<circle cx="28" cy="33" r="15" fill="none" stroke="#e3f6ff" stroke-width="2.6"/>
+<path d="M47 7L48.5 13.5L55 15L48.5 16.5L47 23L45.5 16.5L39 15L45.5 13.5Z" fill="#fff4cf"/>
+</svg>

@@ -18,11 +18,13 @@ for page in pages.values():
 def generate(source):
     file=ROOT/source;digest=hashlib.sha256(file.read_bytes()).hexdigest()[:12];variants=[]
     with Image.open(file) as im:
-        for width in [320,640,960]:
+        cast=source=='assets/characters/solar8-team-hangar-v2.png'
+        for width in ([640,1280,im.width] if cast else [320,640,960]):
             if width>im.width and variants:continue
             thumb=im.copy();thumb.thumbnail((width,width),Image.Resampling.LANCZOS)
-            target=dest/f'{file.stem}-{digest}-m4-{width}.webp'
-            if not target.exists():thumb.save(target,'WEBP',quality=85,method=4)
+            profile='cast-hq' if cast else 'm4'
+            target=dest/f'{file.stem}-{digest}-{profile}-{width}.webp'
+            if not target.exists():thumb.save(target,'WEBP',quality=95 if cast else 85,method=4,lossless=cast and width==im.width)
             variants.append((target.relative_to(ROOT).as_posix(),thumb.width))
     return source,variants,{'sha256':digest,'original_bytes':file.stat().st_size,'variants':[{'file':p,'width':w,'bytes':(ROOT/p).stat().st_size} for p,w in variants]}
 with ThreadPoolExecutor(max_workers=4) as pool:
@@ -33,9 +35,10 @@ for path,page in pages.items():
         original=img.get('data-full-src',img['src']);source=urlsplit(original)
         if source.path not in cache:continue
         variants=cache[source.path];img['data-full-src']=original
-        img['src']=variants[min(1,len(variants)-1)][0]
+        img['src']=variants[-1 if img.find_parent(class_='cast-banner') else min(1,len(variants)-1)][0]
         img['srcset']=', '.join(f'{p} {w}w' for p,w in variants)
-        if img.find_parent(class_='fleet-thumb'):sizes='(max-width: 620px) 40vw, 180px'
+        if img.find_parent(class_='cast-banner'):sizes='(max-width: 960px) calc(100vw - 40px), calc(100vw - 320px)'
+        elif img.find_parent(class_='fleet-thumb'):sizes='(max-width: 620px) 40vw, 180px'
         elif img.find_parent(class_='brand') or img.find_parent('footer'):sizes='180px'
         else:sizes='(max-width: 620px) 90vw, (max-width: 1100px) 45vw, 640px'
         img['sizes']=sizes

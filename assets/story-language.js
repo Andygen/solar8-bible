@@ -11,7 +11,7 @@
     let missing = 0;
     for (const node of nodes) {
       const text = node.dataset[select.value];
-      node.textContent = text || node.dataset.en;
+      node.textContent = select.value==='en' && !node.dataset.dialogueId ? (window.SOLAR_I18N?.t(text || node.dataset.en) || text || node.dataset.en) : text || node.dataset.en;
       node.lang = text ? select.value : 'en';
       if (!text) { missing++; node.title = 'Перевод отсутствует; показан EN'; }
     }
