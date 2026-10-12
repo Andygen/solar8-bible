@@ -17,7 +17,7 @@ def update_navigation():
         page=Soup(path.read_text(encoding='utf-8'),'html.parser');side=page.select_one('.side');top=page.select_one('.topnav')
         if not side or not top:continue
         name=path.name
-        section=('characters' if name.startswith('character-') else 'story' if name in ['scenario.html','dialogues.html'] else 'fleet' if name in ['fleet.html','player-upgrades.html'] else 'materials' if name.startswith(('scripts-','art-briefs')) or name in ['story-rules.html','resource-status.html','mars-production.html'] else 'worlds')
+        section=('characters' if name.startswith('character-') else 'story' if name in ['scenario.html','dialogues.html'] else 'fleet' if name in ['fleet.html','player-upgrades.html'] else 'materials' if name.startswith(('scripts-','art-briefs')) or name in ['story-rules.html','resource-status.html','mars-production.html','music.html'] else 'worlds')
         top.clear()
         for key,title,url in SECTIONS:
             a=page.new_tag('a',href=url,attrs={'data-site-section':key});a.string=title
@@ -50,6 +50,9 @@ def update_navigation():
             content+=group('stages','Девять стадий',[anchor(url,text) for url,text in links if url.startswith('#stage-')])
             content+=group('principles','Внешний вид и правила',[anchor(url,text) for url,text in links if url in ['#principle','#revision-nine','#readability','#engines']])
             content+=group('story','Презентация и сюжет',[anchor('#hangar-scenes','Сцены Max'),anchor('#story-links','Сюжетные связи')])
+        elif name=='music.html':
+            title='Музыка игры';parent=anchor('index.html#production','← К материалам')
+            content=''.join(anchor(url,label) for url,label in links)
         elif name in ['dialogues.html','resource-status.html']:
             title='Реплики RU / EN' if name=='dialogues.html' else 'Готовность материалов'
             parent=anchor('index.html#production','← К материалам')
@@ -88,7 +91,7 @@ def update_navigation():
             content+=group('character','Персонаж и история',[anchor(url,label) for url,label in links[split:]])
             if page.find(id='pilot-ship') and not any(url=='#pilot-ship' for url,_ in links):
                 content+=anchor('#pilot-ship','Корабль персонажа')
-        content+='<div class="contents-label">Общие источники</div>'+anchor('dialogues.html','Реплики игры · RU / EN')+anchor('resource-status.html','Готовность материалов')
+        content+='<div class="contents-label">Общие источники</div>'+anchor('dialogues.html','Реплики игры · RU / EN')+anchor('resource-status.html','Готовность материалов')+anchor('music.html','Музыка игры')
         side.clear();side['aria-label']=title;side['data-navigation']='local'
         if parent:
             back=fragment(parent).a;back['class']=['back-link'];side.append(back)

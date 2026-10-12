@@ -12004,6 +12004,118 @@
     "4-5 · Мегасборщик": {
       "ru": "4-5 · Мегасборщик",
       "en": "4-5 · Assembler Prime"
+    },
+    "Музыка игры": {
+      "ru": "Музыка игры",
+      "en": "Game music"
+    },
+    "Саундтрек": {
+      "ru": "Саундтрек",
+      "en": "Soundtrack"
+    },
+    "Шесть треков из текущей рабочей версии игры. Полные оригиналы и короткие игровые петли.": {
+      "ru": "Шесть треков из текущей рабочей версии игры. Полные оригиналы и короткие игровые петли.",
+      "en": "Six tracks from the current working game. Full originals and short gameplay loops."
+    },
+    "Полный оригинал": {
+      "ru": "Полный оригинал",
+      "en": "Full original"
+    },
+    "Игровая петля": {
+      "ru": "Игровая петля",
+      "en": "Gameplay loop"
+    },
+    "Скачать оригинал": {
+      "ru": "Скачать оригинал",
+      "en": "Download original"
+    },
+    "Скачать петлю": {
+      "ru": "Скачать петлю",
+      "en": "Download loop"
+    },
+    "Треки предоставлены автором проекта. Названия отображены по именам файлов; назначение сверено с музыкальным контроллером игры 12.10.2026.": {
+      "ru": "Треки предоставлены автором проекта. Названия отображены по именам файлов; назначение сверено с музыкальным контроллером игры 12.10.2026.",
+      "en": "Tracks supplied by the project author. Display titles follow filenames; usage checked against the game music controller on 2026-10-12."
+    },
+    "Игровые версии сокращены и зациклены для мобильной сборки. Полные оригиналы сохранены без изменений.": {
+      "ru": "Игровые версии сокращены и зациклены для мобильной сборки. Полные оригиналы сохранены без изменений.",
+      "en": "Gameplay versions are shortened and looped for the mobile build. Full originals are preserved unchanged."
+    },
+    "При запуске нового трека предыдущий останавливается.": {
+      "ru": "При запуске нового трека предыдущий останавливается.",
+      "en": "Starting a new track pauses the previous one."
+    },
+    "Меню и ангар": {
+      "ru": "Меню и ангар",
+      "en": "Menu and hangar"
+    },
+    "Полный оригинал: Solar Brassquake": {
+      "ru": "Полный оригинал: Solar Brassquake",
+      "en": "Full original: Solar Brassquake"
+    },
+    "Игровая петля: Solar Brassquake": {
+      "ru": "Игровая петля: Solar Brassquake",
+      "en": "Gameplay loop: Solar Brassquake"
+    },
+    "Брифинги и диалоги": {
+      "ru": "Брифинги и диалоги",
+      "en": "Briefings and dialogue"
+    },
+    "Полный оригинал: Helios Silence": {
+      "ru": "Полный оригинал: Helios Silence",
+      "en": "Full original: Helios Silence"
+    },
+    "Игровая петля: Helios Silence": {
+      "ru": "Игровая петля: Helios Silence",
+      "en": "Gameplay loop: Helios Silence"
+    },
+    "Миссии Mercury и Mars; музыка остальных миссий по умолчанию": {
+      "ru": "Миссии Mercury и Mars; музыка остальных миссий по умолчанию",
+      "en": "Mercury and Mars missions; default music for other missions"
+    },
+    "Полный оригинал: Orbital Debris": {
+      "ru": "Полный оригинал: Orbital Debris",
+      "en": "Full original: Orbital Debris"
+    },
+    "Игровая петля: Orbital Debris": {
+      "ru": "Игровая петля: Orbital Debris",
+      "en": "Gameplay loop: Orbital Debris"
+    },
+    "Миссии Venus": {
+      "ru": "Миссии Venus",
+      "en": "Venus missions"
+    },
+    "Полный оригинал: Venus Blind Descent": {
+      "ru": "Полный оригинал: Venus Blind Descent",
+      "en": "Full original: Venus Blind Descent"
+    },
+    "Игровая петля: Venus Blind Descent": {
+      "ru": "Игровая петля: Venus Blind Descent",
+      "en": "Gameplay loop: Venus Blind Descent"
+    },
+    "Миссии Earth": {
+      "ru": "Миссии Earth",
+      "en": "Earth missions"
+    },
+    "Полный оригинал: Earth Closed Sky": {
+      "ru": "Полный оригинал: Earth Closed Sky",
+      "en": "Full original: Earth Closed Sky"
+    },
+    "Игровая петля: Earth Closed Sky": {
+      "ru": "Игровая петля: Earth Closed Sky",
+      "en": "Gameplay loop: Earth Closed Sky"
+    },
+    "Отчёт об успешном завершении миссии": {
+      "ru": "Отчёт об успешном завершении миссии",
+      "en": "Successful mission report"
+    },
+    "Полный оригинал: Mission Accomplished": {
+      "ru": "Полный оригинал: Mission Accomplished",
+      "en": "Full original: Mission Accomplished"
+    },
+    "Игровая петля: Mission Accomplished": {
+      "ru": "Игровая петля: Mission Accomplished",
+      "en": "Gameplay loop: Mission Accomplished"
     }
   }
 }

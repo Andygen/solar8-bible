@@ -1,0 +1,72 @@
+{
+  "revision": "2026-10-12",
+  "source": "Local game assets/audio/music/README.md and scripts/audio/menu_music.gd",
+  "tracks": [
+    {
+      "id": "solar_brassquake",
+      "title": "Solar Brassquake",
+      "use": {
+        "ru": "Меню и ангар",
+        "en": "Menu and hangar"
+      },
+      "loop_seconds": 60,
+      "original": "assets/music/originals/solar_brassquake.mp3",
+      "loop": "assets/music/loops/solar_brassquake.mp3"
+    },
+    {
+      "id": "helios_silence",
+      "title": "Helios Silence",
+      "use": {
+        "ru": "Брифинги и диалоги",
+        "en": "Briefings and dialogue"
+      },
+      "loop_seconds": 48,
+      "original": "assets/music/originals/helios_silence.mp3",
+      "loop": "assets/music/loops/helios_silence.mp3"
+    },
+    {
+      "id": "orbital_debris",
+      "title": "Orbital Debris",
+      "use": {
+        "ru": "Миссии Mercury и Mars; музыка остальных миссий по умолчанию",
+        "en": "Mercury and Mars missions; default music for other missions"
+      },
+      "loop_seconds": 90,
+      "original": "assets/music/originals/orbital_debris.mp3",
+      "loop": "assets/music/loops/orbital_debris.mp3"
+    },
+    {
+      "id": "venus_blind_descent",
+      "title": "Venus Blind Descent",
+      "use": {
+        "ru": "Миссии Venus",
+        "en": "Venus missions"
+      },
+      "loop_seconds": 90,
+      "original": "assets/music/originals/venus_blind_descent.mp3",
+      "loop": "assets/music/loops/venus_blind_descent.mp3"
+    },
+    {
+      "id": "earth_closed_sky",
+      "title": "Earth Closed Sky",
+      "use": {
+        "ru": "Миссии Earth",
+        "en": "Earth missions"
+      },
+      "loop_seconds": 90,
+      "original": "assets/music/originals/earth_closed_sky.mp3",
+      "loop": "assets/music/loops/earth_closed_sky.mp3"
+    },
+    {
+      "id": "mission_accomplished",
+      "title": "Mission Accomplished",
+      "use": {
+        "ru": "Отчёт об успешном завершении миссии",
+        "en": "Successful mission report"
+      },
+      "loop_seconds": 20,
+      "original": "assets/music/originals/mission_accomplished.mp3",
+      "loop": "assets/music/loops/mission_accomplished.mp3"
+    }
+  ]
+}
